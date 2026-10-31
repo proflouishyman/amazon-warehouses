@@ -1,0 +1,8 @@
+case_number,case_name,date_filed,location,tally_date,tally_type,eligible_voters,ballots_counted,votes_for_union,votes_against,void_ballots,challenged_ballots,challenges_determinative,reason_closed,union,url
+10-RC-357236,Amazon.com Services LLC,12/23/2024,"Garner, NC",02/15/2025,Initial,4738,3276,829,2447,10,77,No,Certification of Results,Carolina Amazonians United for Solidarity and Empowerment (CAUSE),https://www.nlrb.gov/case/10-RC-357236
+03-RC-301507,Amazon.com Services LLC,08/17/2022,"Castleton-on-Hudson, NY",10/18/2022,Initial,949,612,206,406,4,31,No,Certification of Results,Amazon Labor Union (ALU),https://www.nlrb.gov/case/03-RC-301507
+29-RC-290053,Amazon.com Services LLC,02/03/2022,"Staten Island, NY",05/02/2022,Initial,1633,998,380,618,2,0,No,Certification of Results,Amazon Labor Union,https://www.nlrb.gov/case/29-RC-290053
+29-RC-288020,Amazon.com Services LLC,12/22/2021,"Staten Island, NY",04/01/2022,Initial,8325,4852,2654,2131,17,67,No,Certific. of Representative,Amazon Labor Union,https://www.nlrb.gov/case/29-RC-288020
+10-RC-269250,AMAZON.COM SERVICES LLC,11/20/2020,"Bessemer, AL",03/31/2022,Rerun,6153,1868,875,993,59,416,Yes,,"Retail, Wholesale and Department Store Union",https://www.nlrb.gov/case/10-RC-269250
+10-RC-269250,AMAZON.COM SERVICES LLC,11/20/2020,"Bessemer, AL",04/09/2021,Initial,5867,2536,738,1798,76,505,No,,"Retail, Wholesale and Department Store Union",https://www.nlrb.gov/case/10-RC-269250
+04-RC-118495,"AMAZON.COM.DEDC, LLC, A SUBSIDIARY OF AMAZON.COM, INC.",12/06/2013,"Middletown, DE",01/15/2014,Initial,30,27,6,21,0,1,No,Certification of Results,"International Association of Machinists and Aerospace Workers, AFL-CIO, District Lodge 1",https://www.nlrb.gov/case/04-RC-118495

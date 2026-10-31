@@ -1,0 +1,202 @@
+state,award_year,amount_basis,verification_level,rows,rows_with_amount,amount_usd,note
+AL,2018,announced_max,secondary,1,1,3300000,single basis; do not add to other bases
+AR,2020,announced_max,secondary,1,1,2000000,single basis; do not add to other bases
+AR,2020,announced_max,unverified,1,1,1000000,single basis; do not add to other bases
+AZ,2018,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+AZ,2021,no_amount_stated,unverified,1,0,,no dollar amount stated; excluded from totals
+CA,2014,announced_max,primary,1,1,1575000,single basis; do not add to other bases
+CA,2016,announced_max,primary,1,1,30000000,single basis; do not add to other bases
+CA,2018,announced_max,secondary,1,1,3000000,single basis; do not add to other bases
+CO,2017,announced_max,secondary,2,2,4784000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+CT,2013,estimated_value,primary,1,1,3900000,single basis; do not add to other bases
+CT,2017,announced_max,secondary,2,2,20000000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+CT,2017,no_amount_stated,secondary,2,0,,no dollar amount stated; excluded from totals
+CT,2020,estimated_value,primary,1,1,8780000,single basis; do not add to other bases
+CT,2021,realized,primary,1,1,9000000,single basis; do not add to other bases
+DE,2011,announced_max,primary,1,1,3470000,single basis; do not add to other bases
+DE,2012,announced_max,primary,2,2,5350000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+DE,2012,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+DE,2020,announced_max,secondary,1,1,4500000,single basis; do not add to other bases
+FL,2013,announced_max,secondary,1,1,225000,single basis; do not add to other bases
+FL,2013,estimated_value,secondary,2,2,5340710,"single basis; do not add to other bases; rows overlap within packages, indicative"
+FL,2013,estimated_value,unverified,1,1,6400000,single basis; do not add to other bases
+FL,2016,announced_max,secondary,6,6,26645000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+FL,2019,announced_max,secondary,1,1,2500000,single basis; do not add to other bases
+FL,2019,estimated_value,secondary,1,1,225000,single basis; do not add to other bases
+FL,2021,announced_max,primary,1,1,2565299,single basis; do not add to other bases
+FL,2021,announced_max,secondary,1,1,4000000,single basis; do not add to other bases
+GA,2016,no_amount_stated,unverified,1,0,,no dollar amount stated; excluded from totals
+GA,2017,no_amount_stated,unverified,2,0,,no dollar amount stated; excluded from totals
+GA,2020,announced_max,secondary,1,1,2000000,single basis; do not add to other bases
+GA,2020,estimated_value,secondary,4,4,17250000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+GA,2020,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+GA,2021,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+GA,2026,estimated_value,primary,1,1,16025034,single basis; do not add to other bases
+IA,2019,estimated_value,primary,1,1,2600000,single basis; do not add to other bases
+IA,2020,announced_max,primary,1,1,8565283,single basis; do not add to other bases
+IA,2021,announced_max,primary,2,2,8990887,"single basis; do not add to other bases; rows overlap within packages, indicative"
+IA,2022,estimated_value,primary,1,0,,single basis; do not add to other bases
+IA,2023,estimated_value,primary,1,0,,single basis; do not add to other bases
+IL,2015,estimated_value,secondary,1,1,71500000,single basis; do not add to other bases
+IL,2015,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+IL,2015,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+IL,2016,estimated_value,secondary,3,3,41090000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+IL,2016,no_amount_stated,primary,2,0,,no dollar amount stated; excluded from totals
+IL,2017,announced_max,secondary,1,1,40000000,single basis; do not add to other bases
+IL,2019,estimated_value,secondary,1,1,850000,single basis; do not add to other bases
+IL,2020,announced_max,secondary,2,2,121000000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+IL,2020,estimated_value,secondary,7,7,438400000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+IL,2020,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+IL,2020,no_amount_stated,secondary,4,0,,no dollar amount stated; excluded from totals
+IL,2020,no_amount_stated,unverified,1,0,,no dollar amount stated; excluded from totals
+IL,unknown,no_amount_stated,unverified,1,0,,no dollar amount stated; excluded from totals
+IN,2008,announced_max,secondary,2,2,1799500,"single basis; do not add to other bases; rows overlap within packages, indicative"
+IN,2012,announced_max,secondary,2,2,2300000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+IN,2012,estimated_value,secondary,1,0,,single basis; do not add to other bases
+IN,2020,estimated_value,secondary,3,2,7000000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+IN,2021,announced_max,secondary,4,4,20300000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+KS,1999,announced_max,secondary,2,2,5000000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+KS,1999,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+KS,2015,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+KS,2016,announced_max,primary,2,2,3600000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+KS,2016,announced_max,secondary,1,1,7000000,single basis; do not add to other bases
+KS,2016,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+KS,2016,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+KS,2017,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+KS,2021,announced_max,secondary,1,1,3500000,single basis; do not add to other bases
+KS,2024,no_amount_stated,primary,4,0,,no dollar amount stated; excluded from totals
+KS,2025,announced_max,unverified,1,1,6000000,single basis; do not add to other bases
+KY,2017,announced_max,secondary,2,2,10400000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+KY,2017,no_amount_stated,secondary,2,0,,no dollar amount stated; excluded from totals
+KY,2022,announced_max,primary,1,1,40000000,single basis; do not add to other bases
+LA,2020,announced_max,primary,1,1,3000000,single basis; do not add to other bases
+LA,2021,announced_max,primary,2,2,10000000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+LA,2021,no_amount_stated,primary,2,0,,no dollar amount stated; excluded from totals
+MA,2015,announced_max,secondary,1,1,3250000,single basis; do not add to other bases
+MA,2015,estimated_value,unverified,2,2,11639275,"single basis; do not add to other bases; rows overlap within packages, indicative"
+MA,2020,estimated_value,primary,1,1,27000000,single basis; do not add to other bases
+MA,2020,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+MD,2013,announced_max,secondary,2,2,1375000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+MD,2013,estimated_value,secondary,3,3,42500000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+MD,2017,announced_max,primary,2,2,2200000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+MD,2017,announced_max,secondary,2,2,1320000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+MI,2016,announced_max,primary,1,1,7500000,single basis; do not add to other bases
+MI,2016,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+MI,2017,announced_max,primary,2,2,9500000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+MI,2018,announced_max,primary,1,1,4000000,single basis; do not add to other bases
+MI,2018,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+MI,2020,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+MN,2015,announced_max,secondary,1,1,1200000,single basis; do not add to other bases
+MN,2015,estimated_value,primary,1,1,5698326,single basis; do not add to other bases
+MO,2015,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+MO,2016,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+MO,2018,announced_max,secondary,4,4,13630000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+MO,2018,announced_max,unverified,1,1,75000000,single basis; do not add to other bases
+MO,2020,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+MO,2024,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+MO,unknown,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+MS,2018,announced_max,secondary,1,1,6000000,single basis; do not add to other bases
+MS,2018,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+MS,2019,no_amount_stated,primary,2,0,,no dollar amount stated; excluded from totals
+MS,2020,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+MS,2021,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+MS,2021,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+MS,2025,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+NC,2017,announced_max,secondary,1,1,562275,single basis; do not add to other bases
+NC,2018,announced_max,secondary,2,2,5100000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+NC,2021,announced_max,secondary,3,3,3750000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+NC,2021,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+NJ,2013,estimated_value,unverified,1,1,13755000,single basis; do not add to other bases
+NJ,2017,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+NJ,2026,estimated_value,secondary,1,1,100000000,single basis; do not add to other bases
+NJ,unknown,annual,unverified,1,1,352453,single basis; do not add to other bases
+NM,2021,realized,unverified,1,1,6500000,single basis; do not add to other bases
+NV,2014,estimated_value,primary,1,1,1364800,single basis; do not add to other bases
+NV,2016,estimated_value,primary,1,1,1811524,single basis; do not add to other bases
+NY,2017,announced_max,primary,1,1,18000000,single basis; do not add to other bases
+NY,2018,announced_max,unverified,1,1,13700000,single basis; do not add to other bases
+NY,2019,realized,primary,1,1,22232146,single basis; do not add to other bases
+NY,2020,announced_max,secondary,1,1,16000000,single basis; do not add to other bases
+NY,2020,realized,primary,4,4,17185319.65,"single basis; do not add to other bases; rows overlap within packages, indicative"
+NY,2021,announced_max,secondary,1,1,10800000,single basis; do not add to other bases
+NY,2021,realized,primary,5,5,35053679.33,"single basis; do not add to other bases; rows overlap within packages, indicative"
+NY,2022,estimated_value,primary,1,1,123922474,single basis; do not add to other bases
+NY,2025,announced_max,unverified,1,1,80208325,single basis; do not add to other bases
+OH,2015,estimated_value,secondary,1,1,17540000,single basis; do not add to other bases
+OH,2016,announced_max,secondary,2,2,580000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+OH,2017,estimated_value,secondary,2,2,11510000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+OH,2017,no_amount_stated,secondary,2,0,,no dollar amount stated; excluded from totals
+OH,2018,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+OH,2018,no_amount_stated,secondary,2,0,,no dollar amount stated; excluded from totals
+OH,2019,announced_max,secondary,1,1,12100000,single basis; do not add to other bases
+OH,2019,estimated_value,secondary,1,1,2800000,single basis; do not add to other bases
+OH,2019,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+OH,2020,announced_max,secondary,1,1,800000,single basis; do not add to other bases
+OH,2020,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+OH,2024,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+OK,2018,announced_max,primary,1,1,1700000,single basis; do not add to other bases
+OK,2018,announced_max,secondary,2,2,2240000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+OK,2021,announced_max,secondary,1,1,5800000,single basis; do not add to other bases
+OR,2017,estimated_value,primary,1,1,9600000,single basis; do not add to other bases
+OR,2017,estimated_value,secondary,1,1,3600000,single basis; do not add to other bases
+OR,2017,realized,primary,1,1,4066670,single basis; do not add to other bases
+OR,2019,realized,primary,1,1,11471624,single basis; do not add to other bases
+OR,2020,realized,primary,2,2,9315859,"single basis; do not add to other bases; rows overlap within packages, indicative"
+OR,2021,announced_max,secondary,1,1,0,single basis; do not add to other bases
+PA,2005,announced_max,unverified,1,1,400000,single basis; do not add to other bases
+PA,2008,announced_max,secondary,1,1,1750000,single basis; do not add to other bases
+PA,2016,announced_max,secondary,3,3,22250000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+PA,2016,no_amount_stated,unverified,2,0,,no dollar amount stated; excluded from totals
+PA,2018,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+PA,2019,announced_max,secondary,1,1,1600000,single basis; do not add to other bases
+PA,2021,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+RI,2021,announced_max,primary,1,1,1538927,single basis; do not add to other bases
+RI,2021,estimated_value,secondary,1,1,10000000,single basis; do not add to other bases
+SC,2010,announced_max,primary,1,1,2500000,single basis; do not add to other bases
+SC,2010,estimated_value,secondary,1,1,5000000,single basis; do not add to other bases
+SC,2010,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+SC,2010,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+SC,2011,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+SC,2011,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+SC,2024,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+SD,2020,announced_max,secondary,1,1,1900000,single basis; do not add to other bases
+SD,2021,announced_max,unverified,1,1,94371313,single basis; do not add to other bases
+TN,2017,announced_max,secondary,2,2,44900000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+TN,2017,estimated_value,primary,1,1,15194936,single basis; do not add to other bases
+TN,2020,announced_max,unverified,1,1,2000000,single basis; do not add to other bases
+TN,2021,announced_max,secondary,2,0,,"single basis; do not add to other bases; rows overlap within packages, indicative"
+TN,2021,announced_max,unverified,1,0,,single basis; do not add to other bases
+TN,unknown,announced_max,secondary,1,1,3300000,single basis; do not add to other bases
+TX,2012,announced_max,secondary,1,1,7600000,single basis; do not add to other bases
+TX,2012,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+TX,2012,no_amount_stated,unverified,1,0,,no dollar amount stated; excluded from totals
+TX,2015,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+TX,2015,no_amount_stated,unverified,1,0,,no dollar amount stated; excluded from totals
+TX,2015,realized,secondary,1,1,3200000,single basis; do not add to other bases
+TX,2016,annual,secondary,1,1,179073,single basis; do not add to other bases
+TX,2016,no_amount_stated,primary,1,0,,no dollar amount stated; excluded from totals
+TX,2017,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+TX,2018,estimated_value,secondary,1,1,2000000,single basis; do not add to other bases
+TX,2020,announced_max,primary,1,1,3800000,single basis; do not add to other bases
+TX,2020,estimated_value,secondary,1,1,5020000,single basis; do not add to other bases
+TX,2021,announced_max,secondary,1,1,2500000,single basis; do not add to other bases
+TX,2021,estimated_value,secondary,2,2,9460000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+TX,2021,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+UT,2017,announced_max,primary,1,1,5680707,single basis; do not add to other bases
+VA,2011,announced_max,secondary,1,1,850000,single basis; do not add to other bases
+VA,2011,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+VA,2012,announced_max,primary,2,2,3500000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+VA,2020,no_amount_stated,secondary,3,0,,no dollar amount stated; excluded from totals
+VA,2021,no_amount_stated,primary,2,0,,no dollar amount stated; excluded from totals
+VA,2021,no_amount_stated,secondary,2,0,,no dollar amount stated; excluded from totals
+VA,2022,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+WA,2018,estimated_value,secondary,1,0,,single basis; do not add to other bases
+WA,2019,announced_max,secondary,1,1,30400000,single basis; do not add to other bases
+WA,2019,estimated_value,secondary,1,0,,single basis; do not add to other bases
+WA,2021,announced_max,secondary,1,1,0,single basis; do not add to other bases
+WI,2013,announced_max,secondary,2,2,28300000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+WI,2013,announced_max,unverified,1,1,7000000,single basis; do not add to other bases
+WI,2018,announced_max,secondary,2,2,19740000,"single basis; do not add to other bases; rows overlap within packages, indicative"
+WI,2019,announced_max,secondary,1,1,7500000,single basis; do not add to other bases
+WI,2019,no_amount_stated,secondary,1,0,,no dollar amount stated; excluded from totals
+WI,2020,estimated_value,secondary,1,1,1000000,single basis; do not add to other bases

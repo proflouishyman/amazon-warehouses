@@ -1,0 +1,171 @@
+site_code,earliest_snapshot,latest_snapshot,year_opened,year_opened_all,year_conflict,earliest_year_seen,latest_sq_ft,latest_status,latest_city,latest_state,latest_mwpvl_type,n_snapshots,closed_by_snapshot,closed_basis,source
+ABE2,2012-06-22,2016-02-24,2010,2010,,2010,600000,active,Breinigsville,PA,sortable_fc,18,,,MWPVL International via Wayback Machine
+ABE3,2012-06-22,2016-02-24,2011,2011,,2011,997400,active,Breinigsville,PA,unspecified,18,,,MWPVL International via Wayback Machine
+ABE5,2014-10-27,2016-02-24,,,,,200000,active,Harrisburg,PA,unspecified,8,,,MWPVL International via Wayback Machine
+ACY5,2015-07-28,2016-02-24,2014,2014,,2014,202900,active,Logan Township,NJ,sortation_center,5,,,MWPVL International via Wayback Machine
+ATL6,2014-10-27,2016-02-24,2014,2014,,2014,301200,active,Atlanta,GA,sortation_center,8,,,MWPVL International via Wayback Machine
+ATL7,2015-10-06,2016-02-24,2015,2015,,2015,517080,active,Union City,GA,sortation_center+prime_now,3,,,MWPVL International via Wayback Machine
+ATL8,2016-01-09,2016-02-24,2015,2015,,2015,733200,active,Lithia Springs,GA,unspecified,2,,,MWPVL International via Wayback Machine
+AVP1,2012-06-22,2016-02-24,2008,2008,,2008,615600,active,Hazleton,PA,unspecified,18,,,MWPVL International via Wayback Machine
+AVP2,2015-10-06,2015-10-06,2010,2010,,2010,1250000,active,Gouldsboro,PA,unspecified,1,2016-01-09,absent_from_later_snapshot,MWPVL International via Wayback Machine
+AVP3,2016-01-09,2016-02-24,2010,2010,,2010,1250000,active,Gouldsboro,PA,unspecified,2,,,MWPVL International via Wayback Machine
+AVP6,2015-10-06,2016-02-24,2015,2015,,2015,437440,active,Pittston,PA,unspecified,3,,,MWPVL International via Wayback Machine
+BDL1,2014-10-27,2016-02-24,2014,2014;2015,Y,2014,1000000,active,Windsor,CT,unspecified,8,,,MWPVL International via Wayback Machine
+BDL5,2015-09-09,2016-02-24,2015,2015,,2015,184875,planned,Wallingford,CT,sortation_center,4,,,MWPVL International via Wayback Machine
+BFI1,2012-06-22,2016-02-24,2011,2011,,2011,492000,active,Sumner,WA,unspecified,18,,,MWPVL International via Wayback Machine
+BFI3,2014-02-06,2016-02-24,2014,2014,,2014,1000000,active,DuPont,WA,specialty,11,,,MWPVL International via Wayback Machine
+BFI4,2014-04-24,2016-02-24,2016,2016,,2016,1000000,active,Kent,WA,sortable_fc,10,,,MWPVL International via Wayback Machine
+BFI5,2014-10-27,2016-02-24,2014,2014,,2014,318200,active,Kent,WA,sortation_center,8,,,MWPVL International via Wayback Machine
+BNA1,2012-06-22,2016-02-24,2011,2011,,2011,449000,active,Lebanon,TN,unspecified,18,,,MWPVL International via Wayback Machine
+BNA2,2013-10-06,2016-02-24,2012,2012,,2012,1000000,active,Lebanon,TN,non_sortable_fc,12,,,MWPVL International via Wayback Machine
+BNA3,2013-01-16,2016-02-24,2012,2012,,2012,1000000,active,Murfreesboro,TN,non_sortable_fc,15,,,MWPVL International via Wayback Machine
+BNA4,2014-10-27,2014-10-27,2014,2014,,2014,214000,planned,Nashville,TN,sortation_center,1,2015-01-18,absent_from_later_snapshot,MWPVL International via Wayback Machine
+BNA5,2015-01-18,2016-02-24,2014,2014,,2014,214000,active,Nashville,TN,sortation_center+prime_now,7,,,MWPVL International via Wayback Machine
+BOS1,2012-06-22,2016-02-24,2007,2007,,2007,63750,active,Nashua,NH,sortable_fc,18,,,MWPVL International via Wayback Machine
+BOS2,2014-10-27,2014-10-27,2014,2014,,2014,332700,planned,Stoughton,MA,sortation_center,1,2015-01-18,absent_from_later_snapshot,MWPVL International via Wayback Machine
+BOS5,2015-01-18,2016-02-24,2014,2014,,2014,332700,active,Stoughton,MA,sortation_center,7,,,MWPVL International via Wayback Machine
+BOS6,2016-01-09,2016-02-24,2015,2015,,2015,96600,active,Everett,MA,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+BWI1,2013-07-04,2015-07-28,2010,2010;2014;2015,Y,2010,1017550,active,Baltimore,MD,sortable_fc,8,2015-09-09,absent_from_later_snapshot,MWPVL International via Wayback Machine
+BWI2,2014-10-27,2016-02-24,2015,2015,,2015,1017550,active,Baltimore,MD,sortable_fc,5,,,MWPVL International via Wayback Machine
+BWI5,2015-01-18,2016-02-24,2014,2014;2015,Y,2014,345000,active,Baltimore,MD,sortation_center,7,,,MWPVL International via Wayback Machine
+CAE1,2012-06-22,2016-02-24,2011,2011,,2011,1250000,active,West Columbia,SC,unspecified,18,,,MWPVL International via Wayback Machine
+CAE2,2013-01-16,2013-07-04,2012,2012,,2012,1000000,active,Spartanburg,SC,unspecified,3,2013-10-06,absent_from_later_snapshot,MWPVL International via Wayback Machine
+CHA1,2012-06-22,2016-02-24,2011,2011,,2011,1000000,active,Chattanooga,TN,sortable_fc,18,,,MWPVL International via Wayback Machine
+CHA2,2012-06-22,2016-02-24,2011,2011,,2011,1200000,active,Charleston,TN,unspecified,18,,,MWPVL International via Wayback Machine
+CLT1,2014-10-27,2014-10-27,2014,2014,,2014,222500,active,Concord,NC,sortation_center,1,2015-01-18,absent_from_later_snapshot,MWPVL International via Wayback Machine
+CLT5,2015-01-18,2016-02-24,2014,2014,,2014,222500,active,Concord,NC,sortation_center,7,,,MWPVL International via Wayback Machine
+CMH1,2016-01-09,2016-02-24,2016,2016,,2016,855000,planned,Licking County,OH,unspecified,2,,,MWPVL International via Wayback Machine
+CVG1,2012-06-22,2016-02-24,2005,2005,,2005,484000,active,Hebron,KY,specialty,18,,,MWPVL International via Wayback Machine
+CVG2,2012-06-22,2016-02-24,2005,2005,,2005,543000,active,Hebron,KY,returns,18,,,MWPVL International via Wayback Machine
+CVG3,2012-06-22,2016-02-24,2007,2007,,2007,711400,active,Hebron,KY,unspecified,18,,,MWPVL International via Wayback Machine
+CVG5,2014-10-27,2016-02-24,2014,2014,,2014,598000,active,Hebron,KY,sortation_center+fresh_pantry,8,,,MWPVL International via Wayback Machine
+CVG7,2014-10-27,2016-02-24,2014,2014,,2014,598000,active,Hebron,KY,sortation_center+fresh_pantry,8,,,MWPVL International via Wayback Machine
+DBO2,2016-01-09,2016-02-24,2015,2015,,2015,179000,active,Dedham,MA,sortation_center+prime_now,2,,,MWPVL International via Wayback Machine
+DCH2,2016-01-09,2016-02-24,2015,2015,,2015,39330,active,Morton Grove,IL,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+DCH3,2016-01-09,2016-02-24,2015,2015,,2015,68000,active,Lisle,IL,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+DDC2,2016-01-09,2016-02-24,2015,2015,,2015,65000,active,Rockville,MD,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+DFW6,2013-07-04,2016-02-24,2013,2013,,2013,1000000,active,Coppell,TX,unspecified,13,,,MWPVL International via Wayback Machine
+DFW7,2013-07-04,2016-02-24,2013,2013,,2013,1100000,active,Fort Worth,TX,unspecified,13,,,MWPVL International via Wayback Machine
+DFW8,2014-10-27,2016-02-24,2014,2014,,2014,428500,active,Dallas,TX,sortation_center,8,,,MWPVL International via Wayback Machine
+DLA1,2016-01-09,2016-02-24,2013,2013,,2013,27740,active,Inglewood,CA,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+DLA2,2016-01-09,2016-02-24,2013,2013,,2013,330000,active,Buena Park,CA,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+DLA3,2016-01-09,2016-02-24,2013,2013,,2013,48370,active,Commerce,CA,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+DLA4,2016-01-09,2016-02-24,2013,2013,,2013,29210,active,Chatsworth,CA,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+DSD2,2016-01-09,2016-02-24,2013,2013,,2013,39730,active,Carlsbad,CA,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+DSE2,2016-01-09,2016-02-24,2015,2015,,2015,26200,active,Seattle,WA,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+DSF1,2016-01-09,2016-02-24,2013,2013,,2013,42360,active,San Leandro,CA,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+DSF3,2016-01-09,2016-02-24,2013,2013,,2013,25820,active,San Jose,CA,fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+DSF5,2016-02-24,2016-02-24,2016,2016,,2016,188000,active,South San Francisco,CA,fresh_pantry+delivery_station,1,,,MWPVL International via Wayback Machine
+DTW5,2015-10-06,2016-02-24,2015,2015,,2015,210000,active,Trenton,MI,sortation_center,3,,,MWPVL International via Wayback Machine
+EWR4,2014-02-06,2016-02-24,2014,2014,,2014,1200000,active,Robbinsville,NJ,unspecified,11,,,MWPVL International via Wayback Machine
+EWR5,2014-02-06,2016-02-24,2013,2013,,2013,565400,active,Avenel,NJ,sortation_center+fresh_pantry+returns,11,,,MWPVL International via Wayback Machine
+EWR6,2014-10-27,2016-02-24,2013,2013;2014,Y,2013,565400,active,Avenel,NJ,sortation_center+fresh_pantry+returns,8,,,MWPVL International via Wayback Machine
+EWR7,2014-10-27,2016-02-24,2013,2013,,2013,565400,active,Avenel,NJ,sortation_center+fresh_pantry+returns,8,,,MWPVL International via Wayback Machine
+EWR9,2015-10-06,2016-02-24,2015,2015,,2015,1064515,active,Carteret,NJ,fresh_pantry,3,,,MWPVL International via Wayback Machine
+FTW1,2015-10-06,2016-02-24,2015,2015;2016,Y,2015,500000,active,Dallas,TX,sortable_fc,3,,,MWPVL International via Wayback Machine
+GSP1,2013-10-06,2016-02-24,2012,2012,,2012,1016100,active,Spartanburg,SC,unspecified,12,,,MWPVL International via Wayback Machine
+HOU1,2014-07-15,2016-02-24,2014,2014,,2014,240000,active,Humble,TX,sortation_center,9,,,MWPVL International via Wayback Machine
+IND1,2012-06-22,2016-02-24,2008,2008,,2008,1000000,active,Whitestown,IN,sortable_fc,18,,,MWPVL International via Wayback Machine
+IND2,2012-06-22,2016-02-24,2008,2008,,2008,947300,active,Plainfield,IN,non_sortable_fc,18,,,MWPVL International via Wayback Machine
+IND3,2013-10-06,2016-02-24,2008,2008,,2008,947300,active,Plainfield,IN,non_sortable_fc,12,,,MWPVL International via Wayback Machine
+IND4,2012-06-22,2016-02-24,2011,2011,,2011,902850,active,Indianapolis,IN,unspecified,18,,,MWPVL International via Wayback Machine
+IND5,2012-06-22,2016-02-24,2011,2011,,2011,925800,active,Plainfield,IN,non_sortable_fc,18,,,MWPVL International via Wayback Machine
+IND6,2012-10-05,2013-03-26,2012,2012,,2012,1000000,active,Jeffersonville,IN,unspecified,3,2013-07-04,absent_from_later_snapshot,MWPVL International via Wayback Machine
+JFK7,2016-01-09,2016-02-24,2014,2014,,2014,50000,active,New York,NY,prime_now,2,,,MWPVL International via Wayback Machine
+LAL1,2014-02-06,2015-04-02,2014,2014,,2014,1000000,active,Lakeland,FL,non_sortable_fc,6,2015-07-28,absent_from_later_snapshot,MWPVL International via Wayback Machine
+LAS2,2012-06-22,2016-02-24,2008,2008,,2008,283920,active,North Las Vegas,NV,returns+sortable_fc,18,,,MWPVL International via Wayback Machine
+LCK1,2016-01-09,2016-02-24,2016,2016,,2016,1000000,planned,Obetz,OH,unspecified,2,,,MWPVL International via Wayback Machine
+LEX1,2012-06-22,2016-02-24,2000,2000,,2000,604000,active,Lexington,KY,returns+sortable_fc,18,,,MWPVL International via Wayback Machine
+LEX2,2012-06-22,2016-02-24,2006,2006,,2006,380000,active,Lexington,KY,returns,18,,,MWPVL International via Wayback Machine
+MCI1,2014-10-27,2014-10-27,,,,,260700,planned,Lenexa,KS,sortation_center,1,2015-01-18,absent_from_later_snapshot,MWPVL International via Wayback Machine
+MCI5,2015-01-18,2016-02-24,2014,2014,,2014,260700,active,Lenexa,KS,sortation_center,7,,,MWPVL International via Wayback Machine
+MCO1,2014-10-27,2014-10-27,2014,2014,,2014,270000,active,Davenport,FL,sortation_center,1,2015-01-18,absent_from_later_snapshot,MWPVL International via Wayback Machine
+MCO5,2015-01-18,2016-02-24,2014,2014,,2014,270000,active,Davenport,FL,sortation_center,7,,,MWPVL International via Wayback Machine
+MDT1,2015-04-02,2016-02-24,2015,2015,,2015,750000,active,Carlisle,PA,non_sortable_fc,6,,,MWPVL International via Wayback Machine
+MDW1,2015-10-06,2016-02-24,2017,2017,,2017,1000000,planned,Greater Chicago Area,IL,unspecified,3,,,MWPVL International via Wayback Machine
+MDW2,2015-09-09,2016-02-24,2015,2015,,2015,475100,planned,Joliet,IL,sortable_fc,4,,,MWPVL International via Wayback Machine
+MDW5,2016-01-09,2016-02-24,2015,2015,,2015,51970,active,Goose Island,IL,prime_now,2,,,MWPVL International via Wayback Machine
+MDW6,2016-01-09,2016-02-24,2015,2015,,2015,150000,planned,Chicago,IL,sortable_fc,2,,,MWPVL International via Wayback Machine
+MIA1,2014-07-15,2014-10-27,2014,2014,,2014,335800,planned,Doral (Miami),FL,sortation_center,2,2015-01-18,absent_from_later_snapshot,MWPVL International via Wayback Machine
+MIA5,2015-01-18,2016-02-24,2014,2014,,2014,335800,active,Doral (Miami),FL,sortation_center+prime_now,7,,,MWPVL International via Wayback Machine
+MKE1,2014-10-27,2016-02-24,2015,2015,,2015,1100000,active,Kenosha,WI,sortable_fc,8,,,MWPVL International via Wayback Machine
+MKE2,2014-10-27,2014-10-27,2014,2014,,2014,500000,planned,Kenosha,WI,sortation_center,1,2015-01-18,absent_from_later_snapshot,MWPVL International via Wayback Machine
+MKE5,2015-01-18,2016-02-24,2014,2014,,2014,500000,active,Kenosha,WI,sortation_center,7,,,MWPVL International via Wayback Machine
+MSP1,2015-07-28,2016-02-24,2017,2017,,2017,820000,planned,Shakopee,MN,sortable_fc,5,,,MWPVL International via Wayback Machine
+MSP5,2015-07-28,2016-02-24,2015,2015,,2015,162000,active,Shakopee,MN,sortation_center,5,,,MWPVL International via Wayback Machine
+OAK3,2013-07-04,2016-02-24,2013,2013,,2013,1000000,active,Patterson,CA,non_sortable_fc,13,,,MWPVL International via Wayback Machine
+OAK4,2014-10-27,2016-02-24,2013,2013,,2013,1000000,active,Tracy,CA,sortable_fc,8,,,MWPVL International via Wayback Machine
+OAK5,2014-07-15,2016-02-24,2014,2014,,2014,574650,active,Newark,CA,sortation_center+fresh_pantry+delivery_station,9,,,MWPVL International via Wayback Machine
+OAK6,2016-01-09,2016-02-24,2014,2014,,2014,574650,active,Newark,CA,sortation_center+fresh_pantry+delivery_station,2,,,MWPVL International via Wayback Machine
+ONT2,2013-01-16,2016-02-24,2012,2012,,2012,951700,active,San Bernardino,CA,sortable_fc,15,,,MWPVL International via Wayback Machine
+ONT5,2014-10-27,2016-02-24,2013,2013,,2013,514600,active,San Bernardino,CA,sortation_center+fresh_pantry,8,,,MWPVL International via Wayback Machine
+ONT6,2014-10-27,2016-02-24,2014,2014,,2014,1250000,active,24208 San Michelle Rd,CA,sortable_fc,8,,,MWPVL International via Wayback Machine
+ONT7,2014-10-27,2016-02-24,2013,2013;2014,Y,2013,514600,active,San Bernardino,CA,sortation_center+fresh_pantry,6,,,MWPVL International via Wayback Machine
+ONT8,2015-01-18,2016-02-24,2014,2014,,2014,769320,active,Moreno Valley,CA,unspecified,6,,,MWPVL International via Wayback Machine
+ONT9,2015-01-18,2016-02-24,2014,2014,,2014,700000,active,Redlands,CA,non_sortable_fc,7,,,MWPVL International via Wayback Machine
+PHL1,2012-06-22,2016-02-24,1997,1997,,1997,202000,active,New Castle,DE,sortable_fc,18,,,MWPVL International via Wayback Machine
+PHL4,2012-06-22,2016-02-24,2010,2010,,2010,558700,active,Carlisle,PA,non_sortable_fc,18,,,MWPVL International via Wayback Machine
+PHL5,2012-06-22,2016-02-24,2010,2010,,2010,750000,active,Lewisberry,PA,non_sortable_fc,18,,,MWPVL International via Wayback Machine
+PHL6,2012-06-22,2016-02-24,2010,2010,,2010,1206500,active,Carlisle,PA,non_sortable_fc,18,,,MWPVL International via Wayback Machine
+PHL7,2013-01-16,2016-02-24,2012,2012,,2012,1200000,active,Middletown,DE,unspecified,15,,,MWPVL International via Wayback Machine
+PHL9,2014-10-27,2015-01-18,2015,2015,,2015,700000,active,Carlisle,PA,non_sortable_fc,2,2015-04-02,absent_from_later_snapshot,MWPVL International via Wayback Machine
+PHX3,2012-06-22,2016-02-24,2007,2007,,2007,1000000,active,Phoenix,AZ,sortable_fc,18,,,MWPVL International via Wayback Machine
+PHX4,2012-06-22,2012-10-05,2008,2008,,2008,1400000,active,Goodyear,AZ,non_sortable_fc,3,2013-01-16,absent_from_later_snapshot,MWPVL International via Wayback Machine
+PHX5,2013-01-16,2016-02-24,2008,2008,,2008,1200000,active,Goodyear,AZ,non_sortable_fc,15,,,MWPVL International via Wayback Machine
+PHX6,2012-06-22,2016-02-24,2010,2010,,2010,1207000,active,Phoenix,AZ,sortable_fc,18,,,MWPVL International via Wayback Machine
+PHX7,2012-06-22,2016-02-24,2011,2011,,2011,1200000,active,Phoenix,AZ,non_sortable_fc,18,,,MWPVL International via Wayback Machine
+PIT1,2014-10-27,2014-10-27,2014,2014,,2014,200000,planned,Pittsburgh,PA,sortation_center,1,2015-01-18,absent_from_later_snapshot,MWPVL International via Wayback Machine
+PIT5,2015-01-18,2016-02-24,2014,2014,,2014,250000,active,Pittsburgh,PA,sortation_center,7,,,MWPVL International via Wayback Machine
+RIC1,2013-01-16,2016-02-24,2012,2012,,2012,1100000,active,Petersburg,VA,unspecified,15,,,MWPVL International via Wayback Machine
+RIC2,2013-01-16,2016-02-24,2012,2012,,2012,1200000,active,Chester,VA,sortation_center,15,,,MWPVL International via Wayback Machine
+RIC3,2014-10-27,2016-02-24,2012,2012;2014,Y,2012,1200000,active,Chester,VA,sortation_center,8,,,MWPVL International via Wayback Machine
+RN01,2012-06-22,2015-01-18,1999,1999,,1999,786000,active,Fernley,NV,returns+sortable_fc,12,2015-04-02,absent_from_later_snapshot,MWPVL International via Wayback Machine
+RN02,2014-10-27,2015-10-06,2015,2015,,2015,634000,planned,Reno,NV,unspecified,6,2016-01-09,absent_from_later_snapshot,MWPVL International via Wayback Machine
+RN04,2015-09-09,2016-02-24,2015,2015,,2015,634000,active,Reno,NV,sortable_fc,4,,,MWPVL International via Wayback Machine
+SAT1,2013-07-04,2013-07-04,2013,2013,,2013,1200000,planned,Schertz,TX,unspecified,1,2013-10-06,absent_from_later_snapshot,MWPVL International via Wayback Machine
+SDF1,2012-06-22,2016-02-24,1999,1999,,1999,770000,active,Campbellsville,KY,sortable_fc,18,,,MWPVL International via Wayback Machine
+SDF2,2012-09-09,2016-02-24,2005,2005,,2005,110000,active,Louisville,KY,specialty,17,,,MWPVL International via Wayback Machine
+SDF4,2013-07-04,2016-02-24,2005,2005;2012,Y,2005,823000,active,Shepherdsville,KY,unspecified,13,,,MWPVL International via Wayback Machine
+SDF6,2013-07-04,2016-02-24,2011,2011;2012,Y,2011,118000,active,Shepherdsville,KY,unspecified,13,,,MWPVL International via Wayback Machine
+SDF7,2013-07-04,2016-02-24,2005,2005;2012,Y,2005,281000,active,Shepherdsville,KY,unspecified,13,,,MWPVL International via Wayback Machine
+SDF8,2013-07-04,2016-02-24,2012,2012,,2012,1200000,active,Jeffersonville,IN,sortable_fc,13,,,MWPVL International via Wayback Machine
+SDF9,2014-02-06,2016-02-24,2013,2013,,2013,600000,active,Shepherdsville,KY,returns,11,,,MWPVL International via Wayback Machine
+SEA6,2013-01-16,2016-02-24,2007,2007,,2007,313300,active,Bellevue,WA,fresh_pantry,15,,,MWPVL International via Wayback Machine
+SEA8,2013-01-16,2016-02-24,2007,2007,,2007,313300,active,Bellevue,WA,fresh_pantry,15,,,MWPVL International via Wayback Machine
+SNA4,2016-01-09,2016-02-24,2015,2015,,2015,882200,active,Rialto,CA,non_sortable_fc,2,,,MWPVL International via Wayback Machine
+TFC1,2013-10-06,2016-02-24,2010,2010,,2010,1207000,active,Phoenix,AZ,sortable_fc,12,,,MWPVL International via Wayback Machine
+TPA1,2014-02-06,2016-02-24,2014,2014,,2014,1100000,active,Ruskin,FL,sortable_fc,11,,,MWPVL International via Wayback Machine
+TPA2,2015-07-28,2016-02-24,2014,2014,,2014,1000000,active,Lakeland,FL,non_sortable_fc,5,,,MWPVL International via Wayback Machine
+TUL1,2012-06-22,2015-04-02,1999,1999,,1999,915000,active,Coffeyville,KS,sortable_fc,13,2015-07-28,absent_from_later_snapshot,MWPVL International via Wayback Machine
+UAZ1,2016-01-09,2016-02-24,2015,2015,,2015,,active,Phoenix,AZ,prime_now,2,,,MWPVL International via Wayback Machine
+UCA1,2016-01-09,2016-02-24,2015,2015,,2015,39000,active,San Francisco,CA,prime_now,2,,,MWPVL International via Wayback Machine
+UCA2,2016-01-09,2016-02-24,2015,2015,,2015,,active,Redondo Beach,CA,prime_now,2,,,MWPVL International via Wayback Machine
+UCA3,2016-01-09,2016-02-24,2015,2015,,2015,28800,active,Los Angeles,CA,prime_now,2,,,MWPVL International via Wayback Machine
+UCA4,2016-01-09,2016-02-24,2015,2015,,2015,45290,active,Irvine,CA,prime_now,2,,,MWPVL International via Wayback Machine
+UCA5,2016-01-09,2016-02-24,2015,2015,,2015,,active,Los Angeles,CA,prime_now,2,,,MWPVL International via Wayback Machine
+UCA6,2016-01-09,2016-02-24,2015,2015,,2015,,active,San Diego,CA,prime_now,2,,,MWPVL International via Wayback Machine
+UCA7,2016-01-09,2016-02-24,2015,2015,,2015,24000,active,Sunnyvale,CA,prime_now,2,,,MWPVL International via Wayback Machine
+UCA8,2016-01-09,2016-02-24,2015,2015,,2015,21000,active,West Berkley,CA,prime_now,2,,,MWPVL International via Wayback Machine
+UCA9,2016-01-09,2016-02-24,2015,2015,,2015,,active,Sacramento,CA,prime_now,2,,,MWPVL International via Wayback Machine
+UFL1,2016-01-09,2016-02-24,2014,2014;2015,Y,2014,37440,active,Miami Gardens,FL,prime_now,2,,,MWPVL International via Wayback Machine
+UFL3,2016-02-24,2016-02-24,2016,2016,,2016,,active,Tampa,FL,prime_now,1,,,MWPVL International via Wayback Machine
+UFL4,2016-02-24,2016-02-24,2016,2016,,2016,,active,Orlando,FL,prime_now,1,,,MWPVL International via Wayback Machine
+UGA1,2016-01-09,2016-02-24,2015,2015,,2015,517080,active,Union City,GA,sortation_center+prime_now,2,,,MWPVL International via Wayback Machine
+UGA2,2016-02-24,2016-02-24,2016,2016,,2016,,active,Atlanta,GA,prime_now,1,,,MWPVL International via Wayback Machine
+UIL1,2016-02-24,2016-02-24,,,,,,active,Chicago,IL,prime_now,1,,,MWPVL International via Wayback Machine
+UNC1,2016-01-09,2016-02-24,2015,2015,,2015,,active,Charlotte,NC,prime_now,2,,,MWPVL International via Wayback Machine
+UNC2,2016-01-09,2016-02-24,2015,2015,,2015,,active,Raleigh,NC,prime_now,2,,,MWPVL International via Wayback Machine
+UOH1,2016-02-24,2016-02-24,2016,2016,,2016,,active,Cincinnati,OH,prime_now,1,,,MWPVL International via Wayback Machine
+UOH2,2016-02-24,2016-02-24,2016,2016,,2016,,active,Columbus,OH,prime_now,1,,,MWPVL International via Wayback Machine
+UOR1,2016-02-24,2016-02-24,2015,2015,,2015,,active,Portland,OR,prime_now,1,,,MWPVL International via Wayback Machine
+UTN1,2016-01-09,2016-02-24,2014,2014,,2014,214000,active,Nashville,TN,sortation_center+prime_now,2,,,MWPVL International via Wayback Machine
+UTX1,2016-02-24,2016-02-24,2015,2015,,2015,,active,Irving,TX,prime_now,1,,,MWPVL International via Wayback Machine
+UTX2,2016-02-24,2016-02-24,2015,2015,,2015,,active,Austin,TX,prime_now,1,,,MWPVL International via Wayback Machine
+UTX3,2016-02-24,2016-02-24,2015,2015,,2015,,active,Houston,TX,prime_now,1,,,MWPVL International via Wayback Machine
+UTX4,2016-02-24,2016-02-24,2015,2015,,2015,,active,Dallas,TX,prime_now,1,,,MWPVL International via Wayback Machine
+UTX5,2016-02-24,2016-02-24,2015,2015,,2015,,active,San Antonio,TX,prime_now,1,,,MWPVL International via Wayback Machine
+UVA2,2016-02-24,2016-02-24,,,,,,active,Chesapeake,VA,prime_now,1,,,MWPVL International via Wayback Machine
+UVA3,2016-02-24,2016-02-24,2015,2015,,2015,11875,active,Richmond,VA,prime_now,1,,,MWPVL International via Wayback Machine
+UWA1,2016-01-09,2016-02-24,2015,2015,,2015,38300,active,Kirkland,WA,prime_now,2,,,MWPVL International via Wayback Machine
+UWA2,2016-01-09,2016-02-24,2015,2015,,2015,38400,active,North Seattle,WA,prime_now,2,,,MWPVL International via Wayback Machine
+UWA3,2016-01-09,2016-02-24,2015,2015,,2015,18900,active,Seattle,WA,prime_now,2,,,MWPVL International via Wayback Machine

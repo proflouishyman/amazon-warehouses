@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Workplace injuries</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/injuries.css">
+</head>
+<body>
+<main class="wrap" id="app" data-page="inj"></main>
+<script src="assets/data_meta.js"></script>
+<script src="assets/data_geo.js"></script>
+<script src="assets/data_facilities.js"></script>
+<script src="assets/data_injuries.js"></script>
+<script src="assets/data_bench.js"></script>
+<script src="assets/data_sources.js"></script>
+<script src="assets/common.js"></script>
+<script>
+(function(){
+"use strict";
+var A=AMZ, I=AMZ_INJ, FA=AMZ_FAC;
+A.page({title:"Workplace injuries",sub:"Amazon's self-reported recordable injury rates at its US logistics sites, 2017 to 2024, against warehousing and private industry as a whole. Establishment totals only; nothing about individual workers."});
+var app=A.$("#app");
+var cmp=A.rows(I.comparison), byY={}; cmp.forEach(function(r){byY[r.year]=r;});
+var YRS=cmp.filter(function(r){return r.year>=2017&&r.year<=2024;});
+var c24=byY[2024], c17=byY[2017];
+function r1(v){return v==null?"n/a":Number(v).toFixed(1);}
+function r2(v){return v==null?"n/a":Number(v).toFixed(2);}
+
+/* ---- headline ---- */
+A.tiles(app,[
+ {value:r1(c24.amz_logistics_trc),label:"Amazon logistics sites, 2024: recordable cases per 100 full-time workers",context:A.fmt(c24.amz_logistics_n)+" establishments, hours-weighted (OSHA ITA)"},
+ {value:r1(c24.bls_493110_trc),label:"BLS general warehousing and storage (NAICS 493110), 2024",context:"Amazon is "+(c24.amz_logistics_trc/c24.bls_493110_trc).toFixed(2)+" times this rate (different sources)"},
+ {value:r1(c24.bls_4921_trc),label:"BLS couriers and express delivery (NAICS 4921), 2024",context:"The comparator Amazon argues for; Amazon is "+(c24.amz_logistics_trc/c24.bls_4921_trc).toFixed(2)+" times it"},
+ {value:r1(c24.bls_private_trc),label:"BLS all private industry, 2024",context:"Amazon is "+(c24.amz_logistics_trc/c24.bls_private_trc).toFixed(1)+" times this rate"},
+ {value:r1(c24.ita_nonamz_493110_trc),label:"Other OSHA ITA filers coded 493110, 2024",context:"Same OSHA source and method as Amazon; "+A.fmt(c24.ita_nonamz_493110_n)+" establishments"}
+]);
+A.caveat(app,'<b>Read before using these numbers.</b><ul>'+
+ '<li><b>Self-reported.</b> Rates come from employer filings (OSHA Form 300A) that OSHA does not audit. Under-recording is documented in the research literature and cannot be corrected here, so Amazon rates are a floor.</li>'+
+ '<li><b>Different sources.</b> Amazon and the ITA comparison group use OSHA establishment filings, which cover larger and designated-industry sites. The BLS series come from a national employer sample survey that includes Amazon itself, so the BLS warehousing rate is pulled up by Amazon and the gap to the rest of the industry is larger than shown against BLS.</li>'+
+ '<li><b>Which buildings.</b> Amazon switched much of its filing from NAICS 493110 (warehousing) to 492110 (couriers) from 2021. The charts therefore use the combined logistics series (493110 plus 492110) so the set of buildings does not change under the line. After 2021 the delivery-station share is arguably closer to BLS couriers (4921), shown separately.</li>'+
+ '<li><b>Not shown.</b> 2016 is omitted (one Amazon establishment filed). 2025 is omitted from comparisons (OSHA data are partial through 2026-08-31; BLS 2025 is not yet published).</li>'+
+ '<li><b>Establishment size.</b> Amazon&rsquo;s filers are large establishments (many with hundreds of employees), while the BLS rates cover establishments of all sizes. Injury rates differ with establishment size, so part of the Amazon-to-BLS gap can reflect size and not only practices. I looked for a BLS comparison by establishment size for NAICS 493 and could not retrieve one (the BLS size tables and API quota were unavailable), so no size-matched benchmark is shown. The ITA comparison group (other 493110 filers) is also made of larger sites and is the closer like-for-like benchmark.</li>'+
+ '<li><b>Who counts as Amazon.</b> Company names Amazon.com*, Amazon Retail, Golden State FC LLC (Amazon&rsquo;s California fulfillment entity in 2017 and 2018), Prime Now LLC and a few Amazon units, plus Amazon&rsquo;s own site labels. Delivery partners filed under Amazon-like names, Amazon Environmental Inc. and Amazone USA Inc. are excluded.</li>'+
+ '<li><b>Contractors.</b> Delivery service partner drivers and other contractors are employed by other firms and are not in Amazon&rsquo;s filings.</li></ul>');
+
+/* ---- section 1: trend ---- */
+var s1=A.section(app,"trend","Amazon against the industry, by year","Total recordable cases (TRC) are all work-related injuries and illnesses that must be logged; DART cases are the more serious subset that caused days away, job restriction or transfer. Rates are cases per 100 full-time workers (cases x 200,000 divided by hours worked).");
+A.mount(s1,'<div class="cols2" id="trendc"></div>');
+function ser(name,color,key,dash){return {name:name,color:color,dash:dash,points:YRS.map(function(r){return [r.year,r[key]];})};}
+var f1=function(v){return Number(v).toFixed(1);};
+A.lineChart("#trendc",{title:"Total recordable injury rate per 100 full-time workers",height:320,yFmt:f1,series:[
+ ser("Amazon logistics sites (OSHA ITA)","var(--cat1)","amz_logistics_trc"),
+ ser("Other ITA filers, NAICS 493110","var(--cat4)","ita_nonamz_493110_trc"),
+ ser("BLS warehousing 493110","var(--cat2)","bls_493110_trc"),
+ ser("BLS couriers and express delivery 4921","var(--cat3)","bls_4921_trc","6 3"),
+ ser("BLS all private industry","var(--cat6)","bls_private_trc","2 3")],
+ caption:"Data: AMZ_INJ.comparison (processed file injury_comparison_by_year.csv). Original sources: OSHA Injury Tracking Application 300A summaries 2017-2024 (osha.gov/Establishment-Specific-Injury-and-Illness-Data); BLS Survey of Occupational Injuries and Illnesses via the BLS public API (national, private industry, all sizes)."});
+A.lineChart("#trendc",{title:"DART rate (days away, restricted or transferred) per 100 full-time workers",height:320,yFmt:f1,series:[
+ ser("Amazon logistics sites (OSHA ITA)","var(--cat1)","amz_logistics_dart"),
+ ser("Other ITA filers, NAICS 493110","var(--cat4)","ita_nonamz_493110_dart"),
+ ser("BLS warehousing 493110","var(--cat2)","bls_493110_dart"),
+ ser("BLS couriers and express delivery 4921","var(--cat3)","bls_4921_dart","6 3"),
+ ser("BLS all private industry","var(--cat6)","bls_private_dart","2 3")],
+ caption:"Data: AMZ_INJ.comparison (injury_comparison_by_year.csv). Same sources as the left chart."});
+var aboveW=YRS.filter(function(r){return r.amz_logistics_trc>r.bls_493110_trc;}).length, belowC=YRS.filter(function(r){return r.amz_logistics_trc<r.bls_4921_trc;}).length;
+var mxr=YRS.reduce(function(a,r){return r.amz_logistics_trc>a.amz_logistics_trc?r:a;},YRS[0]);
+A.mount(s1,'<div class="find"><b>What the series show.</b> Amazon logistics sites peaked at '+r1(mxr.amz_logistics_trc)+' recordable cases per 100 workers in '+mxr.year+' and were at '+r1(c24.amz_logistics_trc)+' in 2024. Amazon was above BLS warehousing (493110) in '+aboveW+' of the '+YRS.length+' years shown: '+(c24.amz_logistics_trc/c24.bls_493110_trc).toFixed(2)+' times the BLS rate in 2024, against '+(c17.amz_logistics_trc/c17.bls_493110_trc).toFixed(2)+' times in 2017. Against BLS couriers and express delivery (4921), the comparator Amazon prefers, Amazon was lower in '+belowC+' of '+YRS.length+' years. The choice of comparator therefore changes the conclusion. Whether the decline since 2019 reflects safer work or changes in recording cannot be told from these data.</div>');
+var tv='<details class="tv"><summary>Table view of both charts (and ratios)</summary><div class="tw"><table><thead><tr><th>Year</th><th class="n">Amazon sites</th><th class="n">Amazon TRC</th><th class="n">ITA other 493110 TRC</th><th class="n">BLS 493110 TRC</th><th class="n">BLS 4921 TRC</th><th class="n">BLS private TRC</th><th class="n">Amazon / BLS 493110</th><th class="n">Amazon DART</th><th class="n">BLS 493110 DART</th><th class="n">BLS 4921 DART</th></tr></thead><tbody>'+
+ YRS.map(function(r){return '<tr><td>'+r.year+'</td><td class="n">'+A.fmt(r.amz_logistics_n)+'</td><td class="n">'+r2(r.amz_logistics_trc)+'</td><td class="n">'+r2(r.ita_nonamz_493110_trc)+'</td><td class="n">'+r1(r.bls_493110_trc)+'</td><td class="n">'+r1(r.bls_4921_trc)+'</td><td class="n">'+r1(r.bls_private_trc)+'</td><td class="n">'+(r.amz_logistics_trc/r.bls_493110_trc).toFixed(2)+'</td><td class="n">'+r2(r.amz_logistics_dart)+'</td><td class="n">'+r1(r.bls_493110_dart)+'</td><td class="n">'+r1(r.bls_4921_dart)+'</td></tr>';}).join('')+
+ '</tbody></table></div><p class="cap">Ratios computed here from the table values. BLS rates are published to one decimal. Amazon ratios use the combined 493110+492110 series.</p></details>';
+A.mount(s1,tv);
+var n=A.mount(s1,'<h3 style="font-size:14px;margin:16px 0 4px">Why the combined series: Amazon&rsquo;s NAICS split</h3>');
+A.mount(s1,'<div class="tw"><table><thead><tr><th>Year</th><th class="n">Amazon filed as 493110 (sites)</th><th class="n">TRC</th><th class="n">Amazon filed as 492110 (sites)</th><th class="n">TRC</th><th class="n">Combined (sites)</th><th class="n">TRC</th></tr></thead><tbody>'+
+ YRS.map(function(r){return '<tr><td>'+r.year+'</td><td class="n">'+A.fmt(r.amz_493110_n)+'</td><td class="n">'+r2(r.amz_493110_trc)+'</td><td class="n">'+(r.amz_492110_n?A.fmt(r.amz_492110_n):"")+'</td><td class="n">'+(r.amz_492110_trc==null?"":r2(r.amz_492110_trc))+'</td><td class="n">'+A.fmt(r.amz_logistics_n)+'</td><td class="n">'+r2(r.amz_logistics_trc)+'</td></tr>';}).join('')+'</tbody></table></div><p class="cap">Data: AMZ_INJ.comparison (OSHA ITA 300A). Amazon 493110-only counts fall after 2020 because sites moved to 492110; the combined series keeps the set of buildings comparable. Rates are hours-weighted after dropping rows with under 1,000 hours or implausible hours per employee.</p>');
+
+/* ---- section 2: site distribution ---- */
+var s2=A.section(app,"dist","How much do sites differ?","Each bar counts Amazon establishments whose own rate falls in that band. A company-wide average hides a wide spread: some sites record far above the median and some record none. Small sites have noisy rates (one case at 50 workers is 2 per 100), so filter by hours.");
+var fac={}; A.rows(FA.facilities).forEach(function(f){fac[f.facility_id]=f;});
+var oy=A.rows(FA.osha_by_year).filter(function(r){var f=fac[r.facility_id];return f&&r.trc_rate!=null&&(r.rate_valid===true||r.rate_valid==="True"||r.rate_valid==="true");});
+var TYPES={all:"All logistics site types",fulfillment_center:"Fulfillment centers",delivery_station:"Delivery stations",sort_center:"Sort centers"};
+var yopts=[2017,2018,2019,2020,2021,2022,2023,2024].map(function(y){return '<option value="'+y+'"'+(y===2024?" selected":"")+'>'+y+'</option>';}).join("");
+A.mount(s2,'<div class="ctl"><label>Year <select id="hy">'+yopts+'</select></label><label>Site type <select id="ht">'+Object.keys(TYPES).map(function(k){return '<option value="'+k+'">'+TYPES[k]+'</option>';}).join("")+'</select></label><label>Minimum hours worked <select id="hh"><option value="1000">1,000 (all valid)</option><option value="100000" selected>100,000 (about 50 workers)</option><option value="500000">500,000 (about 250 workers)</option></select></label></div><div id="histhost"></div><div class="stats4" id="histstats"></div>');
+function quant(a,q){var s=a.slice().sort(function(x,y){return x-y;}),p=(s.length-1)*q,lo=Math.floor(p),hi=Math.ceil(p);return s[lo]+(s[hi]-s[lo])*(p-lo);}
+function drawHist(){
+  var y=+A.$("#hy").value,t=A.$("#ht").value,mh=+A.$("#hh").value;
+  var rs=oy.filter(function(r){return r.year===y&&r.hours>=mh&&(t==="all"||fac[r.facility_id].facility_type===t||(t==="all"));});
+  if(t==="all") rs=rs.filter(function(r){var ty=fac[r.facility_id].facility_type;return ty==="fulfillment_center"||ty==="delivery_station"||ty==="sort_center"||ty==="other_logistics"||ty==="air_hub";});
+  var host=A.$("#histhost"); host.innerHTML="";
+  if(!rs.length){host.innerHTML='<p class="muted">No establishments match.</p>';A.$("#histstats").innerHTML="";return;}
+  var rates=rs.map(function(r){return r.trc_rate;});
+  var edges=[0,1,2,3,4,5,6,7,8,9,10,12,14,16,20,1e9], lab=function(i){return i===edges.length-2?edges[i]+"+":(i>=10?edges[i]+"-"+edges[i+1]:edges[i]+"-"+edges[i+1]);};
+  var cnt=edges.slice(0,-1).map(function(){return 0;});
+  rates.forEach(function(v){for(var i=0;i<cnt.length;i++){if(v>=edges[i]&&v<edges[i+1]){cnt[i]++;break;}}});
+  var W=760,H=300,m={l:46,r:14,t:20,b:56},mx=Math.max.apply(null,cnt),bw=(W-m.l-m.r)/cnt.length;
+  var Yv=function(v){return H-m.b-v/mx*(H-m.t-m.b);};
+  var cm=byY[y], bench=cm.bls_493110_trc;
+  var g="",ticks=[0,.25,.5,.75,1].map(function(f){return Math.round(mx*f);});
+  ticks.forEach(function(v){g+='<line class="gl" x1="'+m.l+'" x2="'+(W-m.r)+'" y1="'+Yv(v)+'" y2="'+Yv(v)+'"/><text x="'+(m.l-6)+'" y="'+(Yv(v)+3)+'" text-anchor="end">'+v+'</text>';});
+  // x position of a rate on the irregular bins
+  function Xr(v){for(var i=0;i<cnt.length;i++){if(v>=edges[i]&&v<edges[i+1]){return m.l+bw*(i+(i===cnt.length-1?0.5:(v-edges[i])/(edges[i+1]-edges[i])));}}return m.l;}
+  cnt.forEach(function(c,i){var x=m.l+bw*i+1;
+    g+='<rect class="bar pt'+(edges[i]>=bench*1.5?" hi":"")+'" tabindex="0" x="'+x.toFixed(1)+'" y="'+Yv(c).toFixed(1)+'" width="'+(bw-2).toFixed(1)+'" height="'+(H-m.b-Yv(c)).toFixed(1)+'" rx="2" data-t="'+A.esc("<b>"+lab(i)+" cases per 100 workers</b><br>"+c+" establishments ("+(100*c/rates.length).toFixed(1)+"%)")+'"/><text x="'+(x+(bw-2)/2).toFixed(1)+'" y="'+(H-m.b+13)+'" text-anchor="middle">'+lab(i)+'</text>';});
+  var agg=A.sum(rs,function(r){return r.total_cases;})*200000/A.sum(rs,function(r){return r.hours;});
+  g+='<line class="ref" x1="'+Xr(bench)+'" x2="'+Xr(bench)+'" y1="'+m.t+'" y2="'+(H-m.b)+'"/><text class="rl" x="'+(Xr(bench)+4)+'" y="'+(m.t+8)+'">BLS 493110 '+r1(bench)+'</text>';
+  var ax=Xr(agg);
+  g+='<line class="ref2" x1="'+ax+'" x2="'+ax+'" y1="'+(m.t+16)+'" y2="'+(H-m.b)+'"/><text class="rl" x="'+(ax+4)+'" y="'+(m.t+26)+'">Amazon sites, hours-weighted '+agg.toFixed(1)+'</text>';
+  g+='<text x="'+(W/2)+'" y="'+(H-6)+'" text-anchor="middle">Establishment recordable rate (cases per 100 full-time workers)</text><text transform="rotate(-90)" x="'+(-(H-m.b)/2)+'" y="12" text-anchor="middle">Establishments</text>';
+  host.innerHTML='<div class="card ch hist"><h3>Distribution of establishment recordable rates, '+y+' ('+A.esc(TYPES[t])+')</h3><svg class="rs" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="Histogram of establishment injury rates">'+g+'</svg><p class="cap">Data: AMZ_FAC.osha_by_year joined to AMZ_FAC.facilities (processed files facility_osha_by_year.csv, facilities_master.csv). Original source: OSHA ITA 300A establishment summaries. Bars in red are 1.5 times the BLS warehousing rate or more. Dashed line is the BLS rate for the year; solid line is the hours-weighted rate of the establishments shown. Same validity filter as the headline series (at least 1,000 hours and 300 to 4,500 hours per employee); the figure can still differ slightly because only roster-matched sites at or above the minimum-hours setting are included.</p></div>';
+  A.bindTips(host);
+  var above=rates.filter(function(v){return v>bench;}).length, zero=rates.filter(function(v){return v===0;}).length;
+  A.$("#histstats").innerHTML='<span><b>'+A.fmt(rs.length)+'</b> establishments</span><span>median <b>'+quant(rates,.5).toFixed(1)+'</b></span><span>middle half <b>'+quant(rates,.25).toFixed(1)+' to '+quant(rates,.75).toFixed(1)+'</b></span><span>90th percentile <b>'+quant(rates,.9).toFixed(1)+'</b></span><span>above BLS 493110 rate: <b>'+(100*above/rates.length).toFixed(0)+'%</b></span><span>zero cases: <b>'+zero+'</b></span>';
+}
+["hy","ht","hh"].forEach(function(id){A.$("#"+id).addEventListener("change",drawHist);});
+drawHist();
+
+/* ---- section 3: by state ---- */
+var s3=A.section(app,"states","By state","Hours-weighted Amazon recordable rate, all Amazon-named establishments in the filing (including non-logistics sites), states with at least 5 establishments. No state benchmark is shown: BLS state rates for warehousing were not collected.");
+var sy=[2017,2018,2019,2020,2021,2022,2023,2024].map(function(y){return '<option value="'+y+'"'+(y===2024?" selected":"")+'>'+y+'</option>';}).join("");
+A.mount(s3,'<div class="ctl"><label>Year <select id="sty">'+sy+'</select></label></div><div id="statehost"></div>');
+var bsy=A.rows(I.by_state_year);
+function drawStates(){
+  var y=+A.$("#sty").value, host=A.$("#statehost"); host.innerHTML="";
+  var it=bsy.filter(function(r){return r.year===y&&r.n_establishments>=5&&r.trc_rate!=null;}).sort(function(a,b){return b.trc_rate-a.trc_rate;}).map(function(r){return {label:r.state,value:r.trc_rate,color:"var(--cat1)",note:r.n_establishments+" establishments, "+A.fmt(r.avg_employees)+" avg employees"};});
+  A.barChart(host,{title:"Amazon recordable rate by state, "+y+" (cases per 100 workers, "+it.length+" states)",items:it,valFmt:function(v){return Number(v).toFixed(1);},labelWidth:50,caption:"Data: AMZ_INJ.by_state_year (osha_ita_amazon_by_state_year.csv). Original source: OSHA ITA 300A. Compare with the national BLS warehousing rate of "+r1(byY[y].bls_493110_trc)+" for "+y+". State averages mix site types and a few large sites can dominate."});
+}
+A.$("#sty").addEventListener("change",drawStates); drawStates();
+
+/* ---- section 4: establishments table ---- */
+var s4=A.section(app,"sites","Search establishments","Latest filing year and pooled rate (all valid years, hours-weighted) for each roster site. Rates are blank when hours are under 1,000 or hours per employee fall outside 300 to 4,500 (the headline-series filter). These are establishment totals; use the Map page table for each site&rsquo;s details.");
+A.mount(s4,'<div class="ctl"><input type="search" id="q" placeholder="Search site code, city or state" aria-label="Search establishments"><label>Type <select id="tt"><option value="">All</option><option value="fulfillment_center">Fulfillment center</option><option value="delivery_station">Delivery station</option><option value="sort_center">Sort center</option><option value="air_hub">Air hub</option><option value="other_logistics">Other logistics</option></select></label><label><input type="checkbox" id="hi"> Only sites above 1.5 times BLS warehousing (latest year)</label></div><div id="sitehost"></div>');
+var TL={fulfillment_center:"Fulfillment center",delivery_station:"Delivery station",sort_center:"Sort center",air_hub:"Air hub",other_logistics:"Other logistics"};
+var all=A.rows(FA.facilities).filter(function(f){return f.osha_matched_year_count>0;});
+var tbl=A.table("#sitehost",{rows:all,pageSize:20,sort:"osha_latest_trc_rate",dir:-1,cols:[
+ {key:"site_code",label:"Site code"},{key:"facility_type",label:"Type",fmt:function(v){return TL[v]||v;}},{key:"city",label:"City"},{key:"state",label:"State"},
+ {key:"osha_latest_year",label:"Latest year"},{key:"osha_latest_employees",label:"Avg employees",num:true,fmt:function(v){return A.fmt(v);}},
+ {key:"osha_latest_total_cases",label:"Cases",num:true,fmt:function(v){return A.fmt(v);}},
+ {key:"osha_latest_trc_rate",label:"Latest rate",num:true,fmt:function(v){return v==null?"":Number(v).toFixed(1);}},
+ {key:"osha_pooled_trc_rate",label:"Pooled rate",num:true,fmt:function(v){return v==null?"":Number(v).toFixed(1);}},
+ {key:"osha_matched_year_count",label:"Years filed",num:true}]});
+function filt(){
+  var q=A.$("#q").value.trim().toLowerCase(),t=A.$("#tt").value,hi=A.$("#hi").checked;
+  tbl.setRows(all.filter(function(f){
+    if(t&&f.facility_type!==t) return false;
+    if(hi){var b=byY[f.osha_latest_year]; if(!b||b.bls_493110_trc==null||f.osha_latest_trc_rate==null||f.osha_latest_trc_rate<1.5*b.bls_493110_trc) return false;}
+    return !q||(String(f.site_code||"")+" "+String(f.city||"")+" "+String(f.state||"")).toLowerCase().indexOf(q)>=0;}));
+}
+["q","tt","hi"].forEach(function(id){A.$("#"+id).addEventListener(id==="q"?"input":"change",filt);});
+A.mount(s4,'<p class="cap">Data: AMZ_FAC.facilities columns osha_latest_* and osha_pooled_trc_rate (facilities_master.csv). Original source: OSHA ITA 300A. Match to the roster is by site code in the establishment name (91% of Amazon rows overall; see Methods). The 2025 filing is partial, so a site&rsquo;s &ldquo;latest&rdquo; year can be 2025 with a partial-year hours total.</p>');
+A.sources(app,"injuries");
+})();
+</script>
+<script src="assets/injuries.js"></script>
+</body>
+</html>

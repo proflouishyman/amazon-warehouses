@@ -1,0 +1,15 @@
+as_of,facility_type,count,publisher_or_method,source_url,caveats,confidence,retrieved
+2025-09-30,all US sites with OSHA 2025 filings,1399,Moraine Research (CoStar+OSHA ITA CY2025+Amazon 10-K),https://morainecre.com/resources/research/amazon-logistics-network-map,"Published 2026-10-04, ninth edition; method matches OSHA filings to CoStar buildings; closed-mid-2025 sites still counted",medium (single third-party analysis),2026-10-31
+2025-09-30,inbound cross-dock,53,Moraine Research,https://morainecre.com/resources/research/amazon-logistics-network-map,,medium,2026-10-31
+2025-09-30,fulfillment sortable,84,Moraine Research,https://morainecre.com/resources/research/amazon-logistics-network-map,,medium,2026-10-31
+2025-09-30,fulfillment non-sortable,93,Moraine Research,https://morainecre.com/resources/research/amazon-logistics-network-map,,medium,2026-10-31
+2025-09-30,fulfillment other,123,Moraine Research,https://morainecre.com/resources/research/amazon-logistics-network-map,partly unresolved types,low-medium,2026-10-31
+2025-09-30,heavy-bulky XL fulfillment,39,Moraine Research,https://morainecre.com/resources/research/amazon-logistics-network-map,,medium,2026-10-31
+2025-09-30,sort center,162,Moraine Research,https://morainecre.com/resources/research/amazon-logistics-network-map,,medium,2026-10-31
+2025-09-30,delivery station,392,Moraine Research,https://morainecre.com/resources/research/amazon-logistics-network-map,,medium,2026-10-31
+2025-09-30,rural delivery station,192,Moraine Research,https://morainecre.com/resources/research/amazon-logistics-network-map,,medium,2026-10-31
+2025-09-30,same-day site,115,Moraine Research,https://morainecre.com/resources/research/amazon-logistics-network-map,,medium,2026-10-31
+2025-09-30,other or unresolved,146,Moraine Research,https://morainecre.com/resources/research/amazon-logistics-network-map,,low,2026-10-31
+2021,"all US facilities (""more than 935"")",935,Transport Geography (data derived from MWPVL International),https://transportgeography.org/?page_id=11857,Lower-bound wording; no per-type counts on page,medium,2026-10-31
+2025-Q1,"sortation centers (US, approx 90)",90,MWPVL via redstagfulfillment.com (secondary),https://redstagfulfillment.com/how-many-amazon-warehouses-are-there/,Conflicts with Moraine 162 sort centers in Sept 2025; definitions differ; do not combine,low,2026-10-31
+2022-2023,"buildings closed, cancelled or delayed (mainly US)",123,MWPVL International,https://www.mwpvl.com/html/amazon_com.html,Over 123 buildings; context for the 2022-23 pullback,medium,2026-10-31

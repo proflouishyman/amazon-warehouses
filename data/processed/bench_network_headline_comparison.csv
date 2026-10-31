@@ -1,0 +1,105 @@
+company,slug,cal_year_approx,fiscal_year_label,metric,value,unit,basis,derivation,input_accessions,note
+Amazon.com Inc.,amazon,2019,2019,revenue_usd_m,280522.0,USD million,reported,xbrl RevenueFromContractWithCustomerExcludingAssessedTax,0001018724-22-000005,
+Amazon.com Inc.,amazon,2019,2019,capex_usd_m,16861.0,USD million,reported,xbrl PaymentsToAcquireProductiveAssets,0001018724-22-000005,Amazon capex includes AWS data centers and finance-lease-excluded cash purchases
+Amazon.com Inc.,amazon,2019,2019,capex_pct_revenue,6.01,percent,derived,capex / revenue_total,0001018724-22-000005;0001018724-22-000005,
+Amazon.com Inc.,amazon,2019,2019,ppe_net_usd_m,72705.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0001018724-20-000004,
+Amazon.com Inc.,amazon,2019,2019,employees,798000,persons,reported,Reused from data/processed/amazon_employees_by_year.csv; full-time and part-time,0001018724-20-000004,
+Amazon.com Inc.,amazon,2019,2019,revenue_per_employee_usd_k,351.5,USD thousand,derived,revenue_total / employees,0001018724-22-000005;0001018724-20-000004,employee counts are approximate and include part-time and seasonal staff where disclosed
+Amazon.com Inc.,amazon,2019,2019,network_sqft_thousand,180722,thousand sq ft,reported,"facility sqft row: na_segment_excl_stores_and_aws / North America (incl Canada, Mexico)",0001018724-20-000004,"Amazon NA segment space excluding physical stores and AWS (owned+leased); includes fulfillment, sortation, delivery stations, other; revenue includes AWS"
+Amazon.com Inc.,amazon,2019,2019,revenue_usd_per_network_sqft,1552.2,USD per sq ft,derived,revenue_total / network sq ft,0001018724-22-000005;0001018724-20-000004,"revenue is company-wide (global, includes AWS); network sq ft is the geography shown, so the ratio is only a rough comparator"
+Amazon.com Inc.,amazon,2024,2024,revenue_usd_m,637959.0,USD million,reported,xbrl RevenueFromContractWithCustomerExcludingAssessedTax,0001018724-26-000004,
+Amazon.com Inc.,amazon,2024,2024,capex_usd_m,82999.0,USD million,reported,xbrl PaymentsToAcquireProductiveAssets,0001018724-26-000004,Amazon capex includes AWS data centers and finance-lease-excluded cash purchases
+Amazon.com Inc.,amazon,2024,2024,capex_pct_revenue,13.01,percent,derived,capex / revenue_total,0001018724-26-000004;0001018724-26-000004,
+Amazon.com Inc.,amazon,2024,2024,ppe_net_usd_m,252665.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0001018724-26-000004,
+Amazon.com Inc.,amazon,2024,2024,employees,1556000,persons,reported,Reused from data/processed/amazon_employees_by_year.csv; full-time and part-time,0001018724-25-000004,
+Amazon.com Inc.,amazon,2024,2024,revenue_per_employee_usd_k,410.0,USD thousand,derived,revenue_total / employees,0001018724-26-000004;0001018724-25-000004,employee counts are approximate and include part-time and seasonal staff where disclosed
+Amazon.com Inc.,amazon,2024,2024,network_sqft_thousand,453163,thousand sq ft,reported,"facility sqft row: na_segment_excl_stores_and_aws / North America (incl Canada, Mexico)",0001018724-25-000004,"Amazon NA segment space excluding physical stores and AWS (owned+leased); includes fulfillment, sortation, delivery stations, other; revenue includes AWS"
+Amazon.com Inc.,amazon,2024,2024,revenue_usd_per_network_sqft,1407.8,USD per sq ft,derived,revenue_total / network sq ft,0001018724-26-000004;0001018724-25-000004,"revenue is company-wide (global, includes AWS); network sq ft is the geography shown, so the ratio is only a rough comparator"
+Walmart Inc.,walmart,2019,2020,revenue_usd_m,523964.0,USD million,reported,xbrl Revenues,0000104169-22-000012,
+Walmart Inc.,walmart,2019,2020,capex_usd_m,10705.0,USD million,reported,xbrl PaymentsToAcquirePropertyPlantAndEquipment,0000104169-22-000012,
+Walmart Inc.,walmart,2019,2020,capex_pct_revenue,2.04,percent,derived,capex / revenue_total,0000104169-22-000012;0000104169-22-000012,
+Walmart Inc.,walmart,2019,2020,ppe_net_usd_m,105208.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0000104169-21-000033,
+Walmart Inc.,walmart,2019,2020,employees,2200000,persons,reported,"10-K wording: ""approximately/nearly/more than""; US counts for FY2013 (""more than",0000104169-20-000011,
+Walmart Inc.,walmart,2019,2020,revenue_per_employee_usd_k,238.2,USD thousand,derived,revenue_total / employees,0000104169-22-000012;0000104169-20-000011,employee counts are approximate and include part-time and seasonal staff where disclosed
+Walmart Inc.,walmart,2024,2025,revenue_usd_m,680985.0,USD million,reported,xbrl Revenues,0000104169-26-000055,
+Walmart Inc.,walmart,2024,2025,capex_usd_m,23783.0,USD million,reported,xbrl PaymentsToAcquirePropertyPlantAndEquipment,0000104169-26-000055,
+Walmart Inc.,walmart,2024,2025,capex_pct_revenue,3.49,percent,derived,capex / revenue_total,0000104169-26-000055;0000104169-26-000055,
+Walmart Inc.,walmart,2024,2025,ppe_net_usd_m,119993.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0000104169-26-000055,
+Walmart Inc.,walmart,2024,2025,employees,2100000,persons,reported,"10-K wording: ""approximately/nearly/more than""; US counts for FY2013 (""more than",0000104169-25-000021,
+Walmart Inc.,walmart,2024,2025,revenue_per_employee_usd_k,324.3,USD thousand,derived,revenue_total / employees,0000104169-26-000055;0000104169-25-000021,employee counts are approximate and include part-time and seasonal staff where disclosed
+Target Corp,target,2019,2019,revenue_usd_m,78112.0,USD million,reported,xbrl RevenueFromContractWithCustomerExcludingAssessedTax,0000027419-22-000007,
+Target Corp,target,2019,2019,capex_usd_m,3027.0,USD million,reported,xbrl PaymentsToAcquirePropertyPlantAndEquipment,0000027419-22-000007,
+Target Corp,target,2019,2019,capex_pct_revenue,3.88,percent,derived,capex / revenue_total,0000027419-22-000007;0000027419-22-000007,
+Target Corp,target,2019,2019,ppe_net_usd_m,26283.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0000027419-20-000008,
+Target Corp,target,2019,2019,employees,368000,persons,reported,"Full-time, part-time and seasonal team members at fiscal year end",0000027419-20-000008,
+Target Corp,target,2019,2019,revenue_per_employee_usd_k,212.3,USD thousand,derived,revenue_total / employees,0000027419-22-000007;0000027419-20-000008,employee counts are approximate and include part-time and seasonal staff where disclosed
+Target Corp,target,2019,2019,network_sqft_thousand,53200,thousand sq ft,reported,facility sqft row: distribution_center / US,0000027419-20-000008,Target DCs / supply-chain facilities (US)
+Target Corp,target,2019,2019,revenue_usd_per_network_sqft,1468.3,USD per sq ft,derived,revenue_total / network sq ft,0000027419-22-000007;0000027419-20-000008,"revenue is company-wide (global); network sq ft is the geography shown, so the ratio is only a rough comparator"
+Target Corp,target,2024,2024,revenue_usd_m,106566.0,USD million,reported,xbrl RevenueFromContractWithCustomerExcludingAssessedTax,0000027419-26-000016,
+Target Corp,target,2024,2024,capex_usd_m,2891.0,USD million,reported,xbrl PaymentsToAcquirePropertyPlantAndEquipment,0000027419-26-000016,
+Target Corp,target,2024,2024,capex_pct_revenue,2.71,percent,derived,capex / revenue_total,0000027419-26-000016;0000027419-26-000016,
+Target Corp,target,2024,2024,ppe_net_usd_m,33022.0,USD million,reported,xbrl PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization,0000027419-26-000016,includes finance-lease ROU assets
+Target Corp,target,2024,2024,employees,440000,persons,reported,"Full-time, part-time and seasonal team members at fiscal year end",0000027419-25-000018,
+Target Corp,target,2024,2024,revenue_per_employee_usd_k,242.2,USD thousand,derived,revenue_total / employees,0000027419-26-000016;0000027419-25-000018,employee counts are approximate and include part-time and seasonal staff where disclosed
+Target Corp,target,2024,2024,network_sqft_thousand,68500,thousand sq ft,reported,facility sqft row: supply_chain_facility / US,0000027419-25-000018,Target DCs / supply-chain facilities (US)
+Target Corp,target,2024,2024,revenue_usd_per_network_sqft,1555.7,USD per sq ft,derived,revenue_total / network sq ft,0000027419-26-000016;0000027419-25-000018,"revenue is company-wide (global); network sq ft is the geography shown, so the ratio is only a rough comparator"
+The Home Depot,homedepot,2019,2019,revenue_usd_m,110225.0,USD million,reported,xbrl RevenueFromContractWithCustomerExcludingAssessedTax,0000354950-22-000070,
+The Home Depot,homedepot,2019,2019,capex_usd_m,2678.0,USD million,reported,xbrl PaymentsToAcquireProductiveAssets,0000354950-22-000070,
+The Home Depot,homedepot,2019,2019,capex_pct_revenue,2.43,percent,derived,capex / revenue_total,0000354950-22-000070;0000354950-22-000070,
+The Home Depot,homedepot,2019,2019,ppe_net_usd_m,22770.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0000354950-22-000070,
+The Home Depot,homedepot,2019,2019,employees,415700,persons,reported,Associates at fiscal year end,0000354950-20-000015,
+The Home Depot,homedepot,2019,2019,revenue_per_employee_usd_k,265.2,USD thousand,derived,revenue_total / employees,0000354950-22-000070;0000354950-20-000015,employee counts are approximate and include part-time and seasonal staff where disclosed
+The Home Depot,homedepot,2019,2019,network_sqft_thousand,60000,thousand sq ft,reported,facility sqft row: warehouse_and_distribution_center / US+Canada+Mexico,0000354950-20-000015,Home Depot warehouses and distribution centers (leased+owned)
+The Home Depot,homedepot,2019,2019,revenue_usd_per_network_sqft,1837.1,USD per sq ft,derived,revenue_total / network sq ft,0000354950-22-000070;0000354950-20-000015,"revenue is company-wide (global); network sq ft is the geography shown, so the ratio is only a rough comparator"
+The Home Depot,homedepot,2024,2024,revenue_usd_m,159514.0,USD million,reported,xbrl RevenueFromContractWithCustomerExcludingAssessedTax,0001628280-26-019436,
+The Home Depot,homedepot,2024,2024,capex_usd_m,3485.0,USD million,reported,xbrl PaymentsToAcquireProductiveAssets,0001628280-26-019436,
+The Home Depot,homedepot,2024,2024,capex_pct_revenue,2.18,percent,derived,capex / revenue_total,0001628280-26-019436;0001628280-26-019436,
+The Home Depot,homedepot,2024,2024,ppe_net_usd_m,26702.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0000354950-25-000085,
+The Home Depot,homedepot,2024,2024,employees,470100,persons,reported,Associates at fiscal year end; FY2007 drop reflects HD Supply divestiture (Aug 2,0000354950-25-000085,
+The Home Depot,homedepot,2024,2024,revenue_per_employee_usd_k,339.3,USD thousand,derived,revenue_total / employees,0001628280-26-019436;0000354950-25-000085,employee counts are approximate and include part-time and seasonal staff where disclosed
+The Home Depot,homedepot,2024,2024,network_sqft_thousand,108300,thousand sq ft,reported,facility sqft row: distribution_fulfillment_center_and_warehouse / US+Canada+Mexico,0000354950-25-000085,Home Depot warehouses and distribution centers (leased+owned)
+The Home Depot,homedepot,2024,2024,revenue_usd_per_network_sqft,1472.9,USD per sq ft,derived,revenue_total / network sq ft,0001628280-26-019436;0000354950-25-000085,"revenue is company-wide (global); network sq ft is the geography shown, so the ratio is only a rough comparator"
+Costco Wholesale,costco,2019,2019,revenue_usd_m,152703.0,USD million,reported,xbrl Revenues,0000909832-21-000014,
+Costco Wholesale,costco,2019,2019,capex_usd_m,2998.0,USD million,reported,xbrl PaymentsToAcquirePropertyPlantAndEquipment,0000909832-21-000014,
+Costco Wholesale,costco,2019,2019,capex_pct_revenue,1.96,percent,derived,capex / revenue_total,0000909832-21-000014;0000909832-21-000014,
+Costco Wholesale,costco,2019,2019,ppe_net_usd_m,20890.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0000909832-21-000014,
+Costco Wholesale,costco,2019,2019,employees,254000,persons,reported,Item 1,0000909832-19-000019,
+Costco Wholesale,costco,2019,2019,revenue_per_employee_usd_k,601.2,USD thousand,derived,revenue_total / employees,0000909832-21-000014;0000909832-19-000019,employee counts are approximate and include part-time and seasonal staff where disclosed
+Costco Wholesale,costco,2019,2019,network_sqft_thousand,11000,thousand sq ft,reported,facility sqft row: depot_cross_dock / Worldwide,0000909832-19-000019,Costco depots / distribution and logistics facilities (worldwide); FY2019 is depots only (11.0M sq ft); from FY2020 Costco reports the broader distribution and logistics total (28.0M in FY2020) so the 2019 and 2024 values are not comparable
+Costco Wholesale,costco,2019,2019,revenue_usd_per_network_sqft,13882.1,USD per sq ft,derived,revenue_total / network sq ft,0000909832-21-000014;0000909832-19-000019,"revenue is company-wide (global); network sq ft is the geography shown, so the ratio is only a rough comparator"
+Costco Wholesale,costco,2024,2024,revenue_usd_m,254453.0,USD million,reported,xbrl Revenues,0000909832-25-000101,
+Costco Wholesale,costco,2024,2024,capex_usd_m,4710.0,USD million,reported,xbrl PaymentsToAcquirePropertyPlantAndEquipment,0000909832-26-000093,
+Costco Wholesale,costco,2024,2024,capex_pct_revenue,1.85,percent,derived,capex / revenue_total,0000909832-25-000101;0000909832-26-000093,
+Costco Wholesale,costco,2024,2024,ppe_net_usd_m,29032.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0000909832-26-000093,
+Costco Wholesale,costco,2024,2024,employees,333000,persons,reported,Item 1,0000909832-24-000049,
+Costco Wholesale,costco,2024,2024,revenue_per_employee_usd_k,764.1,USD thousand,derived,revenue_total / employees,0000909832-25-000101;0000909832-24-000049,employee counts are approximate and include part-time and seasonal staff where disclosed
+Costco Wholesale,costco,2024,2024,network_sqft_thousand,31900,thousand sq ft,reported,facility sqft row: distribution_and_logistics_facilities / Worldwide,0000909832-24-000049,Costco depots / distribution and logistics facilities (worldwide)
+Costco Wholesale,costco,2024,2024,revenue_usd_per_network_sqft,7976.6,USD per sq ft,derived,revenue_total / network sq ft,0000909832-25-000101;0000909832-24-000049,"revenue is company-wide (global); network sq ft is the geography shown, so the ratio is only a rough comparator"
+United Parcel Service,ups,2019,2019,revenue_usd_m,74094.0,USD million,reported,xbrl RevenueFromContractWithCustomerExcludingAssessedTax,0001090727-22-000007,
+United Parcel Service,ups,2019,2019,capex_usd_m,6380.0,USD million,reported,xbrl PaymentsToAcquirePropertyPlantAndEquipment,0001090727-22-000007,
+United Parcel Service,ups,2019,2019,capex_pct_revenue,8.61,percent,derived,capex / revenue_total,0001090727-22-000007;0001090727-22-000007,
+United Parcel Service,ups,2019,2019,ppe_net_usd_m,30482.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0001090727-21-000013,
+United Parcel Service,ups,2019,2019,employees,495000,persons,reported,Excludes temporary seasonal employees from FY2012,0001090727-20-000005,
+United Parcel Service,ups,2019,2019,revenue_per_employee_usd_k,149.7,USD thousand,derived,revenue_total / employees,0001090727-22-000007;0001090727-20-000005,employee counts are approximate and include part-time and seasonal staff where disclosed
+United Parcel Service,ups,2019,2019,network_sqft_thousand,80000,thousand sq ft,reported,facility sqft row: us_package_operating_facilities / US,0001090727-20-000005,UPS US package operating facilities (sort/delivery buildings; not warehouses)
+United Parcel Service,ups,2019,2019,revenue_usd_per_network_sqft,926.2,USD per sq ft,derived,revenue_total / network sq ft,0001090727-22-000007;0001090727-20-000005,"revenue is company-wide (global); network sq ft is the geography shown, so the ratio is only a rough comparator"
+United Parcel Service,ups,2024,2024,revenue_usd_m,91070.0,USD million,reported,xbrl RevenueFromContractWithCustomerExcludingAssessedTax,0001628280-26-008432,
+United Parcel Service,ups,2024,2024,capex_usd_m,3909.0,USD million,reported,xbrl PaymentsToAcquirePropertyPlantAndEquipment,0001628280-26-008432,
+United Parcel Service,ups,2024,2024,capex_pct_revenue,4.29,percent,derived,capex / revenue_total,0001628280-26-008432;0001628280-26-008432,
+United Parcel Service,ups,2024,2024,ppe_net_usd_m,37179.0,USD million,reported,xbrl PropertyPlantAndEquipmentAndFinanceLeaseRightOfUseAssetAfterAccumulatedDepreciationAndAmortization,0001628280-26-008432,includes finance-lease ROU assets
+United Parcel Service,ups,2024,2024,employees,490000,persons,reported,Excludes temporary seasonal employees from FY2012,0001090727-25-000019,
+United Parcel Service,ups,2024,2024,revenue_per_employee_usd_k,185.9,USD thousand,derived,revenue_total / employees,0001628280-26-008432;0001090727-25-000019,employee counts are approximate and include part-time and seasonal staff where disclosed
+United Parcel Service,ups,2024,2024,network_sqft_thousand,90000,thousand sq ft,reported,facility sqft row: us_package_operating_facilities / US,0001090727-25-000019,UPS US package operating facilities (sort/delivery buildings; not warehouses)
+United Parcel Service,ups,2024,2024,revenue_usd_per_network_sqft,1011.9,USD per sq ft,derived,revenue_total / network sq ft,0001628280-26-008432;0001090727-25-000019,"revenue is company-wide (global); network sq ft is the geography shown, so the ratio is only a rough comparator"
+FedEx Corp,fedex,2019,2020,revenue_usd_m,69217.0,USD million,reported,xbrl RevenueFromContractWithCustomerExcludingAssessedTax,0000950170-22-012762,
+FedEx Corp,fedex,2019,2020,capex_usd_m,5868.0,USD million,reported,xbrl PaymentsToAcquireProductiveAssets,0000950170-22-012762,
+FedEx Corp,fedex,2019,2020,capex_pct_revenue,8.48,percent,derived,capex / revenue_total,0000950170-22-012762;0000950170-22-012762,
+FedEx Corp,fedex,2019,2020,ppe_net_usd_m,33608.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0001564590-21-037031,
+FedEx Corp,fedex,2019,2020,employees,500000,persons,reported,basis=team_members_incl_contractors; ,0001564590-20-032775,"FedEx figure is ""team members"" incl. contractors"
+FedEx Corp,fedex,2019,2020,revenue_per_employee_usd_k,138.4,USD thousand,derived,revenue_total / employees,0000950170-22-012762;0001564590-20-032775,employee counts are approximate and include part-time and seasonal staff where disclosed
+FedEx Corp,fedex,2024,2025,revenue_usd_m,87926.0,USD million,reported,xbrl RevenueFromContractWithCustomerExcludingAssessedTax,0001048911-26-000105,
+FedEx Corp,fedex,2024,2025,capex_usd_m,4055.0,USD million,reported,xbrl PaymentsToAcquireProductiveAssets,0001048911-26-000105,
+FedEx Corp,fedex,2024,2025,capex_pct_revenue,4.61,percent,derived,capex / revenue_total,0001048911-26-000105;0001048911-26-000105,
+FedEx Corp,fedex,2024,2025,ppe_net_usd_m,41642.0,USD million,reported,xbrl PropertyPlantAndEquipmentNet,0001048911-25-000011,
+FedEx Corp,fedex,2024,2025,employees,510000,persons,reported,"basis=permanent_employees; sum of 300,000 permanent full-time + 210,000 permanen",0001048911-25-000011,
+FedEx Corp,fedex,2024,2025,revenue_per_employee_usd_k,172.4,USD thousand,derived,revenue_total / employees,0001048911-26-000105;0001048911-25-000011,employee counts are approximate and include part-time and seasonal staff where disclosed

@@ -1,0 +1,58 @@
+fiscal_year,metric,usd_millions,source,note
+1997,gross_profit_from_shipping,4.4,FY1999 10-K,Shipping revenue less outbound shipping costs; positive
+1998,gross_profit_from_shipping,18.2,FY1999 10-K,
+1999,gross_profit_from_shipping,11.7,FY1999 10-K,FY2001 10-K rounds to 12
+2000,gross_profit_from_shipping,-1,FY2000 10-K,shipping gross loss
+2001,gross_profit_from_shipping,-19,FY2001 10-K,shipping gross loss
+2003,net_shipping_cost,136,FY2005 10-K,
+2004,net_shipping_cost,197,FY2005 10-K,
+2005,net_shipping_cost,239,FY2007 10-K,
+2006,net_shipping_cost,317,FY2007 10-K,
+2007,net_shipping_cost,434,FY2008 10-K,
+2008,net_shipping_cost,630,FY2010 10-K,
+2009,net_shipping_cost,849,FY2010 10-K,
+2010,net_shipping_cost,1386,FY2010 10-K,
+2011,net_shipping_cost,2437,FY2012 10-K,
+2012,net_shipping_cost,2854,FY2013 10-K,
+2013,net_shipping_cost,3538,FY2014 10-K,
+2014,net_shipping_cost,4223,FY2015 10-K,
+2015,net_shipping_cost,5019,FY2015 10-K,
+2016,net_shipping_cost,7191,FY2016 10-K,Net shipping cost line last reported in FY2016 10-K
+2002,outbound_shipping_cost,404,FY2004 10-K,Early years: shipping plus packaging supplies per FY2003 10-K wording
+2003,outbound_shipping_cost,508,FY2005 10-K,
+2004,outbound_shipping_cost,617,FY2005 10-K,
+2005,outbound_shipping_cost,750,FY2007 10-K,
+2006,outbound_shipping_cost,884,FY2007 10-K,
+2007,outbound_shipping_cost,1200,FY2008 10-K,Reported only as $1.2 billion (rounded)
+2008,outbound_shipping_cost,1465,FY2010 10-K,
+2009,outbound_shipping_cost,1773,FY2010 10-K,
+2010,outbound_shipping_cost,2579,FY2010 10-K,
+2011,outbound_shipping_cost,3989,FY2012 10-K,
+2012,outbound_shipping_cost,5134,FY2013 10-K,
+2013,outbound_shipping_cost,6635,FY2014 10-K,
+2014,outbound_shipping_cost,8709,FY2015 10-K,
+2015,outbound_shipping_cost,11539,FY2015 10-K,Definition expanded to include sortation and delivery centers and transportation costs
+2016,outbound_shipping_cost,16167,FY2017 10-K,
+2017,outbound_shipping_cost,21700,FY2019 10-K,Reported in $ billions (rounded to 0.1)
+2018,outbound_shipping_cost,27700,FY2019 10-K,rounded
+2019,outbound_shipping_cost,37900,FY2020 10-K,rounded
+2020,outbound_shipping_cost,61100,FY2021 10-K,rounded
+2021,outbound_shipping_cost,76700,FY2022 10-K,rounded
+2022,outbound_shipping_cost,83500,FY2023 10-K,rounded
+2023,outbound_shipping_cost,89500,FY2024 10-K,rounded
+2024,outbound_shipping_cost,95800,FY2025 10-K,rounded
+2025,outbound_shipping_cost,102700,FY2025 10-K,rounded
+1999,shipping_revenue,239,FY2001 10-K,
+2000,shipping_revenue,339,FY2001 10-K,
+2001,shipping_revenue,357,FY2001 10-K,
+2002,shipping_revenue,365,FY2003 10-K,
+2003,shipping_revenue,372,FY2005 10-K,
+2004,shipping_revenue,420,FY2005 10-K,
+2005,shipping_revenue,511,FY2007 10-K,
+2006,shipping_revenue,567,FY2007 10-K,
+2007,shipping_revenue,740,FY2007 10-K,
+2008,shipping_revenue,835,FY2008 10-K,
+2009,shipping_revenue,924,FY2010 10-K,
+2010,shipping_revenue,1193,FY2010 10-K,
+2011,shipping_revenue,1552,FY2012 10-K,
+2012,shipping_revenue,2280,FY2012 10-K,

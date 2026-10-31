@@ -1,0 +1,7 @@
+/* labor.html only (same helpers as financial.css, kept separate per page) */
+.srcline{font-size:12px;color:var(--ink-2);margin:6px 0 0;overflow-wrap:anywhere}
+.srcline code{font-family:ui-monospace,Menlo,monospace;font-size:.95em}
+details.dt{margin:8px 0 0;font-size:12.5px}
+details.dt summary{cursor:pointer;color:var(--accent);font-weight:600}
+details.dt .tw{max-height:320px;overflow:auto;margin-top:6px}
+.unv{background:var(--warn-bg);color:var(--warn-ink);border-radius:6px;padding:8px 12px;font-size:13px;margin:10px 0}

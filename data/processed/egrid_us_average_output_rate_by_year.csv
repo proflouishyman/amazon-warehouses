@@ -1,0 +1,13 @@
+egrid_data_year,gas,lb_per_MWh_total_output,source
+2007,CO2,1293.05,eGRID2007_GHGOutputRates.pdf (U.S. total output)
+2009,CO2,1216.18,eGRID2009_GHGOutputRates.pdf
+2010,CO2,1232.35,eGRID2010_GHGOutputRates.pdf
+2012,CO2,1136.53,eGRID2012_GHGOutputRates.pdf
+2014,CO2,1122.9,eGRID2014_GHGOutputRates_v2.pdf
+2016,CO2e,1004.167,eGRID2016_summarytables.xlsx Table 1
+2018,CO2e,952.877,egrid2018_summary_tables.xlsx Table 1
+2019,CO2e,889.214,egrid2019_summary_tables.xlsx
+2020,CO2e,822.621,egrid2020_summary_tables.xlsx
+2021,CO2e,857.019,eGRID2021_summary_tables.xlsx
+2022,CO2e,827.52,egrid2022_summary_tables.xlsx
+2023,CO2e,770.884,egrid2023_data_rev2.xlsx sheet US23 USC2ERTA

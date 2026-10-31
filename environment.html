@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Environmental impact</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/environment.css">
+</head>
+<body>
+<main class="wrap" id="app" data-page="env"></main>
+<script src="assets/data_meta.js"></script>
+<script src="assets/data_geo.js"></script>
+<script src="assets/data_facilities.js"></script>
+<script src="assets/data_environment.js"></script>
+<script src="assets/data_population.js"></script>
+<script src="assets/data_logistics.js"></script>
+<script src="assets/data_bench.js"></script>
+<script src="assets/data_sources.js"></script>
+<script src="assets/common.js"></script>
+<script>
+(function(){
+"use strict";
+var A=AMZ, E=AMZ_ENV, FA=AMZ_FAC, P=AMZ_POP, L=AMZ_LOG;
+A.page({title:"Environmental impact",sub:"What Amazon reports for its whole company, and screening estimates for each US logistics site. Amazon publishes no facility-level energy, fuel or truck data, so every site figure here is a model, not a measurement."});
+var app=A.$("#app");
+function f1(v){return v==null?"n/a":Number(v).toFixed(1);}
+var TL={fulfillment_center:"Fulfillment center",delivery_station:"Delivery station",sort_center:"Sort center",air_hub:"Air hub",other_logistics:"Other logistics"};
+var carbon=A.rows(E.carbon);
+function cv(vint,metric,year){var r=carbon.filter(function(x){return x.report_vintage===vint&&x.metric===metric&&x.year===year;})[0];return r?r.value:null;}
+var V="2025 report", tot25=cv(V,"total_footprint",2025), s1=cv(V,"scope1_direct",2025), s2=cv(V,"scope2_purchased_electricity_market",2025), s3=cv(V,"scope3_indirect",2025), tot19=cv(V,"total_footprint",2019);
+var egus=A.rows(E.egrid_us).filter(function(r){return r.gas==="CO2e";}); var eg23=egus[egus.length-1];
+var facs=A.rows(FA.facilities);
+var withEnv=facs.filter(function(f){return f.env_per1Msqft_grid_tco2e_central!=null;});
+
+A.estimate(app,"Company figures in the first section are <b>reported by Amazon</b> (global, market-based for electricity). Everything from &ldquo;Screening estimates&rdquo; down is a <b>screening estimate</b> built from national averages (EIA CBECS building survey, EPA grid factors; truck emissions are not estimated) and unsourced range assumptions listed in the Methods page. Treat site figures as order-of-magnitude, not as any site&rsquo;s actual emissions.");
+A.tiles(app,[
+ {value:A.fmt(tot25,1)+" Mt",label:"Amazon total carbon footprint, 2025 (CO2e), as reported",context:"Up from "+A.fmt(tot19,1)+" Mt in 2019. Global, all operations incl. AWS, 2025 sustainability report p46"},
+ {value:A.pct(s3/tot25,0),label:"of the 2025 footprint is Scope 3 (supply chain, shipping, products)",context:A.fmt(s3,1)+" Mt; Scope 1 "+A.fmt(s1,1)+" Mt (mostly transport fuel), Scope 2 "+A.fmt(s2,2)+" Mt market-based"},
+ {value:A.fmt(eg23.lb_per_MWh_total_output,0)+" lb/MWh",label:"US average grid CO2e rate, eGRID "+eg23.egrid_data_year,context:"Used (by subregion) for the screening estimates; location-based, so higher than Amazon's market-based Scope 2"},
+ {value:A.fmt(withEnv.length)+" sites",label:"have a screening estimate per 1,000,000 sq ft",context:"ESTIMATE. Only 31 have a sourced floor area, so absolute totals exist for those only"}
+]);
+
+/* ---- 1. reported ---- */
+var s=A.section(app,"reported","What Amazon reports (company-wide)","Scope 1 is direct emissions (mostly fuel in delivery vans, trucks and aircraft); Scope 2 is purchased electricity (reported market-based, after Amazon's renewable purchases); Scope 3 is everything else in the value chain. None of it is split by facility or by US versus other countries.");
+A.mount(s,'<div class="cols2" id="repc"></div>');
+var yrs=[2019,2020,2021,2022,2023,2024,2025];
+function stack(host,o){
+  var W=760,H=300,m={l:48,r:14,t:14,b:30},n=o.years.length,bw=(W-m.l-m.r)/n,mx=Math.max.apply(null,o.years.map(function(y){return A.sum(o.parts,function(p){return p.vals[y];});}));
+  var Y=function(v){return H-m.b-v/mx*(H-m.t-m.b);},g="";
+  [0,.25,.5,.75,1].forEach(function(f){var v=mx*f;g+='<line class="gl" x1="'+m.l+'" x2="'+(W-m.r)+'" y1="'+Y(v)+'" y2="'+Y(v)+'"/><text x="'+(m.l-6)+'" y="'+(Y(v)+3)+'" text-anchor="end">'+v.toFixed(0)+'</text>';});
+  o.years.forEach(function(y,i){var base=0,x=m.l+bw*i+bw*.12,w=bw*.76;
+    o.parts.forEach(function(p){var v=p.vals[y]||0,y0=Y(base),y1=Y(base+v);
+      g+='<rect class="seg pt" tabindex="0" x="'+x.toFixed(1)+'" y="'+y1.toFixed(1)+'" width="'+w.toFixed(1)+'" height="'+Math.max(0,y0-y1).toFixed(1)+'" fill="'+p.color+'" data-t="'+A.esc("<b>"+y+" "+p.name+"</b><br>"+v.toFixed(2)+" Mt CO2e<br>Total "+A.sum(o.parts,function(q){return q.vals[y];}).toFixed(2)+" Mt")+'"/>';base+=v;});
+    g+='<text x="'+(x+w/2)+'" y="'+(H-10)+'" text-anchor="middle">'+y+'</text>';});
+  var lg=o.parts.map(function(p){return '<span><i class="sw" style="background:'+p.color+'"></i>'+A.esc(p.name)+'</span>';}).join("");
+  A.mount(host,'<div class="card ch sbar"><h3>'+A.esc(o.title)+'</h3><svg class="rs" viewBox="0 0 '+W+' '+H+'" role="img" aria-label="'+A.esc(o.title)+'">'+g+'</svg><div class="legend">'+lg+'</div><p class="cap">'+o.caption+'</p></div>');
+  A.bindTips(A.$("#"+host.replace("#","")).lastElementChild);
+}
+function pv(metric){var o={};yrs.forEach(function(y){o[y]=cv(V,metric,y)||0;});return o;}
+stack("#repc",{title:"Amazon carbon footprint by scope, million tonnes CO2e (as reported, 2025 report)",years:yrs,parts:[
+ {name:"Scope 1 direct",color:"var(--cat1)",vals:pv("scope1_direct")},{name:"Scope 2 electricity (market-based)",color:"var(--cat2)",vals:pv("scope2_purchased_electricity_market")},{name:"Scope 3 indirect",color:"var(--cat6)",vals:pv("scope3_indirect")}],
+ caption:"Data: AMZ_ENV.carbon, report_vintage 2025 report (processed file amazon_carbon_footprint_by_report_vintage.csv). Original source: Amazon 2025 Sustainability Report, PDF p46 (sustainability.aboutamazon.com/2025-amazon-sustainability-report.pdf). Global, not US-only."});
+var vints=["2023 report","2024 report","2025 report"], vcol={"2023 report":"var(--cat3)","2024 report":"var(--cat2)","2025 report":"var(--cat1)"};
+A.lineChart("#repc",{title:"Same total, three report editions (million tonnes CO2e)",height:300,yFmt:function(v){return Number(v).toFixed(0);},zeroBase:false,
+ series:vints.map(function(v){return {name:v,color:vcol[v],points:carbon.filter(function(r){return r.report_vintage===v&&r.metric==="total_footprint";}).map(function(r){return [r.year,r.value];})};}),
+ caption:"Data: AMZ_ENV.carbon (metric total_footprint). Original sources: Amazon Sustainability Reports 2023 (p11), 2024 (p50), 2025 (p46). Amazon recalculated 2022 onward under an updated methodology, so later reports give different values for the same year; Scope 1+2+3 sums to the total in every edition. Y axis does not start at zero."});
+var scope1=carbon.filter(function(r){return r.report_vintage===V&&r.metric==="scope1_fossil_fuels";}), f25=scope1[scope1.length-1];
+A.mount(s,'<div class="find"><b>Reading this.</b> Reported totals rose from '+A.fmt(tot19,1)+' to '+A.fmt(tot25,1)+' Mt between 2019 and 2025 in the latest edition (a 2025 increase of '+A.pct(tot25/cv(V,"total_footprint",2024)-1,0)+' on 2024). Fossil fuels were '+A.fmt(f25.value,2)+' of the '+A.fmt(s1,2)+' Mt of Scope 1 in 2025. Carbon intensity per dollar of revenue fell from '+A.fmt(cv(V,"carbon_intensity_g_per_usd_revenue",2019),1)+' to '+A.fmt(cv(V,"carbon_intensity_g_per_usd_revenue",2025),1)+' g CO2e per dollar over the same years (2025 report). Amazon reports 100 percent renewable electricity matching; this is a purchase-matching claim, not hourly or physical delivery, and it is why Scope 2 here is small compared with the location-based electricity estimates below.</div>');
+var om=A.rows(E.other_metrics).sort(function(a,b){return a.metric<b.metric?-1:a.metric>b.metric?1:a.year-b.year;});
+A.mount(s,'<details class="tv"><summary>Other reported metrics (renewables, electric vans, packaging) with source type</summary><div id="omhost"></div></details>');
+A.table("#omhost",{rows:om,pageSize:15,sort:"metric",cols:[{key:"metric",label:"Metric"},{key:"year",label:"Year"},{key:"value",label:"Value",num:true,fmt:function(v){return A.fmt(v,v<10?2:0);}},{key:"unit",label:"Unit"},{key:"source_type",label:"Source type"},{key:"basis_and_note",label:"Basis and note"}]});
+A.mount(s,'<p class="cap">Data: AMZ_ENV.other_metrics (amazon_sustainability_other_metrics.csv). Original sources: Amazon Sustainability Reports 2023-2025; rows marked secondary come from a trade-press summary; rows marked primary-conflicting disagree between report editions (kept both). The 2020 renewable share (often cited as 65 percent) could not be verified and is omitted.</p>');
+
+/* ---- 2. screening model ---- */
+var m=A.section(app,"model","Screening estimates: how they are built","Each site estimate multiplies a floor area by a national average intensity, then by an emission factor. The low and high columns bracket the assumptions; they are not statistical confidence intervals.");
+A.estimate(m,"These are <b>screening estimates</b>. <b>Truck emissions are not estimated:</b> no primary trip-rate source was found for fulfillment centers, so no per-site truck figure is shown. The 0.5x to 2x natural gas range is an assumption with no source. The building survey (CBECS) averages all warehouses, which are mostly small; large automated fulfillment centers likely use more electricity per square foot.");
+A.mount(m,'<div class="tw"><table><thead><tr><th>Component</th><th class="n">Low</th><th class="n">Central</th><th class="n">High</th><th>Basis</th></tr></thead><tbody>'+
+ '<tr><td>Electricity, kWh per sq ft per year</td><td class="n">3.4</td><td class="n">5.8</td><td class="n">12.6</td><td>EIA CBECS 2018 tables C14 (warehouse median, warehouse mean, all-commercial mean as an assumed high)</td></tr>'+
+ '<tr><td>Grid factor</td><td class="n" colspan="3">eGRID 2023 subregion CO2e, lb per MWh</td><td>EPA eGRID2023; nearest-plant subregion join; location-based, no transmission losses</td></tr>'+
+ '<tr><td>Natural gas heating, kBtu per sq ft</td><td class="n">5.7</td><td class="n">11.4</td><td class="n">22.8</td><td>Central from CBECS C1 (199 TBtu / 17,483 million sq ft); 0.5x and 2x range is an assumption; 53.06 kg CO2 per mmBtu (EPA Emission Factors Hub 2025)</td></tr>'+
+ '</tbody></table></div><p class="cap">Data: AMZ_ENV.cbecs and AMZ_ENV.reference_buildings; parameters from data/notes/environment.md and scripts/env_04_screening_model.py. Delivery vans are not modelled: use Amazon&rsquo;s reported Scope 1 above for a top-down total.</p>');
+var rb=A.rows(E.reference_buildings);
+A.mount(m,'<h3 style="font-size:14px;margin:16px 0 4px">Worked example: three reference buildings of 1,000,000 sq ft, 2023 factors <span class="estb">ESTIMATE</span></h3>');
+A.mount(m,'<div class="tw"><table><thead><tr><th>Reference (not a real site)</th><th>Subregion</th><th class="n">Grid lb CO2e/MWh</th><th class="n">Grid electricity t CO2e (low / central / high)</th><th class="n">Gas t CO2e (low / central / high)</th></tr></thead><tbody>'+
+ rb.map(function(r){return '<tr><td>'+A.esc(r.facility_id)+'</td><td>'+A.esc(r.subregion)+'</td><td class="n">'+A.fmt(r.grid_lb_co2e_per_mwh,0)+'</td><td class="n">'+A.fmt(r.grid_tco2e_low)+' / '+A.fmt(r.grid_tco2e_central)+' / '+A.fmt(r.grid_tco2e_high)+'</td><td class="n">'+A.fmt(r.gas_tco2e_low)+' / '+A.fmt(r.gas_tco2e_central)+' / '+A.fmt(r.gas_tco2e_high)+'</td></tr>';}).join("")+'</tbody></table></div><p class="cap">Data: AMZ_ENV.reference_buildings (environment_screening_model_reference_buildings.csv, produced by scripts/env_04_screening_model.py). Reading: the electricity-intensity assumption moves electricity emissions about 3.7-fold between low and high, and the grid factor moves them roughly two-fold between regions. Trucks and delivery vans are not modelled.</p>');
+
+/* ---- 3. site estimates: map, subregion bars, table ---- */
+var d=A.section(app,"sites","Site estimates by location","Every located roster site gets a grid intensity from its eGRID subregion. The map shades by that grid factor, which is the one input that varies by place; floor area is unknown for most sites, so estimates are per 1,000,000 sq ft.");
+A.estimate(d,"Grid factor is a published EPA statistic (eGRID2023). The emissions per 1,000,000 sq ft built on it are <b>screening estimates</b>. 475 sites are located only by ZIP-code centroid, so their map position is approximate (toggle below).");
+A.mount(d,'<div class="ctl"><label>Site type <select id="mt"><option value="">All types</option>'+Object.keys(TL).map(function(k){return '<option value="'+k+'">'+TL[k]+'</option>';}).join("")+'</select></label><label><input type="checkbox" id="mz" checked> Include ZIP-centroid (approximate) positions</label></div><div id="maphost"></div>');
+var gv=withEnv.map(function(f){return f.env_grid_lb_co2e_per_mwh_2023;}).filter(function(v){return v!=null;}).sort(function(a,b){return a-b;});
+var cuts=[.2,.4,.6,.8].map(function(q){return gv[Math.floor(q*(gv.length-1))];});
+var SEQ=["var(--seq1)","var(--seq2)","var(--seq3)","var(--seq4)","var(--seq5)"];
+function bin(v){var i=0;while(i<cuts.length&&v>cuts[i])i++;return i;}
+function drawMap(){
+  var t=A.$("#mt").value, z=A.$("#mz").checked, host=A.$("#maphost"); host.innerHTML="";
+  var pts=withEnv.filter(function(f){return f.x!=null&&f.y!=null&&f.env_grid_lb_co2e_per_mwh_2023!=null&&(!t||f.facility_type===t)&&(z||f.geo_method.indexOf("zip_centroid")<0);}).map(function(f){
+    return {x:f.x,y:f.y,r:2.6,color:SEQ[bin(f.env_grid_lb_co2e_per_mwh_2023)],html:"<b>"+A.esc(f.site_code||f.facility_id)+"</b> "+A.esc(TL[f.facility_type]||"")+"<br>"+A.esc(f.city||"")+", "+A.esc(f.state||"")+"<br>Grid "+f.env_subregion+": "+A.fmt(f.env_grid_lb_co2e_per_mwh_2023,0)+" lb CO2e/MWh<br>ESTIMATE grid electricity: "+A.fmt(f.env_per1Msqft_grid_tco2e_low)+" / "+A.fmt(f.env_per1Msqft_grid_tco2e_central)+" / "+A.fmt(f.env_per1Msqft_grid_tco2e_high)+" t CO2e per 1M sq ft (low / central / high)"+(f.geo_method.indexOf("zip_centroid")>=0?"<br><i>Approximate position (ZIP centroid)</i>":"")};});
+  A.usMap(host,{points:pts,label:"Map of Amazon logistics sites shaded by electricity grid carbon intensity",caption:"Data: AMZ_FAC.facilities (x, y, geo_method, env_grid_lb_co2e_per_mwh_2023, env_subregion; facilities_master.csv) and AMZ_GEO state outlines (Census cartographic boundary 20m). Grid factor: EPA eGRID2023 rev2, total output rate, nearest-plant subregion join (approximate near subregion borders). "+pts.length+" sites shown."});
+  var lo=[Math.min.apply(null,gv)].concat(cuts), hi=cuts.concat([Math.max.apply(null,gv)]);
+  A.mount(host,'<div class="seqlg" aria-label="Legend">'+SEQ.map(function(c,i){return '<span><i style="background:'+c+'"></i>'+A.fmt(lo[i],0)+' to '+A.fmt(hi[i],0)+' lb/MWh</span>';}).join("")+'<span class="muted">(quintiles of sites)</span></div>');
+}
+A.$("#mt").addEventListener("change",drawMap);A.$("#mz").addEventListener("change",drawMap);drawMap();
+
+var sub={};withEnv.forEach(function(f){var k=f.env_subregion;(sub[k]=sub[k]||[]).push(f);});
+var subItems=Object.keys(sub).map(function(k){var a=sub[k];return {label:k,value:A.sum(a,function(f){return f.env_per1Msqft_grid_tco2e_central;})/a.length,color:"var(--cat2)",note:a.length+" sites; ESTIMATE range "+A.fmt(a[0].env_per1Msqft_grid_tco2e_low)+" to "+A.fmt(a[0].env_per1Msqft_grid_tco2e_high)+" t CO2e per 1M sq ft"};}).sort(function(a,b){return b.value-a.value;});
+A.mount(d,'<div id="subhost" style="margin-top:12px"></div>');
+A.barChart("#subhost",{title:"Estimated grid-electricity emissions per 1,000,000 sq ft per year, central case, by eGRID subregion (t CO2e)",items:subItems,labelWidth:60,valFmt:function(v){return A.fmt(v,0);},
+ caption:"ESTIMATE. Data: AMZ_FAC.facilities env_per1Msqft_grid_tco2e_central (facilities_master.csv), grouped by env_subregion; 5.8 kWh per sq ft (EIA CBECS 2018) times the eGRID2023 subregion rate. Hover for low to high range and site count. Differences between bars reflect the grid only, not any difference in the buildings. "+A.fmt(facs.length-withEnv.length)+" roster sites without coordinates have no estimate."});
+
+A.mount(d,'<h3 style="font-size:14px;margin:18px 0 4px">Site table <span class="estb">ESTIMATE</span></h3><div class="ctl"><input type="search" id="eq" placeholder="Search site code, city, state or subregion" aria-label="Search sites"><label>Type <select id="et"><option value="">All</option>'+Object.keys(TL).map(function(k){return '<option value="'+k+'">'+TL[k]+'</option>';}).join("")+'</select></label><label><input type="checkbox" id="es"> Only sites with sourced floor area</label></div><div id="etab"></div>');
+function rng(a,b,c){return a==null?"":A.fmt(a)+" / "+A.fmt(b)+" / "+A.fmt(c);}
+var etab=A.table("#etab",{rows:withEnv,pageSize:20,sort:"env_per1Msqft_grid_tco2e_central",dir:-1,cols:[
+ {key:"site_code",label:"Site code"},{key:"facility_type",label:"Type",fmt:function(v){return TL[v]||v;}},{key:"city",label:"City"},{key:"state",label:"State"},{key:"env_subregion",label:"Grid"},
+ {key:"env_grid_lb_co2e_per_mwh_2023",label:"Grid lb CO2e/MWh",num:true,fmt:function(v){return A.fmt(v,0);}},
+ {key:"env_per1Msqft_grid_tco2e_central",label:"Grid elec. t/yr per 1M sq ft: low / central / high",num:true,fmt:function(v,r){return rng(r.env_per1Msqft_grid_tco2e_low,v,r.env_per1Msqft_grid_tco2e_high);}},
+ {key:"sq_ft",label:"Sourced sq ft",num:true,fmt:function(v){return A.fmt(v);}},
+ {key:"env_total_tco2e_central_sourced_sqft",label:"Central total t CO2e/yr, electricity and gas (sourced sq ft only)",num:true,fmt:function(v){return A.fmt(v);}},
+ {key:"pop_within_20mi_2020",label:"People within 20 mi (2020)",num:true,fmt:function(v){return A.fmt(v);}}]});
+function ef(){var q=A.$("#eq").value.trim().toLowerCase(),t=A.$("#et").value,s=A.$("#es").checked;
+ etab.setRows(withEnv.filter(function(f){return (!t||f.facility_type===t)&&(!s||f.sq_ft)&&(!q||[f.site_code,f.city,f.state,f.env_subregion].join(" ").toLowerCase().indexOf(q)>=0);}));}
+["eq","et","es"].forEach(function(id){A.$("#"+id).addEventListener(id==="eq"?"input":"change",ef);});
+A.mount(d,'<p class="cap">Data: AMZ_FAC.facilities env_* columns, sq_ft, pop_within_20mi_2020 (facilities_master.csv). Truck emissions are not estimated (no primary trip-rate source; see Methods). Floor areas for the 31 sourced sites come from a 2012 third-party table and describe buildings as they were then; most sites have no floor area, so no site total is given for them and none is assumed.</p>');
+
+/* ---- 4. nearby population ---- */
+var dm=A.section(app,"people","Who lives nearby","This dashboard has total population near sites, not demographics. Race, income and poverty data from the Census ACS were not pulled (the API needs a key), and no pollution-burden index (such as EPA EJScreen) was used, so nothing here says who bears emissions or how heavily.");
+var py=A.rows(P.by_year).filter(function(r){return r.set==="roster_all"||r.set==="2025";});
+A.mount(dm,'<div class="tw"><table><thead><tr><th>Site set</th><th>Site type</th><th class="n">Sites</th><th class="n">Share of US population within 20 miles</th><th class="n">within 50 miles</th></tr></thead><tbody>'+
+ py.map(function(r){return '<tr><td>'+(r.set==="2025"?"Sites filing with OSHA in 2025":"Full roster (upper bound)")+'</td><td>'+(TL[r.site_type]||"All types")+'</td><td class="n">'+A.fmt(r.n_sites)+'</td><td class="n">'+A.pct(r.share20,1)+'</td><td class="n">'+A.pct(r.share50,1)+'</td></tr>';}).join("")+'</tbody></table></div><p class="cap">Data: AMZ_POP.by_year (population_access_by_year.csv). Original source: 2020 Census population-weighted tract centroids (US Census Bureau), 84,414 tracts; distance is straight-line from the tract centroid to the nearest site. Population is fixed at 2020. See the Access page for the map and by-state view.</p>');
+var med=function(a){a=a.slice().sort(function(x,y){return x-y;});return a.length?a[Math.floor((a.length-1)/2)]:null;};
+var tk=Object.keys(TL).map(function(k){var a=withEnv.filter(function(f){return f.facility_type===k&&f.pop_within_20mi_2020!=null;});return {k:k,n:a.length,m20:med(a.map(function(f){return f.pop_within_20mi_2020;})),m50:med(a.map(function(f){return f.pop_within_50mi_2020;}))};});
+A.mount(dm,'<h3 style="font-size:14px;margin:14px 0 4px">Typical site: people living nearby</h3><div class="tw"><table><thead><tr><th>Site type</th><th class="n">Located sites</th><th class="n">Median population within 20 miles</th><th class="n">within 50 miles</th></tr></thead><tbody>'+tk.map(function(r){return '<tr><td>'+TL[r.k]+'</td><td class="n">'+r.n+'</td><td class="n">'+A.fmt(r.m20)+'</td><td class="n">'+A.fmt(r.m50)+'</td></tr>';}).join("")+'</tbody></table></div><p class="cap">Computed in this page from AMZ_FAC.facilities pop_within_20mi_2020 and pop_within_50mi_2020. A 20-mile radius covers a large area; it says nothing about the immediate neighborhood of a site.</p>');
+
+/* ---- 5. air hubs ---- */
+var ah=A.section(app,"air","Air hubs and permits","Air-hub emissions cannot be estimated with these methods (jet fuel burn depends on flight schedules that are not public here). What exists is a list of hubs, a permit extract and one court record.");
+var hubs=facs.filter(function(f){return f.facility_type==="air_hub";});
+A.mount(ah,'<div class="tw"><table><thead><tr><th>Airport code</th><th>City</th><th>State</th><th>Grid</th><th>Positional method</th><th>OSHA 2025 filing</th></tr></thead><tbody>'+hubs.map(function(f){return '<tr><td>'+A.esc(f.site_code)+'</td><td>'+A.esc(f.city)+'</td><td>'+A.esc(f.state)+'</td><td>'+A.esc(f.env_subregion||"")+'</td><td>'+A.esc(f.geo_method)+'</td><td>'+(f.status==="in_2025_osha_filing"?"yes":"not found")+'</td></tr>';}).join("")+'</tbody></table></div><p class="cap">Data: AMZ_FAC.facilities with facility_type air_hub (facilities_master.csv; roster from OSHA filings and public lists). Some airports appear twice because two filings or lists name the same field (for example KCVG). Fleet and hub opening dates are secondary-source and in the Network page (AMZ_LOG.air_hubs and air_fleet).</p>');
+var hb=A.rows(L.air_hubs);
+A.mount(ah,'<h3 style="font-size:14px;margin:14px 0 4px">Hub timeline (secondary sources, low to medium confidence)</h3><div class="tw"><table><thead><tr><th>Date</th><th>Location</th><th>Event</th><th>Confidence</th></tr></thead><tbody>'+hb.map(function(r){return '<tr><td>'+A.esc(r.date)+'</td><td>'+A.esc(r.location)+'</td><td>'+A.esc(r.event)+'</td><td>'+A.esc(r.confidence)+'</td></tr>';}).join("")+'</tbody></table></div><p class="cap">Data: AMZ_LOG.air_hubs (logistics tables). Original source: Wikipedia, Amazon Air, with trade press; the official Amazon releases were not retrieved. Dates vary across outlets.</p>');
+A.mount(ah,'<div class="find"><b>Notes on air hubs.</b><ul>'+
+ '<li><b>Cincinnati/Northern Kentucky (CVG).</b> No air permit under an Amazon name was found for the hub. A Kentucky draft permit F-25-027 is for Amazon Data Services at Florence, a data center, not the hub; the airport authority holds its own permit. The Kentucky documents could not be downloaded, so nothing is quoted from them.</li>'+
+ '<li><b>San Bernardino (KSBD).</b> The US Court of Appeals for the Ninth Circuit (No. 20-70272, amended opinion 11 Oct 2022) denied petitions for review of the FAA&rsquo;s finding of no significant impact for an Amazon air cargo facility and rejected challenges to the truck-trip emission method. The 660,000 sq ft size appears in a search summary but not in the saved opinion text, so it is unverified. The outcome of any later rehearing was not checked.</li>'+
+ '<li><b>South Coast warehouse rule (WAIRE, Rule 2305).</b> The South Coast AQMD&rsquo;s 4th annual report (October 2026) covers 4,051 potentially affected warehouses of 100,000 sq ft or more and does not name Amazon. Operator-level data are not published and would need a public-records request.</li></ul></div>');
+var ap=A.rows(E.air_permits).filter(function(r){return r.kind_heuristic==="amazon_logistics";}), imp={};A.rows(E.impervious).forEach(function(r){imp[r.air_ids]=r;});
+ap.forEach(function(r){var i=imp[r.air_ids];r.imp=i?i.impervious_pct_mean_3x3:null;});
+A.mount(ah,'<h3 style="font-size:14px;margin:14px 0 4px">Air permits at Amazon logistics sites (EPA ICIS-Air)</h3><div id="aphost"></div>');
+A.table("#aphost",{rows:ap,pageSize:12,sort:"state",cols:[{key:"name",label:"Facility name"},{key:"city",label:"City"},{key:"state",label:"State"},{key:"classification",label:"Class"},{key:"operating_status",label:"Status"},{key:"programs",label:"Programs"},{key:"evaluations",label:"Recorded evaluations",num:true},{key:"recent_violation_count",label:"Recent violations",num:true},{key:"imp",label:"Impervious % nearby (NLCD 2021)",num:true,fmt:function(v){return v==null?"":f1(v);}}]});
+A.mount(ah,'<p class="cap">Data: AMZ_ENV.air_permits and AMZ_ENV.impervious (epa_echo_air_permits_amazon_facilities.csv; nlcd2021_impervious_around_amazon_air_permit_sites.csv). Original sources: EPA ECHO ICIS-Air name search for &ldquo;AMAZON&rdquo; and USGS/MRLC NLCD 2021. These are permits, not measured emissions; the MACT and NSPS flags are consistent with emergency diesel generators but do not prove it. Name search only, so sites under other names are missing. NLCD 2021 predates newer buildings: a 0 percent value means not yet built or a misplaced point, not no paving.</p>');
+A.sources(app,"environment");
+})();
+</script>
+<script src="assets/environment.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+metric,value,cbecs_table_or_method
+warehouse_buildings_thousand,1004,Table C1
+warehouse_floorspace_million_sqft,17483,Table C1
+warehouse_major_fuels_tbtu,528,Table C1
+warehouse_electricity_site_tbtu,325,Table C1
+warehouse_natural_gas_tbtu,199,Table C1
+warehouse_electricity_billion_kwh,95,Table C13
+warehouse_elec_kwh_per_sqft_mean,5.8,Table C14
+warehouse_elec_kwh_per_sqft_p25,1.6,Table C14
+warehouse_elec_kwh_per_sqft_median,3.4,Table C14
+warehouse_elec_kwh_per_sqft_p75,7.8,Table C14
+warehouse_elec_price_usd_per_kwh,0.107,Table C14
+allbuildings_elec_kwh_per_sqft_mean,12.6,Table C14
+warehouse_gas_kbtu_per_sqft_derived,11.38,Derived: C1 gas TBtu / C1 floorspace
+warehouse_elec_kwh_per_sqft_derived_C13,5.82,Derived: C13 kWh / C13 floorspace of electricity-using warehouses

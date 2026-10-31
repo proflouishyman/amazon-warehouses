@@ -1,0 +1,13 @@
+site_code,street_contains,field,value,reason
+TTN3,Cranbury,zip,08512,OSHA filing has ZIP 33837 (a Florida ZIP) for Cranbury NJ; 08512 is Cranbury NJ
+DNY1,630 Sullivan,street_address,630 Sullivan Rd,OSHA filing 2022-2023 street cleaned (city/state were typed into the street field)
+DNY1,630 Sullivan,city,Elizabeth,OSHA filing city says New York but the street address is Elizabeth NJ
+DNY1,630 Sullivan,zip,07201,OSHA filing ZIP 90065 is a Los Angeles ZIP; Elizabeth NJ is 07201
+HLI1,,state,AR,OSHA filing state AZ but city is Maumelle and ZIP 72113 is Arkansas
+CNM1,,street_address,5815 Wyoming Blvd NE,OSHA filing put the full address in the street field
+CNM1,,city,Albuquerque,OSHA filing city field had a trailing comma
+CNM1,,state,NM,OSHA filing state MP (Northern Mariana Islands) is a typo; Albuquerque ZIP 87109 is New Mexico
+CKS1,,city,Kansas City,OSHA filing typo Kansaas
+CKS1,,state,MO,ZIP 64112 and 301 E 51st St are Kansas City MO (Country Club Plaza); the Census geocoder also matches MO
+CMA1,,facility_type,other_logistics,Methods review: an urban Boston address; OSHA labels it Global Specialty Fulfillment but it is not a conventional fulfillment center; type unverified
+CMA1,,type_basis,"reclassified from fulfillment_center to other_logistics at methods review (urban Boston site; OSHA org label is Global Specialty Fulfillment, true function unverified)",audit trail

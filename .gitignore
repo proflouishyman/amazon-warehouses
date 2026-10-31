@@ -1,0 +1,54 @@
+# subscription-database material (JHU ProQuest / Statista): never public
+data/private/
+
+# all raw downloads (4 GB; third-party pages, PDFs and bulk files, some copyrighted): rebuild with scripts/
+data/raw/
+data/raw/facilities/osha_ita/
+data/raw/injuries/
+data/raw/labor/*.zip
+data/raw/labor/cew_extract/
+data/raw/environment/egrid_hist_zip/
+data/raw/census/*.zip
+data/raw/census/cb_state_20m/
+*.zip
+
+# scratch and OS files
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+data/raw/labor/nlrb/
+
+# unverified Good Jobs First snippet figures: withheld until verified (methods review 2026-10-31)
+data/processed/amazon_subsidies_gjf_unverified.csv
+data/raw/facilities/subsidytracker_goodjobsfirst_org_parent_amazoncom.html
+
+# subscription-database (Statista) notes and extracts from the parallel industry/Statista work: review before publishing
+data/notes/statista.md
+data/processed/statista_*
+data/raw/financial/gjf/
+
+# local working logbook (mentions subscription access)
+LOGBOOK.md
+
+# integration pass 2026-10-31
+# local source manifest (lists subscription documents); the public list is data/sources_manifest_public.csv
+data/sources_manifest.csv
+# subscription-database fact extracts (hold quotes, doc ids and proxy links); published facts live in the derived files, citations in bibliography_subscription.csv
+data/processed/jhu_*.csv
+# not-yet-published .pre_* backups (files already tracked by git stay tracked)
+data/processed/*.pre_*.csv
+data/processed/*.pre_*.json
+assets/*.pre_*.js
+scripts/*.pre_*.py
+data/notes/*.pre_*.md
+data/SOURCES.pre_*.md
+.gitignore.pre_*
+
+# pre-publication review 2026-10-31: page/css backups and the full-manifest backup must not publish
+/*.pre_*.html
+assets/*.pre_*.css
+data/*.pre_*.csv
+data/notes/*.pre_*
+data/processed/subsidies_by_state/*.pre_*
+scripts/browser_search.py

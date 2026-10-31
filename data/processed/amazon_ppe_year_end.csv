@@ -1,0 +1,31 @@
+fiscal_year,fixed_assets_net_usd_m,ppe_gross_usd_m,basis,note
+1996,0.985,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+1997,9.726,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+1998,29.791,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+1999,317.613,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2000,366.416,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2001,271.751,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2002,239.398,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2003,224.285,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2004,246.156,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2005,348,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2006,457,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2007,543,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2008,854,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2009,1290,1915,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2010,2414,3256,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2011,4417,5786,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet; label ""Fixed assets, net"" before 2012"
+2012,7060,9582,"10-K property and equipment, net (excludes operating-lease right-of-use assets)",Year-end balance sheet
+2013,10949,14809,"10-K property and equipment, net (excludes operating-lease right-of-use assets)",Year-end balance sheet
+2014,16967,22730,"10-K property and equipment, net (excludes operating-lease right-of-use assets)",Year-end balance sheet
+2015,21838,30053,"10-K property and equipment, net (excludes operating-lease right-of-use assets)",Year-end balance sheet
+2016,29114,42441,"10-K property and equipment, net (excludes operating-lease right-of-use assets)",Year-end balance sheet
+2017,48866,72656,"10-K property and equipment, net (excludes operating-lease right-of-use assets)",Year-end balance sheet
+2018,61797,95770,"10-K property and equipment, net (excludes operating-lease right-of-use assets)",Year-end balance sheet
+2019,72705,119680,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet Database aggregators (Morningstar-standardised, e.g. D&B Hoovers) report a larger PP&E figure from 2019 because they include operating-lease right-of-use assets; this series does not."
+2020,113114,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet Database aggregators (Morningstar-standardised, e.g. D&B Hoovers) report a larger PP&E figure from 2019 because they include operating-lease right-of-use assets; this series does not."
+2021,160281,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet Database aggregators (Morningstar-standardised, e.g. D&B Hoovers) report a larger PP&E figure from 2019 because they include operating-lease right-of-use assets; this series does not."
+2022,186715,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet Database aggregators (Morningstar-standardised, e.g. D&B Hoovers) report a larger PP&E figure from 2019 because they include operating-lease right-of-use assets; this series does not."
+2023,204177,,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet Database aggregators (Morningstar-standardised, e.g. D&B Hoovers) report a larger PP&E figure from 2019 because they include operating-lease right-of-use assets; this series does not."
+2024,252665,394055,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet Database aggregators (Morningstar-standardised, e.g. D&B Hoovers) report a larger PP&E figure from 2019 because they include operating-lease right-of-use assets; this series does not."
+2025,357025,534098,"10-K property and equipment, net (excludes operating-lease right-of-use assets)","Year-end balance sheet Database aggregators (Morningstar-standardised, e.g. D&B Hoovers) report a larger PP&E figure from 2019 because they include operating-lease right-of-use assets; this series does not."

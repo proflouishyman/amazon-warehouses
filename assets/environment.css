@@ -1,0 +1,13 @@
+/* environment.html only. Sequential teal ramp for grid intensity; steps are re-chosen for dark mode (higher = lighter on dark). */
+:root{--seq1:#cfe3ea;--seq2:#9cc6d4;--seq3:#5e9fb5;--seq4:#2f7590;--seq5:#0f4a61}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--seq1:#24404b;--seq2:#33657a;--seq3:#4b90ab;--seq4:#7cb9d1;--seq5:#bfe3f0}}
+:root[data-theme="dark"]{--seq1:#24404b;--seq2:#33657a;--seq3:#4b90ab;--seq4:#7cb9d1;--seq5:#bfe3f0}
+.ctl{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:8px 0;font-size:13px;color:var(--ink-2)}
+.ctl select,.ctl input[type=search]{background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:4px;padding:5px 8px;font:inherit;font-size:13px;max-width:100%;min-width:0}
+.ctl input[type=search]{min-width:220px}
+.sbar rect.seg{stroke:var(--surface);stroke-width:2}
+.seqlg{display:flex;flex-wrap:wrap;gap:4px 14px;font-size:12px;color:var(--ink-2);margin:6px 0}
+.seqlg i{display:inline-block;width:14px;height:12px;border-radius:2px;margin-right:5px;vertical-align:-1px;border:1px solid var(--rule)}
+.estb{display:inline-block;font-size:11px;font-weight:700;letter-spacing:.04em;background:var(--warn-bg);color:var(--warn-ink);border-radius:3px;padding:1px 6px;margin-left:6px;vertical-align:1px}
+details.tv{margin:8px 0;font-size:13px}details.tv summary{cursor:pointer;color:var(--accent);font-weight:600}
+svg .st{stroke-width:.8}

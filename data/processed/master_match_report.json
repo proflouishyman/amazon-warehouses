@@ -1,0 +1,155 @@
+{
+ "year_basis": {
+  "mwpvl_opening_year": 1413,
+  "undated": 18,
+  "press_event_year": 10,
+  "first_osha_filing": 318,
+  "epi_mwpvl2012_opening_year": 2
+ },
+ "year_flags": {
+  "first_osha_filing | mwpvl_projection_not_used": 13,
+  "mwpvl_opening_year | mwpvl_later_year_after_planned": 35,
+  "mwpvl_opening_year | mwpvl_year_conflict": 209,
+  "mwpvl_opening_year | year_after_first_osha_filing": 79,
+  "press_event_year | mwpvl_projection_not_used": 2,
+  "press_event_year | press_year_well_before_first_osha_filing": 1
+ },
+ "year_after_first_osha_by_basis": {
+  "mwpvl_opening_year": 79
+ },
+ "mwpvl_corrections_applied": 1,
+ "mwpvl_sq_ft_sites": 1419,
+ "pullback_status": {
+  "removed_from_mwpvl_list": 62,
+  "closed": 16,
+  "delayed": 38,
+  "closed_temporary": 4,
+  "closed_partial": 1,
+  "sublease": 1,
+  "paused": 1
+ },
+ "pullback_rows_with_site_code": 296,
+ "pullback_rows_matched_to_roster": 139,
+ "facilities": 1761,
+ "geo_state_check": {
+  "no_coordinates": 30,
+  "ok": 1729,
+  "near_border": 2
+ },
+ "geo_state_check_hard_failures": 0,
+ "osha_rows": 8228,
+ "osha_rows_matched": 7475,
+ "osha_rows_unmatched": 753,
+ "osha_row_match_rate": 0.9085,
+ "match_method": {
+  "site_code": 7380,
+  "street_address_zip": 95
+ },
+ "osha_rows_matched_by_year": {
+  "2016": {
+   "rows": 3,
+   "matched": 1,
+   "rate": 0.333
+  },
+  "2017": {
+   "rows": 199,
+   "matched": 195,
+   "rate": 0.98
+  },
+  "2018": {
+   "rows": 323,
+   "matched": 314,
+   "rate": 0.972
+  },
+  "2019": {
+   "rows": 382,
+   "matched": 372,
+   "rate": 0.974
+  },
+  "2020": {
+   "rows": 792,
+   "matched": 772,
+   "rate": 0.975
+  },
+  "2021": {
+   "rows": 1227,
+   "matched": 985,
+   "rate": 0.803
+  },
+  "2022": {
+   "rows": 1353,
+   "matched": 1107,
+   "rate": 0.818
+  },
+  "2023": {
+   "rows": 1197,
+   "matched": 1138,
+   "rate": 0.951
+  },
+  "2024": {
+   "rows": 1316,
+   "matched": 1238,
+   "rate": 0.941
+  },
+  "2025": {
+   "rows": 1436,
+   "matched": 1353,
+   "rate": 0.942
+  }
+ },
+ "facilities_with_osha_match": 1696,
+ "facility_match_rate": 0.9631,
+ "facilities_in_2025_flag": 1336,
+ "facilities_in_2025_flag_but_no_match": 0,
+ "facilities_with_env": 1731,
+ "facilities_with_coords": 1731,
+ "unmatched_top_naics": [
+  [
+   "445110",
+   643
+  ],
+  [
+   "333922",
+   20
+  ],
+  [
+   "493110",
+   17
+  ],
+  [
+   "455219",
+   15
+  ],
+  [
+   "323117",
+   12
+  ],
+  [
+   "445131",
+   11
+  ],
+  [
+   "492110",
+   6
+  ],
+  [
+   "541715",
+   6
+  ]
+ ],
+ "tract_count": 84414,
+ "total_pop_2020": 331449281,
+ "pop_sets": {
+  "2016": 1,
+  "2017": 193,
+  "2018": 310,
+  "2019": 369,
+  "2020": 769,
+  "2021": 983,
+  "2022": 1106,
+  "2023": 1135,
+  "2024": 1234,
+  "2025": 1348,
+  "roster_all": 1731
+ }
+}

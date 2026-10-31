@@ -1,0 +1,754 @@
+year,id,company_name,establishment_name,street_address,city,state,zip_code,naics_code,industry_description,employees,hours
+2016,160027,Amazon,Amazon Robotics BOS12,300 Riverpark Drive,North Reading,MA,01864,333922," Buckets, elevator or conveyor, manufacturing",555.0,1302307.0
+2016,160078,Amazon,Amazon Robotics BOS13,8 Technology Drive,Westborough,MA,01581,333922," Buckets, elevator or conveyor, manufacturing",24.0,50148.0
+2017,357407,Golden State FC LLC,Global Specialty Fulfillment : OAK6,1555 North Chrisman Road,Tracy,CA,95376,445110,Supermarkets and Grocery (except convenience) stores,404.0,511411.0
+2017,382661,Amazon,Amazon Robotics BOS12,300 Riverpark Drive,North Reading,MA,01864,333922,"Buckets, elevator or conveyor, manufacturing",620.0,1355493.0
+2017,382245,Amazon,Amazon Robotics BOS13,8 Technology Drive,Westborough,MA,01581,333922,"Buckets, elevator or conveyor, manufacturing",35.0,71993.0
+2017,349154,Amazon.com.dedc LLC,North America Fulfillment Centers (FCs) : CAE3,222 Old Wire Road,West Columbia,SC,29172,323117,Books Printing,200.0,357927.0
+2018,601433,Amazon.com.dedc LLC,Global Specialty Fulfillment : BEK1,2495 Bancroft Way,Berkeley,CA,94720,445110,Electronic shopping and mail-order houses,24.0,14162.0
+2018,601197,Amazon.com.dedc LLC,Amazon Go : USCA2,300 California Street,San Francisco,CA,94104,445120,Convenience Store,24.0,13671.0
+2018,601451,Golden State FC LLC,Global Specialty Fulfillment : OAK6,1555 North Chrisman Road,Tracy,CA,95376,445110,Supermarkets and Grocery (except convenience) stores,129.0,118298.0
+2018,601450,Amazon.com.dedc LLC,Global Specialty Fulfillment : MIA6,"3200 NW 67th Avenue, Bldg. 5",Miami,FL,33122,445110,Supermarkets and Grocery (except convenience) stores,82.0,109528.0
+2018,561858,Amazon,Amazon Robotics BOS12,300 Riverpark Drive,North Reading,MA,01864,333922," Buckets, elevator or conveyor, manufacturing ",632.0,1410600.0
+2018,561825,Amazon,Amazon Robotics BOS13,8 Technology Drive,Westborough,MA,01581,333922," Buckets, elevator or conveyor, manufacturing ",32.0,67727.0
+2018,601501,Amazon.com.dedc LLC,North America Fulfillment Centers (FCs) : CAE3,222 Old Wire Road,West Columbia,SC,72756,323117,Books Printing,269.0,496946.0
+2018,601193,Amazon.com.dedc LLC,Amazon Go : ISE1,2131 7th Ave,Seattle,WA,98121,445110,Supermarkets and Grocery (except convenience) stores,26.0,54311.0
+2018,601195,Amazon.com.dedc LLC,Amazon Go : ISE3,3810 Airport Way S.,Seattle,WA,98108,311991,Perishable Prepeared Food Manufacturing,62.0,129129.0
+2019,1040362.00,"Amazon.com Services, Inc.",Corporate/Offices : AZA3,1665 West Alameda Drive,Tempe,AZ,85282,551114.00,"Corporate, Subsidiary, and Regional Managing Offices",642.0,941107.0
+2019,1040565.00,"Amazon.com Services, Inc.",Seller Services : AZA10,8600 S. Science Drive,Tempe,AZ,85284,551114.00,"Corporate, Subsidiary, and Regional Managing Offices",1850.0,1209469.0
+2019,1040364.00,"Amazon.com Services, Inc.",Customer Service (CS) : LEX11,1919 Rolling Hills Ln,Winchester,KY,40391,561422.00,Customer Service Call Centers,564.0,999072.0
+2019,1041212.00,"Amazon.com Services, Inc.",Corporate/Offices : BOS12,300 Riverpark Dr,North Reading,MA,01864,551114.00,"Corporate, Subsidiary, and Regional Managing Offices",932.0,1465972.0
+2019,939236.00,Amazon,Amazon Robotics BOS12,300 Riverpark Drive,North Reading,MA,01864,333922.00," Buckets, elevator or conveyor, manufacturing ",689.0,1434425.0
+2019,939271.00,Amazon,Amazon Robotics BOS13,8 Technology Drive,Westborough,MA,01581,333922.00," Buckets, elevator or conveyor, manufacturing ",40.0,83318.0
+2019,1040426.00,"Amazon.com Services, Inc.",North America Fulfillment Centers (FCs) : CAE3,222 Old Wire Road,West Columbia,SC,72756,323117.00,Books Printing,324.0,392139.0
+2019,1040365.00,"Amazon.com Services, Inc.",Customer Service (CS) : PSC1,7011 W Canal Dr,Kennewick,WA,99336,561422.00,Customer Service Call Centers,658.0,1042531.0
+2019,1040567.00,"Amazon.com Services, Inc.",Seller Services : SEA18,1800 Ninth Avenue,Seattle,WA,98121,551114.00," Corporate, Subsidiary, and Regional Managing Offices",1059.0,273032.0
+2019,1040363.00,"Amazon.com Services, Inc.",Customer Service (CS) : HTS3,500 Kinetic Park,Huntington,WV,25701,561422.00,Customer Service Call Centers,500.0,931451.0
+2020,1369090,Amazon Retail LLC,Physical Stores : MAB9,13672 Jamboree Rd,Irvine,CA,92602,445110,Convenience Stores,629.0,323234.0
+2020,1369087,Amazon Retail LLC,Physical Stores : MAB4,5101 Lankershim Blvd,North Hollywood,CA,91601,445110,Convenience Stores,351.0,219916.0
+2020,1369088,Amazon Retail LLC,Physical Stores : MAB5,19340 Rinaldi St,Northridge,CA,91326,445110,Convenience Stores,623.0,216041.0
+2020,1369094,Amazon Retail LLC,Physical Stores : MAE6,15225 Whitter Blvd,Whitter,CA,90603,445110,Convenience Stores,512.0,64598.0
+2020,1369086,Amazon Retail LLC,Physical Stores : MAB1,6245 Topanga canyon road,Woodland Hills,CA,91367,445110,Convenience Stores,579.0,430408.0
+2020,1369095,Amazon Retail LLC,Physical Stores : MAG1,6855 S. La Cienega Blvd,los angeles,CA,90045,445110,Convenience Stores,435.0,57733.0
+2020,1369096,Amazon Retail LLC,Physical Stores : MAG3,"404 Army Trail Rd., Bloomingdale, IL 60108",Bloomingdale,IL,60108,445110,Convenience Stores,38.0,19456.0
+2020,1369091,Amazon Retail LLC,Physical Stores : MAC1,3116 S. Route 59 Suite 104,Naperville,IL,60564,445110,Convenience Stores,561.0,293247.0
+2020,1369093,Amazon Retail LLC,Physical Stores : MAE4,4031 W 95th St.,Oak Lawn,IL,60453,445110,Convenience Stores,550.0,135403.0
+2020,1369092,Amazon Retail LLC,Physical Stores : MAC7,16 E Golf Rd,Schaumburg,IL,60173,445110,Convenience Stores,652.0,227086.0
+2020,1219342,Amazon,Amazon Robotics BOS12,300 Riverpark Drive,North Reading,MA,01864,333922," Buckets, elevator or conveyor, manufacturing ",802.0,1701063.0
+2020,1273842,Amazon,Amazon Robotics BOS13,8 Technology Drive,Westborough,MA,01581,333922," Buckets, elevator or conveyor, manufacturing ",110.0,203854.0
+2020,1368418,Amazon.com Services LLC,Amazon Transportation Services : KBWI,27350 Mathison Way,Baltimore,MD,21240,493110,General Warehousing and Storage,1200.0,1700350.0
+2020,1368816,Amazon.com Services LLC,Global Specialty Fulfillment : KTL,316 Kentlands Blvd,Gaithersburg,MD,20878,493110,General Warehousing and Storage,235.0,3443.0
+2020,1368922,Amazon.com Services LLC,North America Fulfillment Centers (FCs) : CAE3,222 Old Wire Road,West Columbia,SC,72756,323117,Books Printing,215.0,434455.0
+2020,1368700,Amazon.com Services LLC,Global Specialty Fulfillment : BMT,19800 Belmont Chase Dr Ste 160,Ashburn,VA,20147,493110,General Warehousing and Storage,149.0,2776.0
+2020,1369084,Amazon Retail LLC,Physical Stores : IBF7,2010 148th Ave N.E. Suite 160,Redmond,WA,98052,445110,Convenience Stores,42.0,23134.0
+2020,1369089,Amazon Retail LLC,"Physical Stores : MAB6-Mendel(Seattle,WA,US)",2301 S. Jackson St.,Seattle,WA,98144,445110,Convenience Stores,41.0,21000.0
+2020,1369085,Amazon Retail LLC,Physical Stores : ISE3,3810 Airport way South,Seattle,WA,98108,445110,Convenience Stores,46.0,96979.0
+2020,1369083,Amazon Retail LLC,Physical Stores : IBF1,610 E. Pike Street,Seattle,WA,98122,445110,Convenience Stores,47.0,19833.0
+2021,1698203,Prime Now LLC,Prime Now LLC - WFM-CHR,2955 W Ray Rd,Chandler,AZ,85224,445110,Supermarkets and Other Grocery (except Convenience) Stores,118.0,82542.0
+2021,1698167,Prime Now LLC,Prime Now LLC - WFM-CMA,4701 N 20th St,Phoenix,AZ,85016,445110,Supermarkets and Other Grocery (except Convenience) Stores,107.0,66041.0
+2021,1698199,Prime Now LLC,Prime Now LLC - WFM-SCT,7111 E Mayo Blvd,Phoenix,AZ,85054,445110,Supermarkets and Other Grocery (except Convenience) Stores,168.0,98479.0
+2021,1698225,Prime Now LLC,Prime Now LLC - WFM-ORL,7133 N Oracle Rd,Tucson,AZ,85704,445110,Supermarkets and Other Grocery (except Convenience) Stores,85.0,58601.0
+2021,1698447,Prime Now LLC,Prime Now LLC - WFM-GIL,1025 Gilman St,Berkeley,CA,94710,445110,Supermarkets and Other Grocery (except Convenience) Stores,303.0,205485.0
+2021,1698448,Amazon.com Services LLC,Amazon.com Services LLC - BEK1,2495 Bancroft Way,Berkeley,CA,94720,455219,All Other General Merchandise Retailers,34.0,8973.0
+2021,1698296,Prime Now LLC,Prime Now LLC - WFM-BVH,239 N Crescent Dr,Beverly Hills,CA,90210,445110,Supermarkets and Other Grocery (except Convenience) Stores,173.0,83294.0
+2021,1698406,Prime Now LLC,Prime Now LLC - WFM-BRE,3301 E Imperial Highway,Brea,CA,92823,445110,Supermarkets and Other Grocery (except Convenience) Stores,103.0,69715.0
+2021,1698451,Prime Now LLC,Prime Now LLC - WFM-CBL,1690 S Bascom Ave,Campbell,CA,95008,445110,Supermarkets and Other Grocery (except Convenience) Stores,61.0,40393.0
+2021,1698550,Amazon Retail LLC,Amazon. Retail LLC - MAF9,11340 South Street,Cerritos,CA,90701,445110,Supermarkets and Other Grocery (except Convenience) Stores,60.0,77918.0
+2021,1698452,Prime Now LLC,Prime Now LLC - WFM-STC,20955 Stevens Creek Blvd,Cupertino,CA,95014,445110,Supermarkets and Other Grocery (except Convenience) Stores,366.0,188611.0
+2021,1698300,Prime Now LLC,Prime Now LLC - WFM-PCH,760 South Sepulveda Blvd,El Segundo,CA,90245,445110,Supermarkets and Other Grocery (except Convenience) Stores,235.0,145966.0
+2021,1698434,Prime Now LLC,Prime Now LLC - WFM-FRE,3111 Mowry Ave,Fremont,CA,94538,445110,Supermarkets and Other Grocery (except Convenience) Stores,84.0,64457.0
+2021,1703249,Amazon Retail LLC,Amazon. Retail LLC - MAC2,1100 S Harbor Blvd,Fullerton,CA,2832,445110,Supermarkets and Other Grocery (except Convenience) Stores,171.0,341210.0
+2021,1698333,Prime Now LLC,Prime Now LLC - WFM-GLN,331 N Glendale Ave,Glendale,CA,91206,445110,Supermarkets and Other Grocery (except Convenience) Stores,294.0,199230.0
+2021,1698412,Amazon.com Services LLC,Amazon.com Services LLC - SBA1,6533 Trigo Rd,Goleta,CA,93117,455219,All Other General Merchandise Retailers,23.0,5610.0
+2021,1698394,Amazon Retail LLC,Amazon. Retail LLC - MAB9,13752 Jamboree Rd,Irvine,CA,92602,445110,Supermarkets and Other Grocery (except Convenience) Stores,241.0,481690.0
+2021,1698395,Amazon.com Services LLC,Amazon.com Services LLC - IRV1,4141 Campus Drive,Irvine,CA,92612,455219,All Other General Merchandise Retailers,20.0,9237.0
+2021,1698398,Prime Now LLC,Prime Now LLC - WFM-IRV,8525 Irvine Center Dr,Irvine,CA,92618,445110,Supermarkets and Other Grocery (except Convenience) Stores,112.0,90521.0
+2021,1698323,Amazon Retail LLC,Amazon. Retail LLC - MAC4,1610 W Imperial Hwy,La Habra,CA,90631,445110,Supermarkets and Other Grocery (except Convenience) Stores,29.0,38291.0
+2021,1698356,Prime Now LLC,Prime Now LLC - WFM-LAJ,8825 Villa La Jolla Drive,La Jolla,CA,92037,445110,Supermarkets and Other Grocery (except Convenience) Stores,124.0,88864.0
+2021,1698400,Prime Now LLC,Prime Now LLC - WFM-LGN,23932 Aliso Creek Road,Laguna Niguel,CA,92677,445110,Supermarkets and Other Grocery (except Convenience) Stores,190.0,98823.0
+2021,1698329,Amazon Retail LLC,Amazon. Retail LLC - MAC9,6235 E Spring St,Long Beach,CA,90808,445110,Supermarkets and Other Grocery (except Convenience) Stores,168.0,336587.0
+2021,1698328,Prime Now LLC,Prime Now LLC - WFM-LBR,6400 E Pacific Coast Highway,Long Beach,CA,90803,445110,Supermarkets and Other Grocery (except Convenience) Stores,184.0,124863.0
+2021,1698420,Prime Now LLC,Prime Now LLC - WFM-LAT,4800 EL Camino Real,Los Altos,CA,94022,445110,Supermarkets and Other Grocery (except Convenience) Stores,201.0,108270.0
+2021,1698288,Prime Now LLC,Prime Now LLC - WFM-WLA,11666 National Blvd,Los Angeles,CA,90064,445110,Supermarkets and Other Grocery (except Convenience) Stores,220.0,83601.0
+2021,1698292,Amazon.com Services LLC,Amazon.com Services LLC - SCA1,3096 South McClintock Avenue,Los Angeles,CA,90089,455219,All Other General Merchandise Retailers,23.0,12197.0
+2021,1698279,Prime Now LLC,Prime Now LLC - WFM-FFX,6350 W 3rd St,Los Angeles,CA,90036,445110,Supermarkets and Other Grocery (except Convenience) Stores,203.0,149887.0
+2021,1698285,Amazon Retail LLC,Amazon. Retail LLC - MAG1,6855 S La Cienega Blvd,Los Angeles,CA,90045,445110,Supermarkets and Other Grocery (except Convenience) Stores,197.0,393258.0
+2021,1698277,Prime Now LLC,Prime Now LLC - WFM-DLA,788 S Grand Ave,Los Angeles,CA,90017,445110,Supermarkets and Other Grocery (except Convenience) Stores,206.0,135438.0
+2021,1697211,Amazon.com Services LLC,Amazon.com Services LLC - PLA1,4752 Admiralty Way,Marina Del Rey,CA,90292,455219,All Other General Merchandise Retailers,21.0,7131.0
+2021,1698344,Amazon Retail LLC,Amazon. Retail LLC - MAB4,5101 Lankershim Blvd,North Hollywood,CA,91601,445110,Supermarkets and Other Grocery (except Convenience) Stores,173.0,346057.0
+2021,1698339,Prime Now LLC,Prime Now LLC - WFM-PRR,11400 Porter Ranch Dr,Northridge,CA,91326,445110,Supermarkets and Other Grocery (except Convenience) Stores,239.0,156057.0
+2021,1698338,Amazon Retail LLC,Amazon. Retail LLC - MAB5,19340 Rinaldi St,Northridge,CA,91326,445110,Supermarkets and Other Grocery (except Convenience) Stores,225.0,450056.0
+2021,1698444,Amazon.com Services LLC,Amazon.com Services LLC - LSF2,230 Bay Place,Oakland,CA,94612,455219,All Other General Merchandise Retailers,30.0,5566.0
+2021,1698445,Prime Now LLC,Prime Now LLC - WFM-HAR,230 Bay Place,Oakland,CA,94612,445110,Supermarkets and Other Grocery (except Convenience) Stores,214.0,115999.0
+2021,1698331,Prime Now LLC,Prime Now LLC - WFM-PAS,3751 E Foothill Blvd,Pasadena,CA,91107,445110,Supermarkets and Other Grocery (except Convenience) Stores,176.0,113198.0
+2021,1698294,Prime Now LLC,Prime Now LLC - WFM-PLV,12746 Jefferson Blvd,Playa Vista,CA,90094,445110,Supermarkets and Other Grocery (except Convenience) Stores,154.0,92277.0
+2021,1698476,Prime Now LLC,Prime Now LLC - WFM-ROS,1001 Galleria Blvd,Roseville,CA,95678,445110,Supermarkets and Other Grocery (except Convenience) Stores,113.0,71652.0
+2021,1697145,Prime Now LLC,Prime Now LLC - WFM-ARD,4315 Arden Way,Sacramento,CA,95864,445110,Supermarkets and Other Grocery (except Convenience) Stores,146.0,95009.0
+2021,1698370,Amazon.com Services LLC,Amazon.com Services LLC - KSBD,2535 E 3rd St,San Bernardino,CA,92346,492110,Couriers and Express Delivery Services,811.0,1621778.0
+2021,1698359,Prime Now LLC,Prime Now LLC - WFM-HIL,711 University Ave,San Diego,CA,92103,445110,Supermarkets and Other Grocery (except Convenience) Stores,251.0,155556.0
+2021,1698428,Prime Now LLC,Prime Now LLC - WFM-OCN,1150 Ocean Avenue,San Francisco,CA,94112,445110,Supermarkets and Other Grocery (except Convenience) Stores,121.0,80172.0
+2021,1698427,Prime Now LLC,Prime Now LLC - WFM-FRK,1765 California St,San Francisco,CA,94109,445110,Supermarkets and Other Grocery (except Convenience) Stores,129.0,76779.0
+2021,1698429,Prime Now LLC,Prime Now LLC - WFM-CAS,2001 Market Street,San Francisco,CA,94114,445110,Supermarkets and Other Grocery (except Convenience) Stores,221.0,106561.0
+2021,1698426,Prime Now LLC,Prime Now LLC - WFM-SOM,399 4th St,San Francisco,CA,94107,445110,Supermarkets and Other Grocery (except Convenience) Stores,237.0,170079.0
+2021,1698425,Prime Now LLC,Prime Now LLC - WFM-PTH,450 Rhode Island St,San Francisco,CA,94107,445110,Supermarkets and Other Grocery (except Convenience) Stores,234.0,151209.0
+2021,1698457,Prime Now LLC,Prime Now LLC - WFM-BLL,1146 Blossom Hill Rd,San Jose,CA,95118,445110,Supermarkets and Other Grocery (except Convenience) Stores,211.0,123750.0
+2021,1698460,Prime Now LLC,Prime Now LLC - WFM-ALM,777 the Alameda,San Jose,CA,95126,445110,Supermarkets and Other Grocery (except Convenience) Stores,28.0,20557.0
+2021,1698431,Prime Now LLC,Prime Now LLC - WFM-SMT,1010 Park Pl,San Mateo,CA,94403,445110,Supermarkets and Other Grocery (except Convenience) Stores,178.0,105734.0
+2021,1698423,Prime Now LLC,Prime Now LLC - WFM-SVL,150 E McKinley Ave,Sunnyvale,CA,94086,445110,Supermarkets and Other Grocery (except Convenience) Stores,47.0,60328.0
+2021,1698341,Prime Now LLC,Prime Now LLC - WFM-OKS,740 N Moorpark Rd,Thousand Oaks,CA,91360,445110,Supermarkets and Other Grocery (except Convenience) Stores,135.0,93656.0
+2021,1698314,Prime Now LLC,Prime Now LLC - WFM-TOR,2655 Pacific Coast Hwy,Torrance,CA,90505,445110,Supermarkets and Other Grocery (except Convenience) Stores,167.0,97187.0
+2021,1698403,Prime Now LLC,Prime Now LLC - WFM-JAM,2847 Park Avenue,Tustin,CA,92782,445110,Supermarkets and Other Grocery (except Convenience) Stores,121.0,77475.0
+2021,1698308,Prime Now LLC,Prime Now LLC - WFM-VEN,225 Lincoln Blvd,Venice,CA,90291,445110,Supermarkets and Other Grocery (except Convenience) Stores,184.0,111164.0
+2021,1698443,Prime Now LLC,Prime Now LLC - WFM-YVR,2941 Ygnacio Valley Rd,Walnut Creek,CA,94598,445110,Supermarkets and Other Grocery (except Convenience) Stores,230.0,146967.0
+2021,1698316,Amazon Retail LLC,Amazon. Retail LLC - MAE6,15225 Whittier Blvd,Whittier,CA,90603,445110,Supermarkets and Other Grocery (except Convenience) Stores,184.0,368386.0
+2021,1698342,Amazon Retail LLC,Amazon. Retail LLC - MAB1,6245 Topanga Canyon Blvd,Woodland Hills,CA,91367,445110,Supermarkets and Other Grocery (except Convenience) Stores,228.0,455247.0
+2021,1697072,Amazon.com Services LLC,Amazon.com Services LLC - LDV6,444 S Wadsworth Blvd,Lakewood,CO,80226,455219,All Other General Merchandise Retailers,20.0,3214.0
+2021,1703272,Prime Now LLC,Prime Now LLC - WFM-FAI,350 Grasmere Ave,Fairfield,CT,6824,445110,Supermarkets and Other Grocery (except Convenience) Stores,185.0,140350.0
+2021,1703263,Prime Now LLC,Prime Now LLC - WFM-MIL,1686 Boston Post Rd,Milford,CT,6460,445110,Supermarkets and Other Grocery (except Convenience) Stores,117.0,75160.0
+2021,1703265,Amazon.com Services LLC,Amazon.com Services LLC - BDL7,409 Washington Avenue,North Haven,CT,6473,323117,Books Printing,50.0,100705.0
+2021,1703261,Prime Now LLC,Prime Now LLC - WFM-BSH,340 N Main St,West Hartford,CT,6117,445110,Supermarkets and Other Grocery (except Convenience) Stores,141.0,72134.0
+2021,1702878,Prime Now LLC,Prime Now LLC - WFM-PST,1440 P St NW,Washington,DC,20005,445110,Supermarkets and Other Grocery (except Convenience) Stores,171.0,107440.0
+2021,1702879,Amazon Retail LLC,Amazon Retail LLC - IDC4,1733 14th st NW,Washington,DC,20009,445110,Supermarkets and Other Grocery (except Convenience) Stores,32.0,63486.0
+2021,1702880,Prime Now LLC,Prime Now LLC - WFM-TEN,4530 40th St NW,Washington,DC,20016,445110,Supermarkets and Other Grocery (except Convenience) Stores,164.0,107741.0
+2021,1702877,Prime Now LLC,Prime Now LLC - WFM-HST,600 H Street NE,Washington,DC,20002,445110,Supermarkets and Other Grocery (except Convenience) Stores,100.0,102863.0
+2021,1702876,Amazon.com Services LLC,Amazon.com Services LLC - LDC5,967 Florida Avenue NW,Washington,DC,20001,455219,All Other General Merchandise Retailers,20.0,857.0
+2021,1717552,Prime Now LLC,Prime Now LLC - WFM-APS,305 E Altamonte Dr #1000,Altamonte Sprin,FL,32701,445110,Supermarkets and Other Grocery (except Convenience) Stores,65.0,60507.0
+2021,1717594,Prime Now LLC,Prime Now LLC - WFM-BCA,1400 GLADES RD STE 110,Boca Raton,FL,33431,445110,Supermarkets and Other Grocery (except Convenience) Stores,194.0,147613.0
+2021,1717608,Prime Now LLC,Prime Now LLC - WFM-CLW,9 N Suite 8520,Clearwater,FL,33761,445110,Supermarkets and Other Grocery (except Convenience) Stores,66.0,53716.0
+2021,1717577,Prime Now LLC,Prime Now LLC - WFM-CGB,6701 Red Road,Coral Gables,FL,33143,445110,Supermarkets and Other Grocery (except Convenience) Stores,203.0,141433.0
+2021,1717589,Prime Now LLC,Prime Now LLC - WFM-DVE,1903 S UNIVERSITY DR,Davie,FL,33324,445110,Supermarkets and Other Grocery (except Convenience) Stores,108.0,119134.0
+2021,1717587,Prime Now LLC,Prime Now LLC - WFM-FFH,501 SE 17th St,Fort Lauderdale,FL,33316,445110,Supermarkets and Other Grocery (except Convenience) Stores,68.0,84056.0
+2021,1717549,Prime Now LLC,Prime Now LLC - WFM-JAX,10601 San Jose Blvd,Jacksonville,FL,32257,445110,Supermarkets and Other Grocery (except Convenience) Stores,66.0,52248.0
+2021,1717578,Prime Now LLC,Prime Now LLC - WFM-DLD,7930 SW 104 ST,Kendall,FL,33156,445110,Supermarkets and Other Grocery (except Convenience) Stores,81.0,97521.0
+2021,1717575,Prime Now LLC,Prime Now LLC - WFM-MIA,299 SE 3rd St,MIAMI,FL,33131,445110,Supermarkets and Other Grocery (except Convenience) Stores,183.0,134688.0
+2021,1717583,Prime Now LLC,Prime Now LLC - WFM-SSC,12150 BISCAYNE BLD,North Miami,FL,33181,445110,Supermarkets and Other Grocery (except Convenience) Stores,106.0,115582.0
+2021,1717562,Prime Now LLC,Prime Now LLC - WFM-BHL,8003 Turkey Lake Rd,Orlando,FL,32819,445110,Supermarkets and Other Grocery (except Convenience) Stores,83.0,120020.0
+2021,1717568,Prime Now LLC,Prime Now LLC - WFM-PEM,14956 PINES BLVD,Pembroke Pines,FL,33027,445110,Supermarkets and Other Grocery (except Convenience) Stores,49.0,76339.0
+2021,1717602,Prime Now LLC,Prime Now LLC - WFM-WTP,N Dale Mabry and Cypress,Tampa,FL,33607,445110,Supermarkets and Other Grocery (except Convenience) Stores,22.0,10187.0
+2021,1717591,Prime Now LLC,Prime Now LLC - WFM-WPB,1845 Palm Beach Lakes Blvd,West Palm Beach,FL,33401,445110,Supermarkets and Other Grocery (except Convenience) Stores,161.0,146101.0
+2021,1717556,Prime Now LLC,Prime Now LLC - WFM-WPN,1030 Orlando Ave,Winter Park,FL,32789,445110,Supermarkets and Other Grocery (except Convenience) Stores,56.0,49476.0
+2021,1717522,Prime Now LLC,Prime Now LLC - WFM-SDY,5930 Roswell Rd,Atlanta,GA,30328,445110,Supermarkets and Other Grocery (except Convenience) Stores,87.0,75766.0
+2021,1717519,Prime Now LLC,Prime Now LLC - WFM-PNC,650 Ponce De Leon Ave NE,Atlanta,GA,30308,445110,Supermarkets and Other Grocery (except Convenience) Stores,169.0,112571.0
+2021,1717518,Amazon.com Services LLC,Amazon.com Services LLC - GAT1,86 5th Street NW,Atlanta,GA,30308,455219,All Other General Merchandise Retailers,24.0,8563.0
+2021,1717507,Prime Now LLC,Prime Now LLC - WFM-DUL,5945 State Bridge Rd,Duluth,GA,30097,445110,Supermarkets and Other Grocery (except Convenience) Stores,90.0,53903.0
+2021,1717511,Prime Now LLC,Prime Now LLC - WFM-KNS,1300 Ernest W Barrett Pkwy NW,Kennesaw,GA,30144,445110,Supermarkets and Other Grocery (except Convenience) Stores,69.0,55310.0
+2021,1696856,Amazon Retail LLC,Amazon. Retail LLC - MAG3,404 Army Trail Road,Bloomingdale,IL,60108,445110,Supermarkets and Other Grocery (except Convenience) Stores,134.0,267133.0
+2021,1696904,Prime Now LLC,Prime Now LLC - WFM-WLP,1 N Halsted St,Chicago,IL,60661,445110,Supermarkets and Other Grocery (except Convenience) Stores,90.0,67491.0
+2021,1696890,Prime Now LLC,Prime Now LLC - WFM-SLP,1101 S Canal St,Chicago,IL,60607,445110,Supermarkets and Other Grocery (except Convenience) Stores,59.0,46904.0
+2021,1696899,Prime Now LLC,Prime Now LLC - WFM-KBS,1550 N Kingsbury Street,Chicago,IL,60642,445110,Supermarkets and Other Grocery (except Convenience) Stores,300.0,176677.0
+2021,1696901,Prime Now LLC,Prime Now LLC - WFM-LVW,3201 N Ashland Ave,Chicago,IL,60657,445110,Supermarkets and Other Grocery (except Convenience) Stores,149.0,125618.0
+2021,1696894,Prime Now LLC,Prime Now LLC - WFM-HDP,5118 S Lake Park Ave,Chicago,IL,60615,445110,Supermarkets and Other Grocery (except Convenience) Stores,50.0,48936.0
+2021,1696902,Prime Now LLC,Prime Now LLC - WFM-EWR,6009 N Broadway St,Chicago,IL,60660,445110,Supermarkets and Other Grocery (except Convenience) Stores,160.0,88668.0
+2021,1696900,Prime Now LLC,Prime Now LLC - WFM-CIC,6020 N Cicero Ave,Chicago,IL,60646,445110,Supermarkets and Other Grocery (except Convenience) Stores,92.0,62780.0
+2021,1696847,Prime Now LLC,Prime Now LLC - WFM-DRF,760 Waukegan Rd,Deerfield,IL,60015,445110,Supermarkets and Other Grocery (except Convenience) Stores,96.0,67023.0
+2021,1696858,Prime Now LLC,Prime Now LLC - WFM-ELM,215 S Il Rte 83,Elmhurst,IL,60126,445110,Supermarkets and Other Grocery (except Convenience) Stores,54.0,43949.0
+2021,1696866,Prime Now LLC,Prime Now LLC - WFM-GBR,2748 Green Bay Road,Evanston,IL,60201,445110,Supermarkets and Other Grocery (except Convenience) Stores,129.0,74369.0
+2021,1696849,Amazon Retail LLC,Amazon. Retail LLC - MAE3,6939 W Dempster St,Morton Grove,IL,60053,445110,Supermarkets and Other Grocery (except Convenience) Stores,53.0,105952.0
+2021,1696889,Amazon Retail LLC,Amazon. Retail LLC - MAC1,3116 IL 59 Hwy Suite 104,Naperville,IL,60564,445110,Supermarkets and Other Grocery (except Convenience) Stores,194.0,388135.0
+2021,1696878,Amazon Retail LLC,Amazon. Retail LLC - MAE4,4031 W 95th Street,Oak Lawn,IL,60453,445110,Supermarkets and Other Grocery (except Convenience) Stores,229.0,457298.0
+2021,1696880,Prime Now LLC,Prime Now LLC - WFM-OLP,15260 South La Grange Rd,Orland Park,IL,60462,445110,Supermarkets and Other Grocery (except Convenience) Stores,48.0,40400.0
+2021,1696861,Prime Now LLC,Prime Now LLC - WFM-SCH,750 N Martingale Road,Schaumburg,IL,60173,445110,Supermarkets and Other Grocery (except Convenience) Stores,122.0,63175.0
+2021,1696860,Amazon Retail LLC,Amazon. Retail LLC - MAC7,16 E Golf Rd,Shaumburg,IL,60173,445110,Supermarkets and Other Grocery (except Convenience) Stores,218.0,435027.0
+2021,1696887,Amazon Retail LLC,Amazon. Retail LLC - MAG4,30 W 63rd St,Westmont,IL,60559,445110,Supermarkets and Other Grocery (except Convenience) Stores,31.0,62994.0
+2021,1696864,Prime Now LLC,Prime Now LLC - WFM-WHN,89 Danada Square East,Wheaton,IL,60189,445110,Supermarkets and Other Grocery (except Convenience) Stores,186.0,112701.0
+2021,1696767,Prime Now LLC,Prime Now LLC - WFM-MKS,320 E Market Street,Indianapolis,IN,46227,445110,Supermarkets and Other Grocery (except Convenience) Stores,60.0,39525.0
+2021,1696775,Prime Now LLC,Prime Now LLC - WFM-SRV,199 US Highway 41,Schererville,IN,46375,445110,Supermarkets and Other Grocery (except Convenience) Stores,52.0,39890.0
+2021,1696783,Amazon.com Services LLC,Amazon.com Services LLC - PUR1,1198 Third Street,West Lafayette,IN,47907,455219,All Other General Merchandise Retailers,21.0,3140.0
+2021,1703216,Prime Now LLC,Prime Now LLC - WFM-BED,170 Great Rd,Bedford,MA,1730,445110,Supermarkets and Other Grocery (except Convenience) Stores,117.0,76475.0
+2021,1703224,Prime Now LLC,Prime Now LLC - WFM-BVL,133 Brimbal Ave,Beverly,MA,1915,445110,Supermarkets and Other Grocery (except Convenience) Stores,180.0,110044.0
+2021,1703235,Prime Now LLC,Prime Now LLC - WFM-INK,348 Harrison Ave,Boston,MA,2118,445110,Supermarkets and Other Grocery (except Convenience) Stores,356.0,237738.0
+2021,1703236,Prime Now LLC,Prime Now LLC - WFM-FPD,200 Alewife Brook Pkwy,Cambridge,MA,2138,445110,Supermarkets and Other Grocery (except Convenience) Stores,206.0,112299.0
+2021,1703230,Prime Now LLC,Prime Now LLC - WFM-DHM,300 Legacy Place,Dedham,MA,2026,445110,Supermarkets and Other Grocery (except Convenience) Stores,213.0,146808.0
+2021,1703215,Prime Now LLC,Prime Now LLC - WFM-FRA,575 Worcester Rd,Framingham,MA,1701,445110,Supermarkets and Other Grocery (except Convenience) Stores,150.0,79227.0
+2021,1703225,Prime Now LLC,Prime Now LLC - WFM-LNF,100 MARKET STREET,Lynnfield,MA,1940,445110,Supermarkets and Other Grocery (except Convenience) Stores,220.0,121887.0
+2021,1703240,Prime Now LLC,Prime Now LLC - WFM-MDF,2151 Mystic Valley Pkwy,Medford,MA,2155,445110,Supermarkets and Other Grocery (except Convenience) Stores,171.0,110442.0
+2021,1703245,Prime Now LLC,Prime Now LLC - WFM-NTV,647 Washington Street,Newtonville,MA,2458,445110,Supermarkets and Other Grocery (except Convenience) Stores,209.0,122814.0
+2021,1694879,Amazon.com Services LLC,Amazon Robotics BOS12,300 Riverpark Drive,North Reading,MA,13864,333922,"Buckets, elevator or conveyor, manufacturing",763.0,1698460.0
+2021,1703213,Prime Now LLC,Prime Now LLC - WFM-SHB,193 Boston Tpke,Shrewsbury,MA,1545,445110,Supermarkets and Other Grocery (except Convenience) Stores,143.0,88517.0
+2021,1703241,Prime Now LLC,Prime Now LLC - WFM-SWY,35 Pleasant St,South Weymouth,MA,2190,445110,Supermarkets and Other Grocery (except Convenience) Stores,218.0,134026.0
+2021,1703220,Prime Now LLC,Prime Now LLC - WFM-SBY,536 Boston Post Rd,Sudbury,MA,1776,445110,Supermarkets and Other Grocery (except Convenience) Stores,139.0,82589.0
+2021,1702940,Amazon.com Services LLC,Amazon Robotics - BOS27,50 Otis Street,Westborough,MA,1581,333922,Belt conveyor systems manufacturing,360.0,754795.0
+2021,1703015,Amazon.com Services LLC,Amazon Robotics - BOS13,8 Technology Drive,Westborough,MA,1581,333922,"Buckets, elevator or conveyor, manufacturing",98.0,15448.0
+2021,1703222,Prime Now LLC,Prime Now LLC - WFM-WSF,160 Littleton Rd,Westford,MA,1886,445110,Supermarkets and Other Grocery (except Convenience) Stores,128.0,70131.0
+2021,1717431,Prime Now LLC,Prime Now LLC - WFM-ASI,200 Harker Pl Ste 100,Annapolis,MD,21401,445110,Supermarkets and Other Grocery (except Convenience) Stores,196.0,126387.0
+2021,1717418,Prime Now LLC,Prime Now LLC - WFM-IHB,711 South Central Avenue,Baltimore,MD,21202,445110,Supermarkets and Other Grocery (except Convenience) Stores,188.0,120761.0
+2021,1717404,Prime Now LLC,Prime Now LLC - WFM-CCH,4420 Willard Ave,Chevy Chase,MD,20815,445110,Supermarkets and Other Grocery (except Convenience) Stores,248.0,155108.0
+2021,1717403,Amazon Retail LLC,Amazon. Retail LLC - MAF1,5463 Wisconsin Ave,Chevy Chase,MD,20815,445110,Supermarkets and Other Grocery (except Convenience) Stores,76.0,151845.0
+2021,1717399,Amazon.com Services LLC,Amazon.com Services LLC - MAR1,4200 Guilford Drive,College Park,MD,20740,455219,All Other General Merchandise Retailers,23.0,7951.0
+2021,1717412,Prime Now LLC,Prime Now LLC - WFM-KMQ,10275 Little Patuxent Parkway,Columbia,MD,21044,445110,Supermarkets and Other Grocery (except Convenience) Stores,167.0,109780.0
+2021,1717407,Prime Now LLC,Prime Now LLC - WFM-KTL,316 Kentlands Blvd,Gaithersburg,MD,20878,445110,Supermarkets and Other Grocery (except Convenience) Stores,125.0,83196.0
+2021,1717401,Prime Now LLC,Prime Now LLC - WFM-UMD,6621 Baltimore Ave,Hyattsville,MD,20782,445110,Supermarkets and Other Grocery (except Convenience) Stores,104.0,98078.0
+2021,1717406,Prime Now LLC,Prime Now LLC - WFM-RWF,11355 Woodglen Dr,Rockville,MD,20852,445110,Supermarkets and Other Grocery (except Convenience) Stores,138.0,102188.0
+2021,1717408,Prime Now LLC,Prime Now LLC - WFM-SSP,833 Wayne Ave,Silver Spring,MD,20910,445110,Supermarkets and Other Grocery (except Convenience) Stores,182.0,111986.0
+2021,1696784,Prime Now LLC,Prime Now LLC - WFM-BIR,2100 E Maple Rd,Birmingham,MI,48009,445110,Supermarkets and Other Grocery (except Convenience) Stores,139.0,91810.0
+2021,1696796,Prime Now LLC,Prime Now LLC - WFM-RCH,2918 Walton Blvd,Rochester Hills,MI,48309,445110,Supermarkets and Other Grocery (except Convenience) Stores,101.0,74411.0
+2021,1696799,Prime Now LLC,Prime Now LLC - WFM-WBF,7350 Orchard Lake Rd,West Bloomfield,MI,48322,445110,Supermarkets and Other Grocery (except Convenience) Stores,130.0,76700.0
+2021,1696840,Prime Now LLC,Prime Now LLC - WFM-EDI,7401 France Ave South,Edina,MN,55435,445110,Supermarkets and Other Grocery (except Convenience) Stores,40.0,27797.0
+2021,1696837,Prime Now LLC,Prime Now LLC - WFM-MIN,222 Hennepin Ave,Minneapolis,MN,55401,445110,Supermarkets and Other Grocery (except Convenience) Stores,51.0,61404.0
+2021,1696839,Prime Now LLC,Prime Now LLC - WFM-CHN,3060 Excelsior Blvd,Minneapolis,MN,55416,445110,Supermarkets and Other Grocery (except Convenience) Stores,72.0,50965.0
+2021,1696831,Prime Now LLC,Prime Now LLC - WFM-SPL,1575 Selby Ave,St Paul,MN,55104,445110,Supermarkets and Other Grocery (except Convenience) Stores,96.0,58768.0
+2021,1717470,Prime Now LLC,Prime Now LLC - WFM-CAR,102B New Waverly Pl,Cary,NC,27518,445110,Supermarkets and Other Grocery (except Convenience) Stores,81.0,50567.0
+2021,1717484,Prime Now LLC,Prime Now LLC - WFM-UPC,300 E Stonewall St,Charlotte,NC,28202,445110,Supermarkets and Other Grocery (except Convenience) Stores,178.0,111633.0
+2021,1717474,Prime Now LLC,Prime Now LLC - WFM-RAL,3540 Wade Avenue,Raleigh,NC,27607,445110,Supermarkets and Other Grocery (except Convenience) Stores,61.0,48389.0
+2021,1717476,Prime Now LLC,Prime Now LLC - WFM-NRL,8710 Six Forks Rd,Raleigh,NC,27615,445110,Supermarkets and Other Grocery (except Convenience) Stores,77.0,50924.0
+2021,1703275,Amazon.com Services LLC,Amazon.com Services LLC - EWR6,275 Omar Ave,Avenel,NJ,7001,445110,Supermarkets and Other Grocery (except Convenience) Stores,895.0,1789480.0
+2021,1703332,Prime Now LLC,Prime Now LLC - WFM-BRW,319 Chimney Rock Rd,Bound Brook,NJ,8807,445110,Supermarkets and Other Grocery (except Convenience) Stores,148.0,100399.0
+2021,1703313,Prime Now LLC,Prime Now LLC - WFM-CNJ,1558 Kings Highway North,Cherry Hill,NJ,8034,445110,Supermarkets and Other Grocery (except Convenience) Stores,141.0,96249.0
+2021,1703300,Prime Now LLC,Prime Now LLC - WFM-CLO,45 Vervalen St,Closter,NJ,7624,445110,Supermarkets and Other Grocery (except Convenience) Stores,139.0,95770.0
+2021,1703282,Prime Now LLC,Prime Now LLC - WFM-EGW,905 River Road,Edgewater,NJ,7020,445110,Supermarkets and Other Grocery (except Convenience) Stores,215.0,112203.0
+2021,1703305,Prime Now LLC,Prime Now LLC - WFM-MAR,113 US 9,Englishtown,NJ,7726,445110,Supermarkets and Other Grocery (except Convenience) Stores,252.0,142337.0
+2021,1703308,Prime Now LLC,Prime Now LLC - WFM-RCM,222 Main St Madison,Madison,NJ,7940,445110,Supermarkets and Other Grocery (except Convenience) Stores,137.0,102209.0
+2021,1703314,Prime Now LLC,Prime Now LLC - WFM-MRL,940 Route 73 N,Marlton,NJ,8053,445110,Supermarkets and Other Grocery (except Convenience) Stores,130.0,88103.0
+2021,1703294,Prime Now LLC,Prime Now LLC - WFM-NWK,633 Broad St,Newark,NJ,7102,445110,Supermarkets and Other Grocery (except Convenience) Stores,123.0,115841.0
+2021,1703302,Prime Now LLC,Prime Now LLC - WFM-PAR,300 Bergen Town Center,Paramus,NJ,7652,445110,Supermarkets and Other Grocery (except Convenience) Stores,248.0,191010.0
+2021,1703327,Prime Now LLC,Prime Now LLC - WFM-PRN,3495 US Highway 1,Princeton,NJ,8540,445110,Supermarkets and Other Grocery (except Convenience) Stores,246.0,144315.0
+2021,1703293,Prime Now LLC,Prime Now LLC - WFM-MBN,2245 Springfield Ave,Vauxhall,NJ,7088,445110,Supermarkets and Other Grocery (except Convenience) Stores,186.0,127355.0
+2021,1703304,Prime Now LLC,Prime Now LLC - WFM-SLW,1933 Rte 35,Wall Township,NJ,7719,445110,Supermarkets and Other Grocery (except Convenience) Stores,82.0,70484.0
+2021,1703292,Prime Now LLC,Prime Now LLC - WFM-WEE,1400 Waterfront Terrace,Weehawken,NJ,7086,445110,Supermarkets and Other Grocery (except Convenience) Stores,64.0,75496.0
+2021,1703288,Prime Now LLC,Prime Now LLC - WFM-WOP,235 Prospect Ave,West Orange,NJ,7052,445110,Supermarkets and Other Grocery (except Convenience) Stores,157.0,116409.0
+2021,1698269,Prime Now LLC,Prime Now LLC - WFM-LVB,6689 S Las Vegas Blvd,Las Vegas,NV,89119,445110,Supermarkets and Other Grocery (except Convenience) Stores,96.0,71199.0
+2021,1698265,Prime Now LLC,Prime Now LLC - WFM-FTA,8855 W Charleston Blvd,Las Vegas,NV,89117,445110,Supermarkets and Other Grocery (except Convenience) Stores,71.0,52685.0
+2021,1702794,Prime Now LLC,Prime Now LLC - WFM-BKN,214 3rd Street,Brooklyn,NY,11249,445110,Supermarkets and Other Grocery (except Convenience) Stores,273.0,182493.0
+2021,1702795,Prime Now LLC,Prime Now LLC - WFM-WBG,238 Bedford Ave,Brooklyn,NY,11249,445110,Supermarkets and Other Grocery (except Convenience) Stores,216.0,126408.0
+2021,1702790,Prime Now LLC,Prime Now LLC - WFM-FTG,292 Ashland Pl,Brooklyn,NY,11217,445110,Supermarkets and Other Grocery (except Convenience) Stores,255.0,200088.0
+2021,1702783,Prime Now LLC,Prime Now LLC - WFM-CHQ,480 N Bedford Road,Chappaqua,NY,10514,445110,Supermarkets and Other Grocery (except Convenience) Stores,124.0,83981.0
+2021,1702802,Prime Now LLC,Prime Now LLC - WFM-CMK,120 Veterans Memorial Hwy,Commack,NY,11725,445110,Supermarkets and Other Grocery (except Convenience) Stores,237.0,163405.0
+2021,1702799,Prime Now LLC,Prime Now LLC - WFM-WBU,738 North Ave,Garden City,NY,11530,445110,Supermarkets and Other Grocery (except Convenience) Stores,228.0,187576.0
+2021,1702803,Prime Now LLC,Prime Now LLC - WFM-JER,429 N Broadway,Jericho,NY,11753,445110,Supermarkets and Other Grocery (except Convenience) Stores,225.0,128545.0
+2021,1702804,Prime Now LLC,Prime Now LLC - WFM-LGV,120 NEW MORICHES ROAD,Lake Grove,NY,11755,445110,Supermarkets and Other Grocery (except Convenience) Stores,242.0,172934.0
+2021,1702772,Prime Now LLC,Prime Now LLC - WFM-CIR,10 Columbus Cir,New York,NY,10019,445110,Supermarkets and Other Grocery (except Convenience) Stores,263.0,202496.0
+2021,1702775,Prime Now LLC,Prime Now LLC - WFM-HRM,100 W 125th St,New York,NY,10027,445110,Supermarkets and Other Grocery (except Convenience) Stores,105.0,73817.0
+2021,1702773,Prime Now LLC,Prime Now LLC - WFM-MTE,226 E 57th St,New York,NY,10022,445110,Supermarkets and Other Grocery (except Convenience) Stores,210.0,142740.0
+2021,1702768,Prime Now LLC,Prime Now LLC - WFM-CHE,250 7th Ave New York,New York,NY,10001,445110,Supermarkets and Other Grocery (except Convenience) Stores,198.0,163551.0
+2021,1702771,Prime Now LLC,Prime Now LLC - WFM-TRB,270 Greenwhich St,New York,NY,10007,445110,Supermarkets and Other Grocery (except Convenience) Stores,213.0,130096.0
+2021,1702770,Prime Now LLC,Prime Now LLC - WFM-USQ,4 Union Sq S,New York,NY,10003,445110,Supermarkets and Other Grocery (except Convenience) Stores,148.0,97913.0
+2021,1702774,Prime Now LLC,Prime Now LLC - WFM-UWS,808 Columbus Avenue,New York,NY,10025,445110,Supermarkets and Other Grocery (except Convenience) Stores,234.0,174635.0
+2021,1702769,Prime Now LLC,Prime Now LLC - WFM-HOU,95 E Houston St,New York,NY,10002,445110,Supermarkets and Other Grocery (except Convenience) Stores,282.0,222526.0
+2021,1702785,Prime Now LLC,Prime Now LLC - WFM-POC,575 Boston Post Road,Port Chester,NY,10573,445110,Supermarkets and Other Grocery (except Convenience) Stores,108.0,97145.0
+2021,1696753,Prime Now LLC,Prime Now LLC - WFM-CIN,2693 Edmondson Road,Cincinnati,OH,45209,445110,Supermarkets and Other Grocery (except Convenience) Stores,102.0,57590.0
+2021,1696725,Prime Now LLC,Prime Now LLC - WFM-EST,4100 Easton Gateway Dr,Columbus,OH,43219,445110,Supermarkets and Other Grocery (except Convenience) Stores,140.0,77254.0
+2021,1696747,Prime Now LLC,Prime Now LLC - WFM-MSO,5805 Deerfield Blvd,Mason,OH,45040,445110,Supermarkets and Other Grocery (except Convenience) Stores,42.0,29798.0
+2021,1696734,Prime Now LLC,Prime Now LLC - WFM-RRO,19607 Detroit Rd,Rocky River,OH,44116,445110,Supermarkets and Other Grocery (except Convenience) Stores,98.0,66631.0
+2021,1696735,Prime Now LLC,Prime Now LLC - WFM-CTR,13998 Cedar Rd,University Heig,OH,44118,445110,Supermarkets and Other Grocery (except Convenience) Stores,109.0,71636.0
+2021,1696726,Prime Now LLC,Prime Now LLC - WFM-EYE,W Lane Ave,Upper Arlington,OH,43221,445110,Supermarkets and Other Grocery (except Convenience) Stores,123.0,67780.0
+2021,1697152,Prime Now LLC,Prime Now LLC - WFM-TAN,19440 NW Cornell Rd,Hillsboro,OR,97124,445110,Supermarkets and Other Grocery (except Convenience) Stores,73.0,53263.0
+2021,1697153,Amazon.com Services LLC,Amazon.com Services LLC - POR1,1131 SW Jefferson Street,Portland,OR,97201,455219,All Other General Merchandise Retailers,20.0,9122.0
+2021,1697160,Prime Now LLC,Prime Now LLC - WFM-HWD,4301 NE Sandy Blvd,Portland,OR,97213,445110,Supermarkets and Other Grocery (except Convenience) Stores,146.0,92671.0
+2021,1697163,Prime Now LLC,Prime Now LLC - WFM-BRD,7380 SW Bridgeport Rd,Tigard,OR,97224,445110,Supermarkets and Other Grocery (except Convenience) Stores,73.0,55463.0
+2021,1702862,Prime Now LLC,Prime Now LLC - WFM-CCV,475 Wilmington West Chest Pik,Concordville,PA,19342,445110,Supermarkets and Other Grocery (except Convenience) Stores,133.0,76450.0
+2021,1702861,Prime Now LLC,Prime Now LLC - WFM-EXT,175 N Pottstown Pike,Exton,PA,19341,445110,Supermarkets and Other Grocery (except Convenience) Stores,117.0,75973.0
+2021,1702850,Prime Now LLC,Prime Now LLC - WFM-NWT,3737 West Chester Pike,Newtown Square,PA,19073,445110,Supermarkets and Other Grocery (except Convenience) Stores,109.0,78152.0
+2021,1702855,Prime Now LLC,Prime Now LLC - WFM-PCC,2101 Pennsylvania Ave,Philadelphia,PA,19130,445110,Supermarkets and Other Grocery (except Convenience) Stores,254.0,165423.0
+2021,1702857,Prime Now LLC,Prime Now LLC - WFM-SOS,929 South St,Philadelphia,PA,19147,445110,Supermarkets and Other Grocery (except Convenience) Stores,90.0,82979.0
+2021,1702852,Amazon.com Services LLC,Amazon.com Services LLC - PEN1,"Class of 1920 Commons, 3800 L",Philadelphia,PA,19104,455219,All Other General Merchandise Retailers,28.0,9338.0
+2021,1702867,Prime Now LLC,Prime Now LLC - WFM-PLM,500 W Germantown Pike,Plymout Meeting,PA,19462,445110,Supermarkets and Other Grocery (except Convenience) Stores,105.0,69396.0
+2021,1702845,Prime Now LLC,Prime Now LLC - WFM-JEN,1575 THE FAIRWAY,Rydal,PA,19001,445110,Supermarkets and Other Grocery (except Convenience) Stores,141.0,79033.0
+2021,1702826,Prime Now LLC,Prime Now LLC - WFM-SHL,111 Siena Dr,Upper St Clair,PA,15241,445110,Supermarkets and Other Grocery (except Convenience) Stores,134.0,79670.0
+2021,1702844,Amazon Retail LLC,Amazon. Retail LLC - MAF7,425 Easton Road,Warrington,PA,18976,445110,Supermarkets and Other Grocery (except Convenience) Stores,78.0,155923.0
+2021,1702842,Amazon.com Services LLC,Amazon.com Services LLC - VUQG,2086 Corporate Center Drive,West Tobyhanna,PA,18466,493110,General Warehousing and Storage,21.0,36734.0
+2021,1702819,Prime Now LLC,Prime Now LLC - WFM-WEX,10576 Perry Hwy,Wexford,PA,15090,445110,Supermarkets and Other Grocery (except Convenience) Stores,247.0,136373.0
+2021,1702851,Prime Now LLC,Prime Now LLC - WFM-WYW,15 E Wynnewood Road,Wynnewood,PA,19096,445110,Supermarkets and Other Grocery (except Convenience) Stores,193.0,116904.0
+2021,1703253,Prime Now LLC,Prime Now LLC - WFM-CRN,100 Midway Rd,Cranston,RI,2920,445110,Supermarkets and Other Grocery (except Convenience) Stores,180.0,121145.0
+2021,1703251,Prime Now LLC,Prime Now LLC - WFM-PRO,261 Waterman Street,Providence,RI,2906,445110,Supermarkets and Other Grocery (except Convenience) Stores,92.0,65352.0
+2021,1703250,Prime Now LLC,Prime Now LLC - WFM-UNI,601 N Main St,Providence,RI,2904,445110,Supermarkets and Other Grocery (except Convenience) Stores,183.0,110946.0
+2021,1717498,Prime Now LLC,Prime Now LLC - WFM-CHL,923 Houston Northcutt Blvd,Mount Plesant,SC,29464,445110,Supermarkets and Other Grocery (except Convenience) Stores,103.0,68015.0
+2021,1717494,Amazon.com Services LLC,Amazon.com Services LLC - CAE3,222 Old Wire Road,West Columbia,SC,29172,323117,Books Printing,216.0,432023.0
+2021,1696680,Prime Now LLC,Prime Now LLC - WFM-GHL,4021 Hillsboro Pike,Nashville,TN,37215,445110,Supermarkets and Other Grocery (except Convenience) Stores,188.0,112068.0
+2021,1697053,Prime Now LLC,Prime Now LLC - WFM-DOM,11920 Domain Drive,Austin,TX,78759,445110,Supermarkets and Other Grocery (except Convenience) Stores,167.0,128390.0
+2021,1697046,Amazon.com Services LLC,Amazon.com Services LLC - TEX1,2101 Speedway,Austin,TX,78712,455219,All Other General Merchandise Retailers,20.0,4772.0
+2021,1697052,Prime Now LLC,Prime Now LLC - WFM-ABT,4301 W William Cannon Dr,Austin,TX,78749,445110,Supermarkets and Other Grocery (except Convenience) Stores,89.0,63406.0
+2021,1697045,Prime Now LLC,Prime Now LLC - WFM-LMR,525 N Lamar Blvd,Austin,TX,78703,445110,Supermarkets and Other Grocery (except Convenience) Stores,160.0,81662.0
+2021,1696979,Amazon.com Services LLC,Amazon.com Services LLC - LDS1,11700 Preston Rd Ste 714,Dallas,TX,75230,455219,All Other General Merchandise Retailers,20.0,130.0
+2021,1696980,Prime Now LLC,Prime Now LLC - WFM-PKL,8190 Park Lane,Dallas,TX,75231,445110,Supermarkets and Other Grocery (except Convenience) Stores,258.0,134491.0
+2021,1696970,Prime Now LLC,Prime Now LLC - WFM-FVW,105 Stacy Rd,Fairview,TX,75069,445110,Supermarkets and Other Grocery (except Convenience) Stores,168.0,121204.0
+2021,1696997,Amazon.com Services LLC,Amazon.com Services LLC - KAFW,301 Intermodal Parkway,Haslet,TX,76177,492110,Couriers and Express Delivery Services,1623.0,3246353.0
+2021,1697000,Prime Now LLC,Prime Now LLC - WFM-MTS,701 Waugh Drive,Houston,TX,77019,445110,Supermarkets and Other Grocery (except Convenience) Stores,41.0,39225.0
+2021,1696964,Prime Now LLC,Prime Now LLC - WFM-LCL,6741 N MacArthur Blvd,Irving,TX,75039,445110,Supermarkets and Other Grocery (except Convenience) Stores,69.0,59833.0
+2021,1734885,Amazon Web Services,SAT11,"1803 Grandstand Drive, Suite",San Antonio,TX,78238,518210,Data processing computer services,150.0,312000.0
+2021,1697028,Prime Now LLC,Prime Now LLC - WFM-QRY,255 E Basse Rd Suite 130,San Antonio,TX,78209,445110,Supermarkets and Other Grocery (except Convenience) Stores,93.0,52896.0
+2021,1697020,Prime Now LLC,Prime Now LLC - WFM-SGL,15900 Southwest Freeway,Sugar Land,TX,77478,445110,Supermarkets and Other Grocery (except Convenience) Stores,78.0,45853.0
+2021,1717442,Prime Now LLC,Prime Now LLC - WFM-ARL,2700 Wilson Blvd,Arlington,VA,22201,445110,Supermarkets and Other Grocery (except Convenience) Stores,156.0,107604.0
+2021,1717443,Prime Now LLC,Prime Now LLC - WFM-CYC,520 12th St S #100,Arlington,VA,22202,445110,Supermarkets and Other Grocery (except Convenience) Stores,156.0,106593.0
+2021,1702882,Prime Now LLC,Prime Now LLC - WFM-BMT,19800 Belmont Chase Dr STE 16,Ashburn,VA,20147,445110,Supermarkets and Other Grocery (except Convenience) Stores,109.0,76394.0
+2021,1717436,Prime Now LLC,Prime Now LLC - WFM-FRL,4501 Market Commons Dr,Fairfax,VA,22033,445110,Supermarkets and Other Grocery (except Convenience) Stores,112.0,78829.0
+2021,1717444,Amazon Retail LLC,Amazon. Retail LLC - MAG6,7005 Manchester Blvd,Franconia,VA,22310,445110,Supermarkets and Other Grocery (except Convenience) Stores,117.0,234563.0
+2021,1717449,Prime Now LLC,Prime Now LLC - WFM-SPP,11173 West Broad St,Glen Allen,VA,23060,445110,Supermarkets and Other Grocery (except Convenience) Stores,140.0,97226.0
+2021,1717441,Prime Now LLC,Prime Now LLC - WFM-SPR,8402 Old Keene Mill Rd,Springfield,VA,22152,445110,Supermarkets and Other Grocery (except Convenience) Stores,82.0,82702.0
+2021,1717459,Prime Now LLC,Prime Now LLC - WFM-VAB,1800 Laskin Road,Virginia Beach,VA,23454,445110,Supermarkets and Other Grocery (except Convenience) Stores,107.0,73449.0
+2021,1697167,Amazon Retail LLC,Amazon. Retail LLC - MAB2,3903 Factoria Square Mall SE,Bellevue,WA,98006,445110,Supermarkets and Other Grocery (except Convenience) Stores,111.0,222319.0
+2021,1697166,Prime Now LLC,Prime Now LLC - WFM-BLV,888 116th Ave NE,Bellevue,WA,98004,445110,Supermarkets and Other Grocery (except Convenience) Stores,134.0,95690.0
+2021,1697176,Prime Now LLC,Prime Now LLC - WFM-LNW,2800 196th St SW,Lynnwood,WA,98036,445110,Supermarkets and Other Grocery (except Convenience) Stores,111.0,75170.0
+2021,1697178,Prime Now LLC,Prime Now LLC - WFM-RMD,17991 Redmond Way,Redmond,WA,98052,445110,Supermarkets and Other Grocery (except Convenience) Stores,124.0,99481.0
+2021,1697187,Prime Now LLC,Prime Now LLC - WFM-MBD,1001 Broadway,Seattle,WA,98122,445110,Supermarkets and Other Grocery (except Convenience) Stores,138.0,90894.0
+2021,1697183,Prime Now LLC,Prime Now LLC - WFM-RSQ,1026 NE 64th St,Seattle,WA,98115,445110,Supermarkets and Other Grocery (except Convenience) Stores,90.0,77341.0
+2021,1697184,Prime Now LLC,Prime Now LLC - WFM-INT,2001 15th Ave W,Seattle,WA,98119,445110,Supermarkets and Other Grocery (except Convenience) Stores,139.0,113108.0
+2021,1697190,Amazon Retail LLC,Amazon. Retail LLC - MAB6,2301 S Jackson St,Seattle,WA,98144,445110,Supermarkets and Other Grocery (except Convenience) Stores,92.0,184591.0
+2021,1697186,Amazon Retail LLC,Amazon Retail LLC - IBF1,610 E Pike St,Seattle,WA,98122,445110,Supermarkets and Other Grocery (except Convenience) Stores,46.0,92194.0
+2021,1697207,Prime Now LLC,Prime Now LLC - WFM-CHB,3515 Bridgeport Way W,University Plac,WA,98466,445110,Supermarkets and Other Grocery (except Convenience) Stores,90.0,58041.0
+2021,1696822,Prime Now LLC,Prime Now LLC - WFM-WAW,11100 W Burleigh St,Wauwatosa,WI,53222,445110,Supermarkets and Other Grocery (except Convenience) Stores,111.0,74846.0
+2022,2039405,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CHR,2955 W Ray Rd,Chandler,AZ,85224,445110,Supermarkets and Other Grocery (except Convenience) Stores,51.0,23295.0
+2022,2039411,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CMA,4701 N 20th St,Phoenix,AZ,85016,445110,Supermarkets and Other Grocery (except Convenience) Stores,40.0,18096.0
+2022,2039530,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SCT,7111 E Mayo Blvd,Phoenix,AZ,85054,445110,Supermarkets and Other Grocery (except Convenience) Stores,66.0,29978.0
+2022,2039501,Amazon.com Services LLC,Amazon.com Services LLC - WFM-ORL,7133 N Oracle Rd,Tucson,AZ,85704,445110,Supermarkets and Other Grocery (except Convenience) Stores,30.0,15938.0
+2022,2039445,Amazon.com Services LLC,Amazon.com Services LLC - WFM-GIL,1025 Gilman St,Berkeley,CA,94710,445110,Supermarkets and Other Grocery (except Convenience) Stores,116.0,62964.0
+2022,2039395,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BVH,239 N Crescent Dr,Beverly Hills,CA,90210,445110,Supermarkets and Other Grocery (except Convenience) Stores,55.0,28619.0
+2022,2039392,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BRE,3301 E Imperial Highway,Brea,CA,92823,445110,Supermarkets and Other Grocery (except Convenience) Stores,41.0,19558.0
+2022,2039041,Amazon Retail LLC,Amazon Retail LLC - MAF9,11340 South Street,Cerritos,CA,90701,445110,Supermarkets and Other Grocery (except Convenience) Stores,223.0,223338.0
+2022,2039546,Amazon.com Services LLC,Amazon.com Services LLC - WFM-STC,20955 Stevens Creek Blvd,Cupertino,CA,95014,445110,Supermarkets and Other Grocery (except Convenience) Stores,138.0,62386.0
+2022,2039505,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PCH,760 South Sepulveda Blvd,El Segundo,CA,90245,445110,Supermarkets and Other Grocery (except Convenience) Stores,91.0,37452.0
+2022,2039038,Amazon Retail LLC,Amazon Retail LLC - MAF3,16325 Ventura Boulevard,Encino,CA,91436,445110,Supermarkets and Other Grocery (except Convenience) Stores,143.0,117174.0
+2022,2039370,Amazon.com Services LLC,Amazon.com Services LLC - VUPQ,9211 Kaiser Way,Fontana,CA,92335,493110,General Warehousing and Storage,23.0,39341.0
+2022,2039436,Amazon.com Services LLC,Amazon.com Services LLC - WFM-FRE,3111 Mowry Ave,"Fremont,",CA,94538,445110,Supermarkets and Other Grocery (except Convenience) Stores,38.0,19381.0
+2022,2039029,Amazon Retail LLC,Amazon Retail LLC - MAC2,1100 S Harbor Blvd,Fullerton,CA,2832,445110,Supermarkets and Other Grocery (except Convenience) Stores,303.0,313389.0
+2022,2039446,Amazon.com Services LLC,Amazon.com Services LLC - WFM-GLN,331 N Glendale Ave,Glendale,CA,91206,445110,Supermarkets and Other Grocery (except Convenience) Stores,118.0,61590.0
+2022,2039025,Amazon Retail LLC,Amazon Retail LLC - MAB8,6911 Warner Ave,Huntington Beach,CA,92647,445110,Supermarkets and Other Grocery (except Convenience) Stores,217.0,150458.0
+2022,2039026,Amazon Retail LLC,Amazon Retail LLC - MAB9,13752 Jamboree Rd,Irvine,CA,92602,445110,Supermarkets and Other Grocery (except Convenience) Stores,260.0,263174.0
+2022,2039457,Amazon.com Services LLC,Amazon.com Services LLC - WFM-IRV,8525 Irvine Center Dr,Irvine,CA,92618,445110,Supermarkets and Other Grocery (except Convenience) Stores,56.0,26319.0
+2022,2039031,Amazon Retail LLC,Amazon Retail LLC - MAC4,1610 W Imperial Hwy,La Habra,CA,90631,445110,Supermarkets and Other Grocery (except Convenience) Stores,210.0,220996.0
+2022,2039467,Amazon.com Services LLC,Amazon.com Services LLC - WFM-LAJ,8825 Villa La Jolla Drive,La Jolla,CA,92037,445110,Supermarkets and Other Grocery (except Convenience) Stores,45.0,21728.0
+2022,2039030,Amazon Retail LLC,Amazon Retail LLC - MAC3,2229 Foothill Blvd,La Verne,CA,91750,445110,Supermarkets and Other Grocery (except Convenience) Stores,135.0,134341.0
+2022,2039473,Amazon.com Services LLC,Amazon.com Services LLC - WFM-LGN,23932 Aliso Creek Road,Laguna Niguel,CA,92677,445110,Supermarkets and Other Grocery (except Convenience) Stores,67.0,29677.0
+2022,2039033,Amazon Retail LLC,Amazon Retail LLC - MAC9,6235 E Spring St,Long Beach,CA,90808,445110,Supermarkets and Other Grocery (except Convenience) Stores,257.0,254014.0
+2022,2039470,Amazon.com Services LLC,Amazon.com Services LLC - WFM-LBR,6400 E Pacific Coast Highway Suite A-100,Long Beach,CA,90803,445110,Supermarkets and Other Grocery (except Convenience) Stores,58.0,34361.0
+2022,2039469,Amazon.com Services LLC,Amazon.com Services LLC - WFM-LAT,4800 EL Camino Real,Los Altos,CA,94022,445110,Supermarkets and Other Grocery (except Convenience) Stores,70.0,34264.0
+2022,2039566,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WLA,11666 National Blvd,Los Angeles,CA,90064,445110,Supermarkets and Other Grocery (except Convenience) Stores,43.0,20703.0
+2022,2039433,Amazon.com Services LLC,Amazon.com Services LLC - WFM-FFX,6350 W 3rd St,Los Angeles,CA,90036,445110,Supermarkets and Other Grocery (except Convenience) Stores,85.0,42351.0
+2022,2039042,Amazon Retail LLC,Amazon Retail LLC - MAG1,6855 S La Cienega Blvd,Los Angeles,CA,90045,445110,Supermarkets and Other Grocery (except Convenience) Stores,244.0,266942.0
+2022,2039418,Amazon.com Services LLC,Amazon.com Services LLC - WFM-DLA,788 S Grand Ave,Los Angeles,CA,90017,445110,Supermarkets and Other Grocery (except Convenience) Stores,81.0,42306.0
+2022,2039027,Amazon Retail LLC,Amazon Retail LLC - MAC0,26940 Crown Valley Pkwy,Mission Viejo,CA,92691,445110,Supermarkets and Other Grocery (except Convenience) Stores,156.0,167550.0
+2022,2039058,Amazon Retail LLC,Amazon Retail LLC - MAM7,742 Los Angeles Ave,Moorpark,CA,93021,445110,Supermarkets and Other Grocery (except Convenience) Stores,180.0,195376.0
+2022,2039049,Amazon Retail LLC,Amazon Retail LLC - MAH8,40481 Murrieta Hot Springs Rd,Murrieta,CA,92563,445110,Supermarkets and Other Grocery (except Convenience) Stores,158.0,150217.0
+2022,2039021,Amazon Retail LLC,Amazon Retail LLC - MAB4,5101 Lankershim Blvd,North Hollywood,CA,91601,445110,Supermarkets and Other Grocery (except Convenience) Stores,198.0,213249.0
+2022,2039514,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PRR,11400 Porter Ranch Dr,Northridge,CA,91326,445110,Supermarkets and Other Grocery (except Convenience) Stores,93.0,49050.0
+2022,2039022,Amazon Retail LLC,Amazon Retail LLC - MAB5,19340 Rinaldi St,Northridge,CA,91326,445110,Supermarkets and Other Grocery (except Convenience) Stores,261.0,244094.0
+2022,2039447,Amazon.com Services LLC,Amazon.com Services LLC - WFM-HAR,230 Bay Place,Oakland,CA,94612,445110,Supermarkets and Other Grocery (except Convenience) Stores,76.0,36420.0
+2022,2039057,Amazon Retail LLC,Amazon Retail LLC - MAK9,3425 E Colorado Blvd,Pasadena,CA,91107,445110,Supermarkets and Other Grocery (except Convenience) Stores,126.0,69060.0
+2022,2039503,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PAS,3751 E Foothill Blvd,Pasadena,CA,91107,445110,Supermarkets and Other Grocery (except Convenience) Stores,70.0,34562.0
+2022,2039509,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PLV,12746 Jefferson Blvd,Playa Vista,CA,90094,445110,Supermarkets and Other Grocery (except Convenience) Stores,58.0,25816.0
+2022,2039369,Amazon.com Services LLC,Amazon.com Services LLC - VUOI,8688 Etiwanda Ave,Rancho Cucamonga,CA,91739,493110,General Warehousing and Storage,23.0,35997.0
+2022,2039523,Amazon.com Services LLC,Amazon.com Services LLC - WFM-ROS,1001 Galleria Blvd,Roseville,CA,95678,445110,Supermarkets and Other Grocery (except Convenience) Stores,50.0,21566.0
+2022,2039379,Amazon.com Services LLC,Amazon.com Services LLC - WFM-ARD,4315 Arden Way,Sacramento,CA,95864,445110,Supermarkets and Other Grocery (except Convenience) Stores,57.0,25520.0
+2022,2038988,Amazon.com Services LLC,Amazon.com Services LLC - KSBD,2535 E 3rd St,San Bernardino,CA,92346,492110,Couriers and Express Delivery Services,1645.0,2567296.0
+2022,2039449,Amazon.com Services LLC,Amazon.com Services LLC - WFM-HIL,711 University Ave,San Diego,CA,92103,445110,Supermarkets and Other Grocery (except Convenience) Stores,104.0,55660.0
+2022,2039498,Amazon.com Services LLC,Amazon.com Services LLC - WFM-OCN,1150 Ocean Avenue,San Francisco,CA,94112,445110,Supermarkets and Other Grocery (except Convenience) Stores,50.0,26160.0
+2022,2039437,Amazon.com Services LLC,Amazon.com Services LLC - WFM-FRK,1765 California St,San Francisco,CA,94109,445110,Supermarkets and Other Grocery (except Convenience) Stores,56.0,24988.0
+2022,2039398,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CAS,2001 Market Street,San Francisco,CA,94114,445110,Supermarkets and Other Grocery (except Convenience) Stores,75.0,45526.0
+2022,2039538,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SOM,399 4th St,San Francisco,CA,94107,445110,Supermarkets and Other Grocery (except Convenience) Stores,92.0,48904.0
+2022,2039517,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PTH,450 Rhode Island St,San Francisco,CA,94107,445110,Supermarkets and Other Grocery (except Convenience) Stores,84.0,45631.0
+2022,2039387,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BLL,1146 Blossom Hill Rd,San Jose,CA,95118,445110,Supermarkets and Other Grocery (except Convenience) Stores,69.0,36529.0
+2022,2039537,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SMT,1010 Park Pl,San Mateo,CA,94403,445110,Supermarkets and Other Grocery (except Convenience) Stores,70.0,34662.0
+2022,2039039,Amazon Retail LLC,Amazon Retail LLC - MAF4,140 Promenade Way Unit A,Thousand Oaks,CA,91362,445110,Supermarkets and Other Grocery (except Convenience) Stores,106.0,79511.0
+2022,2039499,Amazon.com Services LLC,Amazon.com Services LLC - WFM-OKS,740 N Moorpark Rd,Thousand Oaks,CA,91360,445110,Supermarkets and Other Grocery (except Convenience) Stores,43.0,22543.0
+2022,2038953,Amazon Retail LLC,Amazon Retail LLC - ILS3,22135 Hawthorne Blvd,Torrance,CA,90503,445131,Convenience Food Store,29.0,12935.0
+2022,2039550,Amazon.com Services LLC,Amazon.com Services LLC - WFM-TOR,2655 Pacific Coast Hwy,Torrance,CA,90505,445110,Supermarkets and Other Grocery (except Convenience) Stores,69.0,31076.0
+2022,2039458,Amazon.com Services LLC,Amazon.com Services LLC - WFM-JAM,2847 Park Avenue,Tustin,CA,92782,445110,Supermarkets and Other Grocery (except Convenience) Stores,55.0,27676.0
+2022,2039558,Amazon.com Services LLC,Amazon.com Services LLC - WFM-VEN,225 Lincoln Blvd,Venice,CA,90291,445110,Supermarkets and Other Grocery (except Convenience) Stores,66.0,32415.0
+2022,2039576,Amazon.com Services LLC,Amazon.com Services LLC - WFM-YVR,2941 Ygnacio Valley Rd,Walnut Creek,CA,94598,445110,Supermarkets and Other Grocery (except Convenience) Stores,93.0,41213.0
+2022,2038951,Amazon Retail LLC,Amazon Retail LLC - ILS1,14249 Whittier Blvd,Whittier,CA,90605,445131,Convenience Food Store,24.0,15282.0
+2022,2039036,Amazon Retail LLC,Amazon Retail LLC - MAE6,15225 Whittier Blvd,Whittier,CA,90603,445110,Supermarkets and Other Grocery (except Convenience) Stores,246.0,249324.0
+2022,2038952,Amazon Retail LLC,Amazon Retail LLC - ILS2,22001 Ventura Blvd,Woodland Hills,CA,91364,445131,Convenience Food Store,27.0,9491.0
+2022,2039431,Amazon.com Services LLC,Amazon.com Services LLC - WFM-FAI,350 Grasmere Ave Fairfield,Fairfield,CT,6824,445110,Supermarkets and Other Grocery (except Convenience) Stores,101.0,44763.0
+2022,2039488,Amazon.com Services LLC,Amazon.com Services LLC - WFM-MIL,1686 Boston Post Rd,Milford,CT,6460,445110,Supermarkets and Other Grocery (except Convenience) Stores,62.0,27702.0
+2022,2038263,Amazon.com Services LLC,Amazon.com Services LLC - BDL7,409 Washington Avenue,North Haven,CT,6473,323117,Books Printing,148.0,276687.0
+2022,2039394,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BSH,340 N Main St,West Hartford,CT,6117,445110,Supermarkets and Other Grocery (except Convenience) Stores,69.0,34178.0
+2022,2039515,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PST,1440 P St NW,Washington DC,DC,20005,445110,Supermarkets and Other Grocery (except Convenience) Stores,78.0,38024.0
+2022,2038946,Amazon Retail LLC,Amazon Retail LLC - IDC4,1733 14th st NW,Washington DC,DC,20009,445110,Supermarkets and Other Grocery (except Convenience) Stores,42.0,65302.0
+2022,2039549,Amazon.com Services LLC,Amazon.com Services LLC - WFM-TEN,4530 40th St NW,Washington DC,DC,20016,445110,Supermarkets and Other Grocery (except Convenience) Stores,84.0,39771.0
+2022,2039452,Amazon.com Services LLC,Amazon.com Services LLC - WFM-HST,600 H St NE,Washington DC,DC,20002,445110,Supermarkets and Other Grocery (except Convenience) Stores,48.0,23391.0
+2022,2039377,Amazon.com Services LLC,Amazon.com Services LLC - WFM-APS,305 E Altamonte Dr #1000,Altamonte Springs,FL,32701,445110,Supermarkets and Other Grocery (except Convenience) Stores,27.0,17315.0
+2022,2039382,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BCA,1400 GLADES RD STE 110,BOCA RATON,FL,33431,445110,Supermarkets and Other Grocery (except Convenience) Stores,91.0,53749.0
+2022,2039454,Amazon.com Services LLC,Amazon.com Services LLC - WFM-IHB,711 South Central Avenue,Baltimore,FL,21202,445110,Supermarkets and Other Grocery (except Convenience) Stores,73.0,36439.0
+2022,2039410,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CLW,9 N Suite 8520,Clearwater,FL,33761,445110,Supermarkets and Other Grocery (except Convenience) Stores,38.0,17601.0
+2022,2039423,Amazon.com Services LLC,Amazon.com Services LLC - WFM-DVE,1903 S UNIVERSITY DR,DAVIE,FL,33324,445110,Supermarkets and Other Grocery (except Convenience) Stores,57.0,41523.0
+2022,2039443,Amazon.com Services LLC,Amazon.com Services LLC - WFM-GBR,2748 Green Bay Road,Evanston,FL,60201,445110,Supermarkets and Other Grocery (except Convenience) Stores,51.0,29044.0
+2022,2039432,Amazon.com Services LLC,Amazon.com Services LLC - WFM-FFH,501 SE 17th St,Fort Lauderdale,FL,33316,445110,Supermarkets and Other Grocery (except Convenience) Stores,40.0,25051.0
+2022,2039459,Amazon.com Services LLC,Amazon.com Services LLC - WFM-JAX,10601 San Jose Blvd,Jacksonville,FL,32257,445110,Supermarkets and Other Grocery (except Convenience) Stores,27.0,12003.0
+2022,2039419,Amazon.com Services LLC,Amazon.com Services LLC - WFM-DLD,7930 SW 104 ST,KENDALL,FL,33156,445110,Supermarkets and Other Grocery (except Convenience) Stores,43.0,30241.0
+2022,2039487,Amazon.com Services LLC,Amazon.com Services LLC - WFM-MIA,299 SE 3RD STREET,MIAMI,FL,33131,445110,Supermarkets and Other Grocery (except Convenience) Stores,103.0,68173.0
+2022,2039544,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SSC,12150 BISCAYNE BLD,NORTH MIAMI,FL,33181,445110,Supermarkets and Other Grocery (except Convenience) Stores,55.0,35254.0
+2022,2039384,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BHL,8003 Turkey Lake Rd,Orlando,FL,32819,445110,Supermarkets and Other Grocery (except Convenience) Stores,54.0,41764.0
+2022,2039506,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PEM,14956 PINES BLVD,PEMBROKE PINES,FL,33027,445110,Supermarkets and Other Grocery (except Convenience) Stores,42.0,29817.0
+2022,2039573,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WTP,N Dale Mabry and Cypress,Tampa,FL,33607,445110,Supermarkets and Other Grocery (except Convenience) Stores,23.0,12396.0
+2022,2039569,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WPB,1845 PALM BEACH LAKES BLVD,WEST PALM BEACH,FL,33401,445110,Supermarkets and Other Grocery (except Convenience) Stores,82.0,46638.0
+2022,2039570,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WPN,1030 Orlando Ave,Winter Park,FL,32789,445110,Supermarkets and Other Grocery (except Convenience) Stores,26.0,14497.0
+2022,2039531,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SDY,5930 Roswell Rd,Atlanta,GA,30328,445110,Supermarkets and Other Grocery (except Convenience) Stores,32.0,19009.0
+2022,2039510,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PNC,650 Ponce De Leon Ave NE,Atlanta,GA,30308,445110,Supermarkets and Other Grocery (except Convenience) Stores,73.0,34799.0
+2022,2039422,Amazon.com Services LLC,Amazon.com Services LLC - WFM-DUL,5945 State Bridge Rd,Duluth,GA,30097,445110,Supermarkets and Other Grocery (except Convenience) Stores,32.0,16437.0
+2022,2039464,Amazon.com Services LLC,Amazon.com Services LLC - WFM-KNS,1300 Ernest W Barrett Pkwy NW,Kennesaw,GA,30144,445110,Supermarkets and Other Grocery (except Convenience) Stores,33.0,18770.0
+2022,2039043,Amazon Retail LLC,Amazon Retail LLC - MAG3,404 Army Trail Road,Bloomingdale,IL,60108,445110,Supermarkets and Other Grocery (except Convenience) Stores,232.0,238974.0
+2022,2039567,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WLP,1 N Halsted St,Chicago,IL,60661,445110,Supermarkets and Other Grocery (except Convenience) Stores,54.0,25532.0
+2022,2039535,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SLP,1101 S Canal St,Chicago,IL,60607,445110,Supermarkets and Other Grocery (except Convenience) Stores,28.0,11818.0
+2022,2039462,Amazon.com Services LLC,Amazon.com Services LLC - WFM-KBS,1550 N Kingsbury Street,Chicago,IL,60642,445110,Supermarkets and Other Grocery (except Convenience) Stores,136.0,63051.0
+2022,2039481,Amazon.com Services LLC,Amazon.com Services LLC - WFM-LVW,3201 N Ashland Ave,Chicago,IL,60657,445110,Supermarkets and Other Grocery (except Convenience) Stores,89.0,45211.0
+2022,2039448,Amazon.com Services LLC,Amazon.com Services LLC - WFM-HDP,5118 S Lake Park Ave,Chicago,IL,60615,445110,Supermarkets and Other Grocery (except Convenience) Stores,29.0,15253.0
+2022,2039428,Amazon.com Services LLC,Amazon.com Services LLC - WFM-EWR,6009 N Broadway St,Chicago,IL,60660,445110,Supermarkets and Other Grocery (except Convenience) Stores,63.0,29597.0
+2022,2039406,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CIC,6020 N Cicero Ave,Chicago,IL,60646,445110,Supermarkets and Other Grocery (except Convenience) Stores,40.0,20979.0
+2022,2039421,Amazon.com Services LLC,Amazon.com Services LLC - WFM-DRF,760 Waukegan Rd,Deerfield,IL,60015,445110,Supermarkets and Other Grocery (except Convenience) Stores,42.0,18683.0
+2022,2039426,Amazon.com Services LLC,Amazon.com Services LLC - WFM-ELM,215 S Il Rte 83,Elmhurst,IL,60126,445110,Supermarkets and Other Grocery (except Convenience) Stores,29.0,12789.0
+2022,2039034,Amazon Retail LLC,Amazon Retail LLC - MAE3,6939 W Dempster St,Morton Grove,IL,60053,445110,Supermarkets and Other Grocery (except Convenience) Stores,213.0,227694.0
+2022,2039028,Amazon Retail LLC,Amazon Retail LLC - MAC1,3116 IL-59 Hwy Suite 104,Naperville,IL,60564,445110,Supermarkets and Other Grocery (except Convenience) Stores,259.0,271484.0
+2022,2039053,Amazon Retail LLC,Amazon Retail LLC - MAJ5,7201 West 24th Street,Naperville,IL,60563,445110,Supermarkets and Other Grocery (except Convenience) Stores,136.0,163887.0
+2022,2039048,Amazon Retail LLC,Amazon Retail LLC - MAH2,4211 N Harlem Avenue,Norridge,IL,60706,445110,Supermarkets and Other Grocery (except Convenience) Stores,134.0,88253.0
+2022,2039052,Amazon Retail LLC,Amazon Retail LLC - MAJ2,7201 West 24th Street,North Riverside,IL,60546,445110,Supermarkets and Other Grocery (except Convenience) Stores,118.0,123590.0
+2022,2039035,Amazon Retail LLC,Amazon Retail LLC - MAE4,4031 W 95th Street,Oak Lawn,IL,60453,445110,Supermarkets and Other Grocery (except Convenience) Stores,312.0,317370.0
+2022,2039500,Amazon.com Services LLC,Amazon.com Services LLC - WFM-OLP,15260 South La Grange Rd,Orland Park,IL,60462,445110,Supermarkets and Other Grocery (except Convenience) Stores,30.0,15450.0
+2022,2039529,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SCH,750 N Martingale Road,Schaumburg,IL,60173,445110,Supermarkets and Other Grocery (except Convenience) Stores,42.0,18573.0
+2022,2039032,Amazon Retail LLC,Amazon Retail LLC - MAC7,16 E Golf Rd,Shaumburg,IL,60173,445110,Supermarkets and Other Grocery (except Convenience) Stores,253.0,270794.0
+2022,2039044,Amazon Retail LLC,Amazon Retail LLC - MAG4,30 W 63rd St,Westmont,IL,60559,445110,Supermarkets and Other Grocery (except Convenience) Stores,199.0,198217.0
+2022,2039565,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WHN,89 Danada Square East,Wheaton,IL,60189,445110,Supermarkets and Other Grocery (except Convenience) Stores,76.0,30537.0
+2022,2039490,Amazon.com Services LLC,Amazon.com Services LLC - WFM-MKS,320 E Market Street,Indianapolis,IN,46227,445110,Supermarkets and Other Grocery (except Convenience) Stores,26.0,9687.0
+2022,2039543,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SRV,199 US Highway 41,Schererville,IN,46375,445110,Supermarkets and Other Grocery (except Convenience) Stores,23.0,10938.0
+2022,2039455,Amazon.com Services LLC,Amazon.com Services LLC - WFM-INK,348 HARRISON AVE,BOSTON,MA,2118,445110,Supermarkets and Other Grocery (except Convenience) Stores,141.0,74593.0
+2022,2039383,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BED,170 Great Rd,Bedford,MA,1730,445110,Supermarkets and Other Grocery (except Convenience) Stores,51.0,21857.0
+2022,2039396,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BVL,133 Brimbal Ave,Beverly,MA,1915,445110,Supermarkets and Other Grocery (except Convenience) Stores,69.0,32868.0
+2022,2039434,Amazon.com Services LLC,Amazon.com Services LLC - WFM-FPD,200 ALEWIFE BROOK PARKWAY,CAMBRIDGE,MA,2138,445110,Supermarkets and Other Grocery (except Convenience) Stores,72.0,38438.0
+2022,2039417,Amazon.com Services LLC,Amazon.com Services LLC - WFM-DHM,300 LEGACY PLACE,DEDHAM,MA,2026,445110,Supermarkets and Other Grocery (except Convenience) Stores,98.0,48984.0
+2022,2039435,Amazon.com Services LLC,Amazon.com Services LLC - WFM-FRA,575 Worcester Rd,Framingham,MA,1701,445110,Supermarkets and Other Grocery (except Convenience) Stores,51.0,24513.0
+2022,2039476,Amazon.com Services LLC,Amazon.com Services LLC - WFM-LNF,100 MARKET STREET,LYNNFIELD,MA,1940,445110,Supermarkets and Other Grocery (except Convenience) Stores,97.0,43399.0
+2022,2039486,Amazon.com Services LLC,Amazon.com Services LLC - WFM-MDF,2151 Mystic Valley Pkwy,Medford,MA,2155,445110,Supermarkets and Other Grocery (except Convenience) Stores,71.0,39004.0
+2022,2039495,Amazon.com Services LLC,Amazon.com Services LLC - WFM-NTV,647 Washington Street,Newtonville,MA,2458,445110,Supermarkets and Other Grocery (except Convenience) Stores,77.0,41311.0
+2022,2073413,Amazon.com Services LLC,Amazon Robotics BOS12,300 Riverpark Drive,North Reading,MA,1864,333922,"Buckets, elevator or conveyor, manufacturing",824.0,1616146.0
+2022,2039547,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SWY,35 PLEASANT STREET,SOUTH WEYMOUTH,MA,2190,445110,Supermarkets and Other Grocery (except Convenience) Stores,101.0,45785.0
+2022,2039528,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SBY,536 BOSTON POST RD,SUDBURY,MA,1776,445110,Supermarkets and Other Grocery (except Convenience) Stores,59.0,27886.0
+2022,2039533,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SHB,193 Boston Tpke,Shrewsbury,MA,1545,445110,Supermarkets and Other Grocery (except Convenience) Stores,68.0,28854.0
+2022,2039571,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WSF,160 LITTLETON ROAD,WESTFORD,MA,1886,445110,Supermarkets and Other Grocery (except Convenience) Stores,59.0,24964.0
+2022,2089382,Amazon.com LLC,Amazon Robotics BOS- 27,50 Otis Street,Westborough,MA,1581,333922,Belt conveyor systems manufacturing,371.0,724365.0
+2022,2039381,Amazon.com Services LLC,Amazon.com Services LLC - WFM-ASI,200 Harker Pl Ste 100,Annapolis,MD,21401,445110,Supermarkets and Other Grocery (except Convenience) Stores,88.0,41486.0
+2022,2039059,Amazon Retail LLC,Amazon Retail LLC - MAX1,1550 Crystal Drive,Arlington,MD,22202,445110,Supermarkets and Other Grocery (except Convenience) Stores,64.0,71996.0
+2022,2039463,Amazon.com Services LLC,Amazon.com Services LLC - WFM-KMQ,10275 LITTLE PATUXENT PARKWAY,COLUMBIA,MD,21044,445110,Supermarkets and Other Grocery (except Convenience) Stores,75.0,36785.0
+2022,2039399,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CCH,4420 Willard Ave,Chevy Chase,MD,20815,445110,Supermarkets and Other Grocery (except Convenience) Stores,128.0,62571.0
+2022,2039037,Amazon Retail LLC,Amazon Retail LLC - MAF1,5463 Wisconsin Ave,Chevy Chase,MD,20815,445110,Supermarkets and Other Grocery (except Convenience) Stores,214.0,258014.0
+2022,2039045,Amazon Retail LLC,Amazon Retail LLC - MAG5,8531 Connecticut Ave,Chevy Chase,MD,20815,445110,Supermarkets and Other Grocery (except Convenience) Stores,101.0,72487.0
+2022,2039465,Amazon.com Services LLC,Amazon.com Services LLC - WFM-KTL,316 Kentlands Blvd,Gaithersburg,MD,20878,445110,Supermarkets and Other Grocery (except Convenience) Stores,70.0,35054.0
+2022,2039552,Amazon.com Services LLC,Amazon.com Services LLC - WFM-UMD,6621 Baltimore Ave,Hyattsville,MD,20782,445110,Supermarkets and Other Grocery (except Convenience) Stores,58.0,26882.0
+2022,2039527,Amazon.com Services LLC,Amazon.com Services LLC - WFM-RWF,11355 Woodglen Dr,Rockville,MD,20852,445110,Supermarkets and Other Grocery (except Convenience) Stores,71.0,37689.0
+2022,2039545,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SSP,833 Wayne Ave,Silver Spring,MD,20910,445110,Supermarkets and Other Grocery (except Convenience) Stores,80.0,44628.0
+2022,2039385,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BIR,2100 E Maple Rd,Birmingham,MI,48009,445110,Supermarkets and Other Grocery (except Convenience) Stores,75.0,32815.0
+2022,2039520,Amazon.com Services LLC,Amazon.com Services LLC - WFM-RCH,2918 Walton Blvd,Rochester Hills,MI,48309,445110,Supermarkets and Other Grocery (except Convenience) Stores,51.0,25231.0
+2022,2039560,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WBF,7350 Orchard Lake Rd,West Bloomfield,MI,48322,445110,Supermarkets and Other Grocery (except Convenience) Stores,60.0,25631.0
+2022,2039424,Amazon.com Services LLC,Amazon.com Services LLC - WFM-EDI,7401 France Ave South,Edina,MN,55435,445110,Supermarkets and Other Grocery (except Convenience) Stores,20.0,8246.0
+2022,2039489,Amazon.com Services LLC,Amazon.com Services LLC - WFM-MIN,222 Hennepin Ave,Minneapolis,MN,55401,445110,Supermarkets and Other Grocery (except Convenience) Stores,36.0,20635.0
+2022,2039403,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CHN,3060 Excelsior Blvd,Minneapolis,MN,55416,445110,Supermarkets and Other Grocery (except Convenience) Stores,33.0,15197.0
+2022,2039540,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SPL,1575 Selby Ave,St Paul,MN,55104,445110,Supermarkets and Other Grocery (except Convenience) Stores,43.0,19306.0
+2022,2039397,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CAR,102B New Waverly Pl,Cary,NC,27518,445110,Supermarkets and Other Grocery (except Convenience) Stores,36.0,16177.0
+2022,2039554,Amazon.com Services LLC,Amazon.com Services LLC - WFM-UPC,300 E Stonewall St,Charlotte,NC,28202,445110,Supermarkets and Other Grocery (except Convenience) Stores,74.0,28632.0
+2022,2039519,Amazon.com Services LLC,Amazon.com Services LLC - WFM-RAL,3540 Wade Avenue,Raleigh,NC,27607,445110,Supermarkets and Other Grocery (except Convenience) Stores,34.0,12443.0
+2022,2039494,Amazon.com Services LLC,Amazon.com Services LLC - WFM-NRL,8710 Six Forks Rd,Raleigh,NC,27615,445110,Supermarkets and Other Grocery (except Convenience) Stores,41.0,17620.0
+2022,2039393,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BRW,319 Chimney Rock Rd,Bound Brook,NJ,8807,445110,Supermarkets and Other Grocery (except Convenience) Stores,66.0,30629.0
+2022,2039413,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CNJ,1558 KINGS HIGHWAY NORTH,CHERRY HILL,NJ,8034,445110,Supermarkets and Other Grocery (except Convenience) Stores,76.0,31028.0
+2022,2039409,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CLO,45 Vervalen St,Closter,NJ,7624,445110,Supermarkets and Other Grocery (except Convenience) Stores,57.0,28828.0
+2022,2039425,Amazon.com Services LLC,Amazon.com Services LLC - WFM-EGW,905 River Road,Edgewater,NJ,7020,445110,Supermarkets and Other Grocery (except Convenience) Stores,82.0,44554.0
+2022,2039483,Amazon.com Services LLC,Amazon.com Services LLC - WFM-MAR,113 US 9,Englishtown,NJ,7726,445110,Supermarkets and Other Grocery (except Convenience) Stores,95.0,43244.0
+2022,2039521,Amazon.com Services LLC,Amazon.com Services LLC - WFM-RCM,222 Main St Madison,Madison,NJ,7940,445110,Supermarkets and Other Grocery (except Convenience) Stores,58.0,25589.0
+2022,2039491,Amazon.com Services LLC,Amazon.com Services LLC - WFM-MRL,940 Route 73 N,Marlton,NJ,8053,445110,Supermarkets and Other Grocery (except Convenience) Stores,58.0,29163.0
+2022,2039496,Amazon.com Services LLC,Amazon.com Services LLC - WFM-NWK,633 Broad St,Newark,NJ,7102,445110,Supermarkets and Other Grocery (except Convenience) Stores,70.0,40559.0
+2022,2039051,Amazon Retail LLC,Amazon Retail LLC - MAI6,30 E Ridgewood Ave,Paramus,NJ,7652,445110,Supermarkets and Other Grocery (except Convenience) Stores,138.0,119358.0
+2022,2039502,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PAR,300 Bergen Town Center,Paramus,NJ,7652,445110,Supermarkets and Other Grocery (except Convenience) Stores,100.0,61028.0
+2022,2039512,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PRN,3495 US Highway 1,Princeton,NJ,8540,445110,Supermarkets and Other Grocery (except Convenience) Stores,91.0,39706.0
+2022,2039485,Amazon.com Services LLC,Amazon.com Services LLC - WFM-MBN,2245 Springfield Ave,Vauxhall,NJ,7088,445110,Supermarkets and Other Grocery (except Convenience) Stores,74.0,39028.0
+2022,2039536,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SLW,1933 Rte 35,Wall Township,NJ,7719,445110,Supermarkets and Other Grocery (except Convenience) Stores,41.0,20683.0
+2022,2039563,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WEE,1400 Waterfront Terrace,Weehawken,NJ,7086,445110,Supermarkets and Other Grocery (except Convenience) Stores,48.0,24057.0
+2022,2039568,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WOP,235 Prospect Ave,West Orange,NJ,7052,445110,Supermarkets and Other Grocery (except Convenience) Stores,68.0,30726.0
+2022,2039480,Amazon.com Services LLC,Amazon.com Services LLC - WFM-LVB,6689 S Las Vegas Blvd,Las Vegas,NV,89119,445110,Supermarkets and Other Grocery (except Convenience) Stores,43.0,23496.0
+2022,2039439,Amazon.com Services LLC,Amazon.com Services LLC - WFM-FTA,8855 W Charleston Blvd,Las Vegas,NV,89117,445110,Supermarkets and Other Grocery (except Convenience) Stores,28.0,17185.0
+2022,2039386,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BKN,214 3rd Street,Brooklyn,NY,11249,445110,Supermarkets and Other Grocery (except Convenience) Stores,122.0,65902.0
+2022,2039561,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WBG,238 Bedford Ave,Brooklyn,NY,11249,445110,Supermarkets and Other Grocery (except Convenience) Stores,85.0,37249.0
+2022,2039440,Amazon.com Services LLC,Amazon.com Services LLC - WFM-FTG,292 Ashland Pl,Brooklyn,NY,11217,445110,Supermarkets and Other Grocery (except Convenience) Stores,123.0,59258.0
+2022,2039404,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CHQ,480 N Bedford Road,Chappaqua,NY,10514,445110,Supermarkets and Other Grocery (except Convenience) Stores,55.0,30484.0
+2022,2039412,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CMK,120 Veterans Memorial Hwy,Commack,NY,11725,445110,Supermarkets and Other Grocery (except Convenience) Stores,109.0,49295.0
+2022,2039562,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WBU,738 North Ave,Garden City,NY,11530,445110,Supermarkets and Other Grocery (except Convenience) Stores,97.0,45903.0
+2022,2039461,Amazon.com Services LLC,Amazon.com Services LLC - WFM-JER,429 N BROADWAY,JERICHO,NY,11753,445110,Supermarkets and Other Grocery (except Convenience) Stores,93.0,44633.0
+2022,2039474,Amazon.com Services LLC,Amazon.com Services LLC - WFM-LGV,120 NEW MORICHES ROAD,LAKE GROVE,NY,11755,445110,Supermarkets and Other Grocery (except Convenience) Stores,136.0,59862.0
+2022,2039551,Amazon.com Services LLC,Amazon.com Services LLC - WFM-TRB,270 GREENWICH STREET,NEW YORK,NY,10007,445110,Supermarkets and Other Grocery (except Convenience) Stores,131.0,65933.0
+2022,2039408,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CIR,10 Columbus Cir,New York,NY,10019,445110,Supermarkets and Other Grocery (except Convenience) Stores,117.0,57176.0
+2022,2039451,Amazon.com Services LLC,Amazon.com Services LLC - WFM-HRM,100 W 125th St,New York,NY,10027,445110,Supermarkets and Other Grocery (except Convenience) Stores,50.0,27011.0
+2022,2039492,Amazon.com Services LLC,Amazon.com Services LLC - WFM-MTE,226 E 57th St,New York,NY,10022,445110,Supermarkets and Other Grocery (except Convenience) Stores,90.0,50245.0
+2022,2039555,Amazon.com Services LLC,Amazon.com Services LLC - WFM-USQ,4 Union Sq S,New York,NY,10003,445110,Supermarkets and Other Grocery (except Convenience) Stores,66.0,31048.0
+2022,2039556,Amazon.com Services LLC,Amazon.com Services LLC - WFM-UWS,808 Columbus Avenue,New York,NY,10025,445110,Supermarkets and Other Grocery (except Convenience) Stores,105.0,55414.0
+2022,2039450,Amazon.com Services LLC,Amazon.com Services LLC - WFM-HOU,95 E HOUSTON STREET,New York,NY,10002,445110,Supermarkets and Other Grocery (except Convenience) Stores,138.0,68370.0
+2022,2039055,Amazon Retail LLC,Amazon Retail LLC - MAK3,3620 Long Beach Rd,Oceanside,NY,11572,445110,Supermarkets and Other Grocery (except Convenience) Stores,144.0,141511.0
+2022,2039511,Amazon.com Services LLC,Amazon.com Services LLC - WFM-POC,575 Boston Post Road,Port Chester,NY,10573,445110,Supermarkets and Other Grocery (except Convenience) Stores,65.0,31039.0
+2022,2039407,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CIN,2693 Edmondson Road,Cincinnati,OH,45209,445110,Supermarkets and Other Grocery (except Convenience) Stores,44.0,18633.0
+2022,2039427,Amazon.com Services LLC,Amazon.com Services LLC - WFM-EST,4100 Easton Gateway Dr,Columbus,OH,43219,445110,Supermarkets and Other Grocery (except Convenience) Stores,57.0,22595.0
+2022,2039525,Amazon.com Services LLC,Amazon.com Services LLC - WFM-RRO,19607 Detroit Rd,Rocky River,OH,44116,445110,Supermarkets and Other Grocery (except Convenience) Stores,47.0,20782.0
+2022,2039415,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CTR,13998 Cedar Rd,University Heights,OH,44118,445110,Supermarkets and Other Grocery (except Convenience) Stores,50.0,18632.0
+2022,2039430,Amazon.com Services LLC,Amazon.com Services LLC - WFM-EYE,W Lane Ave,Upper Arlington,OH,43221,445110,Supermarkets and Other Grocery (except Convenience) Stores,52.0,19467.0
+2022,2039548,Amazon.com Services LLC,Amazon.com Services LLC - WFM-TAN,19440 NW Cornell Rd,Hillsboro,OR,97124,445110,Supermarkets and Other Grocery (except Convenience) Stores,34.0,15279.0
+2022,2039453,Amazon.com Services LLC,Amazon.com Services LLC - WFM-HWD,4301 NE Sandy Blvd,Portland,OR,97213,445110,Supermarkets and Other Grocery (except Convenience) Stores,50.0,23041.0
+2022,2039391,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BRD,7380 SW Bridgeport Rd,Tigard,OR,97224,445110,Supermarkets and Other Grocery (except Convenience) Stores,32.0,13447.0
+2022,2039047,Amazon Retail LLC,Amazon Retail LLC - MAH0,2924 Springfield Road,Broomall,PA,19008,445110,Supermarkets and Other Grocery (except Convenience) Stores,129.0,79506.0
+2022,2039400,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CCV,475 WILMINGTON WEST CHEST PIKE,CONCORDVILLE,PA,19342,445110,Supermarkets and Other Grocery (except Convenience) Stores,48.0,21176.0
+2022,2039429,Amazon.com Services LLC,Amazon.com Services LLC - WFM-EXT,175 N Pottstown Pike,Exton,PA,19341,445110,Supermarkets and Other Grocery (except Convenience) Stores,55.0,27522.0
+2022,2039497,Amazon.com Services LLC,Amazon.com Services LLC - WFM-NWT,3737 West Chester Pike,Newtown Square,PA,19073,445110,Supermarkets and Other Grocery (except Convenience) Stores,49.0,19874.0
+2022,2039504,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PCC,2101 PENNSYLVANIA AVENUE,PHILADELPHIA,PA,19130,445110,Supermarkets and Other Grocery (except Convenience) Stores,121.0,54416.0
+2022,2039508,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PLM,500 W GERMANTOWN PIKE,PLYMOUTH MEETING,PA,19462,445110,Supermarkets and Other Grocery (except Convenience) Stores,41.0,16599.0
+2022,2039539,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SOS,929 South St,Philadelphia,PA,19147,445110,Supermarkets and Other Grocery (except Convenience) Stores,40.0,19892.0
+2022,2039460,Amazon.com Services LLC,Amazon.com Services LLC - WFM-JEN,1575 THE FAIRWAY,RYDAL,PA,19001,445110,Supermarkets and Other Grocery (except Convenience) Stores,53.0,23805.0
+2022,2039534,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SHL,111 Siena Dr,Upper St Clair,PA,15241,445110,Supermarkets and Other Grocery (except Convenience) Stores,65.0,27640.0
+2022,2039040,Amazon Retail LLC,Amazon Retail LLC - MAF7,425 Easton Road,Warrington,PA,18976,445110,Supermarkets and Other Grocery (except Convenience) Stores,171.0,193518.0
+2022,2039371,Amazon.com Services LLC,Amazon.com Services LLC - VUQG,2086 Corporate Center Drive,West Tobyhanna,PA,18466,493110,General Warehousing and Storage,24.0,13673.0
+2022,2039564,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WEX,10576 Perry Hwy,Wexford,PA,15090,445110,Supermarkets and Other Grocery (except Convenience) Stores,112.0,42737.0
+2022,2039575,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WYW,15 E Wynnewood Road,Wynnewood,PA,19096,445110,Supermarkets and Other Grocery (except Convenience) Stores,78.0,34838.0
+2022,2039414,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CRN,100 Midway Rd,Cranston,RI,2920,445110,Supermarkets and Other Grocery (except Convenience) Stores,95.0,48839.0
+2022,2039513,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PRO,261 Waterman Street,Providence,RI,2906,445110,Supermarkets and Other Grocery (except Convenience) Stores,50.0,22222.0
+2022,2039553,Amazon.com Services LLC,Amazon.com Services LLC - WFM-UNI,601 N Main St,Providence,RI,2904,445110,Supermarkets and Other Grocery (except Convenience) Stores,90.0,36400.0
+2022,2039402,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CHL,923 Houston Northcutt Blvd,Mount Plesant,SC,29464,445110,Supermarkets and Other Grocery (except Convenience) Stores,51.0,23637.0
+2022,2038292,Amazon.com Services LLC,Amazon.com Services LLC - CAE3,222 Old Wire Road,West Columbia,SC,29172,323117,Books Printing,224.0,415167.0
+2022,2039444,Amazon.com Services LLC,Amazon.com Services LLC - WFM-GHL,4021 Hillsboro Pike,Nashville,TN,37215,445110,Supermarkets and Other Grocery (except Convenience) Stores,80.0,36714.0
+2022,2039420,Amazon.com Services LLC,Amazon.com Services LLC - WFM-DOM,11920 Domain Drive,Austin,TX,78759,445110,Supermarkets and Other Grocery (except Convenience) Stores,77.0,35320.0
+2022,2039375,Amazon.com Services LLC,Amazon.com Services LLC - WFM-ABT,4301 W William Cannon Dr,Austin,TX,78749,445110,Supermarkets and Other Grocery (except Convenience) Stores,42.0,22429.0
+2022,2039475,Amazon.com Services LLC,Amazon.com Services LLC - WFM-LMR,525 N Lamar Blvd,Austin,TX,78703,445110,Supermarkets and Other Grocery (except Convenience) Stores,61.0,29646.0
+2022,2039507,Amazon.com Services LLC,Amazon.com Services LLC - WFM-PKL,8190 Park Lane,Dallas,TX,75231,445110,Supermarkets and Other Grocery (except Convenience) Stores,76.0,42408.0
+2022,2039441,Amazon.com Services LLC,Amazon.com Services LLC - WFM-FVW,105 Stacy Rd,Fairview,TX,75069,445110,Supermarkets and Other Grocery (except Convenience) Stores,79.0,40519.0
+2022,2038972,Amazon.com Services LLC,Amazon.com Services LLC - KAFW,301 Intermodal Parkway,Haslet,TX,76177,492110,Couriers and Express Delivery Services,1817.0,2957223.0
+2022,2039493,Amazon.com Services LLC,Amazon.com Services LLC - WFM-MTS,701 Waugh Drive,Houston,TX,77019,445110,Supermarkets and Other Grocery (except Convenience) Stores,22.0,11116.0
+2022,2039471,Amazon.com Services LLC,Amazon.com Services LLC - WFM-LCL,6741 N MacArthur Blvd,Irving,TX,75039,445110,Supermarkets and Other Grocery (except Convenience) Stores,32.0,17909.0
+2022,2039518,Amazon.com Services LLC,Amazon.com Services LLC - WFM-QRY,255 E Basse Rd Ste 130,San Antonio,TX,78209,445110,Supermarkets and Other Grocery (except Convenience) Stores,36.0,16283.0
+2022,2039532,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SGL,15900 Southwest Freeway,Sugar Land,TX,77478,445110,Supermarkets and Other Grocery (except Convenience) Stores,32.0,19500.0
+2022,2039380,Amazon.com Services LLC,Amazon.com Services LLC - WFM-ARL,2700 Wilson Blvd,Arlington,VA,22201,445110,Supermarkets and Other Grocery (except Convenience) Stores,78.0,34155.0
+2022,2039416,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CYC,520 12th St S #100,Arlington,VA,22202,445110,Supermarkets and Other Grocery (except Convenience) Stores,86.0,41431.0
+2022,2039390,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BMT,19800 Belmont Chase Dr STE 160,Ashburn,VA,20147,445110,Supermarkets and Other Grocery (except Convenience) Stores,42.0,22762.0
+2022,2039020,Amazon Retail LLC,Amazon Retail LLC - MAB3,10354 Fairfax Blvd,Fairfax,VA,22030,445110,Supermarkets and Other Grocery (except Convenience) Stores,169.0,179780.0
+2022,2039438,Amazon.com Services LLC,Amazon.com Services LLC - WFM-FRL,4501 Market Commons Dr,Fairfax,VA,22033,445110,Supermarkets and Other Grocery (except Convenience) Stores,62.0,28234.0
+2022,2039046,Amazon Retail LLC,Amazon Retail LLC - MAG6,7005 Manchester Blvd,Franconia,VA,22310,445110,Supermarkets and Other Grocery (except Convenience) Stores,222.0,246695.0
+2022,2039541,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SPP,11173 West Broad St,Glen Allen,VA,23060,445110,Supermarkets and Other Grocery (except Convenience) Stores,60.0,28860.0
+2022,2039054,Amazon Retail LLC,Amazon Retail LLC - MAJ7,9409 Lorton Market St,Lorton,VA,20109,445110,Supermarkets and Other Grocery (except Convenience) Stores,135.0,133233.0
+2022,2039056,Amazon Retail LLC,Amazon Retail LLC - MAK7,7807 Sudley Road,Manassas,VA,20109,445110,Supermarkets and Other Grocery (except Convenience) Stores,161.0,138899.0
+2022,2039542,Amazon.com Services LLC,Amazon.com Services LLC - WFM-SPR,8402 Old Keene Mill Rd,Springfield,VA,22152,445110,Supermarkets and Other Grocery (except Convenience) Stores,54.0,23701.0
+2022,2039557,Amazon.com Services LLC,Amazon.com Services LLC - WFM-VAB,1800 Laskin Road,Virginia Beach,VA,23454,445110,Supermarkets and Other Grocery (except Convenience) Stores,42.0,20766.0
+2022,2039019,Amazon Retail LLC,Amazon Retail LLC - MAB2,3903 Factoria Square Mall SE,Bellevue,WA,98006,445110,Supermarkets and Other Grocery (except Convenience) Stores,135.0,159074.0
+2022,2039389,Amazon.com Services LLC,Amazon.com Services LLC - WFM-BLV,888 116th Ave NE,Bellevue,WA,98004,445110,Supermarkets and Other Grocery (except Convenience) Stores,63.0,31054.0
+2022,2039050,Amazon Retail LLC,Amazon Retail LLC - MAI1,1701 S Commons,Federal Way,WA,7430,445110,Supermarkets and Other Grocery (except Convenience) Stores,115.0,86982.0
+2022,2039477,Amazon.com Services LLC,Amazon.com Services LLC - WFM-LNW,2800 196th St SW,Lynnwood,WA,98036,445110,Supermarkets and Other Grocery (except Convenience) Stores,53.0,26206.0
+2022,2038954,Amazon Retail LLC,Amazon Retail LLC - ILS4,13209 39th Ave SE,Mill Creek,WA,98012,445131,Convenience Food Store,21.0,26778.0
+2022,2039522,Amazon.com Services LLC,Amazon.com Services LLC - WFM-RMD,17991 Redmond Way,Redmond,WA,98052,445110,Supermarkets and Other Grocery (except Convenience) Stores,50.0,22836.0
+2022,2039016,Amazon Retail LLC,Amazon Retail LLC - LPK1,701 Monster Road SW,Renton,WA,98057,311991,Perishable Prepared Food Manufacturing,78.0,141954.0
+2022,2039484,Amazon.com Services LLC,Amazon.com Services LLC - WFM-MBD,1001 Broadway,Seattle,WA,98122,445110,Supermarkets and Other Grocery (except Convenience) Stores,57.0,31687.0
+2022,2039526,Amazon.com Services LLC,Amazon.com Services LLC - WFM-RSQ,1026 NE 64th St,Seattle,WA,98115,445110,Supermarkets and Other Grocery (except Convenience) Stores,50.0,25187.0
+2022,2039024,Amazon Retail LLC,Amazon Retail LLC - MAB7,13201 Aurora Ave North,Seattle,WA,98133,445110,Supermarkets and Other Grocery (except Convenience) Stores,184.0,212891.0
+2022,2039456,Amazon.com Services LLC,Amazon.com Services LLC - WFM-INT,2001 15th Ave W,Seattle,WA,98119,445110,Supermarkets and Other Grocery (except Convenience) Stores,55.0,29443.0
+2022,2039023,Amazon Retail LLC,Amazon Retail LLC - MAB6,2301 S Jackson St,Seattle,WA,98144,445110,Supermarkets and Other Grocery (except Convenience) Stores,152.0,179654.0
+2022,2038944,Amazon Retail LLC,Amazon Retail LLC - IBF1,610 E Pike St,Seattle,WA,98122,445110,Supermarkets and Other Grocery (except Convenience) Stores,41.0,52661.0
+2022,2039401,Amazon.com Services LLC,Amazon.com Services LLC - WFM-CHB,3515 Bridgeport Way W,University Place,WA,98466,445110,Supermarkets and Other Grocery (except Convenience) Stores,37.0,16247.0
+2022,2039018,Amazon Retail LLC,Amazon Retail LLC - MAB1,6245 Topanga Canyon Blvd,Woodland Hills,WA,91367,445110,Supermarkets and Other Grocery (except Convenience) Stores,287.0,317889.0
+2022,2039559,Amazon.com Services LLC,Amazon.com Services LLC - WFM-WAW,11100 W Burleigh St,Wauwatosa,WI,53222,445110,Supermarkets and Other Grocery (except Convenience) Stores,49.0,24317.0
+2023,2350480,Amazon Retail LLC,Amazon Retail LLC - MAF9,11340 South Street,Cerritos,CA,90701,445110,Supermarkets and Other Grocery (except Convenience) Stores,133.0,175603.0
+2023,2350408,Amazon Retail LLC,Amazon Retail LLC - MAF3,16325 Ventura Blvd,Encino,CA,91436,445110,Supermarkets and Other Grocery (except Convenience) Stores,149.0,195026.0
+2023,2350584,Amazon.com Services LLC,Amazon.com Services LLC - VUPQ,9211 Kaiser Way,Fontana,CA,92335,493110,General Warehousing and Storage,21.0,34221.0
+2023,2350599,Amazon Retail LLC,Amazon Retail LLC - MAC2,1100 S  Harbor Blvd,Fullerton,CA,92832,445110,Supermarkets and Other Grocery (except Convenience) Stores,172.0,214892.0
+2023,2350311,Amazon Retail LLC,Amazon Retail LLC - MAB8,6911 Warner Ave,Huntington Beach,CA,92647,445110,Supermarkets and Other Grocery (except Convenience) Stores,152.0,188115.0
+2023,2350672,Amazon Retail LLC,Amazon Retail LLC - MAB9,13752 Jamboree Rd,Irvine,CA,92602,445110,Supermarkets and Other Grocery (except Convenience) Stores,157.0,208179.0
+2023,2350602,Amazon Retail LLC,Amazon Retail LLC - MAC4,1610 W Imperial Hwy,La Habra,CA,90631,445110,Supermarkets and Other Grocery (except Convenience) Stores,144.0,183805.0
+2023,2350562,Amazon Retail LLC,Amazon Retail LLC - MAC3,2229 Foothil Blvd,La Verne,CA,91750,445110,Supermarkets and Other Grocery (except Convenience) Stores,107.0,152451.0
+2023,2350510,Amazon Retail LLC,Amazon Retail LLC - MAC9,6235 E Spring St,Long Beach,CA,90808,445110,Supermarkets and Other Grocery (except Convenience) Stores,137.0,174957.0
+2023,2350496,Amazon Retail LLC,Amazon Retail LLC - MAG1,6855 S  La Cienega Blvd,Los Angeles,CA,90045,445110,Supermarkets and Other Grocery (except Convenience) Stores,142.0,199561.0
+2023,2350835,Amazon Retail LLC,Amazon Retail LLC - MAC0,26940 Crown Valley Pkwy,Mission Viejo,CA,92691,445110,Supermarkets and Other Grocery (except Convenience) Stores,120.0,165597.0
+2023,2350459,Amazon Retail LLC,Amazon Retail LLC - MAM7,742 Los Angeles Ave,Moorpark,CA,93021,445110,Supermarkets and Other Grocery (except Convenience) Stores,118.0,156784.0
+2023,2350386,Amazon Retail LLC,Amazon Retail LLC - MAH8,40481 Murrieta Hot Springs Road,Murrieta,CA,92563,445110,Supermarkets and Other Grocery (except Convenience) Stores,111.0,154622.0
+2023,2350455,Amazon Retail LLC,Amazon Retail LLC - MAB4,5101 Lankershim Blvd,North Hollywood,CA,91601,445110,Supermarkets and Other Grocery (except Convenience) Stores,142.0,195271.0
+2023,2350671,Amazon Retail LLC,Amazon Retail LLC - MAB5,19340 Rinaldi St,Northridge,CA,91326,445110,Supermarkets and Other Grocery (except Convenience) Stores,154.0,188344.0
+2023,2350764,Amazon Retail LLC,Amazon Retail LLC - MAK9,3425 E Colorado Blvd,Pasadena,CA,91107,445110,Supermarkets and Other Grocery (except Convenience) Stores,110.0,169140.0
+2023,2350657,Amazon Retail LLC,Amazon Retail LLC - MAF4,140 Promenade Way   Suite A,Thousand Oaks,CA,91362,445110,Supermarkets and Other Grocery (except Convenience) Stores,74.0,118099.0
+2023,2350444,Amazon Retail LLC,Amazon Retail LLC - ILS3,22135 Hawthorne blvd,Torrance,CA,90503,445131,Convenience Food Store,21.0,31408.0
+2023,2350838,Amazon Retail LLC,Amazon Retail LLC - MAE6,15225 Whittier Blvd,Whittier,CA,90603,445110,Supermarkets and Other Grocery (except Convenience) Stores,141.0,175670.0
+2023,2350445,Amazon Retail LLC,Amazon Retail LLC - ILS2,22001 Ventura Blvd,Woodland Hills,CA,91364,445131,Convenience Food Store,21.0,29203.0
+2023,2350368,Amazon Retail LLC,Amazon Retail LLC - MAB1,6245 Topanga Canyon Blvd,Woodland Hills,CA,91367,445110,Supermarkets and Other Grocery (except Convenience) Stores,168.0,234047.0
+2023,2350577,Amazon Retail LLC,Amazon Retail LLC - IDC4,1733 14th st NW,Washington DC,DC,20009,445110,Supermarkets and Other Grocery (except Convenience) Stores,26.0,41123.0
+2023,2350580,Amazon.com Services LLC,Amazon.com Services LLC - VUPK,6720 Oakley Industrial Blvd,Union City,GA,30291,493110,General Warehousing and Storage,20.0,33803.0
+2023,2350667,Amazon Retail LLC,Amazon Retail LLC - MAG3,404 Army Trail Road,Bloomingdale,IL,60108,445110,Supermarkets and Other Grocery (except Convenience) Stores,155.0,169805.0
+2023,2350678,Amazon Retail LLC,Amazon Retail LLC - MAE3,6939 Dempster St,Morton Grove,IL,60053,445110,Supermarkets and Other Grocery (except Convenience) Stores,133.0,157836.0
+2023,2350578,Amazon Retail LLC,Amazon Retail LLC - MAJ5,1351 E Ogden Ave,Naperville,IL,60563,445110,Supermarkets and Other Grocery (except Convenience) Stores,81.0,116449.0
+2023,2350359,Amazon Retail LLC,Amazon Retail LLC - MAC1,3116 IL 59 Hwy Suite 104,Naperville,IL,60564,445110,Supermarkets and Other Grocery (except Convenience) Stores,139.0,174381.0
+2023,2350590,Amazon Retail LLC,Amazon Retail LLC - MAH2,4211 N  Harlem Ave,Norridge,IL,60706,445110,Supermarkets and Other Grocery (except Convenience) Stores,88.0,122533.0
+2023,2350517,Amazon Retail LLC,Amazon Retail LLC - MAJ2,7201 W  24th St,North Riverside,IL,60546,445110,Supermarkets and Other Grocery (except Convenience) Stores,88.0,119517.0
+2023,2350675,Amazon Retail LLC,Amazon Retail LLC - MAE4,4031 W 95th Street,Oak Lawn,IL,60453,445110,Supermarkets and Other Grocery (except Convenience) Stores,171.0,208668.0
+2023,2350767,Amazon Retail LLC,Amazon Retail LLC - MAC7,16 E Golf Rd,Shaumburg,IL,60173,445110,Supermarkets and Other Grocery (except Convenience) Stores,160.0,199476.0
+2023,2350432,Amazon Retail LLC,Amazon Retail LLC - MAG4,30 W  63rd St,Westmont,IL,60559,445110,Supermarkets and Other Grocery (except Convenience) Stores,136.0,155762.0
+2023,2206253,Amazon.com Services LLC,Amazon Robotics BOS12,300 Riverpark Drive,North Reading,MA,01864,333922,"Buckets, elevator or conveyor, manufacturing",820.0,1659037.0
+2023,2206208,Amazon.com LLC,Amazon Robotics BOS- 27,50 Otis Street,Westborough,MA,01581,333922,Belt conveyor systems manufacturing,459.0,930925.0
+2023,2350600,Amazon Retail LLC,Amazon Retail LLC - MAF1,5463 Wisconsin Ave,Chevy Chase,MD,20815,445110,Supermarkets and Other Grocery (except Convenience) Stores,121.0,170551.0
+2023,2350851,Amazon Retail LLC,Amazon Retail LLC - MAG5,8531 Connecticut Avenue,Chevy Chase,MD,20815,445110,Supermarkets and Other Grocery (except Convenience) Stores,90.0,137156.0
+2023,2350738,Amazon Retail LLC,Amazon Retail LLC - MAI6,30 E Ridgewood Ave,Paramus,NJ,07652,445110,Supermarkets and Other Grocery (except Convenience) Stores,108.0,159088.0
+2023,2350413,Amazon Retail LLC,Amazon Retail LLC - MAK3,3600 Long Beach Road,Oceanside,NY,11572,445110,Supermarkets and Other Grocery (except Convenience) Stores,102.0,156047.0
+2023,2350747,Amazon.com Services LLC,Amazon.com Services LLC - CAK4,5855 Canal Rd,Valley View,OH,44125,323113,Commercial Screen Printing,235.0,131758.0
+2023,2350693,Amazon.com Services LLC,Amazon.com Services LLC - KILN,150 Ruane Dr,Wilmington,OH,45177,492110,Couriers and Express Delivery Services,1262.0,2014309.0
+2023,2350739,Amazon Retail LLC,Amazon Retail LLC - MAH0,2940 Springfield Rd,BROOMALL,PA,19008,445110,Supermarkets and Other Grocery (except Convenience) Stores,143.0,174597.0
+2023,2350801,Amazon Retail LLC,Amazon Retail LLC - MAF7,389 Easton Road Suite B,Warrington,PA,18976,445110,Supermarkets and Other Grocery (except Convenience) Stores,126.0,161774.0
+2023,2350403,Amazon.com Services LLC,Amazon.com Services LLC - CAE3,222 Old Wire Road,West Columbia,SC,29712,323117,Books Printing,258.0,474026.0
+2023,2350485,Amazon.com Services LLC,Amazon.com Services LLC - VUPJ,101 Mars Rd,Wilmer,TX,75172,493110,General Warehousing and Storage,21.0,37803.0
+2023,2350551,Amazon Retail LLC,Amazon Retail LLC - MAX1,1550 Crystal Dr  2,Arlington,VA,22202,445110,Supermarkets and Other Grocery (except Convenience) Stores,44.0,64399.0
+2023,2350358,Amazon Retail LLC,Amazon Retail LLC - MAB3,10354 Fairfax Blvd,Fairfax,VA,22030,445110,Supermarkets and Other Grocery (except Convenience) Stores,137.0,176718.0
+2023,2350581,Amazon Retail LLC,Amazon Retail LLC - MAG6,7005 Manchester Blvd,Franconia,VA,22310,445110,Supermarkets and Other Grocery (except Convenience) Stores,152.0,201784.0
+2023,2350539,Amazon Retail LLC,Amazon Retail LLC - MAJ7,9409 Lorton Market Street,Lorton,VA,20109,445110,Supermarkets and Other Grocery (except Convenience) Stores,119.0,166869.0
+2023,2350719,Amazon Retail LLC,Amazon Retail LLC - MAK7,7807 Sudley Road,Manassas,VA,20109,445110,Supermarkets and Other Grocery (except Convenience) Stores,119.0,159312.0
+2023,2350827,Amazon Retail LLC,Amazon Retail LLC - MAB2,3901 Factoria Square Mall SE,Bellevue,WA,98006,445110,Supermarkets and Other Grocery (except Convenience) Stores,91.0,129399.0
+2023,2350514,Amazon Retail LLC,Amazon Retail LLC - MAI1,1701 S Commons,Federal Way,WA,98003,445110,Supermarkets and Other Grocery (except Convenience) Stores,100.0,135754.0
+2023,2350503,Amazon Retail LLC,Amazon Retail LLC - IWA3,17710 Canyon Road E Suite 400,Frederickson,WA,98375,445131,Convenience Food Store,20.0,27744.0
+2023,2350586,Amazon Retail LLC,Amazon Retail LLC - ILS4,13209 39 Ave SE  Suite 101,Mill Creek,WA,98012,445131,Convenience Food Store,23.0,33465.0
+2023,2176388,Amazon Kuiper Manufacturing Enterprises LLC,SEA128,18130 NE 76th Street,Redmond,WA,98052,332710,Machine shops,38.0,58941.0
+2023,2261028,Amazon,Amazon (SEA124),601 Monster Rd SW,Renton,WA,98057,493110,General warehousing and storage,73.0,140160.0
+2023,2350697,Amazon Retail LLC,Amazon Retail LLC - LPK1,701 Monster Road SW,Renton,WA,98057,311991,Perishable Prepared Food Manufacturing,82.0,140698.0
+2023,2350401,Amazon Retail LLC,Amazon Retail LLC - MAB7,13201 Aurora Ave North,Seattle,WA,98133,445110,Supermarkets and Other Grocery (except Convenience) Stores,133.0,182664.0
+2023,2350792,Amazon Retail LLC,Amazon Retail LLC - MAB6,2301 S  Jackson St,Seattle,WA,98144,445110,Supermarkets and Other Grocery (except Convenience) Stores,100.0,147073.0
+2023,2350683,Amazon Retail LLC,Amazon Retail LLC - IBF1,610 E Pike St,Seattle,WA,98122,445110,Supermarkets and Other Grocery (except Convenience) Stores,31.0,46532.0
+2024,2736083,Amazon Retail LLC,Amazon Retail LLC - MAF9,11340 South Street,Cerritos,CA,90701,445110,Supermarkets and Other Grocery except Convenience Stores,103.0,133476.0
+2024,2736193,Amazon Retail LLC,Amazon Retail LLC - MAQ8,5425 Sunrise Blvd,Citrus Heights,CA,95610,445110,Supermarkets and Other Grocery except Convenience Stores,152.0,30749.0
+2024,2736324,Amazon Retail LLC,Amazon Retail LLC - MAJ8,3941 Bedford Canyon Road,Corona,CA,92883,445110,Supermarkets and Other Grocery except Convenience Stores,106.0,21303.0
+2024,2736485,Amazon Retail LLC,Amazon Retail LLC - MAM9,7530 Elk Grove Blvd,Elk Grove,CA,95757,445110,Supermarkets and Other Grocery except Convenience Stores,186.0,74835.0
+2024,2735916,Amazon Retail LLC,Amazon Retail LLC - MAF3,16325 Ventura Blvd,Encino,CA,91436,445110,Supermarkets and Other Grocery except Convenience Stores,148.0,184684.0
+2024,2736009,Amazon Retail LLC,Amazon Retail LLC - MAO6,16188 S Highland Ave,Fontana,CA,92336,445110,Supermarkets and Other Grocery except Convenience Stores,119.0,54738.0
+2024,2736344,Amazon Retail LLC,Amazon Retail LLC - MAC2,1100 S. Harbor Blvd.,Fullerton,CA,92832,445110,Supermarkets and Other Grocery except Convenience Stores,132.0,164001.0
+2024,2735649,Amazon Retail LLC,Amazon Retail LLC - MAB8,6911 Warner Ave,Huntington Beach,CA,92647,445110,Supermarkets and Other Grocery except Convenience Stores,126.0,145494.0
+2024,2736575,Amazon Retail LLC,Amazon Retail LLC - MAB9,13752 Jamboree Rd,Irvine,CA,92602,445110,Supermarkets and Other Grocery except Convenience Stores,133.0,169960.0
+2024,2736352,Amazon Retail LLC,Amazon Retail LLC - MAC4,1610 W Imperial Hwy,La Habra,CA,90631,445110,Supermarkets and Other Grocery except Convenience Stores,114.0,132035.0
+2024,2736271,Amazon Retail LLC,Amazon Retail LLC - MAC3,2229 Foothil Blvd,La Verne,CA,91750,445110,Supermarkets and Other Grocery except Convenience Stores,93.0,122453.0
+2024,2736144,Amazon Retail LLC,Amazon Retail LLC - MAC9,6235 E Spring St,Long Beach,CA,90808,445110,Supermarkets and Other Grocery except Convenience Stores,126.0,155613.0
+2024,2736112,Amazon Retail LLC,Amazon Retail LLC - MAG1,6855 S. La Cienega Blvd,Los Angeles,CA,90045,445110,Supermarkets and Other Grocery except Convenience Stores,137.0,168840.0
+2024,2736995,Amazon Retail LLC,Amazon Retail LLC - MAC0,26940 Crown Valley Pkwy,Mission Viejo,CA,92691,445110,Supermarkets and Other Grocery except Convenience Stores,111.0,140595.0
+2024,2736040,Amazon Retail LLC,Amazon Retail LLC - MAM7,742 Los Angeles Ave,Moorpark,CA,93021,445110,Supermarkets and Other Grocery except Convenience Stores,100.0,121472.0
+2024,2735859,Amazon Retail LLC,Amazon Retail LLC - MAH8,40481 Murrieta Hot Springs Road,Murrieta,CA,92563,445110,Supermarkets and Other Grocery except Convenience Stores,89.0,122409.0
+2024,2736035,Amazon Retail LLC,Amazon Retail LLC - MAB4,5101 Lankershim Blvd,North Hollywood,CA,91601,445110,Supermarkets and Other Grocery except Convenience Stores,130.0,159437.0
+2024,2736574,Amazon Retail LLC,Amazon Retail LLC - MAB5,19340 Rinaldi St.,Northridge,CA,91326,445110,Supermarkets and Other Grocery except Convenience Stores,132.0,153499.0
+2024,2736797,Amazon Retail LLC,Amazon Retail LLC - MAK9,3425 E Colorado Blvd,Pasadena,CA,91107,445110,Supermarkets and Other Grocery except Convenience Stores,103.0,140362.0
+2024,2735816,Amazon Retail LLC,Amazon Retail LLC - MAI8,14837 Pomerado Rd,Poway,CA,92064,445110,Supermarkets and Other Grocery except Convenience Stores,119.0,37587.0
+2024,2735945,Amazon Retail LLC,Amazon Retail LLC - MAQ9,6780 Stanford Ranch Road,Roseville,CA,95678,445110,Supermarkets and Other Grocery except Convenience Stores,143.0,72647.0
+2024,2736525,Amazon Retail LLC,Amazon Retail LLC - MAF4,140 Promenade Way - Suite A,Thousand Oaks,CA,91362,445110,Supermarkets and Other Grocery except Convenience Stores,70.0,99022.0
+2024,2736460,Amazon Retail LLC,Amazon Retail LLC - MAF8,21035 Hawthorne Blvd,Torrance,CA,90503,445110,Supermarkets and Other Grocery except Convenience Stores,120.0,40877.0
+2024,2737005,Amazon Retail LLC,Amazon Retail LLC - MAE6,15225 Whittier Blvd,Whittier,CA,90603,445110,Supermarkets and Other Grocery except Convenience Stores,107.0,121091.0
+2024,2735804,Amazon Retail LLC,Amazon Retail LLC - MAB1,6245 Topanga Canyon Blvd,Woodland Hills,CA,91367,445110,Supermarkets and Other Grocery except Convenience Stores,158.0,206390.0
+2024,2736788,Amazon.com Services LLC,Amazon.com Services LLC - BDL7,409 Washington Avenue,North Haven,CT,6473,323117,Books Printing,142.0,251267.0
+2024,2626871,Amazon Kuiper,Merritt Island Kuiper MC013,J6-1358,Merritt Island,FL,32953,334220,"Space satellites, communications, manufacturing",70.0,83885.0
+2024,2736231,Amazon.com Services LLC,Amazon.com Services LLC - VUPN,340 Westridge Pkwy,McDonough,GA,30253,493110,General Warehousing and Storage,22.0,34044.0
+2024,2736403,Amazon Retail LLC,Amazon Retail LLC - MAL2,325 E Palatine Road,Arlington Heights,IL,60004,445110,Supermarkets and Other Grocery except Convenience Stores,109.0,68985.0
+2024,2736556,Amazon Retail LLC,Amazon Retail LLC - MAG3,404 Army Trail Road,Bloomingdale,IL,60108,445110,Supermarkets and Other Grocery except Convenience Stores,116.0,128326.0
+2024,2735878,Amazon.com Services LLC,Amazon.com Services LLC - GOC1,3 W Chicago Ave Ste 100,Chicago,IL,60654,445131,Convenience Food store,22.0,8408.0
+2024,2736591,Amazon Retail LLC,Amazon Retail LLC - MAE3,6939 Dempster St,Morton Grove,IL,60053,445110,Supermarkets and Other Grocery except Convenience Stores,114.0,132263.0
+2024,2736294,Amazon Retail LLC,Amazon Retail LLC - MAJ5,1351 E Ogden Ave,Naperville,IL,60563,445110,Supermarkets and Other Grocery except Convenience Stores,85.0,102030.0
+2024,2735776,Amazon Retail LLC,Amazon Retail LLC - MAC1,3116 IL-59 Hwy Suite 104,Naperville,IL,60564,445110,Supermarkets and Other Grocery except Convenience Stores,104.0,134610.0
+2024,2736323,Amazon Retail LLC,Amazon Retail LLC - MAH2,4211 N. Harlem Ave,Norridge,IL,60706,445110,Supermarkets and Other Grocery except Convenience Stores,96.0,115081.0
+2024,2736162,Amazon Retail LLC,Amazon Retail LLC - MAJ2,7201 W. 24th St.,North Riverside,IL,60546,445110,Supermarkets and Other Grocery except Convenience Stores,83.0,106078.0
+2024,2736587,Amazon Retail LLC,Amazon Retail LLC - MAE4,4031 W 95th Street,Oak Lawn,IL,60453,445110,Supermarkets and Other Grocery except Convenience Stores,137.0,163135.0
+2024,2736800,Amazon Retail LLC,Amazon Retail LLC - MAC7,16 E Golf Rd,Shaumburg,IL,60173,445110,Supermarkets and Other Grocery except Convenience Stores,110.0,133593.0
+2024,2736456,Amazon Retail LLC,Amazon Retail LLC - MAK1,16017 S. Harlem Avenue,Tinley Park,IL,60477,445110,Supermarkets and Other Grocery except Convenience Stores,108.0,63420.0
+2024,2735979,Amazon Retail LLC,Amazon Retail LLC - MAG4,30 W. 63rd St.,Westmont,IL,60559,445110,Supermarkets and Other Grocery except Convenience Stores,109.0,124143.0
+2024,2649879,Amazon.com Services LLC,Amazon Robotics BOS12,300 Riverpark Drive,North Reading,MA,1864,333922,"Buckets, elevator or conveyor, manufacturing",794.0,1856264.0
+2024,2715446,Amazon.com LLC,Amazon Robotics BOS- 27,50 Otis Street,Westborough,MA,1581,333922,Belt conveyor systems manufacturing,436.0,1010239.0
+2024,2736345,Amazon Retail LLC,Amazon Retail LLC - MAF1,5463 Wisconsin Ave,Chevy Chase,MD,20815,445110,Supermarkets and Other Grocery except Convenience Stores,112.0,143691.0
+2024,2737044,Amazon Retail LLC,Amazon Retail LLC - MAG5,8531 Connecticut Avenue,Chevy Chase,MD,20815,445110,Supermarkets and Other Grocery except Convenience Stores,99.0,137359.0
+2024,2736585,Amazon Retail LLC,Amazon Retail LLC - MAH5,15790 Shady Grove Road,Gaithersburg,MD,20877,445110,Supermarkets and Other Grocery except Convenience Stores,82.0,58921.0
+2024,2736533,Amazon Retail LLC,Amazon Retail LLC - MAT8,1611 Ritchie Highway,Glen Burnie,MD,21060,445110,Supermarkets and Other Grocery except Convenience Stores,133.0,43048.0
+2024,2736908,Amazon Retail LLC,Amazon Retail LLC - MAI2,137 HIGHWAY 35,Eatontown,NJ,7724,445110,Supermarkets and Other Grocery except Convenience Stores,84.0,67728.0
+2024,2737006,Amazon Retail LLC,Amazon Retail LLC - MAM5,2 Memorial Drive,Lodi,NJ,7644,445110,Supermarkets and Other Grocery except Convenience Stores,113.0,56965.0
+2024,2736743,Amazon Retail LLC,Amazon Retail LLC - MAI6,30 E Ridgewood Ave,Paramus,NJ,7652,445110,Supermarkets and Other Grocery except Convenience Stores,104.0,132229.0
+2024,2736890,Amazon Retail LLC,Amazon Retail LLC - MAI7,1510 US-46,Woodland Park,NJ,7424,445110,Supermarkets and Other Grocery except Convenience Stores,126.0,42253.0
+2024,2736140,Amazon Retail LLC,Amazon Retail LLC - MAO7,75 Willow Wood Dr,East Setauket,NY,11733,445110,Supermarkets and Other Grocery except Convenience Stores,86.0,31968.0
+2024,2735926,Amazon Retail LLC,Amazon Retail LLC - MAK3,3600 Long Beach Road,Oceanside,NY,11572,445110,Supermarkets and Other Grocery except Convenience Stores,100.0,125679.0
+2024,2737062,Amazon Retail LLC,Amazon Retail LLC - MAI5,50 Manetto Hill Plz,Plainview,NY,11803,445110,Supermarkets and Other Grocery except Convenience Stores,72.0,27787.0
+2024,2736760,Amazon.com Services LLC,Amazon.com Services LLC - CAK4,5855 Canal Rd,Valley View,OH,44125,323113,Commercial Screen Printing,403.0,679500.0
+2024,2736633,Amazon.com Services LLC,Amazon.com Services LLC - KILN,150 Ruane Dr,Wilmington,OH,45177,492110,Couriers and Express Delivery Services,1410.0,2135743.0
+2024,2736744,Amazon Retail LLC,Amazon Retail LLC - MAH0,2940 Springfield Rd,BROOMALL,PA,19008,445110,Supermarkets and Other Grocery except Convenience Stores,113.0,125378.0
+2024,2737055,Amazon Retail LLC,Amazon Retail LLC - MAF6,1837 Street Road,Bensalem,PA,19020,445110,Supermarkets and Other Grocery except Convenience Stores,81.0,50678.0
+2024,2735673,Amazon Retail LLC,Amazon Retail LLC - MAO4,2424 E Lincoln Highway  Suite 800A,Langhorne,PA,19047,445110,Supermarkets and Other Grocery except Convenience Stores,79.0,40757.0
+2024,2735698,Amazon.com Services LLC,Amazon.com Services LLC - VUPA,211 Logistics Dr.,Shoemakersville,PA,19555,493110,General Warehousing and Storage,21.0,41277.0
+2024,2736911,Amazon Retail LLC,Amazon Retail LLC - MAF7,389 Easton Road Suite B,Warrington,PA,18976,445110,Supermarkets and Other Grocery except Convenience Stores,109.0,128089.0
+2024,2736199,Amazon Retail LLC,Amazon Retail LLC - MAG9,102 Park Ave,Willow Grove,PA,19090,445110,Supermarkets and Other Grocery except Convenience Stores,81.0,30160.0
+2024,2735906,Amazon.com Services LLC,Amazon.com Services LLC - CAE3,222 Old Wire Road,West Columbia,SC,29712,323117,Books Printing,311.0,555359.0
+2024,2735961,Amazon Retail LLC,Amazon Retail LLC - MAL0,3801 Richmond Hwy,Alexandria,VA,22305,445110,Supermarkets and Other Grocery except Convenience Stores,110.0,74999.0
+2024,2736244,Amazon Retail LLC,Amazon Retail LLC - MAX1,1550 Crystal Dr  2,Arlington,VA,22202,445110,Supermarkets and Other Grocery except Convenience Stores,51.0,19084.0
+2024,2736395,Amazon Retail LLC,Amazon Retail LLC - MAN0,5811 Crossroads Center Way,Bailey's Crossroads,VA,22041,445110,Supermarkets and Other Grocery except Convenience Stores,84.0,21638.0
+2024,2735769,Amazon Retail LLC,Amazon Retail LLC - MAB3,10354 Fairfax Blvd,Fairfax,VA,22030,445110,Supermarkets and Other Grocery except Convenience Stores,106.0,125318.0
+2024,2736296,Amazon Retail LLC,Amazon Retail LLC - MAG6,7005 Manchester Blvd,Franconia,VA,22310,445110,Supermarkets and Other Grocery except Convenience Stores,123.0,149750.0
+2024,2736211,Amazon Retail LLC,Amazon Retail LLC - MAJ7,9409 Lorton Market Street,Lorton,VA,20109,445110,Supermarkets and Other Grocery except Convenience Stores,109.0,134362.0
+2024,2736688,Amazon Retail LLC,Amazon Retail LLC - MAK7,7807 Sudley Road,Manassas,VA,20109,445110,Supermarkets and Other Grocery except Convenience Stores,99.0,120162.0
+2024,2736979,Amazon Retail LLC,Amazon Retail LLC - MAB2,3901 Factoria Square Mall SE,Bellevue,WA,98006,445110,Supermarkets and Other Grocery except Convenience Stores,81.0,108683.0
+2024,2736154,Amazon Retail LLC,Amazon Retail LLC - MAI1,1701 S Commons,Federal Way,WA,98003,445110,Supermarkets and Other Grocery except Convenience Stores,115.0,131359.0
+2024,2626846,Amazon Kuiper,Kirkland Kuiper SEA133,12521 128th Ln NE,Kirkland,WA,98034,334220,"Space satellites, communications, manufacturing",335.0,252511.0
+2024,2626839,Amazon Kuiper,Redmond Kuiper SEA128,18130 NE 76th St,Redmond,WA,98052,332710,Machine shops,51.0,107805.0
+2024,2626833,Amazon Kuiper,Redmond Kuiper SEA111,18460 NE 76th st,Redmond,WA,98052,541715,Engineering research and development laboratories or services (except nanotechnology research and development),314.0,634388.0
+2024,2588122,Amazon,Amazon (SEA124),601 Monster Rd SW,Renton,WA,98057,493110,General warehousing and storage,63.0,120960.0
+2024,2735899,Amazon Retail LLC,Amazon Retail LLC - MAB7,13201 Aurora Ave North,Seattle,WA,98133,445110,Supermarkets and Other Grocery except Convenience Stores,117.0,151505.0
+2024,2736891,Amazon Retail LLC,Amazon Retail LLC - MAB6,2301 S. Jackson St,Seattle,WA,98144,445110,Supermarkets and Other Grocery except Convenience Stores,85.0,116306.0
+2024,2736600,Amazon Retail LLC,Amazon Retail LLC - IBF1,610 E Pike St,Seattle,WA,98122,445110,Supermarkets and Other Grocery except Convenience Stores,23.0,10022.0
+2025,3176257,Amazon Retail LLC,Amazon Retail LLC - MAF9,11340 South Street,Cerritos,CA,90701,445110,Supermarkets and Other Grocery  except Convenience  Stores,128.0,159025.0
+2025,3176291,Amazon Retail LLC,Amazon Retail LLC - MAQ8,5425 Sunrise Blvd,Citrus Heights,CA,95610,445110,Supermarkets and Other Grocery  except Convenience  Stores,143.0,167958.0
+2025,3176277,Amazon Retail LLC,Amazon Retail LLC - MAJ8,3941 Bedford Canyon Road,Corona,CA,92883,445110,Supermarkets and Other Grocery  except Convenience  Stores,126.0,140510.0
+2025,3176286,Amazon Retail LLC,Amazon Retail LLC - MAM9,7530 Elk Grove Blvd,Elk Grove,CA,95757,445110,Supermarkets and Other Grocery  except Convenience  Stores,167.0,183133.0
+2025,3176250,Amazon Retail LLC,Amazon Retail LLC - MAF3,16325 Ventura Blvd,Encino,CA,91436,445110,Supermarkets and Other Grocery  except Convenience  Stores,170.0,209472.0
+2025,3176289,Amazon Retail LLC,Amazon Retail LLC - MAO6,16188 S Highland Ave,Fontana,CA,92336,445110,Supermarkets and Other Grocery  except Convenience  Stores,141.0,181823.0
+2025,3176295,Amazon Retail LLC,Amazon Retail LLC - MBA6,18100 Brookhurst St,Fountain Valley,CA,92708,445110,Supermarkets and Other Grocery  except Convenience  Stores,150.0,128151.0
+2025,3176239,Amazon Retail LLC,Amazon Retail LLC - MAC2,1100 S. Harbor Blvd.,Fullerton,CA,92832,445110,Supermarkets and Other Grocery  except Convenience  Stores,156.0,190896.0
+2025,3176234,Amazon Retail LLC,Amazon Retail LLC - MAB8,6911 Warner Ave,Huntington Beach,CA,92647,445110,Supermarkets and Other Grocery  except Convenience  Stores,165.0,192173.0
+2025,3176235,Amazon Retail LLC,Amazon Retail LLC - MAB9,13752 Jamboree Rd,Irvine,CA,92602,445110,Supermarkets and Other Grocery  except Convenience  Stores,177.0,211678.0
+2025,3176241,Amazon Retail LLC,Amazon Retail LLC - MAC4,1610 W Imperial Hwy,La Habra,CA,90631,445110,Supermarkets and Other Grocery  except Convenience  Stores,156.0,154853.0
+2025,3176240,Amazon Retail LLC,Amazon Retail LLC - MAC3,2229 Foothil Blvd,La Verne,CA,91750,445110,Supermarkets and Other Grocery  except Convenience  Stores,102.0,109535.0
+2025,3176243,Amazon Retail LLC,Amazon Retail LLC - MAC9,6235 E Spring St,Long Beach,CA,90808,445110,Supermarkets and Other Grocery  except Convenience  Stores,155.0,188812.0
+2025,3176258,Amazon Retail LLC,Amazon Retail LLC - MAG1,6855 S. La Cienega Blvd,Los Angeles,CA,90045,445110,Supermarkets and Other Grocery  except Convenience  Stores,152.0,181442.0
+2025,3176236,Amazon Retail LLC,Amazon Retail LLC - MAC0,26940 Crown Valley Pkwy,Mission Viejo,CA,92691,445110,Supermarkets and Other Grocery  except Convenience  Stores,133.0,146119.0
+2025,3176285,Amazon Retail LLC,Amazon Retail LLC - MAM7,742 Los Angeles Ave,Moorpark,CA,93021,445110,Supermarkets and Other Grocery  except Convenience  Stores,131.0,165635.0
+2025,3176267,Amazon Retail LLC,Amazon Retail LLC - MAH8,40481 Murrieta Hot Springs Road,Murrieta,CA,92563,445110,Supermarkets and Other Grocery  except Convenience  Stores,129.0,154372.0
+2025,3176230,Amazon Retail LLC,Amazon Retail LLC - MAB4,5101 Lankershim Blvd,North Hollywood,CA,91601,445110,Supermarkets and Other Grocery  except Convenience  Stores,128.0,156887.0
+2025,3176231,Amazon Retail LLC,Amazon Retail LLC - MAB5,19340 Rinaldi St.,Northridge,CA,91326,445110,Supermarkets and Other Grocery  except Convenience  Stores,155.0,163882.0
+2025,2941376,Amazon Leo,Amazon Leo - LAX48,8500 Balboa Boulevard Suite 170,Northridge,CA,91329,541715,Engineering research and development laboratories or services (except nanotechnology research and development),104.0,199385.0
+2025,3176736,Amazon.com Services LLC,Amazon.com Services LLC - VUPC,4815 S Hellman Ave,Ontario,CA,91761,493110,General Warehousing and Storage,21.0,38960.0
+2025,3176281,Amazon Retail LLC,Amazon Retail LLC - MAK9,3425 E Colorado Blvd,Pasadena,CA,91107,445110,Supermarkets and Other Grocery  except Convenience  Stores,109.0,143442.0
+2025,3176273,Amazon Retail LLC,Amazon Retail LLC - MAI8,14837 Pomerado Rd,Poway,CA,92064,445110,Supermarkets and Other Grocery  except Convenience  Stores,137.0,176903.0
+2025,3176292,Amazon Retail LLC,Amazon Retail LLC - MAQ9,6780 Stanford Ranch Road,Roseville,CA,95678,445110,Supermarkets and Other Grocery  except Convenience  Stores,160.0,181392.0
+2025,3176251,Amazon Retail LLC,Amazon Retail LLC - MAF4,140 Promenade Way - Suite A,Thousand Oaks,CA,91362,445110,Supermarkets and Other Grocery  except Convenience  Stores,64.0,30152.0
+2025,3176255,Amazon Retail LLC,Amazon Retail LLC - MAF8,21035 Hawthorne Blvd,Torrance,CA,90503,445110,Supermarkets and Other Grocery  except Convenience  Stores,165.0,174965.0
+2025,3176252,Amazon Retail LLC,Amazon Retail LLC - MAF5,235 E. Foothill Blvd,Upland,CA,91786,445110,Supermarkets and Other Grocery  except Convenience  Stores,146.0,126053.0
+2025,3176246,Amazon Retail LLC,Amazon Retail LLC - MAE6,15225 Whittier Blvd,Whittier,CA,90603,445110,Supermarkets and Other Grocery  except Convenience  Stores,115.0,124492.0
+2025,3176227,Amazon Retail LLC,Amazon Retail LLC - MAB1,6245 Topanga Canyon Blvd,Woodland Hills,CA,91367,445110,Supermarkets and Other Grocery  except Convenience  Stores,172.0,219816.0
+2025,2941261,Amazon Leo,Amazon Leo - MCO13,J6-1358,Merritt Island,FL,32953,334220,"Space satellites, communications, manufacturing",151.0,223063.0
+2025,3176283,Amazon Retail LLC,Amazon Retail LLC - MAL2,325 E Palatine Road,Arlington Heights,IL,60004,445110,Supermarkets and Other Grocery  except Convenience  Stores,121.0,141141.0
+2025,3176259,Amazon Retail LLC,Amazon Retail LLC - MAG3,404 Army Trail Road,Bloomingdale,IL,60108,445110,Supermarkets and Other Grocery  except Convenience  Stores,124.0,137443.0
+2025,3176009,Amazon.com Services LLC,Amazon.com Services LLC - GOC1,3 W Chicago Ave Ste 100,Chicago,IL,60654,445131,Convenience Food store,21.0,29020.0
+2025,3176244,Amazon Retail LLC,Amazon Retail LLC - MAE3,6939 Dempster St,Morton Grove,IL,60053,445110,Supermarkets and Other Grocery  except Convenience  Stores,137.0,170346.0
+2025,3176275,Amazon Retail LLC,Amazon Retail LLC - MAJ5,1351 E Ogden Ave,Naperville,IL,60563,445110,Supermarkets and Other Grocery  except Convenience  Stores,106.0,127547.0
+2025,3176237,Amazon Retail LLC,Amazon Retail LLC - MAC1,3116 IL-59 Hwy Suite 104,Naperville,IL,60564,445110,Supermarkets and Other Grocery  except Convenience  Stores,116.0,150070.0
+2025,3176265,Amazon Retail LLC,Amazon Retail LLC - MAH2,4211 N. Harlem Ave,Norridge,IL,60706,445110,Supermarkets and Other Grocery  except Convenience  Stores,154.0,176810.0
+2025,3176274,Amazon Retail LLC,Amazon Retail LLC - MAJ2,7201 W. 24th St.,North Riverside,IL,60546,445110,Supermarkets and Other Grocery  except Convenience  Stores,131.0,159268.0
+2025,3176245,Amazon Retail LLC,Amazon Retail LLC - MAE4,4031 W 95th Street,Oak Lawn,IL,60453,445110,Supermarkets and Other Grocery  except Convenience  Stores,174.0,201762.0
+2025,3176242,Amazon Retail LLC,Amazon Retail LLC - MAC7,16 E Golf Rd,Shaumburg,IL,60173,445110,Supermarkets and Other Grocery  except Convenience  Stores,114.0,142638.0
+2025,3176278,Amazon Retail LLC,Amazon Retail LLC - MAK1,16017 S. Harlem Avenue,Tinley Park,IL,60477,445110,Supermarkets and Other Grocery  except Convenience  Stores,131.0,145332.0
+2025,3176260,Amazon Retail LLC,Amazon Retail LLC - MAG4,30 W. 63rd St.,Westmont,IL,60559,445110,Supermarkets and Other Grocery  except Convenience  Stores,132.0,93753.0
+2025,2982841,Amazon.com Services LLC,Amazon Robotics BOS12,300 Riverpark Drive,North Reading,MA,01864,333922,"Buckets, elevator or conveyor, manufacturing",1037.0,2074648.0
+2025,3176249,Amazon Retail LLC,Amazon Retail LLC - MAF1,5463 Wisconsin Ave,Chevy Chase,MD,20815,445110,Supermarkets and Other Grocery  except Convenience  Stores,117.0,151909.0
+2025,3176261,Amazon Retail LLC,Amazon Retail LLC - MAG5,8531 Connecticut Avenue,Chevy Chase,MD,20815,445110,Supermarkets and Other Grocery  except Convenience  Stores,100.0,128603.0
+2025,3176266,Amazon Retail LLC,Amazon Retail LLC - MAH5,15790 Shady Grove Road,Gaithersburg,MD,20877,445110,Supermarkets and Other Grocery  except Convenience  Stores,113.0,134516.0
+2025,3176293,Amazon Retail LLC,Amazon Retail LLC - MAT8,1611 Ritchie Highway,Glen Burnie,MD,21060,445110,Supermarkets and Other Grocery  except Convenience  Stores,141.0,166428.0
+2025,3176294,Amazon Retail LLC,Amazon Retail LLC - MAV2,12263 Prosperity Dr,Silver Spring,MD,20904,445110,Supermarkets and Other Grocery  except Convenience  Stores,155.0,166723.0
+2025,3176269,Amazon Retail LLC,Amazon Retail LLC - MAI2,137 HIGHWAY 35,Eatontown,NJ,07724,445110,Supermarkets and Other Grocery  except Convenience  Stores,108.0,129486.0
+2025,3176284,Amazon Retail LLC,Amazon Retail LLC - MAM5,2 Memorial Drive,Lodi,NJ,07644,445110,Supermarkets and Other Grocery  except Convenience  Stores,151.0,181769.0
+2025,3176271,Amazon Retail LLC,Amazon Retail LLC - MAI6,30 E Ridgewood Ave,Paramus,NJ,07652,445110,Supermarkets and Other Grocery  except Convenience  Stores,160.0,188317.0
+2025,3176272,Amazon Retail LLC,Amazon Retail LLC - MAI7,1510 US-46,Woodland Park,NJ,07424,445110,Supermarkets and Other Grocery  except Convenience  Stores,184.0,224534.0
+2025,3176290,Amazon Retail LLC,Amazon Retail LLC - MAO7,75 Willow Wood Dr,East Setauket,NY,11733,445110,Supermarkets and Other Grocery  except Convenience  Stores,116.0,125722.0
+2025,3176279,Amazon Retail LLC,Amazon Retail LLC - MAK3,3600 Long Beach Road,Oceanside,NY,11572,445110,Supermarkets and Other Grocery  except Convenience  Stores,109.0,135170.0
+2025,3176270,Amazon Retail LLC,Amazon Retail LLC - MAI5,50 Manetto Hill Plz,Plainview,NY,11803,445110,Supermarkets and Other Grocery  except Convenience  Stores,83.0,73443.0
+2025,3175528,Amazon.com Services LLC,Amazon.com Services LLC - CAK4,5855 Canal Rd,Valley View,OH,44125,323113,Commercial Screen Printing,716.0,1185160.0
+2025,3176264,Amazon Retail LLC,Amazon Retail LLC - MAH0,2940 Springfield Rd,BROOMALL,PA,19008,445110,Supermarkets and Other Grocery  except Convenience  Stores,139.0,161319.0
+2025,3176253,Amazon Retail LLC,Amazon Retail LLC - MAF6,1837 Street Road,Bensalem,PA,19020,445110,Supermarkets and Other Grocery  except Convenience  Stores,121.0,136791.0
+2025,3176288,Amazon Retail LLC,Amazon Retail LLC - MAO4,2424 E Lincoln Highway  Suite 800A,Langhorne,PA,19047,445110,Supermarkets and Other Grocery  except Convenience  Stores,107.0,129250.0
+2025,3176248,Amazon Retail LLC,Amazon Retail LLC - MAE9,555 Spring Gardenfsd St,Philadephia,PA,19123,445110,Supermarkets and Other Grocery  except Convenience  Stores,158.0,96294.0
+2025,3176735,Amazon.com Services LLC,Amazon.com Services LLC - VUPA,211 Logistics Dr.,Shoemakersville,PA,19555,493110,General Warehousing and Storage,25.0,45530.0
+2025,3176254,Amazon Retail LLC,Amazon Retail LLC - MAF7,389 Easton Road Suite B,Warrington,PA,18976,445110,Supermarkets and Other Grocery  except Convenience  Stores,109.0,135891.0
+2025,3176263,Amazon Retail LLC,Amazon Retail LLC - MAG9,102 Park Ave,Willow Grove,PA,19090,445110,Supermarkets and Other Grocery  except Convenience  Stores,109.0,128193.0
+2025,3175527,Amazon.com Services LLC,Amazon.com Services LLC - CAE3,222 Old Wire Road,West Columbia,SC,29712,323117,Books Printing,285.0,496337.0
+2025,3176282,Amazon Retail LLC,Amazon Retail LLC - MAL0,3801 Richmond Hwy,Alexandria,VA,22305,445110,Supermarkets and Other Grocery  except Convenience  Stores,143.0,175943.0
+2025,3176287,Amazon Retail LLC,Amazon Retail LLC - MAN0,5811 Crossroads Center Way,Bailey's Crossroads,VA,22041,445110,Supermarkets and Other Grocery  except Convenience  Stores,109.0,121670.0
+2025,3176229,Amazon Retail LLC,Amazon Retail LLC - MAB3,10354 Fairfax Blvd,Fairfax,VA,22030,445110,Supermarkets and Other Grocery  except Convenience  Stores,115.0,135638.0
+2025,3176262,Amazon Retail LLC,Amazon Retail LLC - MAG6,7005 Manchester Blvd,Franconia,VA,22310,445110,Supermarkets and Other Grocery  except Convenience  Stores,108.0,132430.0
+2025,3176276,Amazon Retail LLC,Amazon Retail LLC - MAJ7,9409 Lorton Market Street,Lorton,VA,20109,445110,Supermarkets and Other Grocery  except Convenience  Stores,122.0,144794.0
+2025,3176280,Amazon Retail LLC,Amazon Retail LLC - MAK7,7807 Sudley Road,Manassas,VA,20109,445110,Supermarkets and Other Grocery  except Convenience  Stores,87.0,24772.0
+2025,2941538,Amazon Leo,Amazon Leo - SEA106,105501 NE 10th St,Bellevue,WA,98004,551114,Corporate offices,398.0,360370.0
+2025,3176228,Amazon Retail LLC,Amazon Retail LLC - MAB2,3901 Factoria Square Mall SE,Bellevue,WA,98006,445110,Supermarkets and Other Grocery  except Convenience  Stores,84.0,115135.0
+2025,3176268,Amazon Retail LLC,Amazon Retail LLC - MAI1,1701 S Commons,Federal Way,WA,98003,445110,Supermarkets and Other Grocery  except Convenience  Stores,117.0,65782.0
+2025,2941290,Amazon Leo,Amazon Leo - SEA133,12521 128th Ln NE,Kirkland,WA,98034,334220,"Space satellites, communications, manufacturing",840.0,1102218.0
+2025,3176159,Amazon Retail LLC,Amazon Retail LLC - ILS4,13209 39 Ave SE  Suite 101,Mill Creek,WA,98012,445131,Convenience Food Store,21.0,34165.0
+2025,2941234,Amazon Leo,Amazon Leo - SEA128,18130 NE 76th St,Redmond,WA,98052,332710,Machine shops,68.0,125865.0
+2025,2941244,Amazon Leo,Amazon Leo - SEA111,18460 NE 76th st,Redmond,WA,98052,541715,Engineering research and development laboratories or services (except nanotechnology research and development),328.0,583984.0
+2025,2941471,Amazon Leo,Amazon Leo - SEA130,6222 185th Ave NE,Redmond,WA,98052,541715,Engineering research and development laboratories or services (except nanotechnology research and development),68.0,29655.0
+2025,2941436,Amazon Leo,Amazon Leo - SEA131,6244 185th Ave NE,Redmond,WA,98052,541715,Engineering research and development laboratories or services (except nanotechnology research and development),118.0,215178.0
+2025,2941188,Amazon Leo,Amazon Leo - SEA129,6464 185th Ave NE,Redmond,WA,98052,541715,Engineering research and development laboratories or services (except nanotechnology research and development),318.0,685954.0
+2025,2978945,Amazon,Amazon (SEA124),601 Monster Rd SW,Renton,WA,98057,493110,General warehousing and storage,67.0,128640.0
+2025,3176233,Amazon Retail LLC,Amazon Retail LLC - MAB7,13201 Aurora Ave North,Seattle,WA,98133,445110,Supermarkets and Other Grocery  except Convenience  Stores,139.0,172403.0
+2025,3176232,Amazon Retail LLC,Amazon Retail LLC - MAB6,2301 S. Jackson St,Seattle,WA,98144,445110,Supermarkets and Other Grocery  except Convenience  Stores,85.0,113159.0

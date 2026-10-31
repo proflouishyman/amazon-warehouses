@@ -1,0 +1,9 @@
+{
+ "rows": 1761,
+ "counts": {
+  "no_coordinates": 30,
+  "ok": 1729,
+  "near_border": 2
+ },
+ "failures_hard": 0
+}

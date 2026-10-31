@@ -1,0 +1,141 @@
+report_vintage,metric,year,value,unit,source_file,pdf_page
+2023 report,carbon_intensity_g_per_usd_GMS,2019,122.8,g CO2e per $ GMS,amazon_sustainability_report_2023.pdf,11
+2023 report,carbon_intensity_g_per_usd_GMS,2020,102.7,g CO2e per $ GMS,amazon_sustainability_report_2023.pdf,11
+2023 report,carbon_intensity_g_per_usd_GMS,2021,100.8,g CO2e per $ GMS,amazon_sustainability_report_2023.pdf,11
+2023 report,carbon_intensity_g_per_usd_GMS,2022,93.0,g CO2e per $ GMS,amazon_sustainability_report_2023.pdf,11
+2023 report,carbon_intensity_g_per_usd_GMS,2023,80.8,g CO2e per $ GMS,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_direct,2019,5.76,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_direct,2020,9.62,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_direct,2021,12.11,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_direct,2022,13.32,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_direct,2023,14.27,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_fossil_fuels,2019,5.57,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_fossil_fuels,2020,9.37,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_fossil_fuels,2021,11.89,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_fossil_fuels,2022,12.96,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_fossil_fuels,2023,14.0,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_refrigerants,2019,0.19,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_refrigerants,2020,0.25,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_refrigerants,2021,0.22,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_refrigerants,2022,0.36,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope1_refrigerants,2023,0.27,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope2_purchased_electricity_market,2019,5.5,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope2_purchased_electricity_market,2020,5.27,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope2_purchased_electricity_market,2021,4.07,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope2_purchased_electricity_market,2022,3.14,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope2_purchased_electricity_market,2023,2.79,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope3_indirect,2019,39.91,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope3_indirect,2020,45.75,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope3_indirect,2021,55.36,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope3_indirect,2022,54.28,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,scope3_indirect,2023,51.76,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,total_footprint,2019,51.17,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,total_footprint,2020,60.64,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,total_footprint,2021,71.54,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,total_footprint,2022,70.74,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2023 report,total_footprint,2023,68.82,MMT CO2e,amazon_sustainability_report_2023.pdf,11
+2024 report,scope1_direct,2019,5.76,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_direct,2020,9.62,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_direct,2021,12.11,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_direct,2022,13.02,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_direct,2023,14.22,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_direct,2024,15.13,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_fossil_fuels,2019,5.57,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_fossil_fuels,2020,9.37,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_fossil_fuels,2021,11.89,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_fossil_fuels,2022,12.6,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_fossil_fuels,2023,13.85,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_fossil_fuels,2024,14.8,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_refrigerants,2019,0.19,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_refrigerants,2020,0.25,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_refrigerants,2021,0.22,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_refrigerants,2022,0.42,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_refrigerants,2023,0.37,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope1_refrigerants,2024,0.33,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope2_purchased_electricity_market,2019,5.5,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope2_purchased_electricity_market,2020,5.27,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope2_purchased_electricity_market,2021,4.07,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope2_purchased_electricity_market,2022,3.06,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope2_purchased_electricity_market,2023,2.76,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope2_purchased_electricity_market,2024,2.8,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope3_indirect,2019,39.91,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope3_indirect,2020,45.75,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope3_indirect,2021,55.36,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope3_indirect,2022,49.02,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope3_indirect,2023,47.4,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,scope3_indirect,2024,50.32,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,total_footprint,2019,51.17,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,total_footprint,2020,60.64,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,total_footprint,2021,71.54,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,total_footprint,2022,65.1,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,total_footprint,2023,64.38,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2024 report,total_footprint,2024,68.25,MMT CO2e,amazon_sustainability_report_2024.pdf,50
+2025 report,carbon_intensity_g_per_usd_revenue,2019,182.4,g CO2e per $ revenue,amazon_sustainability_report_2025.pdf,46
+2025 report,carbon_intensity_g_per_usd_revenue,2020,157.1,g CO2e per $ revenue,amazon_sustainability_report_2025.pdf,46
+2025 report,carbon_intensity_g_per_usd_revenue,2021,152.3,g CO2e per $ revenue,amazon_sustainability_report_2025.pdf,46
+2025 report,carbon_intensity_g_per_usd_revenue,2022,127.2,g CO2e per $ revenue,amazon_sustainability_report_2025.pdf,46
+2025 report,carbon_intensity_g_per_usd_revenue,2023,113.6,g CO2e per $ revenue,amazon_sustainability_report_2025.pdf,46
+2025 report,carbon_intensity_g_per_usd_revenue,2024,109.0,g CO2e per $ revenue,amazon_sustainability_report_2025.pdf,46
+2025 report,carbon_intensity_g_per_usd_revenue,2025,112.8,g CO2e per $ revenue,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_direct,2019,5.76,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_direct,2020,9.62,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_direct,2021,12.11,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_direct,2022,13.02,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_direct,2023,14.22,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_direct,2024,15.13,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_direct,2025,15.37,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_fossil_fuels,2019,5.57,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_fossil_fuels,2020,9.37,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_fossil_fuels,2021,11.89,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_fossil_fuels,2022,12.6,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_fossil_fuels,2023,13.85,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_fossil_fuels,2024,14.8,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_fossil_fuels,2025,15.0,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_refrigerants,2019,0.19,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_refrigerants,2020,0.25,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_refrigerants,2021,0.22,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_refrigerants,2022,0.42,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_refrigerants,2023,0.37,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_refrigerants,2024,0.33,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope1_refrigerants,2025,0.37,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope2_purchased_electricity_market,2019,5.5,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope2_purchased_electricity_market,2020,5.27,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope2_purchased_electricity_market,2021,4.07,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope2_purchased_electricity_market,2022,3.06,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope2_purchased_electricity_market,2023,2.76,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope2_purchased_electricity_market,2024,2.8,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope2_purchased_electricity_market,2025,3.74,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_indirect,2019,39.91,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_indirect,2020,45.75,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_indirect,2021,55.36,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_indirect,2022,49.29,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_indirect,2023,48.3,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_indirect,2024,51.62,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_indirect,2025,61.74,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,total_footprint,2019,51.17,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,total_footprint,2020,60.64,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,total_footprint,2021,71.54,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,total_footprint,2022,65.37,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,total_footprint,2023,65.28,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,total_footprint,2024,69.55,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,total_footprint,2025,80.85,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_capital_goods,2022,10.39,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_capital_goods,2023,10.03,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_capital_goods,2024,11.82,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_capital_goods,2025,16.96,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_upstream_transport_distribution,2022,10.1,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_upstream_transport_distribution,2023,8.88,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_upstream_transport_distribution,2024,9.61,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_upstream_transport_distribution,2025,10.87,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_downstream_transport_distribution,2022,3.31,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_downstream_transport_distribution,2023,3.52,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_downstream_transport_distribution,2024,3.73,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_downstream_transport_distribution,2025,4.01,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_employee_commuting,2022,2.93,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_employee_commuting,2023,2.7,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_employee_commuting,2024,2.76,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_employee_commuting,2025,2.98,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_fuel_energy_related,2022,4.4,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_fuel_energy_related,2023,5.03,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_fuel_energy_related,2024,4.55,MMT CO2e,amazon_sustainability_report_2025.pdf,46
+2025 report,scope3_fuel_energy_related,2025,5.7,MMT CO2e,amazon_sustainability_report_2025.pdf,46

@@ -1,0 +1,31 @@
+year,metric,value,unit,basis_and_note,source,source_type
+2019,renewable_electricity_matched_pct,42,%,Energy Digital summary of 2022 report (secondary; not in the PDFs downloaded),https://energydigital.com/articles/amazons-sustainability-report-outlines-the-future-of-energy,secondary
+2021,renewable_electricity_matched_pct,85,%,Energy Digital summary of 2022 report (secondary),https://energydigital.com/articles/amazons-sustainability-report-outlines-the-future-of-energy,secondary
+2022,renewable_electricity_matched_pct,90,%,"Amazon 2023 report goals table p6 (""90% matched | 100% matched""); also aboutamazon.com 2022 report page",amazon_sustainability_report_2023.pdf p6,primary
+2023,renewable_electricity_matched_pct,100,%,"Amazon 2023 report p6, p12, p24 (""matched 100% ... achieved ... 2023"")",amazon_sustainability_report_2023.pdf p6/p12/p24,primary
+2024,renewable_electricity_matched_pct,100,%,Amazon 2024 report p14,amazon_sustainability_report_2024.pdf p14,primary
+2025,renewable_electricity_matched_pct,100,%,Amazon 2025 report p11,amazon_sustainability_report_2025.pdf p11,primary
+2023,renewable_portfolio_capacity_GW,28,GW,Amazon 2023 report p12 (up from 20 GW in 2022),amazon_sustainability_report_2023.pdf p12,primary
+2024,renewable_portfolio_capacity_GW,34,GW,"Amazon 2024 report p14 (carbon-free energy capacity; 91,000 GWh/yr)",amazon_sustainability_report_2024.pdf p14,primary
+2025,carbon_free_energy_GWh,131000,GWh,Amazon 2025 report p10,amazon_sustainability_report_2025.pdf p10,primary
+2024,us_renewable_projects_count,281,projects,"Amazon 2024 report p50 table (United States, 20,104 MW, 281 projects incl. in development/construction)",amazon_sustainability_report_2024.pdf p50,primary
+2025,us_carbon_free_projects_announced_30_states,291,projects,"Amazon 2025 report p11: 291 projects across 30 states, 25.6 GW expected capacity (US)",amazon_sustainability_report_2025.pdf p11,primary
+2022,electric_delivery_vans_global,2600,vans,Amazon 2023 report p6 goals table (2.6K+); NOTE the 2024 report p6 shows 7K+ for the same year - discrepancy unresolved,amazon_sustainability_report_2023.pdf p6,primary-conflicting
+2022,electric_delivery_vans_global_alt,7000,vans,Amazon 2024 report p6 goals table (7K+),amazon_sustainability_report_2024.pdf p6,primary-conflicting
+2023,electric_delivery_vans_global,19000,vans,"Amazon 2023 report p17 (""19,000 electric delivery vans around the world""); 2024 report p6 also 19K+",amazon_sustainability_report_2023.pdf p17,primary
+2023,electric_delivery_vans_us_rivian,11800,vans,"Amazon 2023 report p17 (U.S. fleet 11,800 Rivian vans, up from 2,600 in 2022)",amazon_sustainability_report_2023.pdf p17,primary
+2024,electric_delivery_vans_global,31400,vans,"Amazon 2024 report p9, p12; >24,000 from Rivian",amazon_sustainability_report_2024.pdf p9/p12,primary
+2024,packages_delivered_by_EV_billion,1.5,billion,Amazon 2024 report p12,amazon_sustainability_report_2024.pdf p12,primary
+2025,electric_delivery_vans_global,52700,vans,"Amazon 2025 report p5/p7/p9: 52.7K+; 37,400 US, 10,900 Europe, 4,400 India; fleet +68% in 2025",amazon_sustainability_report_2025.pdf p9,primary
+2025,electric_delivery_vans_us,37400,vans,Amazon 2025 report p9,amazon_sustainability_report_2025.pdf p9,primary
+2025,packages_delivered_by_EV_billion,2.4,billion,Amazon 2025 report p9,amazon_sustainability_report_2025.pdf p9,primary
+2023,single_use_plastic_packaging_used_MT_global,88698,metric tons,"Amazon 2025 report p22 table (North America 83,513)",amazon_sustainability_report_2025.pdf p22,primary
+2024,single_use_plastic_packaging_used_MT_global,74137,metric tons,"Amazon 2025 report p22 table (North America 68,679)",amazon_sustainability_report_2025.pdf p22,primary
+2025,single_use_plastic_packaging_used_MT_global,74073,metric tons,"Amazon 2025 report p22 table (North America 68,196)",amazon_sustainability_report_2025.pdf p22,primary
+2023,pct_NA_shipments_containing_plastic,65,%,Amazon 2025 report p22,amazon_sustainability_report_2025.pdf p22,primary
+2024,pct_NA_shipments_containing_plastic,37,%,Amazon 2025 report p22,amazon_sustainability_report_2025.pdf p22,primary
+2025,pct_NA_shipments_containing_plastic,27,%,Amazon 2025 report p22,amazon_sustainability_report_2025.pdf p22,primary
+2025,single_use_plastic_avoided_since_2020_MT,223616,metric tons,"Amazon 2025 report p22 (cumulative since 2020; North America 149,096)",amazon_sustainability_report_2025.pdf p22,primary
+2025,packaging_material_avoided_since_2015_million_MT,5.4,million metric tons,Amazon 2025 report p22 (North America and Europe),amazon_sustainability_report_2025.pdf p22,primary
+2023,per_shipment_packaging_weight_reduction_since_2015_pct,43,%,Amazon 2023 report p12,amazon_sustainability_report_2023.pdf p12,primary
+2025,NA_fulfillment_centers_shipping_no_plastic_pct,52,%,Amazon 2025 report p22,amazon_sustainability_report_2025.pdf p22,primary

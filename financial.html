@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Financial</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/financial.css">
+</head>
+<body>
+<main class="wrap" id="app" data-page="fin"></main>
+<script src="assets/data_meta.js"></script>
+<script src="assets/data_financial.js"></script>
+<script src="assets/data_logistics.js"></script>
+<script src="assets/data_sources.js"></script>
+<script src="assets/data_subsidies.js"></script>
+<script src="assets/data_market.js"></script>
+<script src="assets/data_geo.js"></script>
+<script src="assets/common.js"></script>
+<script src="assets/financial.js"></script>
+<script>
+(function(){
+"use strict";
+var A=AMZ, F=AMZ_FIN, L=AMZ_LOG;
+A.page({title:"Financial",sub:"Amazon's company-wide fulfillment and shipping costs, capital spending and square footage, FY1997 to FY2025, from 10-K filings. No state or warehouse-only split exists in these filings, so every figure here is the whole company unless a label says otherwise."});
+var app=A.$("#app");
+var inc=A.rows(F.income), cap=A.rows(F.capex), ship=A.rows(F.shipping), seg=A.rows(F.sqft_segment), lsq=A.rows(L.sqft), par=A.rows(L.parcel_volume);
+var last=inc[inc.length-1], lcap=cap[cap.length-1];
+function bn(v){return v==null?"":"$"+(Math.abs(v)>=100000?(v/1000).toFixed(0):(v/1000).toFixed(1))+"bn";}
+function bnAxis(v){return "$"+A.fmt(v/1000, Math.abs(v)<5000&&v!==0?1:0)+"bn";}
+function pts(rows,xk,yk,div,extra){return rows.filter(function(r){return r[yk]!=null;}).map(function(r){return [r[xk],r[yk]/(div||1),extra?extra(r):null];});}
+function src(host,file,orig){A.mount(host,'<p class="srcline">Data: <code>'+A.esc(file)+'</code>. Original source: '+orig+'</p>');}
+function dtable(host,cols,rows){
+  var h='<details class="dt"><summary>Show data table</summary><div class="tw"><table><thead><tr>'+cols.map(function(c){return '<th class="'+(c.n?"n":"")+'">'+A.esc(c.l)+"</th>";}).join("")+"</tr></thead><tbody>"+
+    rows.map(function(r){return "<tr>"+cols.map(function(c){var v=r[c.k];return '<td class="'+(c.n?"n":"")+'">'+A.esc(c.f?c.f(v,r):(v==null?"":v))+"</td>";}).join("")+"</tr>";}).join("")+"</tbody></table></div></details>";
+  A.mount(host,h);
+}
+var TENK='<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1018724&type=10-K" target="_blank" rel="noopener">Amazon.com, Inc. Form 10-K filings, SEC EDGAR</a>';
+
+/* ---- headline tiles ---- */
+A.tiles(app,[
+ {value:bn(last.net_sales_usd_m),label:"FY2025 net sales",context:"Company-wide. AMZ_FIN.income"},
+ {value:bn(last.fulfillment_expense_usd_m),label:"FY2025 fulfillment expense",context:A.fmt(last.fulfillment_pct_of_sales,1)+"% of net sales. AMZ_FIN.income"},
+ {value:bn(ship.filter(function(r){return r.fiscal_year===2025&&r.metric==="outbound_shipping_cost";})[0].usd_millions),label:"FY2025 outbound shipping cost",context:"AMZ_FIN.shipping (rounded to $0.1bn in source)"},
+ {value:bn(lcap.purchases_of_ppe_gross_usd_m),label:"FY2025 gross capital purchases",context:"Property and equipment, all uses incl. data centers. AMZ_FIN.capex"},
+ {value:A.fmt(seg.filter(function(r){return r.fiscal_year===2025&&r.segment==="North America";})[0].leased_sqft_thousands/1000,0)+"m sq ft",label:"North America segment, leased, FY2025",context:"Includes Canada, Mexico and stores. AMZ_FIN.sqft_segment"}
+]);
+A.caveat(app,"<b>Scope.</b> Amazon's 10-Ks report these items for the whole company (worldwide, all business lines). They are not US-warehouse figures. Fulfillment expense includes more than warehouses (see methods). The only North America cut is the segment square footage in the last section, which still includes Canada, Mexico and physical stores.");
+
+/* ---- fulfillment ---- */
+var s1=A.section(app,"fulfil","Fulfillment expense","The 10-K 'Fulfillment' line: costs of operating and staffing fulfillment and customer-service centers, plus payment processing; from FY2017 it also includes physical stores (Whole Foods). Sortation and delivery-center costs are not in this line: Amazon reports them in cost of sales as shipping costs. Definition varies; see notes in the table.");
+A.lineChart(s1,{title:"Fulfillment expense, USD billions (nominal)",series:[{name:"Fulfillment expense",color:"var(--cat1)",points:pts(inc,"fiscal_year","fulfillment_expense_usd_m",1000,function(r){return "Net sales "+bn(r.net_sales_usd_m);})}],yFmt:function(v){return "$"+A.fmt(v,0)+"bn";},xFmt:String,height:280});
+src(s1,"data/processed/amazon_income_statement_annual.csv (AMZ_FIN.income)",TENK+", fiscal years 1997 to 2025; each year from the latest 10-K whose statements cover it.");
+A.lineChart(s1,{title:"Fulfillment expense as a share of net sales, percent",series:[{name:"Fulfillment expense, % of net sales",color:"var(--cat1)",points:pts(inc,"fiscal_year","fulfillment_pct_of_sales",1)}],yFmt:function(v){return v.toFixed(0)+"%";},xFmt:String,height:260,yMin:0});
+src(s1,"data/processed/amazon_income_statement_annual.csv (AMZ_FIN.income, column fulfillment_pct_of_sales)",TENK+". Computed as fulfillment expense divided by net sales. The FY1999 definition was widened (FY1999 10-K showed $188.4m, restated to $237.3m), and 1997-98 values are costs embedded in marketing and sales, so 1997-2001 is not comparable with later years. From FY2017 the line also includes physical-store costs (Whole Foods, acquired August 2017; FY2017 10-K) and the denominator includes AWS sales, so the ratio is not a pure warehouse cost ratio.");
+dtable(s1,[{k:"fiscal_year",l:"Year"},{k:"net_sales_usd_m",l:"Net sales ($m)",n:1,f:function(v){return A.fmt(v);}},{k:"fulfillment_expense_usd_m",l:"Fulfillment ($m)",n:1,f:function(v){return A.fmt(v);}},{k:"fulfillment_pct_of_sales",l:"% of sales",n:1},{k:"operating_income_usd_m",l:"Operating income ($m)",n:1,f:function(v){return A.fmt(v);}},{k:"source_10k_accession",l:"10-K accession"}],inc);
+A.mount(s1,'<p class="cap">Notes by year (from the data file): '+Object.keys(F.income_notes).map(function(y){return "<b>"+y+"</b> "+A.esc(F.income_notes[y]);}).filter(function(x,i,a){return a.indexOf(x)===i;}).join(" ")+"</p>");
+
+/* ---- shipping ---- */
+var s2=A.section(app,"ship","Shipping costs and revenue","Outbound shipping cost is what Amazon spends to deliver orders, including third-party carriers and Amazon's own network. Shipping revenue is what customers pay for shipping. Net shipping cost is the difference as Amazon reported it through 2016.");
+var onlyM=function(m){return ship.filter(function(r){return r.metric===m;});};
+A.lineChart(s2,{title:"Shipping, USD billions (nominal)",series:[
+ {name:"Outbound shipping cost",color:"var(--cat1)",points:pts(onlyM("outbound_shipping_cost"),"fiscal_year","usd_millions",1000)},
+ {name:"Shipping revenue (charged to customers)",color:"var(--cat2)",points:pts(onlyM("shipping_revenue"),"fiscal_year","usd_millions",1000)},
+ {name:"Net shipping cost (reported to 2016)",color:"var(--cat3)",dash:"5 4",points:pts(onlyM("net_shipping_cost"),"fiscal_year","usd_millions",1000)}
+],yFmt:function(v){return "$"+A.fmt(v,0)+"bn";},xFmt:String,height:300});
+src(s2,"data/processed/amazon_shipping_costs_annual.csv (AMZ_FIN.shipping)",TENK+". Amazon stopped reporting shipping revenue and net shipping cost as separate numbers after the dates shown; 2017 onward outbound cost is rounded to $0.1bn. The series are company-wide and include delivery, not only warehouse activity. From the FY2014 10-K onward Amazon footnotes that shipping costs include its sortation and delivery centers (transportation costs added to the wording from FY2016); earlier 10-Ks do not say what is included, and the FY2014 10-K repeats the 2012-13 values unchanged.");
+dtable(s2,[{k:"fiscal_year",l:"Year"},{k:"metric",l:"Metric"},{k:"usd_millions",l:"USD millions",n:1,f:function(v){return A.fmt(v,1);}},{k:"source",l:"Source filing"}],ship.slice().sort(function(a,b){return a.fiscal_year-b.fiscal_year||(a.metric<b.metric?-1:1);}));
+
+/* ---- capex ---- */
+var s3=A.section(app,"capex","Capital spending","Purchases of property and equipment are the cash cost of buildings, equipment, servers and vehicles. Amazon also acquires assets under finance leases, which do not appear as cash purchases.");
+A.lineChart(s3,{title:"Capital spending, USD billions (nominal)",series:[
+ {name:"Purchases of property and equipment (gross, as reported to 2014)",color:"var(--cat1)",points:pts(cap,"fiscal_year","purchases_of_ppe_gross_usd_m",1000)},
+ {name:"Purchases net of proceeds from incentives (from 2015)",color:"var(--cat2)",points:pts(cap,"fiscal_year","purchases_net_of_proceeds_incentives_usd_m",1000)},
+ {name:"Assets acquired under finance leases (non-cash)",color:"var(--cat3)",dash:"5 4",points:pts(cap,"fiscal_year","ppe_acquired_under_finance_leases_usd_m",1000)}
+],yFmt:function(v){return "$"+A.fmt(v,0)+"bn";},xFmt:String,height:300});
+src(s3,"data/processed/amazon_capex_annual.csv (AMZ_FIN.capex)",TENK+" (cash flow statements and supplemental cash flow information). Includes AWS data centers and servers, so it overstates logistics spending by an unknown amount. Finance-lease series starts FY2008.");
+dtable(s3,[{k:"fiscal_year",l:"Year"},{k:"purchases_of_ppe_gross_usd_m",l:"Gross ($m)",n:1,f:function(v){return A.fmt(v,0);}},{k:"purchases_net_of_proceeds_incentives_usd_m",l:"Net of incentives ($m)",n:1,f:function(v){return A.fmt(v,0);}},{k:"ppe_acquired_under_finance_leases_usd_m",l:"Finance leases ($m)",n:1,f:function(v){return A.fmt(v,0);}},{k:"ppe_recognized_build_to_suit_usd_m",l:"Build-to-suit ($m)",n:1,f:function(v){return A.fmt(v,0);}}],cap);
+
+/* ---- square footage ---- */
+var s4=A.section(app,"sqft","Square footage over time","Item 2 (Properties) of each 10-K lists square feet by use and region. The bucket 'fulfillment, data centers and other' never separates warehouses from data centers after FY2011.");
+function sq(k){return lsq.filter(function(r){return r[k]!=null;}).map(function(r){return [r.fiscal_year_end_dec31,r[k]/1000];});}
+A.lineChart(s4,{title:"Square feet, millions: North America and International",series:[
+ {name:"North America: fulfillment, data centers and other (leased + owned)",color:"var(--cat1)",points:sq("na_fulfil_dc_other_total_ksf")},
+ {name:"International: fulfillment, data centers and other",color:"var(--cat2)",points:sq("intl_total_ksf")},
+ {name:"North America segment total (from FY2015, incl. stores)",color:"var(--cat3)",dash:"5 4",points:sq("na_segment_total_ksf")}
+],yFmt:function(v){return A.fmt(v,0)+"m";},xFmt:String,height:300});
+src(s4,"data/processed/amazon_10k_square_footage.csv and amazon_10k_square_footage_by_segment.csv (AMZ_LOG.sqft, AMZ_FIN.sqft_segment)",TENK+", Item 2. Definitions change over time: the North America line is Amazon's own classification (US, Canada and Mexico before FY2015), and the dashed segment line includes physical stores and Whole Foods. Not a US-only figure.");
+A.lineChart(s4,{title:"North America segment square feet, millions: leased and owned",series:[
+ {name:"Leased",color:"var(--cat1)",points:seg.filter(function(r){return r.segment==="North America";}).map(function(r){return [r.fiscal_year,r.leased_sqft_thousands/1000];})},
+ {name:"Owned",color:"var(--cat4)",points:seg.filter(function(r){return r.segment==="North America";}).map(function(r){return [r.fiscal_year,r.owned_sqft_thousands/1000];})}
+],yFmt:function(v){return A.fmt(v,0)+"m";},xFmt:String,height:260});
+src(s4,"data/processed/amazon_10k_square_footage_by_segment.csv (AMZ_FIN.sqft_segment)",TENK+", Item 2, North America segment, FY2015 to FY2025. Amazon owned almost no real estate before FY2012, and the owned share is still about 5% of the segment in FY2025.");
+dtable(s4,[{k:"fiscal_year",l:"Year"},{k:"segment",l:"Segment"},{k:"leased_sqft_thousands",l:"Leased (k sq ft)",n:1,f:function(v){return A.fmt(v);}},{k:"owned_sqft_thousands",l:"Owned (k sq ft)",n:1,f:function(v){return A.fmt(v);}}],seg);
+
+/* ---- parcel volume ---- */
+var s5=A.section(app,"parcel","US parcel volume (context)","Parcel volumes published by Pitney Bowes in its Parcel Shipping Index. These are industry-wide figures with Amazon Logistics shown as one carrier.");
+var tot=par.filter(function(r){return r.carrier==="US total"&&r.volume_billion_parcels!=null;}), al=par.filter(function(r){return r.carrier==="Amazon Logistics"&&r.volume_billion_parcels!=null;});
+A.lineChart(s5,{title:"US parcels shipped, billions",series:[
+ {name:"US total",color:"var(--cat2)",points:tot.map(function(r){return [r.year,r.volume_billion_parcels,"Index edition "+r.index_edition_release_year];})},
+ {name:"Amazon Logistics",color:"var(--cat1)",points:al.map(function(r){return [r.year,r.volume_billion_parcels,(r.share_of_volume_pct!=null?r.share_of_volume_pct+"% of US total ("+r.share_basis+"); ":"")+"Index edition "+r.index_edition_release_year];})}
+],yFmt:function(v){return A.fmt(v,0)+"bn";},xFmt:String,height:260,yMin:0});
+src(s5,"AMZ_LOG.parcel_volume (data/processed/logistics_us_parcel_volume.csv)","Pitney Bowes Parcel Shipping Index press releases (2020 to 2025 editions; links in the table). Each edition restates earlier years, and Amazon Logistics 2019 and 2020 are not directly comparable with 2021 onward. Amazon Logistics volume is missing for 2020 in the sources retrieved.");
+dtable(s5,[{k:"year",l:"Year"},{k:"carrier",l:"Carrier"},{k:"volume_billion_parcels",l:"Parcels (bn)",n:1},{k:"share_of_volume_pct",l:"Share (%)",n:1},{k:"share_basis",l:"Share basis"},{k:"index_edition_release_year",l:"Edition"}],par);
+
+/* ---- subsidies, cross-check, market (assets/financial.js) ---- */
+FIN_SUBS(app,{src:src,dtable:dtable,tenk:TENK});
+A.sources(app,[
+ {label:"Amazon.com, Inc. annual reports on Form 10-K, FY1997 to FY2025",url:"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1018724&type=10-K",publisher:"SEC EDGAR",note:"Income statement, shipping, capital spending and Item 2 square footage. Retrieved 2026-10-31."},
+ {label:"Pitney Bowes Parcel Shipping Index press releases",url:"https://www.pitneybowes.com/us/shipping-index.html",publisher:"Pitney Bowes Inc.",note:"US parcel volume. Exact release links are in the data table of the parcel section."},
+ {label:"State and local subsidy records and press, one source link per row",publisher:"Issuers named in the awards table",note:"Subsidies section. Compiled state by state in 2026; links are in AMZ_SUB.awards and the awards table."},
+ {label:"Prologis Inc annual reports (Form 10-K) FY2015 to FY2022 (via Mergent Archives); Value Line Investment Survey, Prologis, 2023 to 2026 (via Value Line)",publisher:"Subscription databases via Johns Hopkins libraries",note:"Prologis rent share. Facts only, no database content republished."},
+ {label:"UPS annual reports (via Mergent Archives); The Insight Partners, 2026-03 (via ProQuest); IBISWorld and CFRA, 2026 (via MyIBISWorld and S&P Capital IQ)",publisher:"Subscription databases via Johns Hopkins libraries",note:"Amazon share of UPS revenue. Citations per year are in the data table of the market section."}
+]);
+A.mount(app,'<p class="cap">Full dataset catalog and caveats on the <a href="sources.html">Sources</a> page. Assumptions for this page are under "Financial" on <a href="methods.html#m-fin">Methods</a>.</p>');
+})();
+</script>
+</body>
+</html>

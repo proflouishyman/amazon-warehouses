@@ -1,0 +1,46 @@
+/* map.html page styles. Type colours are the first five validated categorical slots (scripts: dataviz validate_palette.js, light and dark pass; light contrast WARN on t3-t5 so every mark has a legend, popups and a table view). */
+:root{--t1:#2a78d6;--t2:#eb6834;--t3:#1baf7a;--t4:#eda100;--t5:#e87ba4}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--t1:#3987e5;--t2:#d95926;--t3:#199e70;--t4:#c98500;--t5:#d55181}}
+:root[data-theme="dark"]{--t1:#3987e5;--t2:#d95926;--t3:#199e70;--t4:#c98500;--t5:#d55181}
+.mapfilters{display:flex;flex-wrap:wrap;gap:8px 18px;align-items:center;margin:10px 0;font-size:13px;color:var(--ink-2)}
+.mapfilters label{display:inline-flex;align-items:center;gap:6px;cursor:pointer;min-width:0}
+.mapfilters .sw{width:12px;height:12px;border-radius:50%}
+.mapfilters .sw.hollow{background:transparent!important;border:2px dashed var(--ink-2)}
+.yearrow{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center;margin:10px 0}
+.yearrow input[type=range]{flex:1 1 260px;min-width:0;accent-color:var(--accent)}
+.yearrow output{font-size:26px;font-weight:700;font-variant-numeric:tabular-nums;min-width:3.2ch;color:var(--ink)}
+#amap{height:min(62vh,600px);min-height:380px;border:1px solid var(--rule);border-radius:6px;background:var(--surface-2);z-index:0}
+.readout{background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:8px 12px;margin:10px 0;font-size:13px;color:var(--ink-2)}
+.readout b{color:var(--ink);font-variant-numeric:tabular-nums}
+.readout ul{margin:4px 0 0;padding-left:18px}
+.lcount{font-variant-numeric:tabular-nums;color:var(--ink-3)}
+.leaflet-popup-content{font:13px/1.4 "Avenir Next","Segoe UI",system-ui,sans-serif;color:#1f2629;margin:10px 12px}
+.leaflet-popup-content table{border-collapse:collapse;font-size:12px}
+.leaflet-popup-content td{border:0;padding:1px 8px 1px 0;color:#1f2629;vertical-align:top}
+.leaflet-popup-content td:first-child{color:#4b575c;white-space:nowrap}
+.leaflet-popup-content a{color:#1d5b70}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.85) contrast(.9)}}
+:root[data-theme="dark"] .leaflet-tile-pane{filter:invert(1) hue-rotate(180deg) brightness(.85) contrast(.9)}
+details.tv{margin:12px 0}details.tv summary{cursor:pointer;font-weight:600;color:var(--accent);padding:4px 0}
+.mapfilters .sw.epi{background:transparent!important;border:2px dashed var(--cat3)}
+/* year-basis legend and trade-press layer */
+.basisleg{display:flex;flex-wrap:wrap;gap:4px 16px;align-items:center;margin:8px 0;font-size:13px;color:var(--ink-2);background:var(--surface);border:1px solid var(--rule);border-radius:6px;padding:6px 10px}
+.basisleg b{color:var(--ink)}
+.bchip{display:inline-flex;align-items:center;gap:6px}
+.bdot{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;border-radius:50%;background:var(--accent-soft);color:var(--ink);font-style:normal;font-size:11px;font-weight:700}
+i.tp{display:block;width:12px;height:12px;box-sizing:border-box;border:2px solid var(--ink);background:var(--ink);transform:rotate(45deg) scale(.85);margin:1px}
+i.tp.medium{background:linear-gradient(135deg,var(--ink) 50%,var(--surface) 50%)}
+i.tp.low{background:var(--surface)}
+i.tp.approx{border-style:dashed}
+.tpkey{display:inline-flex;gap:3px;align-items:center;margin-right:2px}
+.leaflet-marker-icon i.tp{box-shadow:0 0 0 1.5px var(--surface)}
+/* pullback layer badges: shape-free but each status has its own glyph and colour (colour is never the only cue) */
+:root{--pb-closed:#a3231b;--pb-delayed:#8a5a00;--pb-sublease:#1d5b9e;--pb-removed:#5f6b70;--pb-ink:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--pb-closed:#ff8a80;--pb-delayed:#e3b04b;--pb-sublease:#7bb8ff;--pb-removed:#aab4b8;--pb-ink:#14181a}}
+:root[data-theme="dark"]{--pb-closed:#ff8a80;--pb-delayed:#e3b04b;--pb-sublease:#7bb8ff;--pb-removed:#aab4b8;--pb-ink:#14181a}
+i.pb{display:inline-flex;align-items:center;justify-content:center;width:16px;height:16px;box-sizing:border-box;border-radius:3px;font-style:normal;font-weight:800;font-size:12px;line-height:1;color:var(--pb-ink);border:1.5px solid var(--surface);box-shadow:0 0 0 1px rgba(0,0,0,.35)}
+i.pb-closed{background:var(--pb-closed);border-radius:3px}
+i.pb-delayed{background:var(--pb-delayed);border-radius:8px}
+i.pb-sublease{background:var(--pb-sublease);border-radius:0}
+i.pb-removed{background:var(--pb-removed);border-radius:8px;opacity:.85}
+.basisleg label.bchip{cursor:pointer}

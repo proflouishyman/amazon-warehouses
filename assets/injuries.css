@@ -1,0 +1,13 @@
+/* injuries.html only */
+.ctl{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;margin:8px 0;font-size:13px;color:var(--ink-2)}
+.ctl select,.ctl input[type=search]{background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:4px;padding:5px 8px;font:inherit;font-size:13px;max-width:100%;min-width:0}
+.ctl input[type=search]{min-width:220px}
+.hist rect.bar{fill:var(--amz)}
+.hist rect.bar.hi{fill:var(--bad)}
+.hist line.ref{stroke:var(--bench);stroke-width:2;stroke-dasharray:5 3}
+.hist line.ref2{stroke:var(--ink);stroke-width:2}
+.hist text.rl{font-size:10.5px;fill:var(--ink)}
+.stats4{display:flex;flex-wrap:wrap;gap:6px 18px;font-size:13px;color:var(--ink-2);margin:6px 0}
+.stats4 b{color:var(--ink);font-variant-numeric:tabular-nums}
+details.tv{margin:8px 0;font-size:13px}details.tv summary{cursor:pointer;color:var(--accent);font-weight:600}
+.bigcav{border-left-width:6px}

@@ -1,0 +1,26 @@
+year,group,distinct_site_codes,sum_avg_employees,basis,caveat
+2016,naics_493110_general_warehousing,1,218,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2016,other_naics,2,579,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2017,naics_493110_general_warehousing,182,201791,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2017,other_naics,17,7759,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2018,naics_493110_general_warehousing,295,232624,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2018,other_naics,28,5699,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2019,naics_493110_general_warehousing,358,634441,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2019,other_naics,19,13632,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2020,naics_493110_general_warehousing,738,594527,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2020,other_naics,43,22012,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2021,naics_492110_courier_express,589,187690,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2021,naics_493110_general_warehousing,316,375744,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2021,other_naics,113,25513,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2022,naics_492110_courier_express,674,192482,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2022,naics_493110_general_warehousing,348,511725,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2022,other_naics,125,33581,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2023,naics_492110_courier_express,644,192461,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2023,naics_493110_general_warehousing,471,548281,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2023,other_naics,68,10827,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2024,naics_492110_courier_express,708,204011,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2024,naics_493110_general_warehousing,506,612083,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2024,other_naics,87,12972,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2025,naics_492110_courier_express,804,214445,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2025,naics_493110_general_warehousing,524,638356,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only
+2025,other_naics,89,16006,OSHA ITA 300A via facilities-domain extract,lower bound; only filing sites appear; early-year compliance low; type inferred from NAICS only

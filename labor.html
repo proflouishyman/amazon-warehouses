@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Labor</title>
+<link rel="stylesheet" href="assets/style.css">
+<link rel="stylesheet" href="assets/labor.css">
+</head>
+<body>
+<main class="wrap" id="app" data-page="lab"></main>
+<script src="assets/data_meta.js"></script>
+<script src="assets/data_financial.js"></script>
+<script src="assets/data_labor.js"></script>
+<script src="assets/data_bench.js"></script>
+<script src="assets/data_sources.js"></script>
+<script src="assets/common.js"></script>
+<script>
+(function(){
+"use strict";
+var A=AMZ, B=AMZ_LAB;
+A.page({title:"Labor",sub:"Amazon headcount against warehousing employment, announced pay against industry wages, where warehouse jobs grew, and NLRB activity. Amazon's own figures are company-wide; the industry figures describe NAICS 493 (all employers), not Amazon."});
+var app=A.$("#app");
+var emp=A.rows(B.employees), wag=A.rows(B.wages), scs=A.rows(B.site_county_summary), nby=A.rows(B.nlrb_by_year), ele=A.rows(B.nlrb_elections), tur=A.rows(B.turnover_estimates), q=A.rows(B.qcew_private);
+function src(host,file,orig){A.mount(host,'<p class="srcline">Data: <code>'+A.esc(file)+'</code>. Original source: '+orig+'</p>');}
+function dtable(host,cols,rows){
+  A.mount(host,'<details class="dt"><summary>Show data table</summary><div class="tw"><table><thead><tr>'+cols.map(function(c){return '<th class="'+(c.n?"n":"")+'">'+A.esc(c.l)+"</th>";}).join("")+"</tr></thead><tbody>"+
+    rows.map(function(r){return "<tr>"+cols.map(function(c){var v=r[c.k];return '<td class="'+(c.n?"n":"")+'">'+A.esc(c.f?c.f(v,r):(v==null?"":v))+"</td>";}).join("")+"</tr>";}).join("")+"</tbody></table></div></details>");
+}
+var TENK='<a href="https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1018724&type=10-K" target="_blank" rel="noopener">Amazon.com, Inc. Form 10-K filings, SEC EDGAR</a>';
+var QC='<a href="https://www.bls.gov/cew/" target="_blank" rel="noopener">BLS Quarterly Census of Employment and Wages</a> (private ownership, annual averages)';
+var NLRB='<a href="https://www.nlrb.gov/search/case" target="_blank" rel="noopener">NLRB case search</a>';
+var us=function(n){return q.filter(function(r){return r.area_fips==="US000"&&r.naics===n;}).sort(function(a,b){return a.year-b.year;});};
+var u493=us(493), u492=us(492);
+var e25=emp[emp.length-1], q25=u493[u493.length-1], s25=scs[scs.length-1];
+
+A.tiles(app,[
+ {value:A.fmt(e25.employees),label:"Amazon employees, year-end 2025",context:"Worldwide, full- and part-time, all roles. AMZ_LAB.employees"},
+ {value:A.fmt(q25.avg_employment),label:"US private NAICS 493 employment, 2025",context:"Warehousing and storage, all employers. AMZ_LAB.qcew_private"},
+ {value:"$"+A.fmt(q25.avg_weekly_wage),label:"NAICS 493 average weekly wage, 2025",context:"About $"+(q25.avg_weekly_wage/40).toFixed(2)+"/hr if 40 hours (estimate)"},
+ {value:"$23+/hr",label:"Amazon announced average pay, Sept 2025",context:"US fulfillment and transportation, a floor ('more than'). AMZ_LAB.wages"},
+ {value:A.pct(s25.share_of_us,0),label:"Share of US NAICS 493 jobs in counties with an Amazon site, 2025",context:"Counties with disclosed data only. AMZ_LAB.site_county_summary"}
+]);
+A.caveat(app,"<b>Read before comparing.</b> Amazon headcount is worldwide and counts every job. BLS QCEW counts US jobs by the industry code of each establishment and does not identify employers, so NAICS 493 describes the whole warehousing industry, not Amazon. Temp-agency workers staffed to warehouses fall in NAICS 5613. The two lines are context for each other, not a share calculation.");
+
+/* ---- headcount ---- */
+var s1=A.section(app,"headcount","Amazon headcount versus warehousing employment","Year-end employees from Amazon's 10-Ks, next to average annual employment in US private NAICS 493 (warehousing and storage).");
+A.lineChart(s1,{title:"Employees, thousands",series:[
+ {name:"Amazon, worldwide year-end (all roles)",color:"var(--cat1)",points:emp.map(function(r){return [r.fiscal_year_end_dec31,r.employees/1000,A.esc(r.headcount_basis)];})},
+ {name:"US private NAICS 493 average employment (all employers)",color:"var(--cat2)",points:u493.map(function(r){return [r.year,r.avg_employment/1000,A.fmt(r.establishments)+" establishments"];})}
+],yFmt:function(v){return A.fmt(v,0)+"k";},xFmt:String,height:300});
+src(s1,"data/processed/amazon_employees_by_year.csv (AMZ_LAB.employees) and bls_qcew_naics49x_national_state_annual.csv (AMZ_LAB.qcew_private, area US000, NAICS 493)",TENK+" (Item 1, Human Capital; 1997 counts full-time employees only, later years full- and part-time) and "+QC+".");
+dtable(s1,[{k:"year",l:"Year"},{k:"amz",l:"Amazon employees",n:1,f:function(v){return A.fmt(v);}},{k:"basis",l:"Amazon headcount basis"},{k:"q",l:"NAICS 493 employment",n:1,f:function(v){return A.fmt(v);}},{k:"est",l:"NAICS 493 establishments",n:1,f:function(v){return A.fmt(v);}}],
+ (function(){var m={};emp.forEach(function(r){m[r.fiscal_year_end_dec31]={year:r.fiscal_year_end_dec31,amz:r.employees,basis:r.headcount_basis};});u493.forEach(function(r){(m[r.year]=m[r.year]||{year:r.year}).q=r.avg_employment;m[r.year].est=r.establishments;});return Object.keys(m).sort().map(function(k){return m[k];});})());
+
+/* ---- wages ---- */
+var s2=A.section(app,"wages","Wages versus the industry average weekly wage","Amazon announces pay floors for US fulfillment and transportation staff. BLS reports the average weekly wage for every job in an industry, including managers, drivers and part-timers.");
+A.lineChart(s2,{title:"Average weekly wage, NAICS 493 and NAICS 492, USD per week (nominal)",series:[
+ {name:"NAICS 493 warehousing and storage",color:"var(--cat2)",points:u493.map(function(r){return [r.year,r.avg_weekly_wage];})},
+ {name:"NAICS 492 couriers and messengers",color:"var(--cat3)",points:u492.map(function(r){return [r.year,r.avg_weekly_wage];})}
+],yFmt:function(v){return "$"+A.fmt(v);},xFmt:String,height:260,yMin:0});
+src(s2,"AMZ_LAB.qcew_private, area US000, NAICS 493 and 492, column avg_weekly_wage",QC+". Total wages divided by average employment and 52 weeks; includes bonuses and other pay reported to state unemployment insurance.");
+A.estimate(s2,"The next chart converts the BLS weekly wage to an hourly figure by dividing by 40 hours. That is an assumption: BLS does not report hours in QCEW, part-time work is common, and average hours in warehousing are below 40, so the true hourly industry wage is likely higher than shown. Amazon points are Amazon's own announced figures, each a floor ('more than').");
+var byY={};wag.forEach(function(r){var y=+String(r.effective).slice(0,4);var m=r.metric;
+ if(/minimum wage/.test(m)){(byY.min=byY.min||[]).push([y,r.value_usd_per_hour,"Minimum wage, all US employees"]);}
+ else if(/total compensation/.test(m)){(byY.tot=byY.tot||{})[y]=[y,r.value_usd_per_hour,"Total compensation incl. benefits (Amazon's definition)"];}
+ else{(byY.avg=byY.avg||{})[y]=[y,r.value_usd_per_hour,A.esc(r.scope)+" ("+r.effective+")"];}});
+function vals(o){return Object.keys(o).sort().map(function(k){return o[k];});}
+A.lineChart(s2,{title:"Announced Amazon pay versus industry weekly wage divided by 40, USD per hour",series:[
+ {name:"Amazon average starting or base pay, fulfillment and transportation (floor)",color:"var(--cat1)",points:vals(byY.avg)},
+ {name:"Amazon average total compensation incl. benefits (floor)",color:"var(--cat1)",dash:"5 4",points:vals(byY.tot)},
+ {name:"Amazon US minimum wage, Nov 2018",color:"var(--cat4)",points:byY.min},
+ {name:"NAICS 493 average weekly wage / 40 (estimate)",color:"var(--cat2)",points:u493.map(function(r){return [r.year,r.avg_weekly_wage/40,"$"+A.fmt(r.avg_weekly_wage)+" per week"];})},
+ {name:"NAICS 492 average weekly wage / 40 (estimate)",color:"var(--cat3)",points:u492.map(function(r){return [r.year,r.avg_weekly_wage/40,"$"+A.fmt(r.avg_weekly_wage)+" per week"];})}
+],yFmt:function(v){return "$"+v.toFixed(0);},xFmt:String,height:320,yMin:0});
+src(s2,"AMZ_LAB.wages (data/processed/amazon_wage_announcements.csv) and AMZ_LAB.qcew_private",'Amazon press releases on <a href="https://www.aboutamazon.com/" target="_blank" rel="noopener">aboutamazon.com</a> (links and quotes in the table below), and '+QC+". Amazon figures are US-only averages for fulfillment and transportation roles as announced; the 2021 point is the September figure taken from a later release. Definitions (starting versus base pay) differ by year, so treat the Amazon line as indicative.");
+A.table(s2,{pageSize:10,sort:"announce_date",dir:-1,cols:[
+ {key:"announce_date",label:"Announced"},{key:"metric",label:"Metric"},{key:"value_usd_per_hour",label:"USD per hour",num:true,fmt:function(v){return v==null?"":"$"+v;}},{key:"scope",label:"Scope"},
+ {key:"source_url",label:"Source",html:function(v,r){return v?'<a href="'+A.esc(v)+'" target="_blank" rel="noopener">'+A.esc(r.publisher||"link")+"</a>":"";}}],rows:wag});
+
+/* ---- warehouse employment by site county / state ---- */
+var s3=A.section(app,"counties","Warehouse employment where Amazon sites are","NAICS 493 employment in counties that contain a roster site, compared with the US total. County cells that BLS suppresses for confidentiality are left out, so the disclosed set changes from year to year.");
+var idx=scs.filter(function(r){return r.year>=2001;});
+A.lineChart(s3,{title:"Share of US NAICS 493 employment found in counties with an Amazon site (disclosed counties only)",series:[{name:"Share of US NAICS 493 private employment",color:"var(--cat1)",points:idx.map(function(r){return [r.year,r.share_of_us*100,A.fmt(r.site_counties_disclosed)+" of "+A.fmt(r.site_counties_with_493_rows)+" site counties disclosed; "+A.fmt(r.site_counties_private_493_employment_disclosed_sum)+" jobs"];})}],yFmt:function(v){return v.toFixed(0)+"%";},xFmt:String,height:260,yMin:0,yMax:100});
+src(s3,"AMZ_LAB.site_county_summary (data/processed/amazon_site_counties_naics493_summary.csv, from scripts/build_site_county_summary.py)",QC+", county level, joined by county name and state to the roster of sites in AMZ_FAC. Caveat: the site list is today's roster of sites filing with OSHA since 2016, applied to all years, so the share before 2016 describes counties that later gained a site. Suppressed counties (about a quarter) are excluded, which biases the share low.");
+var st={};q.forEach(function(r){if(r.geo_level==="state"&&r.naics===493&&(r.year===2019||r.year===2025)&&r.avg_employment>0){(st[r.area_fips]=st[r.area_fips]||{state:r.area_title.replace(/ -- Statewide.*/,"")})["e"+r.year]=r.avg_employment;st[r.area_fips].w=st[r.area_fips].w;}});
+var sr=Object.keys(st).map(function(k){var o=st[k];o.chg=(o.e2019!=null&&o.e2025!=null)?o.e2025-o.e2019:null;o.pct=(o.chg!=null&&o.e2019)?o.chg/o.e2019:null;return o;}).filter(function(o){return o.chg!=null;});
+var top=sr.slice().sort(function(a,b){return b.chg-a.chg;}).slice(0,15);
+A.barChart(s3,{title:"Change in NAICS 493 private employment, 2019 to 2025, 15 largest state increases",items:top.map(function(o){return {label:o.state,value:o.chg,note:A.fmt(o.e2019)+" to "+A.fmt(o.e2025)+" ("+A.pct(o.pct,0)+")"};}),valFmt:function(v){return "+"+A.fmt(v);},labelWidth:130,caption:"Data: <code>AMZ_LAB.qcew_private</code>, state rows, NAICS 493. Original source: "+QC+". Figures are all employers in the state, not only Amazon. States where BLS withholds a value are omitted."});
+A.mount(s3,'<h3 class="cap" style="font-size:13px;margin-top:14px">All states: NAICS 493 private employment, 2019 and 2025</h3>');
+A.table(s3,{pageSize:15,sort:"chg",dir:-1,cols:[{key:"state",label:"State"},{key:"e2019",label:"2019",num:true,fmt:function(v){return A.fmt(v);}},{key:"e2025",label:"2025",num:true,fmt:function(v){return A.fmt(v);}},{key:"chg",label:"Change",num:true,fmt:function(v){return (v>0?"+":"")+A.fmt(v);}},{key:"pct",label:"Change %",num:true,fmt:function(v){return A.pct(v,0);}}],rows:sr});
+A.mount(s3,'<p class="srcline">County-level change by individual county is not shown: the public file would need roughly 450 county rows and many cells are suppressed. State totals use the same QCEW source. The per-site-county table is in <code>data/processed/bls_qcew_naics49x_county_private_annual.csv</code> (not embedded in the page).</p>');
+
+/* ---- NLRB ---- */
+var s4=A.section(app,"nlrb","NLRB activity timeline","Cases at the National Labor Relations Board with 'Amazon' in the case name. Charges against the employer (CA) and against unions (CB) are allegations, not findings. RC cases are union election petitions.");
+var yrs=nby.filter(function(r){return r.year>=2009;});
+A.lineChart(s4,{title:"NLRB cases with Amazon in the case name, by year filed",series:[
+ {name:"All cases",color:"var(--cat2)",points:yrs.map(function(r){return [r.year,r.total];})},
+ {name:"CA: unfair labor practice charges against the employer",color:"var(--cat1)",points:yrs.map(function(r){return [r.year,r.CA];})},
+ {name:"CB: charges against a union",color:"var(--cat3)",points:yrs.map(function(r){return [r.year,r.CB];})},
+ {name:"RC: union election petitions",color:"var(--cat4)",points:yrs.map(function(r){return [r.year,r.RC];})}
+],yFmt:function(v){return A.fmt(v,0);},xFmt:String,height:300,yMin:0});
+src(s4,"AMZ_LAB.nlrb_by_year (data/processed/nlrb_amazon_cases.csv, 984 cases, counted by year)",NLRB+", keyword search on the case name. 2026 is partial (through late October 2026). Includes cases naming Amazon delivery service partners as joint employers, and the keyword match can include unrelated names; a case count is not a count of workers or of violations. Case counts rose sharply from 2022.");
+A.mount(s4,'<h3 class="cap" style="font-size:13px;margin-top:14px">Union elections held (RC cases with a tally)</h3>');
+A.table(s4,{pageSize:10,sort:"tally_iso",dir:-1,cols:[
+ {key:"tally_date",label:"Tally date"},{key:"location",label:"Site"},{key:"tally_type",label:"Tally"},{key:"eligible_voters",label:"Eligible",num:true,fmt:function(v){return A.fmt(v);}},
+ {key:"votes_for_union",label:"For union",num:true,fmt:function(v){return A.fmt(v);}},{key:"votes_against",label:"Against",num:true,fmt:function(v){return A.fmt(v);}},{key:"challenged_ballots",label:"Challenged",num:true,fmt:function(v){return A.fmt(v);}},{key:"union",label:"Union"},
+ {key:"url",label:"Case",html:function(v,r){return v?'<a href="'+A.esc(v)+'" target="_blank" rel="noopener">'+A.esc(r.case_number)+"</a>":"";}}],
+ rows:ele.map(function(r){var p=String(r.tally_date).split("/");r.tally_iso=p.length===3?p[2]+p[0]+p[1]:"";return r;})});
+A.mount(s4,'<p class="srcline">Data: <code>AMZ_LAB.nlrb_elections</code> (data/processed/nlrb_amazon_election_tallies.csv). Original source: '+NLRB+' case pages (linked). Seven tallies; the 2022 Bessemer rerun is shown with its challenged ballots because they exceeded the margin. The file is not a complete list of union activity at Amazon.</p>');
+
+var s5=A.section(app,"turn","Published turnover estimates","Amazon does not publish turnover. These are press-reported estimates, shown with their caveats and not charted.");
+A.table(s5,{pageSize:5,cols:[{key:"metric",label:"Metric"},{key:"value",label:"Value"},{key:"period",label:"Period"},{key:"publisher_and_original",label:"Reported by"},{key:"caveat",label:"Caveat"},{key:"source_url",label:"Link",html:function(v){return v?'<a href="'+A.esc(v)+'" target="_blank" rel="noopener">source</a>':"";}}],rows:tur});
+A.mount(s5,'<p class="srcline">Data: <code>AMZ_LAB.turnover_estimates</code>. All three are secondary summaries; originals were not retrieved.</p>');
+
+A.sources(app,[
+ {label:"Amazon.com, Inc. annual reports on Form 10-K",url:"https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=1018724&type=10-K",publisher:"SEC EDGAR",note:"Year-end employees. Retrieved 2026-10-31."},
+ {label:"BLS Quarterly Census of Employment and Wages, NAICS 492 and 493",url:"https://www.bls.gov/cew/",publisher:"US Bureau of Labor Statistics",note:"National, state and county, private ownership, 2001 to 2025; 2024 and 2025 may be revised."},
+ {label:"Amazon wage announcements",url:"https://www.aboutamazon.com/news/workplace/amazon-wage-increase-2025-fulfillment-transportation-employees",publisher:"Amazon",note:"Each announcement is linked in the wage table."},
+ {label:"NLRB case search",url:"https://www.nlrb.gov/search/case",publisher:"National Labor Relations Board",note:"Case names, filing dates, tallies."}
+]);
+A.mount(app,'<p class="cap">Full dataset catalog and caveats on the <a href="sources.html">Sources</a> page. Assumptions for this page are under "Labor" on <a href="methods.html#m-lab">Methods</a>.</p>');
+})();
+</script>
+<script src="assets/labor.js"></script>
+</body>
+</html>

@@ -1,0 +1,11 @@
+category,scope,count,total_usd,verification_level,source_url,notes
+all_gjf_parent_total,all 387 Amazon.com awards (all types),387,5887660428,unverified,https://subsidytracker.goodjobsfirst.org/parent/amazoncom,GJF search-snippet aggregate; page blocked by Cloudflare managed challenge; includes data centers/AWS/HQ/offices and warehouses
+gjf_state_total,OR,113,1530000000,unverified,https://subsidytracker.goodjobsfirst.org/parent/amazoncom,likely data-center driven
+gjf_state_total,VA,17,965800000,unverified,https://subsidytracker.goodjobsfirst.org/parent/amazoncom,snippet only; composition unknown
+gjf_state_total,IL,3,741450000,unverified,https://subsidytracker.goodjobsfirst.org/parent/amazoncom,snippet only; composition unknown
+gjf_state_total,WA,11,575200000,unverified,https://subsidytracker.goodjobsfirst.org/parent/amazoncom,snippet only; composition unknown
+gjf_state_total,TX,5,287000000,unverified,https://subsidytracker.goodjobsfirst.org/parent/amazoncom,snippet only; composition unknown
+excluded_hq2,NY Queens HQ2 (cancelled Feb 2019),1,1525000000,secondary,https://www.cbcny.org/research/breaking-down-amazon-hq2-deal,up to 1.2B Excelsior credits plus 325M ESD grant per search summary; never paid; not opened
+excluded_office,NY Manhattan Hudson Yards office,1,20000000,secondary,https://www.areadevelopment.com/newsItems/9-22-2017/amazon-administrative-office-new-york-city.shtml,up to 20M Excelsior credits per search summary; not opened
+excluded_data_center,OH Union County AWS data center,1,,secondary,https://www.marysvillejt.com/2021/12/23/amazon-to-make-donation-in-lieu-of-taxes/,100% abatement in exchange for 4M donations; value of abatement not stated
+excluded_customer_service,KY Winchester customer service center,1,10500000,secondary,https://www.areadevelopment.com/newsItems/5-9-2012/amazon-customer-service-facility-winchester-ky-172761.shtml,10.25M tax incentives plus 250k grant per search summary; not opened

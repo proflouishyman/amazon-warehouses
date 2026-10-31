@@ -1,0 +1,167 @@
+year,subregion,name,co2_lb_mwh,ch4_lb_mwh,n2o_lb_mwh,co2e_lb_mwh,nox_lb_mwh,nox_ozone_lb_mwh,so2_lb_mwh,source
+2018,AKGD,ASCC Alaska Grid,1039.635,0.082,0.011,1044.989,5.47,5.419,1.1,egrid2018_summary_tables.xlsx
+2018,AKMS,ASCC Miscellaneous,525.083,0.024,0.004,526.963,7.712,7.844,0.677,egrid2018_summary_tables.xlsx
+2018,AZNM,WECC Southwest,1022.355,0.077,0.011,1027.548,0.73,0.719,0.263,egrid2018_summary_tables.xlsx
+2018,CAMX,WECC California,496.536,0.034,0.004,498.686,0.463,0.414,0.047,egrid2018_summary_tables.xlsx
+2018,ERCT,ERCOT All,931.672,0.066,0.009,936.082,0.545,0.554,0.829,egrid2018_summary_tables.xlsx
+2018,FRCC,FRCC All,931.842,0.066,0.009,936.145,0.356,0.365,0.278,egrid2018_summary_tables.xlsx
+2018,HIMS,HICC Miscellaneous,1110.689,0.118,0.018,1119.077,7.638,7.582,3.969,egrid2018_summary_tables.xlsx
+2018,HIOA,HICC Oahu,1669.943,0.18,0.027,1682.596,3.515,3.773,7.997,egrid2018_summary_tables.xlsx
+2018,MROE,MRO East,1678.016,0.169,0.025,1689.651,0.88,0.887,0.891,egrid2018_summary_tables.xlsx
+2018,MROW,MRO West,1239.848,0.138,0.02,1249.201,0.977,1.009,1.351,egrid2018_summary_tables.xlsx
+2018,NEWE,NPCC New England,522.312,0.082,0.011,527.564,0.387,0.35,0.136,egrid2018_summary_tables.xlsx
+2018,NWPP,WECC Northwest,639.037,0.064,0.009,643.363,0.58,0.577,0.377,egrid2018_summary_tables.xlsx
+2018,NYCW,NPCC NYC/Westchester,596.414,0.022,0.003,597.762,0.251,0.249,0.026,egrid2018_summary_tables.xlsx
+2018,NYLI,NPCC Long Island,1184.241,0.139,0.018,1193.091,0.86,0.828,0.234,egrid2018_summary_tables.xlsx
+2018,NYUP,NPCC Upstate NY,253.112,0.018,0.002,253.889,0.136,0.136,0.092,egrid2018_summary_tables.xlsx
+2018,RFCE,RFC East,715.966,0.061,0.008,719.979,0.333,0.288,0.48,egrid2018_summary_tables.xlsx
+2018,RFCM,RFC Michigan,1312.56,0.129,0.018,1321.185,0.798,0.792,1.296,egrid2018_summary_tables.xlsx
+2018,RFCW,RFC West,1166.096,0.117,0.017,1174.029,0.825,0.652,0.925,egrid2018_summary_tables.xlsx
+2018,RMPA,WECC Rockies,1273.615,0.123,0.018,1281.944,0.673,0.689,0.418,egrid2018_summary_tables.xlsx
+2018,SPNO,SPP North,1163.187,0.124,0.018,1171.606,0.642,0.72,0.333,egrid2018_summary_tables.xlsx
+2018,SPSO,SPP South,1166.582,0.091,0.013,1172.755,0.832,0.882,1.242,egrid2018_summary_tables.xlsx
+2018,SRMV,SERC Mississippi Valley,854.645,0.055,0.008,858.369,0.614,0.671,0.96,egrid2018_summary_tables.xlsx
+2018,SRMW,SERC Midwest,1664.15,0.185,0.027,1676.782,1.06,0.791,2.488,egrid2018_summary_tables.xlsx
+2018,SRSO,SERC South,1027.928,0.081,0.012,1033.471,0.496,0.433,0.297,egrid2018_summary_tables.xlsx
+2018,SRTV,SERC Tennessee Valley,1031.537,0.097,0.014,1038.127,0.551,0.504,0.619,egrid2018_summary_tables.xlsx
+2018,SRVC,SERC Virginia/Carolina,743.328,0.067,0.009,747.513,0.437,0.426,0.263,egrid2018_summary_tables.xlsx
+2018,U.S.,947.182,0.085,0.012,952.877,0.619,0.58,0.675,1432.254,egrid2018_summary_tables.xlsx
+2019,AKGD,ASCC Alaska Grid,1114.4,0.098,0.013,1120.813,6.178,6.055,0.716,egrid2019_summary_tables.xlsx
+2019,AKMS,ASCC Miscellaneous,549.312,0.026,0.004,551.276,8.103,7.832,0.71,egrid2019_summary_tables.xlsx
+2019,AZNM,WECC Southwest,952.321,0.068,0.01,956.883,0.613,0.62,0.21,egrid2019_summary_tables.xlsx
+2019,CAMX,WECC California,453.209,0.033,0.004,455.251,0.432,0.385,0.041,egrid2019_summary_tables.xlsx
+2019,ERCT,ERCOT All,868.64,0.057,0.008,872.389,0.514,0.53,0.568,egrid2019_summary_tables.xlsx
+2019,FRCC,FRCC All,861.028,0.055,0.007,864.535,0.311,0.315,0.165,egrid2019_summary_tables.xlsx
+2019,HIMS,HICC Miscellaneous,1185.595,0.143,0.022,1195.598,8.05,8.378,4.053,egrid2019_summary_tables.xlsx
+2019,HIOA,HICC Oahu,1694.541,0.185,0.028,1707.576,3.746,4.067,6.974,egrid2019_summary_tables.xlsx
+2019,MROE,MRO East,1502.559,0.147,0.022,1512.599,0.829,0.861,0.446,egrid2019_summary_tables.xlsx
+2019,MROW,MRO West,1098.353,0.119,0.017,1106.448,0.817,0.84,1.062,egrid2019_summary_tables.xlsx
+2019,NEWE,NPCC New England,488.888,0.077,0.01,493.829,0.343,0.345,0.107,egrid2019_summary_tables.xlsx
+2019,NWPP,WECC Northwest,715.241,0.068,0.01,719.873,0.64,0.589,0.419,egrid2019_summary_tables.xlsx
+2019,NYCW,NPCC NYC/Westchester,553.801,0.021,0.002,555.056,0.225,0.226,0.012,egrid2019_summary_tables.xlsx
+2019,NYLI,NPCC Long Island,1208.975,0.157,0.02,1218.93,0.92,0.865,0.164,egrid2019_summary_tables.xlsx
+2019,NYUP,NPCC Upstate NY,232.305,0.017,0.002,233.044,0.11,0.108,0.044,egrid2019_summary_tables.xlsx
+2019,PRMS,Puerto Rico Miscellaneous,1537.308,0.084,0.013,1543.34,3.52,3.934,3.24,egrid2019_summary_tables.xlsx
+2019,RFCE,RFC East,695.034,0.053,0.007,698.485,0.32,0.296,0.349,egrid2019_summary_tables.xlsx
+2019,RFCM,RFC Michigan,1189.335,0.114,0.016,1196.997,0.661,0.692,1.039,egrid2019_summary_tables.xlsx
+2019,RFCW,RFC West,1067.679,0.099,0.014,1074.41,0.836,0.609,0.712,egrid2019_summary_tables.xlsx
+2019,RMPA,WECC Rockies,1242.611,0.117,0.017,1250.553,0.67,0.631,0.384,egrid2019_summary_tables.xlsx
+2019,SPNO,SPP North,1069.971,0.112,0.016,1077.597,0.562,0.606,0.212,egrid2019_summary_tables.xlsx
+2019,SPSO,SPP South,1001.985,0.07,0.01,1006.722,0.708,0.761,0.764,egrid2019_summary_tables.xlsx
+2019,SRMV,SERC Mississippi Valley,806.755,0.043,0.006,809.596,0.591,0.638,0.73,egrid2019_summary_tables.xlsx
+2019,SRMW,SERC Midwest,1584.391,0.169,0.025,1595.941,1.005,0.772,2.358,egrid2019_summary_tables.xlsx
+2019,SRSO,SERC South,969.165,0.071,0.01,973.981,0.444,0.422,0.246,egrid2019_summary_tables.xlsx
+2019,SRTV,SERC Tennessee Valley,949.695,0.087,0.013,955.587,0.476,0.494,0.586,egrid2019_summary_tables.xlsx
+2019,SRVC,SERC Virginia/Carolina,675.417,0.058,0.008,679.142,0.343,0.385,0.217,egrid2019_summary_tables.xlsx
+2019,U.S.,884.23,0.075,0.011,889.214,0.586,0.552,0.541,1420.19,egrid2019_summary_tables.xlsx
+2020,AKGD,ASCC Alaska Grid,1097.63,0.1,0.014,1104.191,5.984,5.881,0.555,egrid2020_summary_tables.xlsx
+2020,AKMS,ASCC Miscellaneous,534.073,0.027,0.005,536.11,8.309,7.98,0.713,egrid2020_summary_tables.xlsx
+2020,AZNM,WECC Southwest,846.616,0.054,0.007,850.158,0.481,0.499,0.155,egrid2020_summary_tables.xlsx
+2020,CAMX,WECC California,513.455,0.032,0.004,515.483,0.475,0.453,0.044,egrid2020_summary_tables.xlsx
+2020,ERCT,ERCOT All,818.6,0.052,0.007,822.039,0.452,0.457,0.525,egrid2020_summary_tables.xlsx
+2020,FRCC,FRCC All,835.079,0.049,0.006,838.225,0.288,0.289,0.152,egrid2020_summary_tables.xlsx
+2020,HIMS,HICC Miscellaneous,1143.227,0.11,0.017,1151.124,7.545,7.278,3.921,egrid2020_summary_tables.xlsx
+2020,HIOA,HICC Oahu,1652.952,0.178,0.027,1665.483,3.848,3.759,6.771,egrid2020_summary_tables.xlsx
+2020,MROE,MRO East,1526.374,0.139,0.02,1535.829,0.975,1.01,0.389,egrid2020_summary_tables.xlsx
+2020,MROW,MRO West,979.536,0.104,0.015,986.634,0.728,0.756,0.938,egrid2020_summary_tables.xlsx
+2020,NEWE,NPCC New England,528.238,0.074,0.01,532.979,0.363,0.353,0.084,egrid2020_summary_tables.xlsx
+2020,NWPP,WECC Northwest,599.967,0.056,0.008,603.786,0.504,0.473,0.338,egrid2020_summary_tables.xlsx
+2020,NYCW,NPCC NYC/Westchester,634.612,0.022,0.003,635.957,0.222,0.24,0.01,egrid2020_summary_tables.xlsx
+2020,NYLI,NPCC Long Island,1203.927,0.138,0.018,1212.668,0.86,0.827,0.114,egrid2020_summary_tables.xlsx
+2020,NYUP,NPCC Upstate NY,233.512,0.016,0.002,234.499,0.106,0.111,0.027,egrid2020_summary_tables.xlsx
+2020,PRMS,Puerto Rico Miscellaneous,1602.184,0.085,0.014,1608.496,3.91,3.883,4.292,egrid2020_summary_tables.xlsx
+2020,RFCE,RFC East,652.458,0.045,0.006,655.374,0.291,0.286,0.255,egrid2020_summary_tables.xlsx
+2020,RFCM,RFC Michigan,1153.058,0.101,0.014,1159.809,0.618,0.68,0.813,egrid2020_summary_tables.xlsx
+2020,RFCW,RFC West,984.977,0.086,0.012,990.818,0.588,0.557,0.662,egrid2020_summary_tables.xlsx
+2020,RMPA,WECC Rockies,1144.801,0.101,0.014,1151.617,0.619,0.594,0.321,egrid2020_summary_tables.xlsx
+2020,SPNO,SPP North,954.032,0.1,0.014,960.829,0.466,0.512,0.169,egrid2020_summary_tables.xlsx
+2020,SPSO,SPP South,931.756,0.06,0.009,935.791,0.635,0.726,0.627,egrid2020_summary_tables.xlsx
+2020,SRMV,SERC Mississippi Valley,740.359,0.032,0.004,742.433,0.575,0.673,0.471,egrid2020_summary_tables.xlsx
+2020,SRMW,SERC Midwest,1480.699,0.156,0.023,1491.35,1.146,1.153,2.564,egrid2020_summary_tables.xlsx
+2020,SRSO,SERC South,860.179,0.06,0.009,864.183,0.356,0.354,0.189,egrid2020_summary_tables.xlsx
+2020,SRTV,SERC Tennessee Valley,834.182,0.075,0.011,839.245,0.358,0.357,0.464,egrid2020_summary_tables.xlsx
+2020,SRVC,SERC Virginia/Carolina,623.111,0.05,0.007,626.283,0.284,0.334,0.173,egrid2020_summary_tables.xlsx
+2020,U.S.,818.289,0.065,0.009,822.621,0.509,0.512,0.475,1399.565,egrid2020_summary_tables.xlsx
+2021,AKGD,ASCC Alaska Grid,1067.68,0.091,0.012,1073.669,5.544,5.967,0.377,eGRID2021_summary_tables.xlsx
+2021,AKMS,ASCC Miscellaneous,485.186,0.025,0.004,487.075,7.633,7.063,0.676,eGRID2021_summary_tables.xlsx
+2021,AZNM,WECC Southwest,819.656,0.052,0.007,823.085,0.463,0.474,0.128,eGRID2021_summary_tables.xlsx
+2021,CAMX,WECC California,531.678,0.031,0.004,533.606,0.52,0.495,0.038,eGRID2021_summary_tables.xlsx
+2021,ERCT,ERCOT All,813.552,0.054,0.008,817.169,0.472,0.474,0.587,eGRID2021_summary_tables.xlsx
+2021,FRCC,FRCC All,832.924,0.053,0.007,836.334,0.286,0.274,0.167,eGRID2021_summary_tables.xlsx
+2021,HIMS,HICC Miscellaneous,1134.391,0.135,0.021,1143.904,7.178,6.998,2.976,eGRID2021_summary_tables.xlsx
+2021,HIOA,HICC Oahu,1633.097,0.176,0.027,1645.502,3.92,3.888,6.532,eGRID2021_summary_tables.xlsx
+2021,MROE,MRO East,1582.135,0.148,0.022,1592.275,0.92,0.997,0.393,eGRID2021_summary_tables.xlsx
+2021,MROW,MRO West,995.79,0.107,0.015,1003.054,0.754,0.822,0.981,eGRID2021_summary_tables.xlsx
+2021,NEWE,NPCC New England,539.367,0.072,0.009,543.989,0.327,0.316,0.094,eGRID2021_summary_tables.xlsx
+2021,NWPP,WECC Northwest,634.599,0.058,0.008,638.523,0.553,0.583,0.343,eGRID2021_summary_tables.xlsx
+2021,NYCW,NPCC NYC/Westchester,816.756,0.019,0.002,817.882,0.226,0.266,0.011,eGRID2021_summary_tables.xlsx
+2021,NYLI,NPCC Long Island,1210.94,0.126,0.016,1218.914,0.912,0.926,0.264,eGRID2021_summary_tables.xlsx
+2021,NYUP,NPCC Upstate NY,233.081,0.015,0.002,234.026,0.1,0.107,0.015,eGRID2021_summary_tables.xlsx
+2021,PRMS,Puerto Rico Miscellaneous,1558.024,0.081,0.013,1563.896,3.219,3.02,3.284,eGRID2021_summary_tables.xlsx
+2021,RFCE,RFC East,672.787,0.049,0.007,675.996,0.296,0.292,0.337,eGRID2021_summary_tables.xlsx
+2021,RFCM,RFC Michigan,1214.061,0.115,0.016,1221.84,0.714,0.731,1.144,eGRID2021_summary_tables.xlsx
+2021,RFCW,RFC West,1046.132,0.095,0.014,1052.543,0.572,0.529,0.68,eGRID2021_summary_tables.xlsx
+2021,RMPA,WECC Rockies,1158.86,0.109,0.016,1166.231,0.608,0.591,0.344,eGRID2021_summary_tables.xlsx
+2021,SPNO,SPP North,991.729,0.108,0.016,999.097,0.544,0.56,0.174,eGRID2021_summary_tables.xlsx
+2021,SPSO,SPP South,1031.601,0.08,0.012,1037.048,0.773,0.873,0.953,eGRID2021_summary_tables.xlsx
+2021,SRMV,SERC Mississippi Valley,772.737,0.04,0.006,775.41,0.491,0.535,0.676,eGRID2021_summary_tables.xlsx
+2021,SRMW,SERC Midwest,1543.034,0.171,0.025,1554.701,1.153,1.069,2.66,eGRID2021_summary_tables.xlsx
+2021,SRSO,SERC South,891.907,0.067,0.01,896.44,0.385,0.373,0.212,eGRID2021_summary_tables.xlsx
+2021,SRTV,SERC Tennessee Valley,931.586,0.087,0.013,937.463,0.403,0.405,0.594,eGRID2021_summary_tables.xlsx
+2021,SRVC,SERC Virginia/Carolina,639.665,0.052,0.007,642.855,0.302,0.326,0.187,eGRID2021_summary_tables.xlsx
+2021,U.S.,852.3,0.071,0.01,857.019,0.525,0.525,0.531,1410.007,eGRID2021_summary_tables.xlsx
+2022,AKGD,ASCC Alaska Grid,1052.114,0.088,0.012,1057.841,5.053,5.434,0.423,egrid2022_summary_tables.xlsx
+2022,AKMS,ASCC Miscellaneous,495.772,0.023,0.004,497.557,7.85,7.257,0.68,egrid2022_summary_tables.xlsx
+2022,AZNM,WECC Southwest,776.036,0.051,0.007,779.382,0.419,0.441,0.121,egrid2022_summary_tables.xlsx
+2022,CAMX,WECC California,497.443,0.03,0.004,499.278,0.467,0.426,0.03,egrid2022_summary_tables.xlsx
+2022,ERCT,ERCOT All,771.083,0.049,0.007,774.298,0.468,0.487,0.407,egrid2022_summary_tables.xlsx
+2022,FRCC,FRCC All,813.846,0.048,0.006,816.893,0.298,0.306,0.142,egrid2022_summary_tables.xlsx
+2022,HIMS,HICC Miscellaneous,1155.486,0.124,0.019,1163.065,7.187,7.252,3.069,egrid2022_summary_tables.xlsx
+2022,HIOA,HICC Oahu,1575.407,0.163,0.025,1586.947,3.874,3.708,6.353,egrid2022_summary_tables.xlsx
+2022,MROE,MRO East,1479.621,0.133,0.019,1488.688,0.978,1.012,0.306,egrid2022_summary_tables.xlsx
+2022,MROW,MRO West,936.485,0.102,0.015,943.418,0.758,0.86,0.907,egrid2022_summary_tables.xlsx
+2022,NEWE,NPCC New England,536.428,0.063,0.008,540.48,0.309,0.283,0.122,egrid2022_summary_tables.xlsx
+2022,NWPP,WECC Northwest,602.088,0.056,0.008,605.872,0.531,0.519,0.318,egrid2022_summary_tables.xlsx
+2022,NYCW,NPCC NYC/Westchester,885.233,0.023,0.003,886.58,0.248,0.248,0.028,egrid2022_summary_tables.xlsx
+2022,NYLI,NPCC Long Island,1200.708,0.135,0.018,1209.311,0.919,0.857,0.474,egrid2022_summary_tables.xlsx
+2022,NYUP,NPCC Upstate NY,274.559,0.015,0.002,275.389,0.113,0.095,0.043,egrid2022_summary_tables.xlsx
+2022,PRMS,Puerto Rico Miscellaneous,1593.481,0.087,0.014,1599.922,3.064,3.062,4.262,egrid2022_summary_tables.xlsx
+2022,RFCE,RFC East,657.386,0.045,0.006,660.311,0.275,0.223,0.302,egrid2022_summary_tables.xlsx
+2022,RFCM,RFC Michigan,1216.404,0.116,0.016,1224.187,0.638,0.632,0.931,egrid2022_summary_tables.xlsx
+2022,RFCW,RFC West,1000.053,0.087,0.012,1005.904,0.519,0.424,0.62,egrid2022_summary_tables.xlsx
+2022,RMPA,WECC Rockies,1124.887,0.101,0.014,1131.733,0.613,0.64,0.348,egrid2022_summary_tables.xlsx
+2022,SPNO,SPP North,952.575,0.1,0.014,959.381,0.536,0.599,0.16,egrid2022_summary_tables.xlsx
+2022,SPSO,SPP South,970.398,0.072,0.01,975.253,0.756,0.836,0.862,egrid2022_summary_tables.xlsx
+2022,SRMV,SERC Mississippi Valley,801.015,0.04,0.006,803.658,0.492,0.525,0.602,egrid2022_summary_tables.xlsx
+2022,SRMW,SERC Midwest,1369.887,0.151,0.022,1380.154,1.002,0.746,2.41,egrid2022_summary_tables.xlsx
+2022,SRSO,SERC South,893.29,0.064,0.009,897.659,0.389,0.352,0.151,egrid2022_summary_tables.xlsx
+2022,SRTV,SERC Tennessee Valley,933.067,0.082,0.012,938.625,0.394,0.366,0.537,egrid2022_summary_tables.xlsx
+2022,SRVC,SERC Virginia/Carolina,622.987,0.047,0.007,625.874,0.308,0.313,0.157,egrid2022_summary_tables.xlsx
+2022,U.S.,823.149,0.066,0.009,827.52,0.504,0.485,0.473,1405.322,egrid2022_summary_tables.xlsx
+2023,AKGD,ASCC Alaska Grid,899.633,0.086,0.012,905.109,5.554,6.167,0.31,egrid2023_data_rev2.xlsx
+2023,AKMS,ASCC Miscellaneous,520.483,0.026,0.004,522.4,8.139,7.882,0.708,egrid2023_data_rev2.xlsx
+2023,AZNM,WECC Southwest,703.703,0.039,0.005,706.189,0.36,0.384,0.103,egrid2023_data_rev2.xlsx
+2023,CAMX,WECC California,428.464,0.025,0.003,429.983,0.332,0.304,0.02,egrid2023_data_rev2.xlsx
+2023,ERCT,ERCOT All,733.862,0.043,0.006,736.629,0.443,0.488,0.319,egrid2023_data_rev2.xlsx
+2023,FRCC,FRCC All,782.262,0.041,0.005,784.785,0.242,0.24,0.128,egrid2023_data_rev2.xlsx
+2023,HIMS,HICC Miscellaneous,1123.371,0.146,0.022,1133.294,7.565,7.2,4.489,egrid2023_data_rev2.xlsx
+2023,HIOA,HICC Oahu,1489.548,0.134,0.021,1498.947,3.908,3.714,4.28,egrid2023_data_rev2.xlsx
+2023,MROE,MRO East,1397.313,0.116,0.017,1404.963,0.982,1.022,0.277,egrid2023_data_rev2.xlsx
+2023,MROW,MRO West,920.13,0.097,0.014,926.552,0.711,0.805,0.896,egrid2023_data_rev2.xlsx
+2023,NEWE,NPCC New England,539.275,0.063,0.008,543.178,0.291,0.283,0.116,egrid2023_data_rev2.xlsx
+2023,NWPP,WECC Northwest,631.735,0.054,0.008,635.267,0.568,0.52,0.268,egrid2023_data_rev2.xlsx
+2023,NYCW,NPCC NYC/Westchester,864.469,0.022,0.002,865.744,0.232,0.256,0.024,egrid2023_data_rev2.xlsx
+2023,NYLI,NPCC Long Island,1180.672,0.14,0.018,1189.333,0.829,0.791,0.331,egrid2023_data_rev2.xlsx
+2023,NYUP,NPCC Upstate NY,242.089,0.011,0.001,242.776,0.083,0.086,0.027,egrid2023_data_rev2.xlsx
+2023,PRMS,Puerto Rico Miscellaneous,1543.073,0.077,0.012,1548.53,3.902,4.095,3.695,egrid2023_data_rev2.xlsx
+2023,RFCE,RFC East,596.904,0.036,0.005,599.17,0.202,0.209,0.212,egrid2023_data_rev2.xlsx
+2023,RFCM,RFC Michigan,970.617,0.082,0.012,975.978,0.519,0.515,0.564,egrid2023_data_rev2.xlsx
+2023,RFCW,RFC West,911.424,0.071,0.01,916.054,0.422,0.359,0.412,egrid2023_data_rev2.xlsx
+2023,RMPA,WECC Rockies,1036.601,0.09,0.013,1042.539,0.526,0.502,0.329,egrid2023_data_rev2.xlsx
+2023,SPNO,SPP North,861.999,0.087,0.012,867.74,0.462,0.566,0.137,egrid2023_data_rev2.xlsx
+2023,SPSO,SPP South,872.042,0.054,0.008,875.567,0.673,0.782,0.658,egrid2023_data_rev2.xlsx
+2023,SRMV,SERC Mississippi Valley,739.72,0.032,0.004,741.741,0.488,0.532,0.351,egrid2023_data_rev2.xlsx
+2023,SRMW,SERC Midwest,1239.839,0.132,0.019,1248.582,0.787,0.576,1.636,egrid2023_data_rev2.xlsx
+2023,SRSO,SERC South,842.329,0.056,0.008,846.007,0.347,0.336,0.162,egrid2023_data_rev2.xlsx
+2023,SRTV,SERC Tennessee Valley,898.079,0.079,0.011,903.306,0.384,0.362,0.427,egrid2023_data_rev2.xlsx
+2023,SRVC,SERC Virginia/Carolina,593.419,0.045,0.006,596.326,0.282,0.316,0.152,egrid2023_data_rev2.xlsx

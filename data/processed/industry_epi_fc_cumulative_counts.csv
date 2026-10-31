@@ -1,0 +1,7 @@
+as_of_year_end,cumulative_fc_openings,dataset_vintage,source_url,note
+2015,69,original (Oct 2017 data),https://files.epi.org/pdf/138921.pdf,"EPI Appendix text, p.13"
+2016,91,original (Oct 2017 data),https://files.epi.org/pdf/138921.pdf,"EPI Appendix text, p.13"
+2017,95,original (Oct 2017 data),https://files.epi.org/pdf/138921.pdf,"EPI Appendix text, p.13; matches 95 rows in industry_epi_fc_openings_2017.csv"
+2015,75,updated Feb 28 2018 MWPVL,https://files.epi.org/pdf/138921.pdf,"EPI Appendix text, p.13"
+2016,100,updated Feb 28 2018 MWPVL,https://files.epi.org/pdf/138921.pdf,"EPI Appendix text, p.13"
+2017,120,updated Feb 28 2018 MWPVL,https://files.epi.org/pdf/138921.pdf,"EPI Appendix text, p.13"

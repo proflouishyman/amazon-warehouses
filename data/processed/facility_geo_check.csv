@@ -1,0 +1,33 @@
+facility_id,site_code,state,zip,city,lat,lon,geo_method,status,detail
+F0001,AVP2,,,,,,none,no_coordinates,row has no coordinates
+F0002,HLA3,,,,,,none,no_coordinates,row has no coordinates
+F0003,LAL1,,,,,,none,no_coordinates,row has no coordinates
+F0004,LGA6,,,,,,none,no_coordinates,row has no coordinates
+F0005,LGB1,,,,,,none,no_coordinates,row has no coordinates
+F0006,PIL1,,,,,,none,no_coordinates,row has no coordinates
+F0007,SEA6,,,,,,none,no_coordinates,row has no coordinates
+F0008,SEA8,,,,,,none,no_coordinates,row has no coordinates
+F0009,STL7,,,,,,none,no_coordinates,row has no coordinates
+F0010,TFC1,,,,,,none,no_coordinates,row has no coordinates
+F0011,YEG1,,,,,,none,no_coordinates,row has no coordinates
+F0012,YOW1,,,,,,none,no_coordinates,row has no coordinates
+F0013,YUL5,,,,,,none,no_coordinates,row has no coordinates
+F0014,YVR1,,,,,,none,no_coordinates,row has no coordinates
+F0015,YVR2,,,,,,none,no_coordinates,row has no coordinates
+F0016,YVR3,,,,,,none,no_coordinates,row has no coordinates
+F0017,YVR4,,,,,,none,no_coordinates,row has no coordinates
+F0018,YYC1,,,,,,none,no_coordinates,row has no coordinates
+F0019,YYZ1,,,,,,none,no_coordinates,row has no coordinates
+F0020,YYZ2,,,,,,none,no_coordinates,row has no coordinates
+F0021,YYZ3,,,,,,none,no_coordinates,row has no coordinates
+F0022,YYZ4,,,,,,none,no_coordinates,row has no coordinates
+F0023,YYZ6,,,,,,none,no_coordinates,row has no coordinates
+F0024,YYZ7,,,,,,none,no_coordinates,row has no coordinates
+F0025,YYZ9,,,,,,none,no_coordinates,row has no coordinates
+F0290,USF2,CA,94557,San Leandro,,,none,no_coordinates,row has no coordinates
+F0559,,GA,,McDonough,,,none,no_coordinates,row has no coordinates
+F0956,DLI3,MO,64150,Riverside,39.167161135432,-94.650409483343,census_batch_non_exact,near_border,point 0.2 km outside MO polygon (generalised 1:20M boundary)
+F1238,DKY4,OH,45204,Cincinnati,39.086491872522,-84.574497685525,census_batch_exact,near_border,point 0.2 km outside OH polygon (generalised 1:20M boundary)
+F1401,YUL2,PF,,Quebec H8T 3,,,none,no_coordinates,row has no coordinates
+F1489,DAL2,TX,75261,Dallas,,,none,no_coordinates,row has no coordinates
+F1707,,WA,,Seattle,,,none,no_coordinates,row has no coordinates

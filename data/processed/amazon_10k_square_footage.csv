@@ -1,0 +1,234 @@
+fiscal_year,space_type,region,tenure,square_feet_thousands,value_basis,note,source_10k_accession,unit
+1997,office,US,leased,88,reported,"Seattle administrative, engineering, marketing, customer service",0000891020-98-000448,thousand sq ft
+1997,fulfillment_warehouse,US,leased,285,reported,Seattle 85k + New Castle DE 200k,0000891020-98-000448,thousand sq ft
+1998,office,US,leased,150,reported,Seattle; excludes 184k office leased Dec 1998 not yet occupied,0000891020-99-000375,thousand sq ft
+1998,fulfillment_warehouse,US,leased,293,reported,Seattle 93k + New Castle 200k operating; excludes Fernley NV 323k leased Dec 1998 not yet operating,0000891020-99-000375,thousand sq ft
+1998,fulfillment_warehouse,International,leased,73,reported_combined,Regensburg DE 32k (HQ and DC) + Slough UK 41k (HQ and DC) combined office/distribution,0000891020-99-000375,thousand sq ft
+1999,office,US,leased,730,reported,,0000891020-00-000622,thousand sq ft
+1999,fulfillment_warehouse,US,leased,3800,reported,"Eight distribution centers: Seattle, New Castle, Fernley, Lexington, Campbellsville, McDonough, Coffeyville, Grand Forks",0000891020-00-000622,thousand sq ft
+1999,office,International,leased,121,reported,Germany and UK,0000891020-00-000622,thousand sq ft
+1999,fulfillment_warehouse,International,leased,690,reported,Germany + UK; additional 500k Marston Gate UK from April 2000,0000891020-00-000622,thousand sq ft
+2000,office,US,leased,725,reported,,0001032210-01-500087,thousand sq ft
+2000,fulfillment_warehouse,US,leased,3210,reported,Seven fulfillment centers; McDonough GA closure announced Jan 2001,0001032210-01-500087,thousand sq ft
+2000,office,International,leased,150,reported,,0001032210-01-500087,thousand sq ft
+2000,fulfillment_warehouse,International,leased,1000,reported,"Germany, France, UK",0001032210-01-500087,thousand sq ft
+2001,office,US,leased,772,reported,Of which 539k occupied,0001032210-02-000059,thousand sq ft
+2001,fulfillment_warehouse,US,leased,3120,reported,Six fulfillment centers,0001032210-02-000059,thousand sq ft
+2001,offsite_storage_shipping,US,leased,340-710,reported_range,"Range reported, fluctuates",0001032210-02-000059,thousand sq ft
+2001,customer_service,US,leased,76,reported,,0001032210-02-000059,thousand sq ft
+2001,data_center,US,leased,120,reported,Washington and Virginia,0001032210-02-000059,thousand sq ft
+2001,office,International,leased,192,reported,Of which 141k occupied,0001032210-02-000059,thousand sq ft
+2001,fulfillment_warehouse,International,leased,833,reported,,0001032210-02-000059,thousand sq ft
+2001,customer_service,International,leased,54,reported,,0001032210-02-000059,thousand sq ft
+2001,fulfillment_warehouse,US,leased,893,reported_additional,"Closed McDonough GA and seasonal Seattle FCs, still under lease; NOT included in 3,120 above",0001032210-02-000059,thousand sq ft
+2002,office,US,leased,517,reported,Excludes customer service; plus 333k subleased or vacant,0000950149-03-000355,thousand sq ft
+2002,fulfillment_warehouse,US,leased,3100,reported,Six fulfillment centers,0000950149-03-000355,thousand sq ft
+2002,offsite_storage_shipping,US,leased,1100,reported,Six facilities near FCs,0000950149-03-000355,thousand sq ft
+2002,customer_service,US,leased,76,reported,,0000950149-03-000355,thousand sq ft
+2002,data_center,US,leased,120,reported,Includes ~40k vacant,0000950149-03-000355,thousand sq ft
+2002,office,International,leased,135,reported,,0000950149-03-000355,thousand sq ft
+2002,fulfillment_warehouse,International,leased,845,reported,Excludes ~200k UK subleased/marketed,0000950149-03-000355,thousand sq ft
+2002,customer_service,International,leased,66,reported,,0000950149-03-000355,thousand sq ft
+2002,fulfillment_warehouse,US,leased,520,reported_additional,McDonough GA lease remaining at 12/31/2002 (closed); not included above,0000950149-03-000355,thousand sq ft
+2003,office,US,leased,577,reported,Excludes customer service; plus 309k subleased or vacant,0001193125-04-029488,thousand sq ft
+2003,fulfillment_warehouse,US,leased,3200,reported,Six fulfillment centers,0001193125-04-029488,thousand sq ft
+2003,offsite_storage_shipping,US,leased,1200,reported,Six facilities,0001193125-04-029488,thousand sq ft
+2003,customer_service,US,leased,77,reported,,0001193125-04-029488,thousand sq ft
+2003,data_center,US,leased,120,reported,Includes ~40k vacant,0001193125-04-029488,thousand sq ft
+2003,office,International,leased,135,reported,Excludes ~40k vacant Germany,0001193125-04-029488,thousand sq ft
+2003,fulfillment_warehouse,International,leased,1000,reported,,0001193125-04-029488,thousand sq ft
+2003,customer_service,International,leased,66,reported,,0001193125-04-029488,thousand sq ft
+2004,office,North America,leased,707,reported,"Corporate office, incl. ~68k vacant total (all categories)",0001193125-05-047032,thousand sq ft
+2004,office,International,leased,185,reported,,0001193125-05-047032,thousand sq ft
+2004,fulfillment_warehouse,North America,leased,4465,reported,,0001193125-05-047032,thousand sq ft
+2004,fulfillment_warehouse,International,leased,1483,reported,,0001193125-05-047032,thousand sq ft
+2004,customer_service,All (not split),leased,143,reported,,0001193125-05-047032,thousand sq ft
+2004,data_center,All (not split),leased,129,reported,,0001193125-05-047032,thousand sq ft
+2005,office,North America,leased,1000,reported,,0001193125-06-034166,thousand sq ft
+2005,office,International,leased,300,reported,,0001193125-06-034166,thousand sq ft
+2005,fulfillment_warehouse,North America,leased,7560,reported,,0001193125-06-034166,thousand sq ft
+2005,fulfillment_warehouse,International,leased,2620,reported,,0001193125-06-034166,thousand sq ft
+2005,customer_service_and_data_center,North America,leased,370,reported,,0001193125-06-034166,thousand sq ft
+2005,customer_service_and_data_center,International,leased,70,reported,,0001193125-06-034166,thousand sq ft
+2006,office,North America,leased,1207,reported,,0001193125-07-034081,thousand sq ft
+2006,office,International,leased,319,reported,,0001193125-07-034081,thousand sq ft
+2006,fulfillment_warehouse,North America,leased,8434,reported,,0001193125-07-034081,thousand sq ft
+2006,fulfillment_warehouse,International,leased,3419,reported,,0001193125-07-034081,thousand sq ft
+2006,customer_service_and_other,North America,leased,416,reported,,0001193125-07-034081,thousand sq ft
+2006,customer_service_and_other,International,leased,93,reported,,0001193125-07-034081,thousand sq ft
+2007,office,North America,leased,1266,reported,,0001193125-08-024707,thousand sq ft
+2007,office,International,leased,425,reported,,0001193125-08-024707,thousand sq ft
+2007,fulfillment_warehouse,North America,leased,8905,reported,,0001193125-08-024707,thousand sq ft
+2007,fulfillment_warehouse,International,leased,4729,reported,,0001193125-08-024707,thousand sq ft
+2007,customer_service_and_other,North America,leased,368,reported,,0001193125-08-024707,thousand sq ft
+2007,customer_service_and_other,International,leased,144,reported,,0001193125-08-024707,thousand sq ft
+2008,office,North America,leased,1416,reported,,0001193125-09-014406,thousand sq ft
+2008,office,International,leased,473,reported,,0001193125-09-014406,thousand sq ft
+2008,fulfillment_warehouse,North America,leased,11973,reported,,0001193125-09-014406,thousand sq ft
+2008,fulfillment_warehouse,International,leased,5321,reported,,0001193125-09-014406,thousand sq ft
+2008,customer_service_and_other,North America,leased,368,reported,,0001193125-09-014406,thousand sq ft
+2008,customer_service_and_other,International,leased,175,reported,,0001193125-09-014406,thousand sq ft
+2009,office,North America,leased,1565,reported,,0001193125-10-016098,thousand sq ft
+2009,office,International,leased,422,reported,,0001193125-10-016098,thousand sq ft
+2009,fulfillment_warehouse,North America,leased,11848,reported,,0001193125-10-016098,thousand sq ft
+2009,fulfillment_warehouse,International,leased,5739,reported,,0001193125-10-016098,thousand sq ft
+2009,data_center_customer_service_and_other,North America,leased,553,reported,,0001193125-10-016098,thousand sq ft
+2009,data_center_customer_service_and_other,International,leased,197,reported,,0001193125-10-016098,thousand sq ft
+2010,office,North America,leased,2351,reported,,0001193125-11-016253,thousand sq ft
+2010,office,International,leased,650,reported,,0001193125-11-016253,thousand sq ft
+2010,fulfillment_warehouse,North America,leased,15761,reported,,0001193125-11-016253,thousand sq ft
+2010,fulfillment_warehouse,International,leased,10339,reported,,0001193125-11-016253,thousand sq ft
+2010,data_center_customer_service_and_other,North America,leased,775,reported,,0001193125-11-016253,thousand sq ft
+2010,data_center_customer_service_and_other,International,leased,209,reported,,0001193125-11-016253,thousand sq ft
+2011,office,North America,leased,3416,reported,,0001193125-12-032846,thousand sq ft
+2011,office,International,leased,837,reported,,0001193125-12-032846,thousand sq ft
+2011,fulfillment_data_center_other,North America,leased,26364,reported,"10-K combines fulfillment, data center and other this year",0001193125-12-032846,thousand sq ft
+2011,fulfillment_data_center_other,International,leased,17690,reported,,0001193125-12-032846,thousand sq ft
+2012,office,North America,leased,3236,reported,,0001193125-13-028520,thousand sq ft
+2012,office,North America,owned,1802,reported,,0001193125-13-028520,thousand sq ft
+2012,office,International,leased,1660,reported,,0001193125-13-028520,thousand sq ft
+2012,office,International,owned,0,reported,,0001193125-13-028520,thousand sq ft
+2012,fulfillment_data_center_other,North America,leased,35261,reported,,0001193125-13-028520,thousand sq ft
+2012,fulfillment_data_center_other,North America,owned,339,reported,,0001193125-13-028520,thousand sq ft
+2012,fulfillment_data_center_other,International,leased,30761,reported,,0001193125-13-028520,thousand sq ft
+2012,fulfillment_data_center_other,International,owned,22,reported,,0001193125-13-028520,thousand sq ft
+2013,office,North America,leased,4485,reported,,0001018724-14-000006,thousand sq ft
+2013,office,North America,owned,1802,reported,,0001018724-14-000006,thousand sq ft
+2013,office,International,leased,3002,reported,,0001018724-14-000006,thousand sq ft
+2013,office,International,owned,0,reported,,0001018724-14-000006,thousand sq ft
+2013,fulfillment_data_center_other,North America,leased,48013,reported,,0001018724-14-000006,thousand sq ft
+2013,fulfillment_data_center_other,North America,owned,329,reported,,0001018724-14-000006,thousand sq ft
+2013,fulfillment_data_center_other,International,leased,36131,reported,,0001018724-14-000006,thousand sq ft
+2013,fulfillment_data_center_other,International,owned,122,reported,,0001018724-14-000006,thousand sq ft
+2014,office,North America,leased,5672,reported,,0001018724-15-000006,thousand sq ft
+2014,office,North America,owned,1802,reported,,0001018724-15-000006,thousand sq ft
+2014,office,International,leased,3371,reported,,0001018724-15-000006,thousand sq ft
+2014,office,International,owned,0,reported,,0001018724-15-000006,thousand sq ft
+2014,fulfillment_data_center_other,North America,leased,57898,reported,,0001018724-15-000006,thousand sq ft
+2014,fulfillment_data_center_other,North America,owned,735,reported,,0001018724-15-000006,thousand sq ft
+2014,fulfillment_data_center_other,International,leased,43969,reported,,0001018724-15-000006,thousand sq ft
+2014,fulfillment_data_center_other,International,owned,272,reported,,0001018724-15-000006,thousand sq ft
+2015,office,North America,leased,7245,reported,,0001018724-16-000172,thousand sq ft
+2015,office,North America,owned,2601,reported,,0001018724-16-000172,thousand sq ft
+2015,office,International,leased,4843,reported,,0001018724-16-000172,thousand sq ft
+2015,office,International,owned,0,reported,,0001018724-16-000172,thousand sq ft
+2015,fulfillment_data_center_other,North America,leased,69890,reported,,0001018724-16-000172,thousand sq ft
+2015,fulfillment_data_center_other,North America,owned,1765,reported,,0001018724-16-000172,thousand sq ft
+2015,fulfillment_data_center_other,International,leased,47976,reported,,0001018724-16-000172,thousand sq ft
+2015,fulfillment_data_center_other,International,owned,670,reported,,0001018724-16-000172,thousand sq ft
+2016,office,North America,leased,8454,reported,,0001018724-17-000011,thousand sq ft
+2016,office,North America,owned,3693,reported,,0001018724-17-000011,thousand sq ft
+2016,office,International,leased,7314,reported,,0001018724-17-000011,thousand sq ft
+2016,office,International,owned,0,reported,,0001018724-17-000011,thousand sq ft
+2016,fulfillment_data_center_other,North America,leased,97215,reported,,0001018724-17-000011,thousand sq ft
+2016,fulfillment_data_center_other,North America,owned,2237,reported,,0001018724-17-000011,thousand sq ft
+2016,fulfillment_data_center_other,International,leased,59175,reported,,0001018724-17-000011,thousand sq ft
+2016,fulfillment_data_center_other,International,owned,1257,reported,,0001018724-17-000011,thousand sq ft
+2017,office,North America,leased,12712,reported,,0001018724-18-000005,thousand sq ft
+2017,office,North America,owned,3674,reported,,0001018724-18-000005,thousand sq ft
+2017,office,International,leased,7466,reported,,0001018724-18-000005,thousand sq ft
+2017,office,International,owned,0,reported,,0001018724-18-000005,thousand sq ft
+2017,fulfillment_data_center_other,North America,leased,131419,reported,,0001018724-18-000005,thousand sq ft
+2017,fulfillment_data_center_other,North America,owned,4406,reported,,0001018724-18-000005,thousand sq ft
+2017,fulfillment_data_center_other,International,leased,67832,reported,,0001018724-18-000005,thousand sq ft
+2017,fulfillment_data_center_other,International,owned,5190,reported,,0001018724-18-000005,thousand sq ft
+2017,physical_stores,North America,leased,20349,reported,,0001018724-18-000005,thousand sq ft
+2017,physical_stores,North America,owned,735,reported,,0001018724-18-000005,thousand sq ft
+2017,physical_stores,International,leased,202,reported,,0001018724-18-000005,thousand sq ft
+2017,physical_stores,International,owned,0,reported,,0001018724-18-000005,thousand sq ft
+2018,office,North America,leased,16642,reported,,0001018724-19-000004,thousand sq ft
+2018,office,North America,owned,3901,reported,,0001018724-19-000004,thousand sq ft
+2018,office,International,leased,14738,reported,,0001018724-19-000004,thousand sq ft
+2018,office,International,owned,0,reported,,0001018724-19-000004,thousand sq ft
+2018,fulfillment_data_center_other,North America,leased,153917,reported,,0001018724-19-000004,thousand sq ft
+2018,fulfillment_data_center_other,North America,owned,4467,reported,,0001018724-19-000004,thousand sq ft
+2018,fulfillment_data_center_other,International,leased,72596,reported,,0001018724-19-000004,thousand sq ft
+2018,fulfillment_data_center_other,International,owned,2085,reported,,0001018724-19-000004,thousand sq ft
+2018,physical_stores,North America,leased,19176,reported,,0001018724-19-000004,thousand sq ft
+2018,physical_stores,North America,owned,724,reported,,0001018724-19-000004,thousand sq ft
+2018,physical_stores,International,leased,173,reported,,0001018724-19-000004,thousand sq ft
+2018,physical_stores,International,owned,0,reported,,0001018724-19-000004,thousand sq ft
+2019,office,North America,leased,18051,reported,,0001018724-20-000004,thousand sq ft
+2019,office,North America,owned,4961,reported,,0001018724-20-000004,thousand sq ft
+2019,office,International,leased,15863,reported,,0001018724-20-000004,thousand sq ft
+2019,office,International,owned,1831,reported,,0001018724-20-000004,thousand sq ft
+2019,fulfillment_data_center_other,North America,leased,187148,reported,,0001018724-20-000004,thousand sq ft
+2019,fulfillment_data_center_other,North America,owned,5591,reported,,0001018724-20-000004,thousand sq ft
+2019,fulfillment_data_center_other,International,leased,76868,reported,,0001018724-20-000004,thousand sq ft
+2019,fulfillment_data_center_other,International,owned,2570,reported,,0001018724-20-000004,thousand sq ft
+2019,physical_stores,North America,leased,20072,reported,,0001018724-20-000004,thousand sq ft
+2019,physical_stores,North America,owned,662,reported,,0001018724-20-000004,thousand sq ft
+2019,physical_stores,International,leased,169,reported,,0001018724-20-000004,thousand sq ft
+2019,physical_stores,International,owned,0,reported,,0001018724-20-000004,thousand sq ft
+2020,office,North America,leased,23731,reported,,0001018724-21-000004,thousand sq ft
+2020,office,North America,owned,5696,reported,,0001018724-21-000004,thousand sq ft
+2020,office,International,leased,19023,reported,,0001018724-21-000004,thousand sq ft
+2020,office,International,owned,1823,reported,,0001018724-21-000004,thousand sq ft
+2020,fulfillment_data_center_other,North America,leased,285677,reported,,0001018724-21-000004,thousand sq ft
+2020,fulfillment_data_center_other,North America,owned,8461,reported,,0001018724-21-000004,thousand sq ft
+2020,fulfillment_data_center_other,International,leased,104668,reported,,0001018724-21-000004,thousand sq ft
+2020,fulfillment_data_center_other,International,owned,3449,reported,,0001018724-21-000004,thousand sq ft
+2020,physical_stores,North America,leased,21157,reported,,0001018724-21-000004,thousand sq ft
+2020,physical_stores,North America,owned,662,reported,,0001018724-21-000004,thousand sq ft
+2020,physical_stores,International,leased,169,reported,,0001018724-21-000004,thousand sq ft
+2020,physical_stores,International,owned,0,reported,,0001018724-21-000004,thousand sq ft
+2021,office,North America,leased,27519,reported,,0001018724-22-000005,thousand sq ft
+2021,office,North America,owned,6138,reported,,0001018724-22-000005,thousand sq ft
+2021,office,International,leased,20983,reported,,0001018724-22-000005,thousand sq ft
+2021,office,International,owned,1802,reported,,0001018724-22-000005,thousand sq ft
+2021,fulfillment_data_center_other,North America,leased,370392,reported,,0001018724-22-000005,thousand sq ft
+2021,fulfillment_data_center_other,North America,owned,16663,reported,,0001018724-22-000005,thousand sq ft
+2021,fulfillment_data_center_other,International,leased,129035,reported,,0001018724-22-000005,thousand sq ft
+2021,fulfillment_data_center_other,International,owned,9601,reported,,0001018724-22-000005,thousand sq ft
+2021,physical_stores,North America,leased,22396,reported,,0001018724-22-000005,thousand sq ft
+2021,physical_stores,North America,owned,662,reported,,0001018724-22-000005,thousand sq ft
+2021,physical_stores,International,leased,235,reported,,0001018724-22-000005,thousand sq ft
+2021,physical_stores,International,owned,0,reported,,0001018724-22-000005,thousand sq ft
+2022,office,North America,leased,30611,reported,,0001018724-23-000004,thousand sq ft
+2022,office,North America,owned,6792,reported,,0001018724-23-000004,thousand sq ft
+2022,office,International,leased,23956,reported,,0001018724-23-000004,thousand sq ft
+2022,office,International,owned,1802,reported,,0001018724-23-000004,thousand sq ft
+2022,fulfillment_data_center_other,North America,leased,391598,reported,,0001018724-23-000004,thousand sq ft
+2022,fulfillment_data_center_other,North America,owned,22058,reported,,0001018724-23-000004,thousand sq ft
+2022,fulfillment_data_center_other,International,leased,148146,reported,,0001018724-23-000004,thousand sq ft
+2022,fulfillment_data_center_other,International,owned,12613,reported,,0001018724-23-000004,thousand sq ft
+2022,physical_stores,North America,leased,22881,reported,,0001018724-23-000004,thousand sq ft
+2022,physical_stores,North America,owned,662,reported,,0001018724-23-000004,thousand sq ft
+2022,physical_stores,International,leased,291,reported,,0001018724-23-000004,thousand sq ft
+2022,physical_stores,International,owned,0,reported,,0001018724-23-000004,thousand sq ft
+2023,office,North America,leased,29655,reported,,0001018724-24-000008,thousand sq ft
+2023,office,North America,owned,9222,reported,,0001018724-24-000008,thousand sq ft
+2023,office,International,leased,24528,reported,,0001018724-24-000008,thousand sq ft
+2023,office,International,owned,1802,reported,,0001018724-24-000008,thousand sq ft
+2023,fulfillment_data_center_other,North America,leased,413017,reported,,0001018724-24-000008,thousand sq ft
+2023,fulfillment_data_center_other,North America,owned,25630,reported,,0001018724-24-000008,thousand sq ft
+2023,fulfillment_data_center_other,International,leased,173765,reported,,0001018724-24-000008,thousand sq ft
+2023,fulfillment_data_center_other,International,owned,14802,reported,,0001018724-24-000008,thousand sq ft
+2023,physical_stores,North America,leased,22871,reported,,0001018724-24-000008,thousand sq ft
+2023,physical_stores,North America,owned,707,reported,,0001018724-24-000008,thousand sq ft
+2023,physical_stores,International,leased,255,reported,,0001018724-24-000008,thousand sq ft
+2023,physical_stores,International,owned,0,reported,,0001018724-24-000008,thousand sq ft
+2024,office,North America,leased,29551,reported,,0001018724-25-000004,thousand sq ft
+2024,office,North America,owned,9104,reported,,0001018724-25-000004,thousand sq ft
+2024,office,International,leased,23771,reported,,0001018724-25-000004,thousand sq ft
+2024,office,International,owned,1802,reported,,0001018724-25-000004,thousand sq ft
+2024,fulfillment_data_center_other,North America,leased,448168,reported,,0001018724-25-000004,thousand sq ft
+2024,fulfillment_data_center_other,North America,owned,36869,reported,,0001018724-25-000004,thousand sq ft
+2024,fulfillment_data_center_other,International,leased,176287,reported,,0001018724-25-000004,thousand sq ft
+2024,fulfillment_data_center_other,International,owned,18958,reported,,0001018724-25-000004,thousand sq ft
+2024,physical_stores,North America,leased,23975,reported,,0001018724-25-000004,thousand sq ft
+2024,physical_stores,North America,owned,707,reported,,0001018724-25-000004,thousand sq ft
+2024,physical_stores,International,leased,222,reported,,0001018724-25-000004,thousand sq ft
+2024,physical_stores,International,owned,0,reported,,0001018724-25-000004,thousand sq ft
+2025,office,North America,leased,31028,reported,,0001018724-26-000004,thousand sq ft
+2025,office,North America,owned,9160,reported,,0001018724-26-000004,thousand sq ft
+2025,office,International,leased,26495,reported,,0001018724-26-000004,thousand sq ft
+2025,office,International,owned,1802,reported,,0001018724-26-000004,thousand sq ft
+2025,fulfillment_data_center_other,North America,leased,474128,reported,,0001018724-26-000004,thousand sq ft
+2025,fulfillment_data_center_other,North America,owned,45803,reported,,0001018724-26-000004,thousand sq ft
+2025,fulfillment_data_center_other,International,leased,185814,reported,,0001018724-26-000004,thousand sq ft
+2025,fulfillment_data_center_other,International,owned,20660,reported,,0001018724-26-000004,thousand sq ft
+2025,physical_stores,North America,leased,23932,reported,,0001018724-26-000004,thousand sq ft
+2025,physical_stores,North America,owned,706,reported,,0001018724-26-000004,thousand sq ft
+2025,physical_stores,International,leased,148,reported,,0001018724-26-000004,thousand sq ft
+2025,physical_stores,International,owned,0,reported,,0001018724-26-000004,thousand sq ft

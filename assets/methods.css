@@ -1,0 +1,13 @@
+/* methods.html page styles. Shared tokens come from style.css. */
+.mtoc{display:flex;flex-wrap:wrap;gap:6px 14px;margin:6px 0 4px;padding:0;list-style:none;font-size:13px}
+.mtoc a{text-decoration:none;border-bottom:1px dotted var(--ink-3)}
+.mx h3{font-size:14.5px;margin:16px 0 4px}
+.mx p,.mx li{font-size:14px;overflow-wrap:anywhere}
+.mx ul,.mx ol{padding-left:20px;margin:6px 0}
+.mx table{font-size:12.5px}
+.srcline{font-size:12px;color:var(--ink-2);margin:6px 0 14px;overflow-wrap:anywhere}
+.srcline b{color:var(--ink)}
+.mx .fld{font-family:ui-monospace,Menlo,monospace;font-size:.9em;background:var(--surface-2);padding:0 3px;border-radius:3px}
+.mx .stmt{background:var(--surface);border:1px solid var(--rule);border-left:3px solid var(--accent);border-radius:4px;padding:8px 12px;margin:8px 0;font-size:13.5px}
+.mx .twrap{margin:8px 0}
+.mx .twrap > .cap:first-child{margin:0 0 4px;font-weight:600;color:var(--ink)}
