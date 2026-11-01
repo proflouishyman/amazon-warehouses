@@ -18,7 +18,7 @@ var order = ["facilities", "financial", "labor", "injuries", "environment", "log
 
 function srcline(h) { return '<p class="srcline"><b>Source.</b> ' + h + "</p>"; }
 function link(u, text) {
-  if (/^https?:\/\//i.test(u) && !/ezproxy|\.proxy\.|\/login/i.test(u)) return '<a href="' + E(u) + '" target="_blank" rel="noopener">' + text + "</a>";
+  if (/^https?:\/\//i.test(u) && !/ezprox[y]|\.proxy\.|\/login/i.test(u)) return '<a href="' + E(u) + '" target="_blank" rel="noopener">' + text + "</a>";
   return text;
 }
 function parseCSV(t) {

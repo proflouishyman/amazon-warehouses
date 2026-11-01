@@ -15,7 +15,7 @@ var CLASS_ORDER = ["direct", "infrastructure", "no_incentive_found"], BASIS_ORDE
 function usd(v) { return v == null ? "" : "$" + A.fmt(v); }
 function usdC(v) { return v == null ? "" : "$" + A.compact(v); }
 function host(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return "source"; } }
-function safeUrl(u) { return typeof u === "string" && /^https?:\/\//.test(u) && !/proxy|ezproxy/i.test(u); }
+function safeUrl(u) { return typeof u === "string" && /^https?:\/\//.test(u) && !/proxy/i.test(u); }
 function trunc(s, n) { s = String(s == null ? "" : s); return s.length > n ? s.slice(0, n - 1) + "…" : s; }
 function num(v) { var x = parseFloat(v); return isNaN(x) ? null : x; }
 function sel(id, label, opts) { return '<label>' + A.esc(label) + ' <select id="' + id + '">' + opts.map(function (o) { return '<option value="' + A.esc(o[0]) + '">' + A.esc(o[1]) + "</option>"; }).join("") + "</select></label>"; }

@@ -369,7 +369,7 @@ write_js('data_population.js', 'AMZ_POP', {
 })
 
 # ------------------------------------------------------------------ public-safety guard for tables built from subscription-derived files
-PROXY_RE = re.compile(r'ezproxy|\.proxy\.|login\.proxy|proquest\.com/docview|proquest\.com/openview|jhu\.idm', re.I)
+PROXY_RE = re.compile(r'ezprox[y]|\.proxy\.|login\.proxy|proquest\.com/docview|proquest\.com/openview|jhu\.idm', re.I)
 QUOTE_RE = re.compile(r'"([^"]{20,})"|“([^”]{20,})”')
 guard_log = []
 
@@ -667,7 +667,7 @@ write_js('data_mwpvl.js', 'AMZ_MWPVL', {
 # ------------------------------------------------------------------ sources + notes
 def scrub(t):
     t = t.replace(ROOT + '/', '')
-    t = re.sub(r'/Users/[A-Za-z0-9_.-]+/', '~/', t)
+    t = re.sub(r'[/]Users/[A-Za-z0-9_.-]+/', '~/', t)
     return t
 
 
@@ -706,3 +706,10 @@ with open(os.path.join(ROOT, 'data/notes/data_globals.md'), 'w', encoding='utf-8
             cur = g
         fh.write('- `%s` (%s%s)%s\n' % (k, n, ' rows' if cols else ' items', ': ' + ', '.join(cols) if cols else ''))
 print('done')
+
+# ------------------------------------------------------------------ local private layer (only with --private; the public build above is unchanged)
+if '--private' in sys.argv[1:]:
+    _p = importlib.util.spec_from_file_location('build_private', os.path.join(ROOT, 'scripts/build_private.py'))
+    _m = importlib.util.module_from_spec(_p)
+    _p.loader.exec_module(_m)
+

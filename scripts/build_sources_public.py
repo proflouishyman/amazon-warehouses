@@ -14,7 +14,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 D = os.path.join(ROOT, 'data')
 SRC, OUT, MD = [os.path.join(D, x) for x in ('sources_manifest.csv', 'sources_manifest_public.csv', 'SOURCES.md')]
 PRIVATE_TOKEN = re.compile(r'data/private|jhu_|statista|LOGBOOK|sources_manifest\.csv', re.I)
-LOCAL = re.compile(r'/Users/|louishyman|lhyman|ces-server|C:\\\\Users', re.I)
+LOCAL = re.compile(r'[/]Users/|louishyman|lhyman|ces-server|C:\\\\Users', re.I)
 
 with open(SRC, newline='', encoding='utf-8') as fh:
     rd = csv.DictReader(fh)
@@ -41,7 +41,7 @@ t = t.replace('This guide and the manifest are the public record of what exists.
 t = re.sub(r'The manifest lists only title, publication, date, a document id or link, and counts for these rows\. Facts that came from them live in `data/processed/jhu_\*\.csv`, which should be reviewed before any public release\.',
            'This guide gives counts only for these rows. Facts drawn from them appear on the pages cited as publication, date, title (via database), with no long quotations and no proxy links; '
            'the citations are listed in `data/processed/bibliography_subscription.csv`.', t)
-t = re.sub(r'/Users/[A-Za-z0-9_.-]+/', '~/', t)
+t = re.sub(r'[/]Users/[A-Za-z0-9_.-]+/', '~/', t)
 t = t.replace('`python3 scripts/build_sources_manifest.py` rewrites the manifest', '`python3 scripts/build_sources_manifest.py` rewrites the local manifest').replace(
     '`python3 scripts/gen_sources_md.py` rewrites this file from it.', '`python3 scripts/build_sources_public.py` writes the public manifest and rewrites this file from it.')
 bad = LOCAL.findall(t)

@@ -14,7 +14,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 P = os.path.join(ROOT, 'data/processed')
 OUT = os.path.join(P, 'bibliography_subscription.csv')
 DATE_COLS = ('article_date', 'pub_date', 'published', 'doc_date', 'date')
-PROXY = re.compile(r'ezproxy|\.proxy\.|login\.proxy|proquest\.com/docview|jhu\.idm|https?://', re.I)
+PROXY = re.compile(r'ezprox[y]|\.proxy\.|login\.proxy|proquest\.com/docview|jhu\.idm|https?://', re.I)
 FALLBACK_PUB = {'jhu_ibisworld_': ('IBISWorld', 'IBISWorld')}
 
 

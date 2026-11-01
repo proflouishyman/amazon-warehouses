@@ -22,5 +22,7 @@ python3 -I scripts/build_data.py     # assets/data_*.js and data/notes/data_glob
 ```
 Dataset sources and caveats live in `scripts/dataset_catalog.py` (rendered on `sources.html`).
 
+Local only, never public: `scripts/serve_local.sh` builds with `--private` (gitignored `assets/private_*.js`), serves 127.0.0.1:8765 and opens extra "Local only" sections and local-file links; `scripts/stop_local.sh` stops it, and `scripts/check_public.sh` (run by the pre-commit hook) blocks private material.
+
 ## Status
-Not a git repository yet and not published. Before the first public commit, check the diff for anything private (see the standing scrub rule) and use the GitHub no-reply author address.
+Published at https://proflouishyman.github.io/amazon-warehouses/ (not indexed). Before every commit, check the diff for anything private; the pre-commit hook runs `scripts/check_public.sh`, and commits use the GitHub no-reply author address.

@@ -52,3 +52,12 @@ data/*.pre_*.csv
 data/notes/*.pre_*
 data/processed/subsidies_by_state/*.pre_*
 scripts/browser_search.py
+
+# local private layer (ces-server only): generated private sections, launcher state, backups
+assets/private_*.js
+!assets/private_loader.js
+.local_server.pid
+.local_server.log
+.gitignore.pre_local
+*.pre_local.*
+scripts/check_public.pre_*
