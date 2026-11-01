@@ -250,6 +250,8 @@ function boot() {
   /* Under file:// a missing script cannot be probed silently (the browser logs it), so the layer is off there unless the URL has ?local=1.
      Over http(s) (scripts/serve_local.sh) the probe is always made; on the public site it is one expected 404. */
   if (location.protocol === "file:" && !/[?&]local=1\b/.test(location.search)) return;
+  /* Over http, probe only on this machine (scripts/serve_local.sh), never on the public site. */
+  if (location.protocol !== "file:" && !/^(127\.0\.0\.1|localhost)$/.test(location.hostname)) return;
   load("assets/private_index.js", function (ok) {
     if (!ok || !window.AMZ_PRIVATE_FILES) return;            /* public site, or no private build here: do nothing */
     var files = window.AMZ_PRIVATE_FILES, left = files.length;
