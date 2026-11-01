@@ -310,5 +310,27 @@ var cSz = card(s5, { id: "ind-size", files: ["industry_amazon_vs_qcew_size"], or
     SZ.map(function (r) { return { c: r.establishment_size_class_employees, q: A.fmt(r.qcew_493_private_establishments_q1), a: A.fmt(r.amazon_ita_493110_establishments), s: f1(r.amazon_share_of_qcew_establishments_pct), e: f1(r.amazon_share_of_qcew_employment_pct) }; }), "Table view (all size classes, 2025)");
 })();
 
+/* ---------- peer logistics deals (public citations; AMZ_DEALS) ---------- */
+(function () {
+  if (typeof AMZ_DEALS === "undefined") return;
+  var peers = A.rows(AMZ_DEALS.deals).filter(function (r) { return r.peer_group === "peer"; });
+  if (peers.length < 3) return;
+  var sP = A.section(app, "peerdeals", "Logistics deals: Walmart and Target", "Acquisitions, investments and property purchases by the two largest US retail peers, listed only where a public source reports the deal. Same method and limits as Amazon's list on the logistics page.");
+  A.estimate(sP, "<b>Not comparable in volume.</b> " + A.fmt(peers.length) + " peer deals with a public source. Counts reflect what a database covered and a public page confirmed, not each company's total activity, and Amazon's list is longer partly because more of its deals were found.");
+  var COL = { robotics: "Robotics", last_mile: "Last-mile", real_estate: "Property", software: "Software", vehicles: "Vehicles", air: "Air", other: "Other" };
+  var sum = ["Walmart", "Target"].map(function (n) {
+    var rs = peers.filter(function (r) { return r.actor === n; }), cc = {};
+    rs.forEach(function (r) { var k = COL[r.category] || r.category; cc[k] = (cc[k] || 0) + 1; });
+    return { name: n, n: rs.length, mix: Object.keys(cc).map(function (k) { return k + " " + cc[k]; }).join(", ") };
+  });
+  A.mount(sP, '<div class="tw simple"><table><thead><tr><th>Company</th><th class="n">Deals</th><th>By category</th></tr></thead><tbody>' + sum.map(function (s) { return "<tr><td>" + esc(s.name) + '</td><td class="n">' + s.n + "</td><td>" + esc(s.mix) + "</td></tr>"; }).join("") + "</tbody></table></div>");
+  var host = document.createElement("div"); sP.appendChild(host);
+  A.table(host, { sort: "year", pageSize: 12, rows: peers, cols: [
+    { key: "year", label: "Year" }, { key: "actor", label: "Company" }, { key: "target", label: "Target or asset" }, { key: "category", label: "Category", fmt: function (v) { return COL[v] || v; } },
+    { key: "amount_usd", label: "Amount stated in source (USD m)", num: true, fmt: function (v) { return v == null ? "" : A.fmt(v / 1e6, v < 1e7 ? 1 : 0); } },
+    { key: "source_publisher", label: "Public source", html: function (v, r) { return /^https?:/.test(r.source_url) ? '<a href="' + esc(r.source_url) + '" target="_blank" rel="noopener">' + esc(v) + "</a>" : esc(v); } }] });
+  A.mount(sP, '<p class="cap">Data: <span class="mono">AMZ_DEALS.deals</span> (data/processed/logistics_deals_public.csv), peer rows. Original sources: the public page linked in each row; PitchBook (via Johns Hopkins University Libraries) as a second source, not redistributed.</p>');
+})();
+
 A.mount(app, '<p class="footcav">Figures come from OSHA, BLS, NLRB, SEC filings and company sustainability reports. Companies report on different bases; the note under each chart gives the main limit. Full method and files are in <span class="mono">data/notes/benchmark_findings.md</span> and the <span class="mono">bench_*.md</span> notes, and on the <a href="methods.html#m-bench">Methods</a> page.</p>');
 })();

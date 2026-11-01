@@ -357,6 +357,9 @@ write_js('data_logistics.js', 'AMZ_LOG', {
     'robots': table(rob, ['as_of', 'robots', 'qualifier', 'what_counted', 'source_type', 'confidence', 'source_url', 'note']),
 })
 
+# ------------------------------------------------------------------ logistics deals (public, citation-only; built by scripts/make_public_deals.py)
+write_js('data_deals.js', 'AMZ_DEALS', {'deals': table(rd('logistics_deals_public.csv'))})
+
 # ------------------------------------------------------------------ population
 write_js('data_population.js', 'AMZ_POP', {
     'by_year': table(rd('population_access_by_year.csv')),
@@ -699,7 +702,7 @@ with open(os.path.join(ROOT, 'data/notes/data_globals.md'), 'w', encoding='utf-8
     cur = None
     for g, k, cols, n in dictionary:
         if g != cur:
-            fh.write('\n## window.%s  (assets/%s)\n\n' % (g, {'AMZ_GEO': 'data_geo.js', 'AMZ_FAC': 'data_facilities.js', 'AMZ_FIN': 'data_financial.js', 'AMZ_LAB': 'data_labor.js', 'AMZ_INJ': 'data_injuries.js', 'AMZ_ENV': 'data_environment.js', 'AMZ_LOG': 'data_logistics.js', 'AMZ_POP': 'data_population.js', 'AMZ_SUB': 'data_subsidies.js', 'AMZ_BENCH': 'data_bench.js', 'AMZ_PULL': 'data_pullback.js', 'AMZ_EVENTS': 'data_events.js', 'AMZ_MARKET': 'data_market.js', 'AMZ_MWPVL': 'data_mwpvl.js', 'AMZ_SOURCES': 'data_sources.js', 'AMZ_META': 'data_meta.js'}[g]))
+            fh.write('\n## window.%s  (assets/%s)\n\n' % (g, {'AMZ_GEO': 'data_geo.js', 'AMZ_FAC': 'data_facilities.js', 'AMZ_FIN': 'data_financial.js', 'AMZ_LAB': 'data_labor.js', 'AMZ_INJ': 'data_injuries.js', 'AMZ_ENV': 'data_environment.js', 'AMZ_LOG': 'data_logistics.js', 'AMZ_DEALS': 'data_deals.js', 'AMZ_POP': 'data_population.js', 'AMZ_SUB': 'data_subsidies.js', 'AMZ_BENCH': 'data_bench.js', 'AMZ_PULL': 'data_pullback.js', 'AMZ_EVENTS': 'data_events.js', 'AMZ_MARKET': 'data_market.js', 'AMZ_MWPVL': 'data_mwpvl.js', 'AMZ_SOURCES': 'data_sources.js', 'AMZ_META': 'data_meta.js'}[g]))
             cur = g
         fh.write('- `%s` (%s%s)%s\n' % (k, n, ' rows' if cols else ' items', ': ' + ', '.join(cols) if cols else ''))
 print('done')

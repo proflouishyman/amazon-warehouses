@@ -74,6 +74,10 @@ Tables are `{cols, rows}`; use `AMZ.rows(table)` for objects.
 - `epi_cumulative` (6 rows): as_of_year_end, cumulative_fc_openings, dataset_vintage, source_url
 - `robots` (7 rows): as_of, robots, qualifier, what_counted, source_type, confidence, source_url, note
 
+## window.AMZ_DEALS  (assets/data_deals.js)
+
+- `deals` (49 rows): year, actor, peer_group, target, category, deal_type, amount_usd, amount_note, source_url, source_publisher, source_type, citation
+
 ## window.AMZ_POP  (assets/data_population.js)
 
 - `by_year` (44 rows): set, site_type, n_sites, pop20, pop50, pop_total_2020, share20, share50, note

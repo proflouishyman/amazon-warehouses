@@ -381,6 +381,31 @@ function evFilter() {
 evFilter();
 cite(sEv, "<span class=\"mono\">AMZ_EVENTS.events</span> (assets/data_events.js; file data/processed/facility_events_all.csv), columns opening_date, announced_date, article_date, city, state, facility_type, sq_ft, match_site_code, match_quality, confidence, sources.", "the publications named in each row (links shown where the article is public).");
 
+/* ---------- logistics acquisitions and investments (public citations; AMZ_DEALS) ---------- */
+(function () {
+  if (typeof AMZ_DEALS === "undefined") return;
+  var all = A.rows(AMZ_DEALS.deals).filter(function (r) { return r.peer_group === "amazon"; });
+  var CATL = { robotics: "Warehouse robotics and automation", last_mile: "Last-mile and delivery", vehicles: "Delivery vehicles and autonomy", air: "Air", real_estate: "Warehouse and land purchases", software: "Software", other: "Other" };
+  var cats = Object.keys(CATL).filter(function (c) { return all.some(function (r) { return r.category === c; }); });
+  var sD = A.section(app, "deals", "Amazon's logistics acquisitions and investments", "Deals that Amazon (or one of its investment funds) made in logistics-related companies and property, 2012 to 2026, listed only where a public source (company release, filing or press article) reports the deal. Each row cites that public source first; the commercial deal database consulted through the Johns Hopkins University Libraries is named second and is not redistributed.");
+  A.estimate(sD, "<b>Not a complete list.</b> " + A.fmt(all.length) + " deals with a public source found. It leaves out deals no public source could be matched to, the Industrial Innovation Fund's full portfolio (the database does not list the fund as an entity) and delivery-van stakes other than Rivian. Years come from the matched record and can differ by a few months from the announcement. Amounts are shown only where the cited page states them, and are the size of the round or purchase, not necessarily Amazon's share. Property purchases are not all confirmed as logistics sites.");
+  A.mount(sD, '<div class="cols2" id="dealc"></div>');
+  var yrs = []; for (var y = 2012; y <= 2026; y++) yrs.push(y);
+  A.lineChart("#dealc", { title: "Public logistics deals by year, by category (count)", yFmt: function (v) { return A.fmt(v); },
+    series: cats.map(function (c, i) { return { name: CATL[c], color: "var(--t" + ((i % 5) + 1) + ")", points: yrs.map(function (y) { return [y, all.filter(function (r) { return r.category === c && r.year === y; }).length]; }) }; }),
+    caption: "Data: <span class=\"mono\">AMZ_DEALS.deals</span> (assets/data_deals.js; file data/processed/logistics_deals_public.csv), Amazon rows only. Original sources: the public page cited in each row." });
+  A.mount(sD, '<div class="ctl"><label>Category <select id="dealcat"><option value="">All categories</option>' + cats.map(function (c) { return '<option value="' + c + '">' + A.esc(CATL[c]) + " (" + all.filter(function (r) { return r.category === c; }).length + ")</option>"; }).join("") + "</select></label></div>");
+  var host = document.createElement("div"); sD.appendChild(host);
+  var tb = A.table(host, { sort: "year", pageSize: 15, rows: all, cols: [
+    { key: "year", label: "Year" }, { key: "target", label: "Target or asset" }, { key: "category", label: "Category", fmt: function (v) { return CATL[v] || v; } },
+    { key: "deal_type", label: "Type" }, { key: "actor", label: "Through" },
+    { key: "amount_usd", label: "Amount stated in source (USD m)", num: true, fmt: function (v) { return v == null ? "" : A.fmt(v / 1e6, v < 1e7 ? 1 : 0); } },
+    { key: "source_publisher", label: "Public source", html: function (v, r) { return a(r.source_url, v); } },
+    { key: "source_type", label: "Source kind", fmt: function (v) { return v === "primary" ? "company or filing" : v === "press" ? "news" : "other"; } }] });
+  A.$("#dealcat").addEventListener("change", function () { var c = this.value; tb.setRows(c ? all.filter(function (r) { return r.category === c; }) : all); });
+  cite(sD, "<span class=\"mono\">AMZ_DEALS.deals</span> (data/processed/logistics_deals_public.csv). Each row's citation reads \"public source; also PitchBook (via JHU Libraries)\".", "the public page linked in each row; PitchBook (via Johns Hopkins University Libraries) as a second source, not redistributed.");
+})();
+
 /* ---------- sources ---------- */
 var s8 = A.section(app, "src", "Sources for this page");
 A.sources(s8, "logistics");
@@ -390,5 +415,6 @@ A.sources(s8, [
   { label: "MWPVL International (Marc Wulfraat), Amazon fulfillment network table, " + A.fmt(msn.length) + " archived captures " + msnFirst + " to " + msnLast, url: "https://www.mwpvl.com/html/amazon_com.html", publisher: "MWPVL International, read from the Internet Archive Wayback Machine", note: "Openings by year, status by capture and dropped-from-list pullback rows. MWPVL's own compilation, includes planned sites; MWPVL asks that its table not be copied wholesale, so only derived counts are shown." },
   { label: "Pullback tallies and site rows (closures, cancellations, delays, subleases)", url: "sources.html", publisher: "publications named per row, plus MWPVL via the Wayback Machine", note: "Cited by publication, date and title; subscription databases are named only as the access route." },
   { label: "Facility events (openings and announcements reported by publications and business databases)", url: "sources.html", publisher: "publications named per row", note: "Reported, not verified; no article passages reproduced." },
+  { label: "Logistics acquisitions and investments (public citations)", url: "sources.html", publisher: "company releases, SEC filings and press named per row; PitchBook via Johns Hopkins University Libraries as second source", note: "Citations only; the database is not redistributed. Not a complete list." },
   { label: "Market context: parcel share and volume, Amazon share of UPS revenue", url: "sources.html", publisher: "Pitney Bowes, IBISWorld (citing ShipMatrix), Market Share Reporter, UPS, Financial Times, The Insight Partners", note: "Each row's citation is in the table view of the market section." }]);
 })();
