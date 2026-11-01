@@ -1,0 +1,5 @@
+source,scope,metric,pure_play,traditional,bricks_and_clicks,note
+Shahmohammadi et al. 2020 ES&T 54(6):3499 (retail_context.md 3.1),UK FMCG total per item,median kg CO2e per item,0.18,0.1,0.07,"90% intervals: 0.08-0.52, 0.04-0.37, 0.05-0.11; groceries/household/personal care; returns excluded"
+Shahmohammadi et al. 2020,last mile only per item,median kg CO2e per item,0.11,0.04,0.02,"US store last-mile median 0.065 (UK 0.041); car trip 4.83 km one way, 0.18 kg/km, basket BetaPERT 1/30/70"
+First-principles replication of the Shahmohammadi US store trip,last mile only per item,2 x 4.83 km x 0.18 kg/km / 30 items,,0.058,,close to their reported 0.065 US median
+Jaller and Pahwa 2020 poster (retail_context.md 3.2),"San Francisco daily, all-online vs all-in-store",CO2 change vs in-store,-75% / -64% / -42% (Q1 / median / Q3),,omni-channel +2% / +2% / +4%,POSTER numbers; full substitution with consolidated delivery; VMT -92/-88/-81%; NOx can rise

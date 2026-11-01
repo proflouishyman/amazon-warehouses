@@ -145,6 +145,44 @@ Tables are `{cols, rows}`; use `AMZ.rows(table)` for objects.
 - `snapshots` (42 rows): snapshot_date, us_rows_parsed, us_rows_no_code, parse_mode
 - `note` (571 items)
 
+## window.AMZ_INTERP  (assets/data_interp.js)
+
+- `inj_h1_matched` (22 rows): segment, year, amazon_sites, peer_sites, note, amazon_sites_1000plus, peer_sites_1000plus, amazon_hours_share_1000plus, peer_hours_share_1000plus, amazon_hours_covered_by_peer_bands, trc_amazon, trc_peer_all_sizes, trc_peer_size_matched, trc_ratio_crude, trc_ratio_crude_lo, trc_ratio_crude_hi, trc_ratio_matched, trc_ratio_matched_lo, trc_ratio_matched_hi, dart_amazon, dart_peer_all_sizes, dart_peer_size_matched, dart_ratio_crude, dart_ratio_crude_lo, dart_ratio_crude_hi, dart_ratio_matched, dart_ratio_matched_lo, dart_ratio_matched_hi, dafw_amazon, dafw_peer_all_sizes, dafw_peer_size_matched, dafw_ratio_crude, dafw_ratio_crude_lo, dafw_ratio_crude_hi, dafw_ratio_matched, dafw_ratio_matched_lo, dafw_ratio_matched_hi
+- `inj_h1_within_band` (80 rows): segment, year, size_band, amazon_sites, peer_sites, trc_amazon, trc_peer, trc_ratio, dart_amazon, dart_peer, dart_ratio, dafw_amazon, dafw_peer, dafw_ratio
+- `inj_h1_fte_band` (20 rows): segment, year, amazon_sites_1000plus_by_fte, amazon_sites, hours_per_employee_amazon, trc_ratio_matched_fte_band, dart_ratio_matched_fte_band, dafw_ratio_matched_fte_band
+- `inj_h2_substitution` (66 rows): segment, year, group, n_sites, dart_cases, dafw_cases, djtr_cases, dart_rate, dafw_rate, djtr_rate, sites_days_capped, dafw_share_of_dart, djtr_days_per_djtr_case, dafw_days_per_dafw_case, restricted_days_per_dart_case, note
+- `inj_h2_change` (18 rows): segment, group, metric, y2019, y2024, change, pct_change, change_lo, change_hi
+- `inj_h3_type_year` (71 rows): year, facility_type, subset, share_typed_heuristically, n_facility_years, hours, avg_employees, total_cases, dart_cases, dafw_cases, trc_rate, dart_rate, dafw_rate
+- `inj_h3_type_band` (35 rows): years, facility_type, size_band, subset, n_facility_years, hours, avg_employees, total_cases, dart_cases, dafw_cases, trc_rate, dart_rate, dafw_rate
+- `inj_h3_typing_quality` (5 rows): facility_type, valid_facility_years, heuristic_share
+- `inj_h4_pooled` (45 rows): window, measure, peer_set, numerator_set, is_headline, amazon_count, amazon_hours, amazon_per_100M, peer_count, peer_hours, peer_per_100M, rate_ratio, ratio_lo, ratio_hi
+- `inj_h4_hazard_mix` (55 rows): group, kind, label, reports, share, window
+- `inj_h4_state_plans` (23 rows): state_or_territory, abbrev, treated_as, sir_FederalState_flag_zero, source
+- `inj_h5_ratio_by_year` (60 rows): segment, measure, year, ratio_crude, crude_lo, crude_hi, ratio_size_matched, matched_lo, matched_hi, amazon_sites
+- `inj_h5_trend` (12 rows): segment, measure, ratio_kind, ratio_2018, ratio_2019, ratio_2020, ratio_2022, ratio_2024, change_2019_2024, change_lo, change_hi, ols_slope_per_year_2018_2024
+- `inj_nelp_senate` (8 rows): year, amazon_sites_1000plus, all_sites_1000plus, amazon_share_of_sites, amazon_hours_1000plus, all_hours_1000plus, amazon_share_of_hours, amazon_employees_1000plus, all_employees_1000plus, amazon_share_of_employees
+- `inj_naics_mix` (19 rows): year, naics, naics_year_field, valid_sites, hours
+- `env_breakeven` (32 rows): row, varied, value, own_buildings_kg_per_1000, own_delivery_kg_per_1000, own_total_kg_per_1000, avoided_trips_kg_per_1000_instore, avoided_buildings_kg_per_1000_instore, avoided_total_kg_per_1000_instore, breakeven_substitution, note
+- `env_evidence` (5 rows): study, what_it_measures, number, unit_matches_sigma, review_note, source
+- `env_illustration` (7 rows): substitution_per_online_dollar, own_kt, avoided_kt, net_kt, label, basis
+- `env_params` (24 rows): name, low, central, high, unit, status, source_or_basis
+- `env_transport_breakeven` (9 rows): case, returns_rate, store_outing_kg_co2e, delivery_kg_per_package, breakeven_items_per_outing, breakeven_oneway_miles_at_10_items, reading
+- `env_transport_per_item` (33 rows): case, store_case, delivery_case, items_per_shopping_outing, store_outing_kg_co2e, store_kg_per_item, lastmile_kg_per_package, middlemile_kg_per_package, delivery_kg_per_package_no_returns, items_per_package, online_minus_store_kg_per_item, lower_channel, status
+- `env_transport_literature` (4 rows): source, scope, metric, pure_play, traditional, bricks_and_clicks, note
+- `env_building_intensity` (264 rows): cal_year, entity, boundary, intensity_case, case, sqft_thousand, emissions_t_co2e, denominator, sales_usd_m, kg_co2e_per_1000_usd, grid_lb_per_mwh_year_used, grid_gas_basis, status
+- `env_scale_vs_reported` (7 rows): cal_year, bottom_up_NA_delivery_Mt, bottom_up_NA_building_gas_Mt, bottom_up_NA_scope1_like_Mt, bottom_up_NA_building_electricity_location_based_Mt, NA_share_of_retail_segment_sales, reported_scope1_fossil_global_Mt, top_down_NA_scope1_fossil_Mt, ratio_bottom_up_to_top_down, reported_scope2_market_global_Mt, reported_scope3_upstream_transport_Mt, reported_scope3_downstream_transport_Mt, note
+- `spend_line_vs_pce` (117 rows): arts_merchandise_line, year, arts_4541_line_ecom_musd, bea_pce_matched_musd, ratio_pct, bea_codes, caveat
+- `spend_combined` (35 rows): model_store_type, year, arts_4541_line_ecom_musd, store_based_kind_ecom_musd, sum_musd, bea_pce_denominator_musd, pct_4541_only, pct_4541_plus_store_based, caveat
+- `spend_quarterly` (240 rows): period_type, period, adjustment, total_retail_sales_musd, ecommerce_sales_musd, ecom_share_pct_computed, ecom_share_pct_census_printed, source_label
+- `spend_dcpc` (18 rows): year, merch_code, merchant_type, n_purchases_unweighted, remote_pct_of_purchases_by_count, remote_pct_of_purchases_by_value, n_dropped_no_weight
+- `spend_nhts_trips` (5 rows): year, shopping_errand_trips_per_person_per_year, definition, source, caveat
+- `spend_studies` (12 rows): study, citation, data, data_access, verification_status, finding, substitution_vs_complementarity, key_numbers, categories_covered, caveats
+- `retail_event_study` (112 rows): sector, spec, series, k, n_counties, mean_index, ci95_lo, ci95_hi
+- `retail_pooled` (28 rows): sector, spec, sample, fixed_effects, coef_post_fc, se_cluster_county, ci95_lo, ci95_hi, pct_effect, n_counties, n_obs, n_treated
+- `retail_pretrends` (4 rows): measure, n_counties, treated_mean, matched_never_mean, diff, ci95_lo, ci95_hi
+- `retail_sample_counts` (31 rows): sector, spec, group, n_counties, mean_controls_per_treated, matched_state_band, matched_region_band
+- `note` (287 items)
+
 ## window.AMZ_SOURCES  (assets/data_sources.js)
 
 - `retrieved` (10 items)
@@ -157,4 +195,4 @@ Tables are `{cols, rows}`; use `AMZ.rows(table)` for objects.
 - `generated` (10 items)
 - `retrieved` (10 items)
 - `counts` (4 items)
-- `pages` (10 items)
+- `pages` (11 items)

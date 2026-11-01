@@ -1,0 +1,118 @@
+arts_merchandise_line,year,arts_4541_line_ecom_musd,bea_pce_matched_musd,ratio_pct,bea_codes,caveat
+Books (includes audio books and e-books),2010,7332,32424,22.6,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2011,8713,30241,28.8,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2012,9787,27813,35.2,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2013,10207,27724,36.8,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2014,10737,28306,37.9,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2015,11476,28709,40.0,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2016,12654,30223,41.9,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2017,13234,30483,43.4,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2018,13990,30262,46.2,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2019,14410,29876,48.2,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2020,18179,29846,60.9,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2021,20112,34486,58.3,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Books (includes audio books and e-books),2022,20174,35608,56.7,DRBKRC+DEBKRC,"ARTS line includes e-books/audio books; PCE book series are narrower: upper bound, not a share"
+Clothing and clothing accessories (includes footwear),2010,23179,316611,7.3,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2011,28035,332586,8.4,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2012,33691,345220,9.8,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2013,40075,354351,11.3,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2014,46475,368604,12.6,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2015,51453,380803,13.5,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2016,58340,392151,14.9,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2017,64615,401084,16.1,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2018,72990,409380,17.8,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2019,82176,414144,19.8,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2020,104560,360435,29.0,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2021,118961,468635,25.4,DCLORC,closest match of the set
+Clothing and clothing accessories (includes footwear),2022,129809,494199,26.3,DCLORC,closest match of the set
+"Drugs, health aids, and beauty aids",2010,10811,432151,2.5,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2011,12560,452059,2.8,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2012,16402,467802,3.5,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2013,20531,481124,4.3,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2014,23803,511939,4.6,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2015,28165,541930,5.2,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2016,32807,554856,5.9,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2017,40705,569835,7.1,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2018,44379,593710,7.5,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2019,50006,629274,7.9,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2020,72492,672073,10.8,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2021,73693,700632,10.5,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Drugs, health aids, and beauty aids",2022,80219,758765,10.6,DPHMRC+DOPCRC,ARTS line includes mail-order pharmacy sales; PCE pharmaceuticals are net of insurer-paid amounts differently: rough
+"Food, beer, and wine",2010,3329,786866,0.4,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2011,4020,819542,0.5,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2012,5084,846198,0.6,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2013,5502,870536,0.6,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2014,6692,910421,0.7,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2015,8049,942006,0.9,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2016,10276,969597,1.1,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2017,12623,1010444,1.2,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2018,14715,1044381,1.4,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2019,16569,1083239,1.5,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2020,25982,1201722,2.2,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2021,36468,1291472,2.8,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+"Food, beer, and wine",2022,36592,1394170,2.6,DFXARC,closest match; grocery e-commerce by store-based retailers is NOT in the numerator
+Furniture and home furnishings,2010,11006,176893,6.2,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Furniture and home furnishings,2011,13644,179139,7.6,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Furniture and home furnishings,2012,16419,182177,9.0,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Furniture and home furnishings,2013,20359,185763,11.0,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Furniture and home furnishings,2014,24460,192686,12.7,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Furniture and home furnishings,2015,30493,204395,14.9,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Furniture and home furnishings,2016,37273,212167,17.6,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Furniture and home furnishings,2017,,219751,,DFFFRC+DUTERC,
+Furniture and home furnishings,2018,57365,232069,24.7,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Furniture and home furnishings,2019,66430,240719,27.6,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Furniture and home furnishings,2020,106120,261572,40.6,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Furniture and home furnishings,2021,119165,313143,38.1,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Furniture and home furnishings,2022,124643,329063,37.9,DFFFRC+DUTERC,"PCE denominator (furniture + glassware/utensils) is narrower than the ARTS line (home furnishings, rugs, bedding, housewares): ratio overstates"
+Jewelry,2010,3272,60851,5.4,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2011,3740,66858,5.6,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2012,4560,68585,6.6,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2013,4951,68528,7.2,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2014,5262,68822,7.6,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2015,6136,69378,8.8,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2016,6160,67278,9.2,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2017,6300,65938,9.6,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2018,7149,68147,10.5,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2019,7361,68909,10.7,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2020,10144,69165,14.7,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2021,11486,96468,11.9,DJRYRC,PCE jewelry and watches; ARTS line similar
+Jewelry,2022,,99846,,DJRYRC,
+Sporting goods,2010,4351,52795,8.2,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2011,5133,54761,9.4,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2012,6504,57478,11.3,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2013,8139,59447,13.7,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2014,9656,60495,16.0,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2015,12094,64148,18.9,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2016,14233,67195,21.2,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2017,14268,65665,21.7,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2018,17785,69357,25.6,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2019,19778,73102,27.1,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2020,31634,94711,33.4,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2021,35463,111216,31.9,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+Sporting goods,2022,31921,112469,28.4,DSPGRC,PCE sporting equipment excludes some items in the ARTS line (e.g. apparel-like athletic goods): treat as upper bound
+"Toys, hobby goods, and games",2010,4412,129851,3.4,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+"Toys, hobby goods, and games",2011,5322,134872,3.9,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+"Toys, hobby goods, and games",2012,6325,140126,4.5,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+"Toys, hobby goods, and games",2013,,146885,,DREIRC,
+"Toys, hobby goods, and games",2014,9542,155875,6.1,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+"Toys, hobby goods, and games",2015,11444,165355,6.9,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+"Toys, hobby goods, and games",2016,12977,172509,7.5,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+"Toys, hobby goods, and games",2017,13551,178757,7.6,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+"Toys, hobby goods, and games",2018,14509,186000,7.8,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+"Toys, hobby goods, and games",2019,15879,194699,8.2,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+"Toys, hobby goods, and games",2020,23375,226956,10.3,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+"Toys, hobby goods, and games",2021,26951,264553,10.2,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+"Toys, hobby goods, and games",2022,27342,283615,9.6,DREIRC,"PCE 'recreational items' also holds pets, pet food, flowers: ratio understates"
+Electronics and appliances,2010,17631,244952,7.2,DVAPRC+DAPPRC+DTCERC,three PCE lines summed; ARTS computer lines are suppressed so the numerator omits computers: understates
+Electronics and appliances,2011,21474,253412,8.5,DVAPRC+DAPPRC+DTCERC,three PCE lines summed; ARTS computer lines are suppressed so the numerator omits computers: understates
+Electronics and appliances,2012,24150,260710,9.3,DVAPRC+DAPPRC+DTCERC,three PCE lines summed; ARTS computer lines are suppressed so the numerator omits computers: understates
+Electronics and appliances,2013,26206,267143,9.8,DVAPRC+DAPPRC+DTCERC,three PCE lines summed; ARTS computer lines are suppressed so the numerator omits computers: understates
+Electronics and appliances,2014,27721,274588,10.1,DVAPRC+DAPPRC+DTCERC,three PCE lines summed; ARTS computer lines are suppressed so the numerator omits computers: understates
+Electronics and appliances,2015,30674,276313,11.1,DVAPRC+DAPPRC+DTCERC,three PCE lines summed; ARTS computer lines are suppressed so the numerator omits computers: understates
+Electronics and appliances,2016,34756,281962,12.3,DVAPRC+DAPPRC+DTCERC,three PCE lines summed; ARTS computer lines are suppressed so the numerator omits computers: understates
+Electronics and appliances,2017,,299670,,DVAPRC+DAPPRC+DTCERC,
+Electronics and appliances,2018,44144,325431,13.6,DVAPRC+DAPPRC+DTCERC,three PCE lines summed; ARTS computer lines are suppressed so the numerator omits computers: understates
+Electronics and appliances,2019,49591,345044,14.4,DVAPRC+DAPPRC+DTCERC,three PCE lines summed; ARTS computer lines are suppressed so the numerator omits computers: understates
+Electronics and appliances,2020,,380108,,DVAPRC+DAPPRC+DTCERC,
+Electronics and appliances,2021,79197,451673,17.5,DVAPRC+DAPPRC+DTCERC,three PCE lines summed; ARTS computer lines are suppressed so the numerator omits computers: understates
+Electronics and appliances,2022,81616,470943,17.3,DVAPRC+DAPPRC+DTCERC,three PCE lines summed; ARTS computer lines are suppressed so the numerator omits computers: understates

@@ -1,0 +1,6 @@
+facility_type,valid_facility_years,heuristic_share
+air_hub,42,0.0
+delivery_station,2694,0.431
+fulfillment_center,2966,0.253
+other_logistics,609,0.998
+sort_center,762,0.475

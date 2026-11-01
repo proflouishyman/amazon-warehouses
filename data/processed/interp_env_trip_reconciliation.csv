@@ -1,0 +1,15 @@
+item,value,note
+"households implied by NHTS Table 4-1 / Table 3-2 (2022), million",127.5,"89,384M shopping-and-errand person trips / (337 + 364) per household"
+"NHTS shopping VMT national 2022, bn miles",168.3,"1,320 VMT per household (Table 3-4, printed p.20) x households"
+"NHTS shopping + errands VMT national 2022, bn miles",451.4,"(1,320 + 2,220) x households"
+"VMT per shopping vehicle trip, miles",5.76,"1,320 / 229 vehicle trips (Table 3-6); compare Table 3-5 trip length 5.8"
+shopping vehicle trips per shopping person trip,0.68,"229 / 337; vehicle occupancy 1.53 persons per vehicle (Table 5-2, printed p.41)"
+"shopping+errand person trips per person per day, from national total / Census population",0.735,"89,384M / 333.287557M (Census Vintage 2022, POPESTIMATE2022, https://www2.census.gov/programs-surveys/popest/datasets/2020-2022/state/totals/NST-EST2022-ALLDATA.csv) / 365; NHTS Table 4-5 gives 0.80 (different population base)"
+"FIRST-RUN implied shopping-and-errand vehicle-miles, bn (0.80 trips x 365 x population x 2 legs x 6.5 mi)",1265,"treated person trips as car trips, doubled the return leg that NHTS already counts, and mixed 2009 length with 2022 counts"
+ratio first-run implied VMT / NHTS shopping+errands VMT,2.8,the first run overstated shopping vehicle-miles by this factor
+ratio first-run implied VMT / NHTS shopping-only VMT,7.5,
+"in-store sales base 2022 (ARTS total - 441 - 447 - 454), USD bn",3535.1,verified from the ARTS file; the review recalled about 3.55 tn
+"in-store sales base 2017, USD bn",2727.6,same construction
+"shopping VMT per $1,000 in-store sales 2022, miles",47.6,central calibration
+"shopping VMT per $1,000 in-store sales 2017, miles",113.4,2017 NHTS and 2017 sales
+"shopping+errands VMT per $1,000 in-store sales 2022, miles",127.7,upper bound; errands are not retail purchases

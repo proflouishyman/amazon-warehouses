@@ -1,0 +1,10 @@
+case,returns_rate,store_outing_kg_co2e,delivery_kg_per_package,breakeven_items_per_outing,breakeven_oneway_miles_at_10_items,reading
+online_favourable,0.0,4.918,0.2411,20.4,3.04,online has lower transport CO2e per item when the basket is smaller than break-even items per outing (one item per package; returns only if rate > 0)
+online_favourable,0.15,4.918,0.2772,17.74,3.49,online has lower transport CO2e per item when the basket is smaller than break-even items per outing (one item per package; returns only if rate > 0)
+online_favourable,0.3,4.918,0.3134,15.69,3.95,online has lower transport CO2e per item when the basket is smaller than break-even items per outing (one item per package; returns only if rate > 0)
+central,0.0,4.032,0.5328,7.57,7.66,online has lower transport CO2e per item when the basket is smaller than break-even items per outing (one item per package; returns only if rate > 0)
+central,0.15,4.032,0.6127,6.58,8.81,online has lower transport CO2e per item when the basket is smaller than break-even items per outing (one item per package; returns only if rate > 0)
+central,0.3,4.032,0.6926,5.82,9.96,online has lower transport CO2e per item when the basket is smaller than break-even items per outing (one item per package; returns only if rate > 0)
+store_favourable,0.0,1.612,1.8804,0.86,62.99,online has lower transport CO2e per item when the basket is smaller than break-even items per outing (one item per package; returns only if rate > 0)
+store_favourable,0.15,1.612,2.1625,0.75,72.44,online has lower transport CO2e per item when the basket is smaller than break-even items per outing (one item per package; returns only if rate > 0)
+store_favourable,0.3,1.612,2.4445,0.66,81.89,online has lower transport CO2e per item when the basket is smaller than break-even items per outing (one item per package; returns only if rate > 0)

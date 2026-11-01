@@ -1,0 +1,6 @@
+building_activity,floorspace_million_sqft,natural_gas_tbtu,gas_kbtu_per_sqft_derived,elec_kwh_per_sqft_mean,elec_p25,elec_median,elec_p75,source
+Retail (other than mall),5193.0,87.0,16.75,13.7,5.0999999999999996,9,14.5,"CBECS 2018 tables C1 (gas TBtu / floorspace) and C14, data/raw/retail_context"
+Mercantile,10781.0,334.0,30.98,16.7,7.3,12.5,20.100000000000001,"CBECS 2018 tables C1 (gas TBtu / floorspace) and C14, data/raw/retail_context"
+Warehouse and storage,17483.0,199.0,11.38,5.8,1.6,3.4,7.8,"CBECS 2018 tables C1 (gas TBtu / floorspace) and C14, data/raw/retail_context"
+Enclosed and strip malls,5588.0,247.0,44.2,19.600000000000001,16.3,20.100000000000001,24,"CBECS 2018 tables C1 (gas TBtu / floorspace) and C14, data/raw/retail_context"
+Food sales,1006.0,48.0,47.71,53.3,33.1,47.4,69.900000000000006,"CBECS 2018 tables C1 (gas TBtu / floorspace) and C14, data/raw/retail_context"

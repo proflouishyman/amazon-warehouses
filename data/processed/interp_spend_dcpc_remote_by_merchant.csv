@@ -1,0 +1,133 @@
+year,merch_code,merchant_type,n_purchases_unweighted,remote_pct_of_purchases_by_count,remote_pct_of_purchases_by_value,n_dropped_no_weight
+2020,ALL,All purchases (all merchant types),4016,19.8,41.1,169
+2021,ALL,All purchases (all merchant types),10809,18.9,35.2,2098
+2022,ALL,All purchases (all merchant types),12881,18.9,38.5,2485
+2023,ALL,All purchases (all merchant types),14699,21.7,43.2,2668
+2024,ALL,All purchases (all merchant types),19596,23.5,42.1,2681
+2025,ALL,All purchases (all merchant types),20716,23.9,45.4,2767
+2020,1,"Grocery, convenience (no gas), pharmacies",989,6.2,9.3,169
+2021,1,"Grocery, convenience (no gas), pharmacies",2514,5.3,7.6,2098
+2022,1,"Grocery, convenience (no gas), pharmacies",3138,6.7,9.0,2485
+2023,1,"Grocery, convenience (no gas), pharmacies",3597,8.1,16.8,2668
+2024,1,"Grocery, convenience (no gas), pharmacies",4724,7.3,10.6,2681
+2025,1,"Grocery, convenience (no gas), pharmacies",4932,9.0,13.2,2767
+2020,2,Gas stations,444,5.2,6.0,169
+2021,2,Gas stations,1235,6.7,6.9,2098
+2022,2,Gas stations,1488,4.1,8.2,2485
+2023,2,Gas stations,1545,5.9,7.9,2668
+2024,2,Gas stations,1920,6.3,9.4,2681
+2025,2,Gas stations,1972,4.9,7.7,2767
+2020,3,Sit-down restaurants and bars,262,11.4,9.9,169
+2021,3,Sit-down restaurants and bars,915,8.8,7.3,2098
+2022,3,Sit-down restaurants and bars,1126,6.4,5.3,2485
+2023,3,Sit-down restaurants and bars,1143,8.1,10.7,2668
+2024,3,Sit-down restaurants and bars,1491,7.7,7.2,2681
+2025,3,Sit-down restaurants and bars,1590,7.0,7.5,2767
+2020,4,"Fast food, coffee, cafeterias, food trucks",672,12.1,21.0,169
+2021,4,"Fast food, coffee, cafeterias, food trucks",1813,12.9,14.1,2098
+2022,4,"Fast food, coffee, cafeterias, food trucks",2132,14.0,20.7,2485
+2023,4,"Fast food, coffee, cafeterias, food trucks",2564,16.6,21.7,2668
+2024,4,"Fast food, coffee, cafeterias, food trucks",3478,18.9,23.4,2681
+2025,4,"Fast food, coffee, cafeterias, food trucks",3645,17.8,22.2,2767
+2020,5,"General merchandise, department stores, other stores, ONLINE SHOPPING (not separable)",905,35.7,20.8,169
+2021,5,"General merchandise, department stores, other stores, ONLINE SHOPPING (not separable)",2185,35.9,47.1,2098
+2022,5,"General merchandise, department stores, other stores, ONLINE SHOPPING (not separable)",2555,35.9,55.9,2485
+2023,5,"General merchandise, department stores, other stores, ONLINE SHOPPING (not separable)",3015,40.2,46.6,2668
+2024,5,"General merchandise, department stores, other stores, ONLINE SHOPPING (not separable)",3905,41.7,49.8,2681
+2025,5,"General merchandise, department stores, other stores, ONLINE SHOPPING (not separable)",4177,44.7,42.4,2767
+2020,6,General services,123,7.2,3.5,169
+2021,6,General services,321,10.1,6.6,2098
+2022,6,General services,347,9.7,12.4,2485
+2023,6,General services,441,12.4,8.8,2668
+2024,6,General services,594,15.9,11.4,2681
+2025,6,General services,645,17.1,11.7,2767
+2020,7,"Arts, entertainment, recreation",78,38.8,28.6,169
+2021,7,"Arts, entertainment, recreation",297,38.5,51.8,2098
+2022,7,"Arts, entertainment, recreation",324,33.4,59.5,2485
+2023,7,"Arts, entertainment, recreation",388,37.6,44.4,2668
+2024,7,"Arts, entertainment, recreation",522,49.4,65.0,2681
+2025,7,"Arts, entertainment, recreation",578,44.7,44.8,2767
+2020,8,Utilities,10,75.9,76.4,169
+2021,8,Utilities,17,38.5,70.2,2098
+2022,8,Utilities,19,61.9,80.3,2485
+2023,8,Utilities,13,44.9,68.3,2668
+2024,8,Utilities,31,55.5,66.0,2681
+2025,8,Utilities,25,68.7,85.5,2767
+2020,9,"Taxis, airlines, delivery",11,43.7,10.1,169
+2021,9,"Taxis, airlines, delivery",60,44.6,71.6,2098
+2022,9,"Taxis, airlines, delivery",100,53.1,74.4,2485
+2023,9,"Taxis, airlines, delivery",145,57.8,64.9,2668
+2024,9,"Taxis, airlines, delivery",221,68.1,82.3,2681
+2025,9,"Taxis, airlines, delivery",254,55.6,71.4,2767
+2020,10,"Telephone, internet, cable, streaming",29,74.5,73.0,169
+2021,10,"Telephone, internet, cable, streaming",44,61.2,39.9,2098
+2022,10,"Telephone, internet, cable, streaming",56,89.9,87.3,2485
+2023,10,"Telephone, internet, cable, streaming",50,85.8,53.8,2668
+2024,10,"Telephone, internet, cable, streaming",111,83.8,66.0,2681
+2025,10,"Telephone, internet, cable, streaming",91,86.7,90.8,2767
+2020,11,Building contractors etc,11,60.1,39.5,169
+2021,11,Building contractors etc,21,6.2,19.1,2098
+2022,11,Building contractors etc,20,34.0,13.8,2485
+2023,11,Building contractors etc,39,28.7,49.7,2668
+2024,11,Building contractors etc,47,34.9,65.7,2681
+2025,11,Building contractors etc,41,31.2,43.0,2767
+2020,12,Professional services,22,24.1,16.2,169
+2021,12,Professional services,69,30.0,16.7,2098
+2022,12,Professional services,74,47.5,48.1,2485
+2023,12,Professional services,74,19.6,9.9,2668
+2024,12,Professional services,122,42.1,44.4,2681
+2025,12,Professional services,125,41.5,66.4,2767
+2020,13,"Hotels, motels",17,31.7,31.0,169
+2021,13,"Hotels, motels",41,38.2,54.2,2098
+2022,13,"Hotels, motels",41,23.8,14.9,2485
+2023,13,"Hotels, motels",53,33.1,49.1,2668
+2024,13,"Hotels, motels",85,43.6,69.9,2681
+2025,13,"Hotels, motels",85,32.7,48.4,2767
+2020,14,Rent,4,52.2,11.1,169
+2021,14,Rent,33,40.5,31.9,2098
+2022,14,Rent,18,58.9,63.4,2485
+2023,14,Rent,14,76.6,99.7,2668
+2024,14,Rent,24,42.2,52.7,2681
+2025,14,Rent,50,53.7,87.7,2767
+2020,15,"Mortgage, cards, banks, insurance",49,97.0,87.6,169
+2021,15,"Mortgage, cards, banks, insurance",111,78.9,86.7,2098
+2022,15,"Mortgage, cards, banks, insurance",132,89.6,82.5,2485
+2023,15,"Mortgage, cards, banks, insurance",140,91.7,97.9,2668
+2024,15,"Mortgage, cards, banks, insurance",226,87.3,91.1,2681
+2025,15,"Mortgage, cards, banks, insurance",255,86.5,88.4,2767
+2020,16,Person-to-person / small job,185,23.5,26.6,169
+2021,16,Person-to-person / small job,513,33.1,17.6,2098
+2022,16,Person-to-person / small job,560,35.1,35.5,2485
+2023,16,Person-to-person / small job,580,39.5,43.8,2668
+2024,16,Person-to-person / small job,820,44.3,53.8,2681
+2025,16,Person-to-person / small job,866,42.8,52.7,2767
+2020,17,Donations,81,54.9,64.5,169
+2021,17,Donations,206,37.9,62.7,2098
+2022,17,Donations,270,41.9,55.5,2485
+2023,17,Donations,299,42.5,42.0,2668
+2024,17,Donations,430,46.7,45.2,2681
+2025,17,Donations,425,43.9,57.5,2767
+2020,18,Medical,38,17.1,15.7,169
+2021,18,Medical,119,18.3,44.7,2098
+2022,18,Medical,138,16.3,12.2,2485
+2023,18,Medical,133,24.5,20.8,2668
+2024,18,Medical,187,24.8,22.8,2681
+2025,18,Medical,242,16.1,11.8,2767
+2020,19,Government taxes or fees,21,16.5,32.4,169
+2021,19,Government taxes or fees,50,65.6,98.8,2098
+2022,19,Government taxes or fees,53,44.8,43.4,2485
+2023,19,Government taxes or fees,82,47.6,94.1,2668
+2024,19,Government taxes or fees,87,40.8,87.0,2681
+2025,19,Government taxes or fees,97,56.5,94.2,2767
+2020,20,"Schools, childcare",16,57.2,91.5,169
+2021,20,"Schools, childcare",64,50.6,91.7,2098
+2022,20,"Schools, childcare",96,38.5,69.8,2485
+2023,20,"Schools, childcare",71,48.7,87.2,2668
+2024,20,"Schools, childcare",107,47.9,56.2,2681
+2025,20,"Schools, childcare",99,47.9,82.8,2767
+2020,21,"Public transport, tolls",49,51.6,7.3,169
+2021,21,"Public transport, tolls",181,30.6,31.5,2098
+2022,21,"Public transport, tolls",194,22.5,41.5,2485
+2023,21,"Public transport, tolls",313,31.4,55.0,2668
+2024,21,"Public transport, tolls",464,30.6,43.6,2681
+2025,21,"Public transport, tolls",522,34.1,52.1,2767

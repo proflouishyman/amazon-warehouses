@@ -664,6 +664,58 @@ write_js('data_mwpvl.js', 'AMZ_MWPVL', {
             'Counts are of MWPVL listings, not confirmed openings or closures. mwpvl_corrections.csv is applied.',
 })
 
+# ------------------------------------------------------------------ interpretation page (interpretation.html): interp_* CSVs only, public build
+# Sources are data/processed/interp_inj_*, interp_env_*, interp_spend_*, interp_retail_*. Nothing is recomputed here; rows are filtered, never changed.
+# H4 severe injuries: only rows whose numerator_set starts with HEADLINE are published (the BIASED LOW rows are dropped here and checked below).
+def _interp(name, keep=None, drop=()):
+    rows = rd(name)
+    if keep is not None:
+        rows = [r for r in rows if keep(r)]
+    return table(rows, drop=drop)
+
+
+_h4 = [r for r in rd('interp_inj_h4_pooled.csv') if r['numerator_set'].startswith('HEADLINE')]
+assert _h4 and not any('BIASED' in str(v) for r in _h4 for v in r.values()), 'H4: a BIASED LOW row reached the public table'
+_interp_tables = {
+    'inj_h1_matched': _interp('interp_inj_h1_matched.csv'),
+    'inj_h1_within_band': _interp('interp_inj_h1_within_band_ratios.csv'),
+    'inj_h1_fte_band': _interp('interp_inj_h1_matched_fte_band.csv'),
+    'inj_h2_substitution': _interp('interp_inj_h2_substitution.csv'),
+    'inj_h2_change': _interp('interp_inj_h2_change_2019_2024.csv'),
+    'inj_h3_type_year': _interp('interp_inj_h3_type_year.csv'),
+    'inj_h3_type_band': _interp('interp_inj_h3_type_band_2021_2024.csv'),
+    'inj_h3_typing_quality': _interp('interp_inj_h3_typing_quality.csv'),
+    'inj_h4_pooled': table(_h4),
+    'inj_h4_hazard_mix': _interp('interp_inj_h4_hazard_mix.csv'),
+    'inj_h4_state_plans': _interp('interp_inj_h4_state_plan_list.csv'),
+    'inj_h5_ratio_by_year': _interp('interp_inj_h5_ratio_by_year.csv'),
+    'inj_h5_trend': _interp('interp_inj_h5_trend_summary.csv'),
+    'inj_nelp_senate': _interp('interp_inj_nelp_senate_replication.csv'),
+    'inj_naics_mix': _interp('interp_inj_amazon_naics_mix.csv', keep=lambda r: r['naics'] in ('493110', '492110')),
+    'env_breakeven': _interp('interp_env_breakeven_sensitivity.csv'),
+    'env_evidence': _interp('interp_env_evidence_strip.csv'),
+    'env_illustration': _interp('interp_env_net_illustration_only.csv'),
+    'env_params': _interp('interp_env_params.csv'),
+    'env_transport_breakeven': _interp('interp_env_transport_breakeven.csv'),
+    'env_transport_per_item': _interp('interp_env_transport_per_item.csv'),
+    'env_transport_literature': _interp('interp_env_transport_literature.csv'),
+    'env_building_intensity': _interp('interp_env_building_intensity_per_sales.csv'),
+    'env_scale_vs_reported': _interp('interp_env_scale_vs_reported.csv'),
+    'spend_line_vs_pce': _interp('interp_spend_line_vs_pce.csv'),
+    'spend_combined': _interp('interp_spend_online_share_combined_est.csv'),
+    'spend_quarterly': _interp('interp_spend_quarterly_ecom_share.csv'),
+    'spend_dcpc': _interp('interp_spend_dcpc_remote_by_merchant.csv', keep=lambda r: r['merch_code'] in ('ALL', '1', '5')),
+    'spend_nhts_trips': _interp('interp_spend_trips_nhts.csv'),
+    'spend_studies': _interp('interp_spend_substitution_studies.csv'),
+    'retail_event_study': _interp('interp_retail_event_study.csv', keep=lambda r: r['spec'] == 'primary' and r['series'].startswith('diff_')),
+    'retail_pooled': _interp('interp_retail_pooled_regression.csv', keep=lambda r: r['spec'] == 'primary'),
+    'retail_pretrends': _interp('interp_retail_pretrends.csv'),
+    'retail_sample_counts': _interp('interp_retail_sample_counts.csv', keep=lambda r: r['spec'] == 'primary'),
+}
+_interp_tables['note'] = ('Tables are filtered copies of data/processed/interp_*.csv written by the interpretation scripts (interp_inj_tests.py, interp_env_netting.py, '
+                          'interp_spend_build.py, interp_retail_county_test.py); notes in data/notes/interp_*.md. H4 severe-injury rows are the HEADLINE (matched) rows only.')
+write_js('data_interp.js', 'AMZ_INTERP', _interp_tables)
+
 # ------------------------------------------------------------------ sources + notes
 def scrub(t):
     t = t.replace(ROOT + '/', '')
@@ -693,7 +745,7 @@ write_js('data_meta.js', 'AMZ_META', {
     'pages': [
         ['index.html', 'Overview'], ['map.html', 'Map'], ['logistics.html', 'Logistics'],
         ['financial.html', 'Financial'], ['labor.html', 'Labor'], ['injuries.html', 'Injuries'], ['environment.html', 'Environment'],
-        ['benchmark.html', 'Benchmark'], ['sources.html', 'Sources'], ['methods.html', 'Methods']],
+        ['benchmark.html', 'Benchmark'], ['interpretation.html', 'What the data says'], ['sources.html', 'Sources'], ['methods.html', 'Methods']],
 })
 
 # ------------------------------------------------------------------ data dictionary
@@ -702,7 +754,7 @@ with open(os.path.join(ROOT, 'data/notes/data_globals.md'), 'w', encoding='utf-8
     cur = None
     for g, k, cols, n in dictionary:
         if g != cur:
-            fh.write('\n## window.%s  (assets/%s)\n\n' % (g, {'AMZ_GEO': 'data_geo.js', 'AMZ_FAC': 'data_facilities.js', 'AMZ_FIN': 'data_financial.js', 'AMZ_LAB': 'data_labor.js', 'AMZ_INJ': 'data_injuries.js', 'AMZ_ENV': 'data_environment.js', 'AMZ_LOG': 'data_logistics.js', 'AMZ_DEALS': 'data_deals.js', 'AMZ_POP': 'data_population.js', 'AMZ_SUB': 'data_subsidies.js', 'AMZ_BENCH': 'data_bench.js', 'AMZ_PULL': 'data_pullback.js', 'AMZ_EVENTS': 'data_events.js', 'AMZ_MARKET': 'data_market.js', 'AMZ_MWPVL': 'data_mwpvl.js', 'AMZ_SOURCES': 'data_sources.js', 'AMZ_META': 'data_meta.js'}[g]))
+            fh.write('\n## window.%s  (assets/%s)\n\n' % (g, {'AMZ_GEO': 'data_geo.js', 'AMZ_FAC': 'data_facilities.js', 'AMZ_FIN': 'data_financial.js', 'AMZ_LAB': 'data_labor.js', 'AMZ_INJ': 'data_injuries.js', 'AMZ_ENV': 'data_environment.js', 'AMZ_LOG': 'data_logistics.js', 'AMZ_DEALS': 'data_deals.js', 'AMZ_POP': 'data_population.js', 'AMZ_SUB': 'data_subsidies.js', 'AMZ_BENCH': 'data_bench.js', 'AMZ_PULL': 'data_pullback.js', 'AMZ_EVENTS': 'data_events.js', 'AMZ_MARKET': 'data_market.js', 'AMZ_MWPVL': 'data_mwpvl.js', 'AMZ_INTERP': 'data_interp.js', 'AMZ_SOURCES': 'data_sources.js', 'AMZ_META': 'data_meta.js'}[g]))
             cur = g
         fh.write('- `%s` (%s%s)%s\n' % (k, n, ' rows' if cols else ' items', ': ' + ', '.join(cols) if cols else ''))
 print('done')

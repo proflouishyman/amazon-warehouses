@@ -1,0 +1,67 @@
+segment,year,group,n_sites,dart_cases,dafw_cases,djtr_cases,dart_rate,dafw_rate,djtr_rate,sites_days_capped,dafw_share_of_dart,djtr_days_per_djtr_case,dafw_days_per_dafw_case,restricted_days_per_dart_case,note
+both,2016,amazon,1,12.0,5.0,7.0,3.863,1.61,2.254,0,0.4167,86.29,4.0,50.33,
+both,2016,non_amazon_all_sizes,5716,42005.0,19445.0,22560.0,4.36,2.018,2.342,534,0.4629,42.33,53.84,22.73,
+both,2016,non_amazon_size_matched,4717,,,,,,,,0.5554,40.43,51.57,,peer band values weighted by Amazon case counts in the bands <250
+both,2017,amazon,166,9726.0,7581.0,2145.0,6.487,5.056,1.431,21,0.7795,87.7,62.94,19.34,
+both,2017,non_amazon_all_sizes,6279,43816.0,19953.0,23863.0,4.364,1.987,2.377,596,0.4554,44.09,58.45,24.01,
+both,2017,non_amazon_size_matched,6279,,,,,,,,0.3982,43.94,70.8,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+both,2018,amazon,293,12479.0,9917.0,2562.0,6.999,5.562,1.437,42,0.7947,87.34,52.01,17.93,
+both,2018,non_amazon_all_sizes,7335,49394.0,23326.0,26068.0,4.308,2.034,2.273,617,0.4722,45.04,53.09,23.77,
+both,2018,non_amazon_size_matched,7335,,,,,,,,0.4186,45.74,64.69,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+both,2019,amazon,268,17262.0,11106.0,6156.0,7.755,4.989,2.765,21,0.6434,72.5,52.24,25.86,
+both,2019,non_amazon_all_sizes,7718,55657.0,29122.0,26535.0,4.5,2.355,2.146,669,0.5232,48.85,56.2,23.29,
+both,2019,non_amazon_size_matched,1425,,,,,,,,0.5247,51.19,63.68,,peer band values weighted by Amazon case counts in the bands 250-499|500-999|1000+
+both,2020,amazon,685,24998.0,11053.0,13945.0,5.918,2.616,3.301,38,0.4422,64.79,46.14,36.14,
+both,2020,non_amazon_all_sizes,7757,58506.0,29659.0,28847.0,5.28,2.677,2.604,620,0.5069,46.41,53.29,22.88,
+both,2020,non_amazon_size_matched,7757,,,,,,,,0.4598,47.21,58.46,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+both,2021,amazon,890,34179.0,11855.0,22324.0,6.957,2.413,4.544,53,0.3469,67.96,49.54,44.39,
+both,2021,non_amazon_all_sizes,8176,55639.0,30071.0,25568.0,4.887,2.641,2.246,851,0.5405,45.57,61.49,20.94,
+both,2021,non_amazon_size_matched,8176,,,,,,,,0.5062,44.7,65.02,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+both,2022,amazon,1016,36480.0,9325.0,27155.0,6.568,1.679,4.889,66,0.2556,60.26,41.55,44.86,
+both,2022,non_amazon_all_sizes,9598,61230.0,34105.0,27125.0,4.768,2.656,2.112,826,0.557,44.06,54.96,19.52,
+both,2022,non_amazon_size_matched,9598,,,,,,,,0.4946,43.3,60.46,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+both,2023,amazon,1113,36321.0,8143.0,28178.0,6.098,1.367,4.731,35,0.2242,61.44,31.16,47.67,
+both,2023,non_amazon_all_sizes,11567,77379.0,40063.0,37316.0,5.531,2.864,2.667,892,0.5178,44.63,47.85,21.52,
+both,2023,non_amazon_size_matched,11567,,,,,,,,0.4663,45.28,52.56,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+both,2024,amazon,1171,36832.0,7681.0,29151.0,5.634,1.175,4.459,39,0.2085,58.02,27.64,45.92,
+both,2024,non_amazon_all_sizes,12114,70086.0,37909.0,32177.0,5.093,2.755,2.338,932,0.5409,43.87,51.12,20.14,
+both,2024,non_amazon_size_matched,12114,,,,,,,,0.4907,44.0,60.51,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+493110,2016,amazon,1,12.0,5.0,7.0,3.863,1.61,2.254,0,0.4167,86.29,4.0,50.33,
+493110,2016,non_amazon_all_sizes,3404,15892.0,7281.0,8611.0,3.247,1.487,1.759,202,0.4582,41.73,44.85,22.61,
+493110,2016,non_amazon_size_matched,2850,,,,,,,,0.5135,35.59,44.0,,peer band values weighted by Amazon case counts in the bands <250
+493110,2017,amazon,166,9726.0,7581.0,2145.0,6.487,5.056,1.431,21,0.7795,87.7,62.94,19.34,
+493110,2017,non_amazon_all_sizes,3610,16433.0,7410.0,9023.0,3.224,1.454,1.77,237,0.4509,41.3,42.37,22.68,
+493110,2017,non_amazon_size_matched,3610,,,,,,,,0.4058,44.81,51.21,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+493110,2018,amazon,293,12479.0,9917.0,2562.0,6.999,5.562,1.437,42,0.7947,87.34,52.01,17.93,
+493110,2018,non_amazon_all_sizes,4646,21029.0,9444.0,11585.0,3.304,1.484,1.82,276,0.4491,42.52,39.99,23.43,
+493110,2018,non_amazon_size_matched,4646,,,,,,,,0.3914,46.74,43.33,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+493110,2019,amazon,268,17262.0,11106.0,6156.0,7.755,4.989,2.765,21,0.6434,72.5,52.24,25.86,
+493110,2019,non_amazon_all_sizes,4856,20594.0,9925.0,10669.0,3.202,1.543,1.659,316,0.4819,42.9,41.96,22.23,
+493110,2019,non_amazon_size_matched,760,,,,,,,,0.4304,47.62,47.01,,peer band values weighted by Amazon case counts in the bands 250-499|500-999|1000+
+493110,2020,amazon,685,24998.0,11053.0,13945.0,5.918,2.616,3.301,38,0.4422,64.79,46.14,36.14,
+493110,2020,non_amazon_all_sizes,4943,21209.0,10768.0,10441.0,3.377,1.715,1.663,279,0.5077,43.7,40.23,21.51,
+493110,2020,non_amazon_size_matched,4943,,,,,,,,0.413,47.59,42.62,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+493110,2021,amazon,317,25239.0,6344.0,18895.0,6.745,1.695,5.05,4,0.2514,68.9,42.4,51.58,
+493110,2021,non_amazon_all_sizes,5579,26251.0,13719.0,12532.0,3.677,1.922,1.755,334,0.5226,45.69,40.35,21.81,
+493110,2021,non_amazon_size_matched,5579,,,,,,,,0.4782,49.5,40.81,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+493110,2022,amazon,341,28374.0,4781.0,23593.0,6.626,1.116,5.509,4,0.1685,60.17,32.05,50.03,
+493110,2022,non_amazon_all_sizes,5965,26170.0,13963.0,12207.0,3.328,1.776,1.552,358,0.5335,47.37,40.17,22.09,
+493110,2022,non_amazon_size_matched,5965,,,,,,,,0.5064,51.5,42.65,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+493110,2023,amazon,470,28525.0,4920.0,23605.0,6.163,1.063,5.1,10,0.1725,62.02,29.8,51.32,
+493110,2023,non_amazon_all_sizes,6943,24492.0,13084.0,11408.0,3.021,1.614,1.407,443,0.5342,49.28,44.29,22.96,
+493110,2023,non_amazon_size_matched,6943,,,,,,,,0.5153,55.11,51.21,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+493110,2024,amazon,501,30060.0,5207.0,24853.0,5.852,1.014,4.838,12,0.1732,58.57,25.61,48.42,
+493110,2024,non_amazon_all_sizes,7464,24464.0,13421.0,11043.0,2.963,1.625,1.337,414,0.5486,47.92,46.06,21.63,
+493110,2024,non_amazon_size_matched,7464,,,,,,,,0.5166,52.19,52.63,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+492110,2021,amazon,573,8940.0,5511.0,3429.0,7.636,4.707,2.929,49,0.6164,62.83,57.76,24.1,
+492110,2021,non_amazon_all_sizes,2597,29388.0,16352.0,13036.0,6.923,3.852,3.071,517,0.5564,45.45,79.23,20.16,
+492110,2021,non_amazon_size_matched,2597,,,,,,,,0.5811,47.09,76.05,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+492110,2022,amazon,675,8106.0,4544.0,3562.0,6.375,3.573,2.801,62,0.5606,60.86,51.54,26.74,
+492110,2022,non_amazon_all_sizes,3633,35060.0,20142.0,14918.0,7.043,4.046,2.997,468,0.5745,41.36,65.22,17.6,
+492110,2022,non_amazon_size_matched,3633,,,,,,,,0.5841,41.5,63.44,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+492110,2023,amazon,643,7796.0,3223.0,4573.0,5.871,2.427,3.444,25,0.4134,58.46,33.24,34.29,
+492110,2023,non_amazon_all_sizes,4624,52887.0,26979.0,25908.0,8.991,4.587,4.405,449,0.5101,42.58,49.57,20.86,
+492110,2023,non_amazon_size_matched,4624,,,,,,,,0.4998,42.92,49.19,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+
+492110,2024,amazon,670,6772.0,2474.0,4298.0,4.837,1.767,3.07,27,0.3653,54.82,31.91,34.79,
+492110,2024,non_amazon_all_sizes,4650,45622.0,24488.0,21134.0,8.288,4.449,3.839,518,0.5368,41.75,53.89,19.34,
+492110,2024,non_amazon_size_matched,4650,,,,,,,,0.5199,41.66,56.24,,peer band values weighted by Amazon case counts in the bands <250|250-499|500-999|1000+

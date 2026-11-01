@@ -1,0 +1,10 @@
+item,nhts_2022,nhts_2017,source_table_FHWA-HPL-24-009_Summary_of_Travel_Trends_2022_NHTS,printed_page,note
+shopping_vmt_per_household,1320,2618,Table 3-4 Average Annual VMT by Selected Trip Purposes,20,printed p.20
+errands_vmt_per_household,2220,2982,"Table 3-4 (Other family/personal errands: post office, dry cleaners, library)",20,
+shopping_person_trips_per_household,337,580,Table 3-2,19,
+errands_person_trips_per_household,364,628,Table 3-2,19,
+all_person_trips_per_household,1990,3140,"Table 3-2 (sum of purpose columns equals All; there is no ""home"" column)",19,
+shopping_vehicle_trips_per_household,229,372,Table 3-6,21,
+shopping_trip_length_miles,5.8,7.0,Table 3-5,20,
+shopping_vehicle_occupancy,1.53,1.82,Table 5-2 (person miles per vehicle mile),41,
+shopping_and_errands_person_trips_national_million,89384,142754,Table 4-1 (all modes),25,

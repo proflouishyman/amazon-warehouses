@@ -1,0 +1,36 @@
+model_store_type,year,arts_4541_line_ecom_musd,store_based_kind_ecom_musd,sum_musd,bea_pce_denominator_musd,pct_4541_only,pct_4541_plus_store_based,caveat
+clothing,2010,23179,1782,24961,316611,7.3,7.9,448 own-website sales are mostly clothing; department-store (452) clothing online is suppressed so the all-channel share is understated
+clothing,2012,33691,3449,37140,345220,9.8,10.8,448 own-website sales are mostly clothing; department-store (452) clothing online is suppressed so the all-channel share is understated
+clothing,2015,51453,7325,58778,380803,13.5,15.4,448 own-website sales are mostly clothing; department-store (452) clothing online is suppressed so the all-channel share is understated
+clothing,2017,64615,9191,73806,401084,16.1,18.4,448 own-website sales are mostly clothing; department-store (452) clothing online is suppressed so the all-channel share is understated
+clothing,2019,82176,11936,94112,414144,19.8,22.7,448 own-website sales are mostly clothing; department-store (452) clothing online is suppressed so the all-channel share is understated
+clothing,2020,104560,15304,119864,360435,29.0,33.3,448 own-website sales are mostly clothing; department-store (452) clothing online is suppressed so the all-channel share is understated
+clothing,2022,129809,19783,149592,494199,26.3,30.3,448 own-website sales are mostly clothing; department-store (452) clothing online is suppressed so the all-channel share is understated
+furniture_home,2010,11006,320,11326,176893,6.2,6.4,"PCE denominator narrower than the ARTS line, so the percentage is overstated"
+furniture_home,2012,16419,498,16917,182177,9.0,9.3,"PCE denominator narrower than the ARTS line, so the percentage is overstated"
+furniture_home,2015,30493,1004,31497,204395,14.9,15.4,"PCE denominator narrower than the ARTS line, so the percentage is overstated"
+furniture_home,2017,,1811,,219751,,,"PCE denominator narrower than the ARTS line, so the percentage is overstated"
+furniture_home,2019,66430,2285,68715,240719,27.6,28.5,"PCE denominator narrower than the ARTS line, so the percentage is overstated"
+furniture_home,2020,106120,3727,109847,261572,40.6,42.0,"PCE denominator narrower than the ARTS line, so the percentage is overstated"
+furniture_home,2022,124643,4624,129267,329063,37.9,39.3,"PCE denominator narrower than the ARTS line, so the percentage is overstated"
+grocery_food,2010,3329,636,3965,786866,0.4,0.5,"445 e-commerce includes some non-food; large grocers' (452 supercenter) online grocery is suppressed in ARTS, so understated"
+grocery_food,2012,5084,1068,6152,846198,0.6,0.7,"445 e-commerce includes some non-food; large grocers' (452 supercenter) online grocery is suppressed in ARTS, so understated"
+grocery_food,2015,8049,1732,9781,942006,0.9,1.0,"445 e-commerce includes some non-food; large grocers' (452 supercenter) online grocery is suppressed in ARTS, so understated"
+grocery_food,2017,12623,3328,15951,1010444,1.2,1.6,"445 e-commerce includes some non-food; large grocers' (452 supercenter) online grocery is suppressed in ARTS, so understated"
+grocery_food,2019,16569,8452,25021,1083239,1.5,2.3,"445 e-commerce includes some non-food; large grocers' (452 supercenter) online grocery is suppressed in ARTS, so understated"
+grocery_food,2020,25982,23062,49044,1201722,2.2,4.1,"445 e-commerce includes some non-food; large grocers' (452 supercenter) online grocery is suppressed in ARTS, so understated"
+grocery_food,2022,36592,27197,63789,1394170,2.6,4.6,"445 e-commerce includes some non-food; large grocers' (452 supercenter) online grocery is suppressed in ARTS, so understated"
+electronics,2010,17631,1148,18779,244952,7.2,7.7,"computer lines suppressed in the ARTS 4541 table; PCE series wider than the line: shown for completeness, unreliable"
+electronics,2012,24150,,,260710,9.3,,"computer lines suppressed in the ARTS 4541 table; PCE series wider than the line: shown for completeness, unreliable"
+electronics,2015,30674,1741,32415,276313,11.1,11.7,"computer lines suppressed in the ARTS 4541 table; PCE series wider than the line: shown for completeness, unreliable"
+electronics,2017,,1871,,299670,,,"computer lines suppressed in the ARTS 4541 table; PCE series wider than the line: shown for completeness, unreliable"
+electronics,2019,49591,1705,51296,345044,14.4,14.9,"computer lines suppressed in the ARTS 4541 table; PCE series wider than the line: shown for completeness, unreliable"
+electronics,2020,,2227,,380108,,,"computer lines suppressed in the ARTS 4541 table; PCE series wider than the line: shown for completeness, unreliable"
+electronics,2022,81616,2602,84218,470943,17.3,17.9,"computer lines suppressed in the ARTS 4541 table; PCE series wider than the line: shown for completeness, unreliable"
+books_hobby,2010,16095,1429,17524,215070,7.5,8.1,"451 own-website sales cover books, sporting goods, hobby; PCE 'recreational items' also holds pets and flowers: understated"
+books_hobby,2012,22616,1560,24176,225417,10.0,10.7,"451 own-website sales cover books, sporting goods, hobby; PCE 'recreational items' also holds pets and flowers: understated"
+books_hobby,2015,35014,1994,37008,258212,13.6,14.3,"451 own-website sales cover books, sporting goods, hobby; PCE 'recreational items' also holds pets and flowers: understated"
+books_hobby,2017,41053,2419,43472,274905,14.9,15.8,"451 own-website sales cover books, sporting goods, hobby; PCE 'recreational items' also holds pets and flowers: understated"
+books_hobby,2019,50067,3149,53216,297677,16.8,17.9,"451 own-website sales cover books, sporting goods, hobby; PCE 'recreational items' also holds pets and flowers: understated"
+books_hobby,2020,73188,5180,78368,351513,20.8,22.3,"451 own-website sales cover books, sporting goods, hobby; PCE 'recreational items' also holds pets and flowers: understated"
+books_hobby,2022,79437,5642,85079,431692,18.4,19.7,"451 own-website sales cover books, sporting goods, hobby; PCE 'recreational items' also holds pets and flowers: understated"

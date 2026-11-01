@@ -1,0 +1,56 @@
+group,kind,label,reports,share,window
+amazon,hazard_category,"fall, slip or trip",70,0.467,2016-2024 (all valid-state SIR reports in group)
+amazon,hazard_category,vehicle / truck / forklift / pedestrian struck,43,0.287,2016-2024 (all valid-state SIR reports in group)
+amazon,hazard_category,other,25,0.167,2016-2024 (all valid-state SIR reports in group)
+amazon,hazard_category,caught in / compressed / crushed,8,0.053,2016-2024 (all valid-state SIR reports in group)
+amazon,hazard_category,violence / other person,4,0.027,2016-2024 (all valid-state SIR reports in group)
+amazon,top_EventTitle,Fall on same level due to tripping over an object,24,0.16,2016-2024
+amazon,top_EventTitle,Part of occupant s body caught between vehicle and other object in nonroadway transport incident,14,0.093,2016-2024
+amazon,top_EventTitle,Fall on same level due to slipping,10,0.067,2016-2024
+amazon,top_EventTitle,"Struck by falling object or equipment, unspecified",7,0.047,2016-2024
+amazon,top_EventTitle,Other fall to lower level less than 6 feet,6,0.04,2016-2024
+amazon,top_EventTitle,Overexertion in lifting-single episode,6,0.04,2016-2024
+amazon,top_EventTitle,"Fall on same level due to tripping, unspecified",4,0.027,2016-2024
+amazon,top_EventTitle,Nonclassifiable,4,0.027,2016-2024
+non_amazon_493110,hazard_category,vehicle / truck / forklift / pedestrian struck,766,0.609,2016-2024 (all valid-state SIR reports in group)
+non_amazon_493110,hazard_category,"fall, slip or trip",251,0.2,2016-2024 (all valid-state SIR reports in group)
+non_amazon_493110,hazard_category,caught in / compressed / crushed,130,0.103,2016-2024 (all valid-state SIR reports in group)
+non_amazon_493110,hazard_category,other,92,0.073,2016-2024 (all valid-state SIR reports in group)
+non_amazon_493110,hazard_category,heat / cold / environmental,16,0.013,2016-2024 (all valid-state SIR reports in group)
+non_amazon_493110,hazard_category,violence / other person,2,0.002,2016-2024 (all valid-state SIR reports in group)
+non_amazon_493110,top_EventTitle,Part of occupant s body caught between vehicle and other object in nonroadway transport incident,201,0.16,2016-2024
+non_amazon_493110,top_EventTitle,"Pedestrian struck by vehicle in nonroadway area, unspecified",49,0.039,2016-2024
+non_amazon_493110,top_EventTitle,"Nonroadway collision with other vehicle, unspecified",47,0.037,2016-2024
+non_amazon_493110,top_EventTitle,"Caught in running equipment or machinery during maintenance, cleaning",46,0.037,2016-2024
+non_amazon_493110,top_EventTitle,"Other fall to lower level, unspecified",43,0.034,2016-2024
+non_amazon_493110,top_EventTitle,Fall on same level due to tripping over an object,35,0.028,2016-2024
+non_amazon_493110,top_EventTitle,"Collision between a moving and standing vehicle, nonroadway",30,0.024,2016-2024
+non_amazon_493110,top_EventTitle,"Nonroadway collision with object other than vehicle, n.e.c.",29,0.023,2016-2024
+non_amazon_both,hazard_category,vehicle / truck / forklift / pedestrian struck,888,0.492,2016-2024 (all valid-state SIR reports in group)
+non_amazon_both,hazard_category,"fall, slip or trip",414,0.229,2016-2024 (all valid-state SIR reports in group)
+non_amazon_both,hazard_category,caught in / compressed / crushed,198,0.11,2016-2024 (all valid-state SIR reports in group)
+non_amazon_both,hazard_category,other,161,0.089,2016-2024 (all valid-state SIR reports in group)
+non_amazon_both,hazard_category,heat / cold / environmental,131,0.073,2016-2024 (all valid-state SIR reports in group)
+non_amazon_both,hazard_category,violence / other person,13,0.007,2016-2024 (all valid-state SIR reports in group)
+non_amazon_both,top_EventTitle,Part of occupant s body caught between vehicle and other object in nonroadway transport incident,204,0.113,2016-2024
+non_amazon_both,top_EventTitle,Exposure to environmental heat,121,0.067,2016-2024
+non_amazon_both,top_EventTitle,"Other fall to lower level, unspecified",78,0.043,2016-2024
+non_amazon_both,top_EventTitle,"Pedestrian struck by vehicle in nonroadway area, unspecified",62,0.034,2016-2024
+non_amazon_both,top_EventTitle,Other fall to lower level less than 6 feet,59,0.033,2016-2024
+non_amazon_both,top_EventTitle,"Caught in running equipment or machinery during maintenance, cleaning",58,0.032,2016-2024
+non_amazon_both,top_EventTitle,Compressed or pinched by shifting objects or equipment,55,0.03,2016-2024
+non_amazon_both,top_EventTitle,Fall on same level due to tripping over an object,48,0.027,2016-2024
+non_amazon_492110,hazard_category,"fall, slip or trip",163,0.297,2016-2024 (all valid-state SIR reports in group)
+non_amazon_492110,hazard_category,vehicle / truck / forklift / pedestrian struck,122,0.223,2016-2024 (all valid-state SIR reports in group)
+non_amazon_492110,hazard_category,heat / cold / environmental,115,0.21,2016-2024 (all valid-state SIR reports in group)
+non_amazon_492110,hazard_category,other,69,0.126,2016-2024 (all valid-state SIR reports in group)
+non_amazon_492110,hazard_category,caught in / compressed / crushed,68,0.124,2016-2024 (all valid-state SIR reports in group)
+non_amazon_492110,hazard_category,violence / other person,11,0.02,2016-2024 (all valid-state SIR reports in group)
+non_amazon_492110,top_EventTitle,Exposure to environmental heat,108,0.197,2016-2024
+non_amazon_492110,top_EventTitle,"Other fall to lower level, unspecified",35,0.064,2016-2024
+non_amazon_492110,top_EventTitle,Other fall to lower level less than 6 feet,33,0.06,2016-2024
+non_amazon_492110,top_EventTitle,Compressed or pinched by shifting objects or equipment,26,0.047,2016-2024
+non_amazon_492110,top_EventTitle,Fall on same level due to slipping,23,0.042,2016-2024
+non_amazon_492110,top_EventTitle,Caught in running equipment or machinery during regular operation,15,0.027,2016-2024
+non_amazon_492110,top_EventTitle,"Other animal bites, nonvenomous",14,0.026,2016-2024
+non_amazon_492110,top_EventTitle,Fall on same level due to tripping over an object,13,0.024,2016-2024

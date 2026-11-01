@@ -1,0 +1,351 @@
+year,naics,kind_of_business,total_sales_musd,flag_total,ecom_sales_musd,flag_ecom,ecom_pct_of_total
+1998,,Total Retail Trade,2516132,,4915,,0.20
+1999,,Total Retail Trade,2735240,,14317,,0.52
+2000,,Total Retail Trade,2914946,,27156,,0.93
+2001,,Total Retail Trade,2994050,,33489,,1.12
+2002,,Total Retail Trade,3056426,,43538,,1.42
+2003,,Total Retail Trade,3188137,,55704,,1.75
+2004,,Total Retail Trade,3396251,,70320,,2.07
+2005,,Total Retail Trade,3611851,,88782,,2.46
+2006,,Total Retail Trade,3793824,,109820,,2.89
+2007,,Total Retail Trade,3913589,,132635,,3.39
+2008,,Total Retail Trade,3857580,,138065,,3.58
+2009,,Total Retail Trade,3538072,,142000,,4.01
+2010,,Total Retail Trade,3742372,,166989,,4.46
+2011,,Total Retail Trade,4023268,,196416,,4.88
+2012,,Total Retail Trade,4219819,,227451,,5.39
+2013,,Total Retail Trade,4376606,,256157,,5.85
+2014,,Total Retail Trade,4555159,,291933,,6.41
+2015,,Total Retail Trade,4638313,,331496,,7.15
+2016,,Total Retail Trade,4759153,,376950,,7.92
+2017,,Total Retail Trade,4949604,,435534,,8.80
+2018,,Total Retail Trade,5172380,,495364,,9.58
+2019,,Total Retail Trade,5329583,,554916,,10.41
+2020,,Total Retail Trade,5500685,,785601,,14.28
+2021,,Total Retail Trade,6447091,,916453,,14.21
+2022,,Total Retail Trade,6974692,,969401,,13.90
+1998,441,Motor vehicle and parts dealers,673498,,382,,0.06
+1999,441,Motor vehicle and parts dealers,748365,,1702,,0.23
+2000,441,Motor vehicle and parts dealers,780213,,4082,,0.52
+2001,441,Motor vehicle and parts dealers,799536,,5260,,0.66
+2002,441,Motor vehicle and parts dealers,801741,,7051,,0.88
+2003,441,Motor vehicle and parts dealers,823638,,10258,,1.25
+2004,441,Motor vehicle and parts dealers,847856,,12912,,1.52
+2005,441,Motor vehicle and parts dealers,869816,,15785,,1.81
+2006,441,Motor vehicle and parts dealers,881771,,18557,,2.10
+2007,441,Motor vehicle and parts dealers,891036,,21300,,2.39
+2008,441,Motor vehicle and parts dealers,767833,,17183,,2.24
+2009,441,Motor vehicle and parts dealers,654885,,14928,,2.28
+2010,441,Motor vehicle and parts dealers,725580,,17824,,2.46
+2011,441,Motor vehicle and parts dealers,795215,,20253,,2.55
+2012,441,Motor vehicle and parts dealers,868805,,22917,,2.64
+2013,441,Motor vehicle and parts dealers,945111,,25230,,2.67
+2014,441,Motor vehicle and parts dealers,1009620,,26380,,2.61
+2015,441,Motor vehicle and parts dealers,1086738,,28458,,2.62
+2016,441,Motor vehicle and parts dealers,1135142,,29396,,2.59
+2017,441,Motor vehicle and parts dealers,1167769,,31265,,2.68
+2018,441,Motor vehicle and parts dealers,1199028,,35406,,2.95
+2019,441,Motor vehicle and parts dealers,1243249,,39296,,3.16
+2020,441,Motor vehicle and parts dealers,1228121,,,D,
+2021,441,Motor vehicle and parts dealers,1513823,,,D,
+2022,441,Motor vehicle and parts dealers,1575781,,,D,
+1998,442,Furniture and home furnishings stores,75034,,,S,
+1999,442,Furniture and home furnishings stores,81908,,,S,
+2000,442,Furniture and home furnishings stores,88754,,,S,
+2001,442,Furniture and home furnishings stores,89053,,,S,
+2002,442,Furniture and home furnishings stores,91815,,,S,
+2003,442,Furniture and home furnishings stores,93955,,,S,
+2004,442,Furniture and home furnishings stores,100895,,311,,0.31
+2005,442,Furniture and home furnishings stores,106221,,328,,0.31
+2006,442,Furniture and home furnishings stores,110012,,353,,0.32
+2007,442,Furniture and home furnishings stores,108220,,,S,
+2008,442,Furniture and home furnishings stores,96108,,,S,
+2009,442,Furniture and home furnishings stores,82329,,,S,
+2010,442,Furniture and home furnishings stores,82794,,320,,0.39
+2011,442,Furniture and home furnishings stores,85161,,395,,0.46
+2012,442,Furniture and home furnishings stores,89058,,498,,0.56
+2013,442,Furniture and home furnishings stores,93280,,677,,0.73
+2014,442,Furniture and home furnishings stores,98024,,803,,0.82
+2015,442,Furniture and home furnishings stores,105344,,1004,,0.95
+2016,442,Furniture and home furnishings stores,109860,,1263,,1.15
+2017,442,Furniture and home furnishings stores,112824,,1811,,1.61
+2018,442,Furniture and home furnishings stores,115937,,2063,,1.78
+2019,442,Furniture and home furnishings stores,116802,,2285,,1.96
+2020,442,Furniture and home furnishings stores,109240,,3727,,3.41
+2021,442,Furniture and home furnishings stores,135208,,4436,,3.28
+2022,442,Furniture and home furnishings stores,136807,,4624,,3.38
+1998,443,Electronics and appliance stores,80938,,,NA,
+1999,443,Electronics and appliance stores,85549,,,NA,
+2000,443,Electronics and appliance stores,88647,,,NA,
+2001,443,Electronics and appliance stores,86750,,,NA,
+2002,443,Electronics and appliance stores,89455,,,NA,
+2003,443,Electronics and appliance stores,91099,,,NA,
+2004,443,Electronics and appliance stores,98243,,1064,,1.08
+2005,443,Electronics and appliance stores,104354,,1065,,1.02
+2006,443,Electronics and appliance stores,108393,,947,,0.87
+2007,443,Electronics and appliance stores,108484,,1108,,1.02
+2008,443,Electronics and appliance stores,106672,,1107,,1.04
+2009,443,Electronics and appliance stores,96268,,1013,,1.05
+2010,443,Electronics and appliance stores,97962,,1148,,1.17
+2011,443,Electronics and appliance stores,100362,,1340,,1.34
+2012,443,Electronics and appliance stores,102597,,,S,
+2013,443,Electronics and appliance stores,102217,,1479,,1.45
+2014,443,Electronics and appliance stores,101473,,1636,,1.61
+2015,443,Electronics and appliance stores,98796,,1741,,1.76
+2016,443,Electronics and appliance stores,92602,,1875,,2.02
+2017,443,Electronics and appliance stores,91104,,1871,,2.05
+2018,443,Electronics and appliance stores,91800,,1829,,1.99
+2019,443,Electronics and appliance stores,87935,,1705,,1.94
+2020,443,Electronics and appliance stores,71222,,2227,,3.13
+2021,443,Electronics and appliance stores,89049,,2819,,3.17
+2022,443,Electronics and appliance stores,87035,,2602,,2.99
+1998,444,Building mat and garden equip and supplies dealers,200692,,25,,0.01
+1999,444,Building mat and garden equip and supplies dealers,216446,,131,,0.06
+2000,444,Building mat and garden equip and supplies dealers,227138,,151,,0.07
+2001,444,Building mat and garden equip and supplies dealers,237512,,232,,0.10
+2002,444,Building mat and garden equip and supplies dealers,246562,,283,,0.11
+2003,444,Building mat and garden equip and supplies dealers,261403,,374,,0.14
+2004,444,Building mat and garden equip and supplies dealers,293067,,440,,0.15
+2005,444,Building mat and garden equip and supplies dealers,318504,,508,,0.16
+2006,444,Building mat and garden equip and supplies dealers,331825,,504,,0.15
+2007,444,Building mat and garden equip and supplies dealers,318320,,632,,0.20
+2008,444,Building mat and garden equip and supplies dealers,299428,,664,,0.22
+2009,444,Building mat and garden equip and supplies dealers,259392,,554,,0.21
+2010,444,Building mat and garden equip and supplies dealers,258328,,,S,
+2011,444,Building mat and garden equip and supplies dealers,267172,,,D,
+2012,444,Building mat and garden equip and supplies dealers,279139,,,D,
+2013,444,Building mat and garden equip and supplies dealers,297306,,,S,
+2014,444,Building mat and garden equip and supplies dealers,311316,,,S,
+2015,444,Building mat and garden equip and supplies dealers,321821,,1652,,0.51
+2016,444,Building mat and garden equip and supplies dealers,335534,,1975,,0.59
+2017,444,Building mat and garden equip and supplies dealers,346953,,1840,,0.53
+2018,444,Building mat and garden equip and supplies dealers,367617,,1924,,0.52
+2019,444,Building mat and garden equip and supplies dealers,376241,,2101,,0.56
+2020,444,Building mat and garden equip and supplies dealers,428806,,2333,,0.54
+2021,444,Building mat and garden equip and supplies dealers,492961,,3358,,0.68
+2022,444,Building mat and garden equip and supplies dealers,527378,,3993,,0.76
+1998,445,Food and beverage stores,408930,,8,,0.00
+1999,445,Food and beverage stores,426134,,69,,0.02
+2000,445,Food and beverage stores,437173,,69,,0.02
+2001,445,Food and beverage stores,454826,,93,,0.02
+2002,445,Food and beverage stores,456942,,179,,0.04
+2003,445,Food and beverage stores,466352,,269,,0.06
+2004,445,Food and beverage stores,482378,,383,,0.08
+2005,445,Food and beverage stores,500416,,464,,0.09
+2006,445,Food and beverage stores,517202,,622,,0.12
+2007,445,Food and beverage stores,539207,,694,,0.13
+2008,445,Food and beverage stores,560913,,647,,0.12
+2009,445,Food and beverage stores,560098,,634,,0.11
+2010,445,Food and beverage stores,572343,,636,,0.11
+2011,445,Food and beverage stores,601002,,776,,0.13
+2012,445,Food and beverage stores,620023,,1068,,0.17
+2013,445,Food and beverage stores,633582,,1184,,0.19
+2014,445,Food and beverage stores,662463,,1488,,0.22
+2015,445,Food and beverage stores,679303,,1732,,0.25
+2016,445,Food and beverage stores,694436,,2253,,0.32
+2017,445,Food and beverage stores,721376,,3328,,0.46
+2018,445,Food and beverage stores,741519,,4713,,0.64
+2019,445,Food and beverage stores,765058,,8452,,1.10
+2020,445,Food and beverage stores,839347,,23062,,2.75
+2021,445,Food and beverage stores,878342,,26165,,2.98
+2022,445,Food and beverage stores,942311,,27197,,2.89
+1998,446,Health and personal care stores,128093,,,S,
+1999,446,Health and personal care stores,141015,,,S,
+2000,446,Health and personal care stores,153456,,,S,
+2001,446,Health and personal care stores,164666,,,S,
+2002,446,Health and personal care stores,177947,,,S,
+2003,446,Health and personal care stores,190247,,,S,
+2004,446,Health and personal care stores,196984,,,S,
+2005,446,Health and personal care stores,207758,,,S,
+2006,446,Health and personal care stores,220860,,248,,0.11
+2007,446,Health and personal care stores,234027,,234,,0.10
+2008,446,Health and personal care stores,243476,,199,,0.08
+2009,446,Health and personal care stores,249695,,235,,0.09
+2010,446,Health and personal care stores,257274,,,S,
+2011,446,Health and personal care stores,268317,,,S,
+2012,446,Health and personal care stores,270461,,449,,0.17
+2013,446,Health and personal care stores,275387,,,D,
+2014,446,Health and personal care stores,289558,,,D,
+2015,446,Health and personal care stores,302036,,,D,
+2016,446,Health and personal care stores,312173,,,D,
+2017,446,Health and personal care stores,319471,,,S,
+2018,446,Health and personal care stores,331020,,,S,
+2019,446,Health and personal care stores,337623,,,D,
+2020,446,Health and personal care stores,342725,,,D,
+2021,446,Health and personal care stores,370939,,,D,
+2022,446,Health and personal care stores,383504,,,D,
+1998,447,Gasoline stations,190148,,,S,
+1999,447,Gasoline stations,210968,,,S,
+2000,447,Gasoline stations,248254,,,S,
+2001,447,Gasoline stations,249873,,,S,
+2002,447,Gasoline stations,249141,,,S,
+2003,447,Gasoline stations,273682,,,S,
+2004,447,Gasoline stations,322521,,,S,
+2005,447,Gasoline stations,377546,,,S,
+2006,447,Gasoline stations,420651,,,S,
+2007,447,Gasoline stations,450413,,,ZZ,
+2008,447,Gasoline stations,502362,,,ZZ,
+2009,447,Gasoline stations,389896,,,ZZ,
+2010,447,Gasoline stations,447079,,,S,
+2011,447,Gasoline stations,532270,,,D,
+2012,447,Gasoline stations,554256,,,D,
+2013,447,Gasoline stations,552565,,,D,
+2014,447,Gasoline stations,545829,,,D,
+2015,447,Gasoline stations,454413,,,D,
+2016,447,Gasoline stations,434739,,,D,
+2017,447,Gasoline stations,475068,,,S,
+2018,447,Gasoline stations,520983,,,S,
+2019,447,Gasoline stations,509484,,,S,
+2020,447,Gasoline stations,423588,,,S,
+2021,447,Gasoline stations,563549,,,S,
+2022,447,Gasoline stations,721659,,,D,
+1998,448,Clothing and clothing access stores,145182,,12,,0.01
+1999,448,Clothing and clothing access stores,155654,,,S,
+2000,448,Clothing and clothing access stores,163503,,,S,
+2001,448,Clothing and clothing access stores,163111,,,S,
+2002,448,Clothing and clothing access stores,167934,,,S,
+2003,448,Clothing and clothing access stores,174203,,,S,
+2004,448,Clothing and clothing access stores,185561,,1012,,0.55
+2005,448,Clothing and clothing access stores,196080,,1113,,0.57
+2006,448,Clothing and clothing access stores,208212,,1036,,0.50
+2007,448,Clothing and clothing access stores,215647,,1231,,0.57
+2008,448,Clothing and clothing access stores,210357,,1441,,0.69
+2009,448,Clothing and clothing access stores,199441,,1597,,0.80
+2010,448,Clothing and clothing access stores,208105,,1782,,0.86
+2011,448,Clothing and clothing access stores,223159,,2463,,1.10
+2012,448,Clothing and clothing access stores,233811,,3449,,1.48
+2013,448,Clothing and clothing access stores,239269,,4398,,1.84
+2014,448,Clothing and clothing access stores,244921,,5866,,2.40
+2015,448,Clothing and clothing access stores,250435,,7325,,2.92
+2016,448,Clothing and clothing access stores,254284,,7801,,3.07
+2017,448,Clothing and clothing access stores,254561,,9191,,3.61
+2018,448,Clothing and clothing access stores,257318,,10789,,4.19
+2019,448,Clothing and clothing access stores,257062,,11936,,4.64
+2020,448,Clothing and clothing access stores,188845,,15304,,8.10
+2021,448,Clothing and clothing access stores,272856,,18531,,6.79
+2022,448,Clothing and clothing access stores,280989,,19783,,7.04
+1998,451,"Sporting goods, hobby, musical instrument, and book stores",57317,,,NA,
+1999,451,"Sporting goods, hobby, musical instrument, and book stores",60839,,,NA,
+2000,451,"Sporting goods, hobby, musical instrument, and book stores",64380,,,NA,
+2001,451,"Sporting goods, hobby, musical instrument, and book stores",65390,,,NA,
+2002,451,"Sporting goods, hobby, musical instrument, and book stores",65987,,,NA,
+2003,451,"Sporting goods, hobby, musical instrument, and book stores",67092,,,NA,
+2004,451,"Sporting goods, hobby, musical instrument, and book stores",69839,,550,,0.79
+2005,451,"Sporting goods, hobby, musical instrument, and book stores",71893,,668,,0.93
+2006,451,"Sporting goods, hobby, musical instrument, and book stores",75181,,874,,1.16
+2007,451,"Sporting goods, hobby, musical instrument, and book stores",77541,,989,,1.28
+2008,451,"Sporting goods, hobby, musical instrument, and book stores",77309,,1154,,1.49
+2009,451,"Sporting goods, hobby, musical instrument, and book stores",74490,,1253,,1.68
+2010,451,"Sporting goods, hobby, musical instrument, and book stores",75091,,1429,,1.90
+2011,451,"Sporting goods, hobby, musical instrument, and book stores",75332,,1554,,2.06
+2012,451,"Sporting goods, hobby, musical instrument, and book stores",77649,,1560,,2.01
+2013,451,"Sporting goods, hobby, musical instrument, and book stores",79236,,1846,,2.33
+2014,451,"Sporting goods, hobby, musical instrument, and book stores",80172,,2061,,2.57
+2015,451,"Sporting goods, hobby, musical instrument, and book stores",82062,,1994,,2.43
+2016,451,"Sporting goods, hobby, musical instrument, and book stores",82930,,2218,,2.67
+2017,451,"Sporting goods, hobby, musical instrument, and book stores",80530,,2419,,3.00
+2018,451,"Sporting goods, hobby, musical instrument, and book stores",75739,,2629,,3.47
+2019,451,"Sporting goods, hobby, musical instrument, and book stores",74497,,3149,,4.23
+2020,451,"Sporting goods, hobby, musical instrument, and book stores",77964,,5180,,6.64
+2021,451,"Sporting goods, hobby, musical instrument, and book stores",94911,,5943,,6.26
+2022,451,"Sporting goods, hobby, musical instrument, and book stores",94332,,5642,,5.98
+1998,452,General merchandise stores,350016,,,S,
+1999,452,General merchandise stores,379041,,,S,
+2000,452,General merchandise stores,403053,,,S,
+2001,452,General merchandise stores,426268,,,S,
+2002,452,General merchandise stores,445225,,,S,
+2003,452,General merchandise stores,467408,,,S,
+2004,452,General merchandise stores,495963,,,S,
+2005,452,General merchandise stores,526899,,,S,
+2006,452,General merchandise stores,552763,,,S,
+2007,452,General merchandise stores,577099,,,S,
+2008,452,General merchandise stores,593608,,,S,
+2009,452,General merchandise stores,587495,,,S,
+2010,452,General merchandise stores,602283,,,S,
+2011,452,General merchandise stores,623176,,,S,
+2012,452,General merchandise stores,640627,,127,,0.02
+2013,452,General merchandise stores,651990,,168,,0.03
+2014,452,General merchandise stores,669105,,236,,0.04
+2015,452,General merchandise stores,678705,,310,,0.05
+2016,452,General merchandise stores,681420,,,S,
+2017,452,General merchandise stores,690326,,,S,
+2018,452,General merchandise stores,715994,,,S,
+2019,452,General merchandise stores,736414,,,D,
+2020,452,General merchandise stores,761898,,,D,
+2021,452,General merchandise stores,845749,,,D,
+2022,452,General merchandise stores,927492,,,D,
+1998,453,Miscellaneous store retailers,86433,,103,,0.12
+1999,453,Miscellaneous store retailers,92408,,200,,0.22
+2000,453,Miscellaneous store retailers,95088,,302,,0.32
+2001,453,Miscellaneous store retailers,91764,,345,,0.38
+2002,453,Miscellaneous store retailers,90812,,406,,0.45
+2003,453,Miscellaneous store retailers,89841,,526,,0.59
+2004,453,Miscellaneous store retailers,91878,,710,,0.77
+2005,453,Miscellaneous store retailers,95066,,871,,0.92
+2006,453,Miscellaneous store retailers,101455,,1046,,1.03
+2007,453,Miscellaneous store retailers,104068,,1253,,1.20
+2008,453,Miscellaneous store retailers,99050,,1381,,1.39
+2009,453,Miscellaneous store retailers,90767,,1289,,1.42
+2010,453,Miscellaneous store retailers,93051,,,S,
+2011,453,Miscellaneous store retailers,96513,,,S,
+2012,453,Miscellaneous store retailers,97589,,,S,
+2013,453,Miscellaneous store retailers,99725,,2237,,2.24
+2014,453,Miscellaneous store retailers,102765,,2588,,2.52
+2015,453,Miscellaneous store retailers,105734,,2896,,2.74
+2016,453,Miscellaneous store retailers,108434,,3213,,2.96
+2017,453,Miscellaneous store retailers,110485,,3486,,3.16
+2018,453,Miscellaneous store retailers,115273,,4221,,3.66
+2019,453,Miscellaneous store retailers,118473,,4947,,4.18
+2020,453,Miscellaneous store retailers,115706,,6091,,5.26
+2021,453,Miscellaneous store retailers,144296,,7946,,5.51
+2022,453,Miscellaneous store retailers,155234,,,S,
+1998,454,Nonstore retailers,119851,,3990,,3.33
+1999,454,Nonstore retailers,136913,,11601,,8.47
+2000,454,Nonstore retailers,165287,,21327,,12.90
+2001,454,Nonstore retailers,165301,,26066,,15.77
+2002,454,Nonstore retailers,172865,,33829,,19.57
+2003,454,Nonstore retailers,189217,,41888,,22.14
+2004,454,Nonstore retailers,211066,,52653,,24.95
+2005,454,Nonstore retailers,237298,,67654,,28.51
+2006,454,Nonstore retailers,265499,,85573,,32.23
+2007,454,Nonstore retailers,289527,,104743,,36.18
+2008,454,Nonstore retailers,300464,,113799,,37.87
+2009,454,Nonstore retailers,293316,,120074,,40.94
+2010,454,Nonstore retailers,322482,,141436,,43.86
+2011,454,Nonstore retailers,355589,,166821,,46.91
+2012,454,Nonstore retailers,385804,,193262,,50.09
+2013,454,Nonstore retailers,406938,,217010,,53.33
+2014,454,Nonstore retailers,439913,,248601,,56.51
+2015,454,Nonstore retailers,472926,,283608,,59.97
+2016,454,Nonstore retailers,517599,,325559,,62.90
+2017,454,Nonstore retailers,579137,,378685,,65.39
+2018,454,Nonstore retailers,640152,,429608,,67.11
+2019,454,Nonstore retailers,706745,,478631,,67.72
+2020,454,Nonstore retailers,913223,,679313,,74.39
+2021,454,Nonstore retailers,1045408,,783995,,74.99
+2022,454,Nonstore retailers,1142170,,829869,,72.66
+1998,4541,Electronic shopping and mail-order houses,79266,,3978,,5.02
+1999,4541,Electronic shopping and mail-order houses,93101,,11551,,12.41
+2000,4541,Electronic shopping and mail-order houses,112486,,21088,,18.75
+2001,4541,Electronic shopping and mail-order houses,113313,,25693,,22.67
+2002,4541,Electronic shopping and mail-order houses,120729,,33421,,27.68
+2003,4541,Electronic shopping and mail-order houses,132484,,41448,,31.29
+2004,4541,Electronic shopping and mail-order houses,151991,,52256,,34.38
+2005,4541,Electronic shopping and mail-order houses,173476,,67194,,38.73
+2006,4541,Electronic shopping and mail-order houses,199577,,84846,,42.51
+2007,4541,Electronic shopping and mail-order houses,220657,,103936,,47.10
+2008,4541,Electronic shopping and mail-order houses,226160,,113182,,50.05
+2009,4541,Electronic shopping and mail-order houses,232499,,119613,,51.45
+2010,4541,Electronic shopping and mail-order houses,260102,,141158,,54.27
+2011,4541,Electronic shopping and mail-order houses,289879,,166459,,57.42
+2012,4541,Electronic shopping and mail-order houses,322958,,192811,,59.70
+2013,4541,Electronic shopping and mail-order houses,339975,,216300,,63.62
+2014,4541,Electronic shopping and mail-order houses,370086,,247745,,66.94
+2015,4541,Electronic shopping and mail-order houses,411480,,282524,,68.66
+2016,4541,Electronic shopping and mail-order houses,459196,,324343,,70.63
+2017,4541,Electronic shopping and mail-order houses,515727,,377266,,73.15
+2018,4541,Electronic shopping and mail-order houses,570873,,428176,,75.00
+2019,4541,Electronic shopping and mail-order houses,639449,,477273,,74.64
+2020,4541,Electronic shopping and mail-order houses,853705,,677502,,79.36
+2021,4541,Electronic shopping and mail-order houses,977456,,781970,,80.00
+2022,4541,Electronic shopping and mail-order houses,1062420,,827892,,77.93

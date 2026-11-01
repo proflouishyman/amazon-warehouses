@@ -1,0 +1,11 @@
+source,year,category,establishments_or_buildings,total_floorspace_msf,selling_floorspace_msf,sales_musd,sales_per_sqft_usd,note
+"2017 Economic Census, Retail Trade Floor Space (EC1744FLSPACE)",2017,445110 Supermarkets and other grocery (except convenience) stores,65141,1112.8,821.0,623440,749,total and selling floor space in million sq ft; sales in $ million; $ per sq ft of total under-roof space
+"2017 Economic Census, Retail Trade Floor Space (EC1744FLSPACE)",2017,445120 Convenience stores,28460,47.0,36.8,26514,671,total and selling floor space in million sq ft; sales in $ million; $ per sq ft of total under-roof space
+"2017 Economic Census, Retail Trade Floor Space (EC1744FLSPACE)",2017,452210 Department stores,4334,494.4,387.7,66633,170,total and selling floor space in million sq ft; sales in $ million; $ per sq ft of total under-roof space
+"2017 Economic Census, Retail Trade Floor Space (EC1744FLSPACE)",2017,452311 Warehouse clubs and supercenters,8202,1202.6,1127.4,550201,485,total and selling floor space in million sq ft; sales in $ million; $ per sq ft of total under-roof space
+CBECS 2018 Table C1 (data/raw/retail_context/cbecs2018_c1.xlsx),2018,Food sales,163000,1006,,,,"buildings = thousand x1000; floorspace million sq ft (all floorspace, not selling space)"
+CBECS 2018 Table C1 (data/raw/retail_context/cbecs2018_c1.xlsx),2018,Food service,286000,1385,,,,"buildings = thousand x1000; floorspace million sq ft (all floorspace, not selling space)"
+CBECS 2018 Table C1 (data/raw/retail_context/cbecs2018_c1.xlsx),2018,Mercantile,517000,10781,,,,"buildings = thousand x1000; floorspace million sq ft (all floorspace, not selling space)"
+CBECS 2018 Table C1 (data/raw/retail_context/cbecs2018_c1.xlsx),2018,Retail (other than mall),350000,5193,,,,"buildings = thousand x1000; floorspace million sq ft (all floorspace, not selling space)"
+CBECS 2018 Table C1 (data/raw/retail_context/cbecs2018_c1.xlsx),2018,Enclosed and strip malls,167000,5588,,,,"buildings = thousand x1000; floorspace million sq ft (all floorspace, not selling space)"
+CBECS 2018 Table C1 (data/raw/retail_context/cbecs2018_c1.xlsx),2018,Warehouse and storage,1004000,17483,,,,"buildings = thousand x1000; floorspace million sq ft (all floorspace, not selling space)"

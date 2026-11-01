@@ -1,0 +1,721 @@
+vintage,year,merchandise_line,line_sales_4541_musd,flag_total,line_ecom_4541_musd,flag_ecom,ecom_pct_of_4541_line_sales
+2019_vintage,1999,Audio and video recordings (includes purchased downloads),4250,,762,,17.9
+2019_vintage,2000,Audio and video recordings (includes purchased downloads),4433,,1154,,26.0
+2019_vintage,2001,Audio and video recordings (includes purchased downloads),4083,,1211,,29.7
+2019_vintage,2002,Audio and video recordings (includes purchased downloads),3902,,1352,,34.6
+2019_vintage,2003,Audio and video recordings (includes purchased downloads),3473,,1384,,39.9
+2019_vintage,2004,Audio and video recordings (includes purchased downloads),3591,,1480,,41.2
+2019_vintage,2005,Audio and video recordings (includes purchased downloads),3412,,1864,,54.6
+2019_vintage,2006,Audio and video recordings (includes purchased downloads),3869,,2605,,67.3
+2019_vintage,2007,Audio and video recordings (includes purchased downloads),4638,,3379,,72.9
+2019_vintage,2008,Audio and video recordings (includes purchased downloads),5321,,4208,,79.1
+2019_vintage,2009,Audio and video recordings (includes purchased downloads),6107,,5064,,82.9
+2019_vintage,2010,Audio and video recordings (includes purchased downloads),,S,,S,
+2019_vintage,2011,Audio and video recordings (includes purchased downloads),7505,,6648,,88.6
+2019_vintage,2012,Audio and video recordings (includes purchased downloads),8342,,7589,,91.0
+2019_vintage,2013,Audio and video recordings (includes purchased downloads),8685,,7857,,90.5
+2019_vintage,2014,Audio and video recordings (includes purchased downloads),,S,,S,
+2019_vintage,2015,Audio and video recordings (includes purchased downloads),8017,,7172,,89.5
+2019_vintage,2016,Audio and video recordings (includes purchased downloads),8652,,7777,,89.9
+2019_vintage,2017,Audio and video recordings (includes purchased downloads),8988,,8090,,90.0
+2019_vintage,2018,Audio and video recordings (includes purchased downloads),11869,,10857,,91.5
+2019_vintage,2019,Audio and video recordings (includes purchased downloads),14027,,12979,,92.5
+2019_vintage,1999,Books (includes audio books and e-books),3434,,1439,,41.9
+2019_vintage,2000,Books (includes audio books and e-books),4297,,1759,,40.9
+2019_vintage,2001,Books (includes audio books and e-books),4137,,1644,,39.7
+2019_vintage,2002,Books (includes audio books and e-books),4267,,1787,,41.9
+2019_vintage,2003,Books (includes audio books and e-books),4446,,1994,,44.8
+2019_vintage,2004,Books (includes audio books and e-books),4930,,2270,,46.0
+2019_vintage,2005,Books (includes audio books and e-books),5438,,2903,,53.4
+2019_vintage,2006,Books (includes audio books and e-books),5980,,3694,,61.8
+2019_vintage,2007,Books (includes audio books and e-books),7185,,5370,,74.7
+2019_vintage,2008,Books (includes audio books and e-books),7642,,5599,,73.3
+2019_vintage,2009,Books (includes audio books and e-books),7569,,6000,,79.3
+2019_vintage,2010,Books (includes audio books and e-books),8823,,7428,,84.2
+2019_vintage,2011,Books (includes audio books and e-books),10235,,8808,,86.1
+2019_vintage,2012,Books (includes audio books and e-books),11194,,9847,,88.0
+2019_vintage,2013,Books (includes audio books and e-books),11863,,10242,,86.3
+2019_vintage,2014,Books (includes audio books and e-books),12501,,10749,,86.0
+2019_vintage,2015,Books (includes audio books and e-books),13183,,11558,,87.7
+2019_vintage,2016,Books (includes audio books and e-books),15066,,12699,,84.3
+2019_vintage,2017,Books (includes audio books and e-books),15209,,13317,,87.6
+2019_vintage,2018,Books (includes audio books and e-books),16460,,14244,,86.5
+2019_vintage,2019,Books (includes audio books and e-books),17071,,14966,,87.7
+2019_vintage,1999,Clothing and clothing accessories (includes footwear),13535,,909,,6.7
+2019_vintage,2000,Clothing and clothing accessories (includes footwear),15415,,2262,,14.7
+2019_vintage,2001,Clothing and clothing accessories (includes footwear),15712,,3325,,21.2
+2019_vintage,2002,Clothing and clothing accessories (includes footwear),14477,,4545,,31.4
+2019_vintage,2003,Clothing and clothing accessories (includes footwear),14497,,5501,,37.9
+2019_vintage,2004,Clothing and clothing accessories (includes footwear),15681,,7054,,45.0
+2019_vintage,2005,Clothing and clothing accessories (includes footwear),18562,,9463,,51.0
+2019_vintage,2006,Clothing and clothing accessories (includes footwear),21075,,12887,,61.1
+2019_vintage,2007,Clothing and clothing accessories (includes footwear),24314,,16036,,66.0
+2019_vintage,2008,Clothing and clothing accessories (includes footwear),25545,,17637,,69.0
+2019_vintage,2009,Clothing and clothing accessories (includes footwear),27300,,19725,,72.3
+2019_vintage,2010,Clothing and clothing accessories (includes footwear),31354,,23481,,74.9
+2019_vintage,2011,Clothing and clothing accessories (includes footwear),35168,,28276,,80.4
+2019_vintage,2012,Clothing and clothing accessories (includes footwear),40515,,33769,,83.3
+2019_vintage,2013,Clothing and clothing accessories (includes footwear),46475,,39978,,86.0
+2019_vintage,2014,Clothing and clothing accessories (includes footwear),53281,,46216,,86.7
+2019_vintage,2015,Clothing and clothing accessories (includes footwear),57107,,51514,,90.2
+2019_vintage,2016,Clothing and clothing accessories (includes footwear),64770,,57895,,89.4
+2019_vintage,2017,Clothing and clothing accessories (includes footwear),72406,,64176,,88.6
+2019_vintage,2018,Clothing and clothing accessories (includes footwear),81190,,72991,,89.9
+2019_vintage,2019,Clothing and clothing accessories (includes footwear),89434,,80422,,89.9
+2019_vintage,1999,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",23846,,4166,,17.5
+2019_vintage,2000,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",27221,,6049,,22.2
+2019_vintage,2001,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",21128,,5419,,25.6
+2019_vintage,2002,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",18718,,6079,,32.5
+2019_vintage,2003,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",18366,,6580,,35.8
+2019_vintage,2004,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",20277,,8006,,39.5
+2019_vintage,2005,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",20601,,9345,,45.4
+2019_vintage,2006,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",20176,,10373,,51.4
+2019_vintage,2007,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",22855,,11694,,51.2
+2019_vintage,2008,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",20923,,11394,,54.5
+2019_vintage,2009,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",20141,,11223,,55.7
+2019_vintage,2010,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",22443,,12080,,53.8
+2019_vintage,2011,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",23288,,13957,,59.9
+2019_vintage,2012,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",21992,,14200,,64.6
+2019_vintage,2013,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",20985,,15083,,71.9
+2019_vintage,2014,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",20971,,16442,,78.4
+2019_vintage,2015,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",19992,,16939,,84.7
+2019_vintage,2016,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",21261,,18114,,85.2
+2019_vintage,2017,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",,S,,S,
+2019_vintage,2018,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",,S,,S,
+2019_vintage,2019,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",,S,,S,
+2019_vintage,1999,Computer software (includes video game software),2809,,755,,26.9
+2019_vintage,2000,Computer software (includes video game software),3706,,1109,,29.9
+2019_vintage,2001,Computer software (includes video game software),3983,,1157,,29.0
+2019_vintage,2002,Computer software (includes video game software),3661,,1239,,33.8
+2019_vintage,2003,Computer software (includes video game software),2930,,1192,,40.7
+2019_vintage,2004,Computer software (includes video game software),3089,,1456,,47.1
+2019_vintage,2005,Computer software (includes video game software),3706,,1834,,49.5
+2019_vintage,2006,Computer software (includes video game software),3845,,2023,,52.6
+2019_vintage,2007,Computer software (includes video game software),4597,,2613,,56.8
+2019_vintage,2008,Computer software (includes video game software),4906,,2887,,58.8
+2019_vintage,2009,Computer software (includes video game software),5432,,3440,,63.3
+2019_vintage,2010,Computer software (includes video game software),5826,,3676,,63.1
+2019_vintage,2011,Computer software (includes video game software),6938,,4785,,69.0
+2019_vintage,2012,Computer software (includes video game software),8290,,6154,,74.2
+2019_vintage,2013,Computer software (includes video game software),8598,,6650,,77.3
+2019_vintage,2014,Computer software (includes video game software),9976,,8397,,84.2
+2019_vintage,2015,Computer software (includes video game software),10558,,9491,,89.9
+2019_vintage,2016,Computer software (includes video game software),13022,,11763,,90.3
+2019_vintage,2017,Computer software (includes video game software),15669,,14225,,90.8
+2019_vintage,2018,Computer software (includes video game software),19691,,18062,,91.7
+2019_vintage,2019,Computer software (includes video game software),23500,,21704,,92.4
+2019_vintage,1999,"Drugs, health aids, and beauty aids",11557,,239,,2.1
+2019_vintage,2000,"Drugs, health aids, and beauty aids",15557,,701,,4.5
+2019_vintage,2001,"Drugs, health aids, and beauty aids",19707,,1122,,5.7
+2019_vintage,2002,"Drugs, health aids, and beauty aids",27471,,1849,,6.7
+2019_vintage,2003,"Drugs, health aids, and beauty aids",34783,,2606,,7.5
+2019_vintage,2004,"Drugs, health aids, and beauty aids",43338,,3574,,8.2
+2019_vintage,2005,"Drugs, health aids, and beauty aids",49810,,4270,,8.6
+2019_vintage,2006,"Drugs, health aids, and beauty aids",63305,,5416,,8.6
+2019_vintage,2007,"Drugs, health aids, and beauty aids",61859,,6473,,10.5
+2019_vintage,2008,"Drugs, health aids, and beauty aids",64783,,7586,,11.7
+2019_vintage,2009,"Drugs, health aids, and beauty aids",69164,,8865,,12.8
+2019_vintage,2010,"Drugs, health aids, and beauty aids",75572,,10952,,14.5
+2019_vintage,2011,"Drugs, health aids, and beauty aids",84987,,12684,,14.9
+2019_vintage,2012,"Drugs, health aids, and beauty aids",95884,,16490,,17.2
+2019_vintage,2013,"Drugs, health aids, and beauty aids",95987,,20593,,21.5
+2019_vintage,2014,"Drugs, health aids, and beauty aids",98465,,23837,,24.2
+2019_vintage,2015,"Drugs, health aids, and beauty aids",113002,,28512,,25.2
+2019_vintage,2016,"Drugs, health aids, and beauty aids",122093,,32668,,26.8
+2019_vintage,2017,"Drugs, health aids, and beauty aids",130917,,40863,,31.2
+2019_vintage,2018,"Drugs, health aids, and beauty aids",137638,,45149,,32.8
+2019_vintage,2019,"Drugs, health aids, and beauty aids",163272,,50445,,30.9
+2019_vintage,1999,Electronics and appliances,2709,,504,,18.6
+2019_vintage,2000,Electronics and appliances,3641,,1128,,31.0
+2019_vintage,2001,Electronics and appliances,4535,,1844,,40.7
+2019_vintage,2002,Electronics and appliances,5520,,2704,,49.0
+2019_vintage,2003,Electronics and appliances,7151,,4109,,57.5
+2019_vintage,2004,Electronics and appliances,9277,,,S,
+2019_vintage,2005,Electronics and appliances,10953,,8084,,73.8
+2019_vintage,2006,Electronics and appliances,13925,,9938,,71.4
+2019_vintage,2007,Electronics and appliances,15991,,11955,,74.8
+2019_vintage,2008,Electronics and appliances,17457,,13670,,78.3
+2019_vintage,2009,Electronics and appliances,18798,,15087,,80.3
+2019_vintage,2010,Electronics and appliances,21664,,17862,,82.5
+2019_vintage,2011,Electronics and appliances,25504,,21753,,85.3
+2019_vintage,2012,Electronics and appliances,28651,,24407,,85.2
+2019_vintage,2013,Electronics and appliances,31066,,26478,,85.2
+2019_vintage,2014,Electronics and appliances,33122,,27969,,84.4
+2019_vintage,2015,Electronics and appliances,36191,,31195,,86.2
+2019_vintage,2016,Electronics and appliances,40455,,35471,,87.7
+2019_vintage,2017,Electronics and appliances,,S,,S,
+2019_vintage,2018,Electronics and appliances,51213,,45545,,88.9
+2019_vintage,2019,Electronics and appliances,56866,,51482,,90.5
+2019_vintage,1999,"Food, beer, and wine",1429,,235,,16.4
+2019_vintage,2000,"Food, beer, and wine",1960,,591,,30.2
+2019_vintage,2001,"Food, beer, and wine",2037,,519,,25.5
+2019_vintage,2002,"Food, beer, and wine",2014,,714,,35.5
+2019_vintage,2003,"Food, beer, and wine",2172,,820,,37.8
+2019_vintage,2004,"Food, beer, and wine",2520,,1030,,40.9
+2019_vintage,2005,"Food, beer, and wine",3406,,1608,,47.2
+2019_vintage,2006,"Food, beer, and wine",4213,,2280,,54.1
+2019_vintage,2007,"Food, beer, and wine",5132,,2996,,58.4
+2019_vintage,2008,"Food, beer, and wine",4891,,3033,,62.0
+2019_vintage,2009,"Food, beer, and wine",4824,,2966,,61.5
+2019_vintage,2010,"Food, beer, and wine",5258,,3372,,64.1
+2019_vintage,2011,"Food, beer, and wine",6023,,4082,,67.8
+2019_vintage,2012,"Food, beer, and wine",7156,,5159,,72.1
+2019_vintage,2013,"Food, beer, and wine",7901,,5602,,70.9
+2019_vintage,2014,"Food, beer, and wine",8830,,6826,,77.3
+2019_vintage,2015,"Food, beer, and wine",9993,,8250,,82.6
+2019_vintage,2016,"Food, beer, and wine",11921,,10313,,86.5
+2019_vintage,2017,"Food, beer, and wine",15070,,12792,,84.9
+2019_vintage,2018,"Food, beer, and wine",17270,,14910,,86.3
+2019_vintage,2019,"Food, beer, and wine",19221,,17068,,88.8
+2019_vintage,1999,Furniture and home furnishings,5822,,350,,6.0
+2019_vintage,2000,Furniture and home furnishings,6556,,1006,,15.3
+2019_vintage,2001,Furniture and home furnishings,6696,,1654,,24.7
+2019_vintage,2002,Furniture and home furnishings,7290,,2412,,33.1
+2019_vintage,2003,Furniture and home furnishings,8057,,3283,,40.7
+2019_vintage,2004,Furniture and home furnishings,8515,,4023,,47.2
+2019_vintage,2005,Furniture and home furnishings,10576,,5620,,53.1
+2019_vintage,2006,Furniture and home furnishings,12028,,7857,,65.3
+2019_vintage,2007,Furniture and home furnishings,13444,,9061,,67.4
+2019_vintage,2008,Furniture and home furnishings,13303,,9540,,71.7
+2019_vintage,2009,Furniture and home furnishings,12759,,9262,,72.6
+2019_vintage,2010,Furniture and home furnishings,14498,,11150,,76.9
+2019_vintage,2011,Furniture and home furnishings,17348,,13768,,79.4
+2019_vintage,2012,Furniture and home furnishings,20475,,16466,,80.4
+2019_vintage,2013,Furniture and home furnishings,24574,,20339,,82.8
+2019_vintage,2014,Furniture and home furnishings,29290,,24416,,83.4
+2019_vintage,2015,Furniture and home furnishings,36132,,30633,,84.8
+2019_vintage,2016,Furniture and home furnishings,42809,,37653,,88.0
+2019_vintage,2017,Furniture and home furnishings,,S,,S,
+2019_vintage,2018,Furniture and home furnishings,64042,,58478,,91.3
+2019_vintage,2019,Furniture and home furnishings,73636,,68087,,92.5
+2019_vintage,1999,Jewelry,,NA,,NA,
+2019_vintage,2000,Jewelry,3040,,497,,16.3
+2019_vintage,2001,Jewelry,3434,,576,,16.8
+2019_vintage,2002,Jewelry,3377,,666,,19.7
+2019_vintage,2003,Jewelry,3978,,950,,23.9
+2019_vintage,2004,Jewelry,3914,,1134,,29.0
+2019_vintage,2005,Jewelry,4470,,1812,,40.5
+2019_vintage,2006,Jewelry,4696,,2132,,45.4
+2019_vintage,2007,Jewelry,5557,,2738,,49.3
+2019_vintage,2008,Jewelry,5431,,2957,,54.4
+2019_vintage,2009,Jewelry,4817,,2787,,57.9
+2019_vintage,2010,Jewelry,5149,,3315,,64.4
+2019_vintage,2011,Jewelry,5473,,3782,,69.1
+2019_vintage,2012,Jewelry,6351,,4597,,72.4
+2019_vintage,2013,Jewelry,6974,,4973,,71.3
+2019_vintage,2014,Jewelry,7417,,5273,,71.1
+2019_vintage,2015,Jewelry,8577,,6201,,72.3
+2019_vintage,2016,Jewelry,8502,,6333,,74.5
+2019_vintage,2017,Jewelry,8373,,6378,,76.2
+2019_vintage,2018,Jewelry,9190,,7285,,79.3
+2019_vintage,2019,Jewelry,9392,,7563,,80.5
+2019_vintage,1999,Nonmerchandise receipts,1126,,304,,27.0
+2019_vintage,2000,Nonmerchandise receipts,3187,,1006,,31.6
+2019_vintage,2001,Nonmerchandise receipts,4271,,1763,,41.3
+2019_vintage,2002,Nonmerchandise receipts,5408,,2449,,45.3
+2019_vintage,2003,Nonmerchandise receipts,6776,,3251,,48.0
+2019_vintage,2004,Nonmerchandise receipts,8242,,4379,,53.1
+2019_vintage,2005,Nonmerchandise receipts,9327,,5281,,56.6
+2019_vintage,2006,Nonmerchandise receipts,11320,,7036,,62.2
+2019_vintage,2007,Nonmerchandise receipts,13443,,8939,,66.5
+2019_vintage,2008,Nonmerchandise receipts,13483,,9330,,69.2
+2019_vintage,2009,Nonmerchandise receipts,13464,,9369,,69.6
+2019_vintage,2010,Nonmerchandise receipts,15550,,11220,,72.2
+2019_vintage,2011,Nonmerchandise receipts,16074,,12400,,77.1
+2019_vintage,2012,Nonmerchandise receipts,17166,,13245,,77.2
+2019_vintage,2013,Nonmerchandise receipts,16222,,12438,,76.7
+2019_vintage,2014,Nonmerchandise receipts,17320,,13804,,79.7
+2019_vintage,2015,Nonmerchandise receipts,,S,,S,
+2019_vintage,2016,Nonmerchandise receipts,,S,,S,
+2019_vintage,2017,Nonmerchandise receipts,,S,,S,
+2019_vintage,2018,Nonmerchandise receipts,24350,,21303,,87.5
+2019_vintage,2019,Nonmerchandise receipts,34381,,30680,,89.2
+2019_vintage,1999,Office equipment and supplies,7284,,592,,8.1
+2019_vintage,2000,Office equipment and supplies,6600,,1375,,20.8
+2019_vintage,2001,Office equipment and supplies,5740,,1824,,31.8
+2019_vintage,2002,Office equipment and supplies,5099,,2285,,44.8
+2019_vintage,2003,Office equipment and supplies,5194,,2929,,56.4
+2019_vintage,2004,Office equipment and supplies,,S,,S,
+2019_vintage,2005,Office equipment and supplies,6112,,3852,,63.0
+2019_vintage,2006,Office equipment and supplies,6959,,4919,,70.7
+2019_vintage,2007,Office equipment and supplies,8097,,5922,,73.1
+2019_vintage,2008,Office equipment and supplies,8183,,6425,,78.5
+2019_vintage,2009,Office equipment and supplies,7730,,5975,,77.3
+2019_vintage,2010,Office equipment and supplies,7815,,6009,,76.9
+2019_vintage,2011,Office equipment and supplies,7804,,6089,,78.0
+2019_vintage,2012,Office equipment and supplies,7898,,6145,,77.8
+2019_vintage,2013,Office equipment and supplies,6952,,,S,
+2019_vintage,2014,Office equipment and supplies,,S,,S,
+2019_vintage,2015,Office equipment and supplies,8478,,6859,,80.9
+2019_vintage,2016,Office equipment and supplies,9344,,7781,,83.3
+2019_vintage,2017,Office equipment and supplies,10446,,8629,,82.6
+2019_vintage,2018,Office equipment and supplies,,S,,S,
+2019_vintage,2019,Office equipment and supplies,,S,,S,
+2019_vintage,1999,Other merchandise,,NA,,NA,
+2019_vintage,2000,Other merchandise,13209,,1369,,10.4
+2019_vintage,2001,Other merchandise,14242,,2421,,17.0
+2019_vintage,2002,Other merchandise,14162,,3396,,24.0
+2019_vintage,2003,Other merchandise,15379,,4598,,29.9
+2019_vintage,2004,Other merchandise,17718,,6018,,34.0
+2019_vintage,2005,Other merchandise,20699,,8026,,38.8
+2019_vintage,2006,Other merchandise,21720,,9847,,45.3
+2019_vintage,2007,Other merchandise,25588,,12001,,46.9
+2019_vintage,2008,Other merchandise,25883,,13396,,51.8
+2019_vintage,2009,Other merchandise,26078,,13826,,53.0
+2019_vintage,2010,Other merchandise,30026,,17536,,58.4
+2019_vintage,2011,Other merchandise,34242,,21472,,62.7
+2019_vintage,2012,Other merchandise,37682,,24853,,66.0
+2019_vintage,2013,Other merchandise,39711,,28092,,70.7
+2019_vintage,2014,Other merchandise,45750,,33708,,73.7
+2019_vintage,2015,Other merchandise,55257,,42501,,76.9
+2019_vintage,2016,Other merchandise,60768,,48388,,79.6
+2019_vintage,2017,Other merchandise,69803,,56540,,81.0
+2019_vintage,2018,Other merchandise,75959,,60290,,79.4
+2019_vintage,2019,Other merchandise,83741,,67575,,80.7
+2019_vintage,1999,Sporting goods,,NA,,NA,
+2019_vintage,2000,Sporting goods,1794,,409,,22.8
+2019_vintage,2001,Sporting goods,1906,,517,,27.1
+2019_vintage,2002,Sporting goods,3073,,1028,,33.5
+2019_vintage,2003,Sporting goods,3053,,1155,,37.8
+2019_vintage,2004,Sporting goods,3579,,1430,,40.0
+2019_vintage,2005,Sporting goods,4179,,1912,,45.8
+2019_vintage,2006,Sporting goods,4502,,2402,,53.4
+2019_vintage,2007,Sporting goods,5567,,3178,,57.1
+2019_vintage,2008,Sporting goods,5824,,3535,,60.7
+2019_vintage,2009,Sporting goods,6058,,3945,,65.1
+2019_vintage,2010,Sporting goods,6430,,4408,,68.6
+2019_vintage,2011,Sporting goods,7094,,5155,,72.7
+2019_vintage,2012,Sporting goods,8752,,6470,,73.9
+2019_vintage,2013,Sporting goods,10254,,8034,,78.3
+2019_vintage,2014,Sporting goods,11414,,9462,,82.9
+2019_vintage,2015,Sporting goods,13833,,11916,,86.1
+2019_vintage,2016,Sporting goods,16317,,13950,,85.5
+2019_vintage,2017,Sporting goods,16041,,13852,,86.4
+2019_vintage,2018,Sporting goods,19780,,17176,,86.8
+2019_vintage,2019,Sporting goods,21685,,19312,,89.1
+2019_vintage,1999,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),94282,,11615,,12.3
+2019_vintage,2000,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),113790,,21221,,18.6
+2019_vintage,2001,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),114749,,25892,,22.6
+2019_vintage,2002,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),122214,,33764,,27.6
+2019_vintage,2003,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),134304,,41962,,31.2
+2019_vintage,2004,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),154157,,52996,,34.4
+2019_vintage,2005,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),175900,,68114,,38.7
+2019_vintage,2006,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),202251,,85945,,42.5
+2019_vintage,2007,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),223681,,105467,,47.2
+2019_vintage,2008,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),229242,,114642,,50.0
+2019_vintage,2009,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),235625,,121173,,51.4
+2019_vintage,2010,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),263488,,143000,,54.3
+2019_vintage,2011,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),294697,,169040,,57.4
+2019_vintage,2012,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),328655,,195761,,59.6
+2019_vintage,2013,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),346218,,219485,,63.4
+2019_vintage,2014,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),377008,,251173,,66.6
+2019_vintage,2015,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),419146,,286118,,68.3
+2019_vintage,2016,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),467028,,327799,,70.2
+2019_vintage,2017,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),524639,,381668,,72.7
+2019_vintage,2018,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),584267,,435451,,74.5
+2019_vintage,2019,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),667867,,496946,,74.4
+2019_vintage,1999,"Toys, hobby goods, and games",2162,,383,,17.7
+2019_vintage,2000,"Toys, hobby goods, and games",3174,,806,,25.4
+2019_vintage,2001,"Toys, hobby goods, and games",3138,,896,,28.6
+2019_vintage,2002,"Toys, hobby goods, and games",3775,,1259,,33.4
+2019_vintage,2003,"Toys, hobby goods, and games",4049,,1610,,39.8
+2019_vintage,2004,"Toys, hobby goods, and games",4133,,1758,,42.5
+2019_vintage,2005,"Toys, hobby goods, and games",4649,,2240,,48.2
+2019_vintage,2006,"Toys, hobby goods, and games",4638,,2536,,54.7
+2019_vintage,2007,"Toys, hobby goods, and games",5414,,3112,,57.5
+2019_vintage,2008,"Toys, hobby goods, and games",5667,,3445,,60.8
+2019_vintage,2009,"Toys, hobby goods, and games",5384,,3639,,67.6
+2019_vintage,2010,"Toys, hobby goods, and games",6009,,4470,,74.4
+2019_vintage,2011,"Toys, hobby goods, and games",7014,,5381,,76.7
+2019_vintage,2012,"Toys, hobby goods, and games",8307,,6370,,76.7
+2019_vintage,2013,"Toys, hobby goods, and games",9971,,,S,
+2019_vintage,2014,"Toys, hobby goods, and games",11962,,9583,,80.1
+2019_vintage,2015,"Toys, hobby goods, and games",13962,,11569,,82.9
+2019_vintage,2016,"Toys, hobby goods, and games",15363,,13095,,85.2
+2019_vintage,2017,"Toys, hobby goods, and games",15515,,13707,,88.3
+2019_vintage,2018,"Toys, hobby goods, and games",16299,,14739,,90.4
+2019_vintage,2019,"Toys, hobby goods, and games",17854,,16202,,90.7
+2022_benchmarked,1999,Audio and video recordings (includes purchased downloads),4250,,762,,17.9
+2022_benchmarked,2000,Audio and video recordings (includes purchased downloads),4382,,1147,,26.2
+2022_benchmarked,2001,Audio and video recordings (includes purchased downloads),4032,,1202,,29.8
+2022_benchmarked,2002,Audio and video recordings (includes purchased downloads),3855,,1338,,34.7
+2022_benchmarked,2003,Audio and video recordings (includes purchased downloads),3426,,1367,,39.9
+2022_benchmarked,2004,Audio and video recordings (includes purchased downloads),3541,,1459,,41.2
+2022_benchmarked,2005,Audio and video recordings (includes purchased downloads),3365,,1839,,54.7
+2022_benchmarked,2006,Audio and video recordings (includes purchased downloads),3818,,2572,,67.4
+2022_benchmarked,2007,Audio and video recordings (includes purchased downloads),4575,,3330,,72.8
+2022_benchmarked,2008,Audio and video recordings (includes purchased downloads),5249,,4154,,79.1
+2022_benchmarked,2009,Audio and video recordings (includes purchased downloads),6026,,4999,,83.0
+2022_benchmarked,2010,Audio and video recordings (includes purchased downloads),,S,,S,
+2022_benchmarked,2011,Audio and video recordings (includes purchased downloads),7405,,6587,,89.0
+2022_benchmarked,2012,Audio and video recordings (includes purchased downloads),8209,,7561,,92.1
+2022_benchmarked,2013,Audio and video recordings (includes purchased downloads),8358,,7861,,94.1
+2022_benchmarked,2014,Audio and video recordings (includes purchased downloads),,S,,S,
+2022_benchmarked,2015,Audio and video recordings (includes purchased downloads),7562,,7186,,95.0
+2022_benchmarked,2016,Audio and video recordings (includes purchased downloads),8124,,7715,,95.0
+2022_benchmarked,2017,Audio and video recordings (includes purchased downloads),8397,,8012,,95.4
+2022_benchmarked,2018,Audio and video recordings (includes purchased downloads),10986,,10647,,96.9
+2022_benchmarked,2019,Audio and video recordings (includes purchased downloads),11170,,10832,,97.0
+2022_benchmarked,2020,Audio and video recordings (includes purchased downloads),15348,,14966,,97.5
+2022_benchmarked,2021,Audio and video recordings (includes purchased downloads),17112,,16678,,97.5
+2022_benchmarked,2022,Audio and video recordings (includes purchased downloads),18965,,18567,,97.9
+2022_benchmarked,1999,Books (includes audio books and e-books),3434,,1439,,41.9
+2022_benchmarked,2000,Books (includes audio books and e-books),4248,,1748,,41.1
+2022_benchmarked,2001,Books (includes audio books and e-books),4085,,1631,,39.9
+2022_benchmarked,2002,Books (includes audio books and e-books),4215,,1769,,42.0
+2022_benchmarked,2003,Books (includes audio books and e-books),4386,,1970,,44.9
+2022_benchmarked,2004,Books (includes audio books and e-books),4861,,2238,,46.0
+2022_benchmarked,2005,Books (includes audio books and e-books),5363,,2864,,53.4
+2022_benchmarked,2006,Books (includes audio books and e-books),5901,,3647,,61.8
+2022_benchmarked,2007,Books (includes audio books and e-books),7088,,5292,,74.7
+2022_benchmarked,2008,Books (includes audio books and e-books),7539,,5528,,73.3
+2022_benchmarked,2009,Books (includes audio books and e-books),7469,,5923,,79.3
+2022_benchmarked,2010,Books (includes audio books and e-books),8746,,7332,,83.8
+2022_benchmarked,2011,Books (includes audio books and e-books),10097,,8713,,86.3
+2022_benchmarked,2012,Books (includes audio books and e-books),11009,,9787,,88.9
+2022_benchmarked,2013,Books (includes audio books and e-books),11408,,10207,,89.5
+2022_benchmarked,2014,Books (includes audio books and e-books),11802,,10737,,91.0
+2022_benchmarked,2015,Books (includes audio books and e-books),12425,,11476,,92.4
+2022_benchmarked,2016,Books (includes audio books and e-books),14266,,12654,,88.7
+2022_benchmarked,2017,Books (includes audio books and e-books),14520,,13234,,91.1
+2022_benchmarked,2018,Books (includes audio books and e-books),15523,,13990,,90.1
+2022_benchmarked,2019,Books (includes audio books and e-books),15914,,14410,,90.5
+2022_benchmarked,2020,Books (includes audio books and e-books),19855,,18179,,91.6
+2022_benchmarked,2021,Books (includes audio books and e-books),21189,,20112,,94.9
+2022_benchmarked,2022,Books (includes audio books and e-books),21325,,20174,,94.6
+2022_benchmarked,1999,Clothing and clothing accessories (includes footwear),13535,,909,,6.7
+2022_benchmarked,2000,Clothing and clothing accessories (includes footwear),15238,,2248,,14.8
+2022_benchmarked,2001,Clothing and clothing accessories (includes footwear),15515,,3299,,21.3
+2022_benchmarked,2002,Clothing and clothing accessories (includes footwear),14301,,4499,,31.5
+2022_benchmarked,2003,Clothing and clothing accessories (includes footwear),14301,,5434,,38.0
+2022_benchmarked,2004,Clothing and clothing accessories (includes footwear),15461,,6956,,45.0
+2022_benchmarked,2005,Clothing and clothing accessories (includes footwear),18306,,9335,,51.0
+2022_benchmarked,2006,Clothing and clothing accessories (includes footwear),20796,,12722,,61.2
+2022_benchmarked,2007,Clothing and clothing accessories (includes footwear),23985,,15804,,65.9
+2022_benchmarked,2008,Clothing and clothing accessories (includes footwear),25202,,17415,,69.1
+2022_benchmarked,2009,Clothing and clothing accessories (includes footwear),26938,,19470,,72.3
+2022_benchmarked,2010,Clothing and clothing accessories (includes footwear),30985,,23179,,74.8
+2022_benchmarked,2011,Clothing and clothing accessories (includes footwear),35003,,28035,,80.1
+2022_benchmarked,2012,Clothing and clothing accessories (includes footwear),40659,,33691,,82.9
+2022_benchmarked,2013,Clothing and clothing accessories (includes footwear),46714,,40075,,85.8
+2022_benchmarked,2014,Clothing and clothing accessories (includes footwear),53628,,46475,,86.7
+2022_benchmarked,2015,Clothing and clothing accessories (includes footwear),57796,,51453,,89.0
+2022_benchmarked,2016,Clothing and clothing accessories (includes footwear),63989,,58340,,91.2
+2022_benchmarked,2017,Clothing and clothing accessories (includes footwear),71300,,64615,,90.6
+2022_benchmarked,2018,Clothing and clothing accessories (includes footwear),79429,,72990,,91.9
+2022_benchmarked,2019,Clothing and clothing accessories (includes footwear),88999,,82176,,92.3
+2022_benchmarked,2020,Clothing and clothing accessories (includes footwear),110382,,104560,,94.7
+2022_benchmarked,2021,Clothing and clothing accessories (includes footwear),126133,,118961,,94.3
+2022_benchmarked,2022,Clothing and clothing accessories (includes footwear),135987,,129809,,95.5
+2022_benchmarked,1999,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",23846,,4166,,17.5
+2022_benchmarked,2000,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",26908,,6012,,22.3
+2022_benchmarked,2001,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",20865,,5379,,25.8
+2022_benchmarked,2002,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",18491,,6016,,32.5
+2022_benchmarked,2003,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",18117,,6499,,35.9
+2022_benchmarked,2004,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",19992,,7894,,39.5
+2022_benchmarked,2005,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",20317,,9219,,45.4
+2022_benchmarked,2006,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",19909,,10240,,51.4
+2022_benchmarked,2007,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",22546,,11524,,51.1
+2022_benchmarked,2008,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",20642,,11249,,54.5
+2022_benchmarked,2009,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",19874,,11079,,55.7
+2022_benchmarked,2010,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",22132,,11924,,53.9
+2022_benchmarked,2011,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",22703,,13571,,59.8
+2022_benchmarked,2012,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",21163,,13557,,64.1
+2022_benchmarked,2013,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",20032,,14143,,70.6
+2022_benchmarked,2014,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",19899,,15120,,76.0
+2022_benchmarked,2015,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",17957,,15115,,84.2
+2022_benchmarked,2016,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",18873,,15927,,84.4
+2022_benchmarked,2017,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",,S,,S,
+2022_benchmarked,2018,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",,S,,S,
+2022_benchmarked,2019,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",,S,,S,
+2022_benchmarked,2020,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",,S,,S,
+2022_benchmarked,2021,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",,S,,S,
+2022_benchmarked,2022,"Computer and peripheral equipment, communications equipment, and related products (includes cellular phones)",,S,,S,
+2022_benchmarked,1999,Computer software (includes video game software),2809,,755,,26.9
+2022_benchmarked,2000,Computer software (includes video game software),3664,,1102,,30.1
+2022_benchmarked,2001,Computer software (includes video game software),3933,,1148,,29.2
+2022_benchmarked,2002,Computer software (includes video game software),3617,,1226,,33.9
+2022_benchmarked,2003,Computer software (includes video game software),2890,,1177,,40.7
+2022_benchmarked,2004,Computer software (includes video game software),3046,,1436,,47.1
+2022_benchmarked,2005,Computer software (includes video game software),3655,,1809,,49.5
+2022_benchmarked,2006,Computer software (includes video game software),3794,,1997,,52.6
+2022_benchmarked,2007,Computer software (includes video game software),4535,,2575,,56.8
+2022_benchmarked,2008,Computer software (includes video game software),4840,,2850,,58.9
+2022_benchmarked,2009,Computer software (includes video game software),5360,,3396,,63.4
+2022_benchmarked,2010,Computer software (includes video game software),5759,,3629,,63.0
+2022_benchmarked,2011,Computer software (includes video game software),6910,,4790,,69.3
+2022_benchmarked,2012,Computer software (includes video game software),8335,,6262,,75.1
+2022_benchmarked,2013,Computer software (includes video game software),8703,,6896,,79.2
+2022_benchmarked,2014,Computer software (includes video game software),10128,,8826,,87.1
+2022_benchmarked,2015,Computer software (includes video game software),10492,,10052,,95.8
+2022_benchmarked,2016,Computer software (includes video game software),12883,,12456,,96.7
+2022_benchmarked,2017,Computer software (includes video game software),15370,,15000,,97.6
+2022_benchmarked,2018,Computer software (includes video game software),18645,,18345,,98.4
+2022_benchmarked,2019,Computer software (includes video game software),14276,,13933,,97.6
+2022_benchmarked,2020,Computer software (includes video game software),18582,,18042,,97.1
+2022_benchmarked,2021,Computer software (includes video game software),,S,,S,
+2022_benchmarked,2022,Computer software (includes video game software),,S,,S,
+2022_benchmarked,1999,"Drugs, health aids, and beauty aids",11557,,239,,2.1
+2022_benchmarked,2000,"Drugs, health aids, and beauty aids",15379,,697,,4.5
+2022_benchmarked,2001,"Drugs, health aids, and beauty aids",19460,,1113,,5.7
+2022_benchmarked,2002,"Drugs, health aids, and beauty aids",27136,,1830,,6.7
+2022_benchmarked,2003,"Drugs, health aids, and beauty aids",34310,,2574,,7.5
+2022_benchmarked,2004,"Drugs, health aids, and beauty aids",42726,,3524,,8.2
+2022_benchmarked,2005,"Drugs, health aids, and beauty aids",49125,,4212,,8.6
+2022_benchmarked,2006,"Drugs, health aids, and beauty aids",62469,,5347,,8.6
+2022_benchmarked,2007,"Drugs, health aids, and beauty aids",61021,,6379,,10.5
+2022_benchmarked,2008,"Drugs, health aids, and beauty aids",63912,,7489,,11.7
+2022_benchmarked,2009,"Drugs, health aids, and beauty aids",68244,,8751,,12.8
+2022_benchmarked,2010,"Drugs, health aids, and beauty aids",74350,,10811,,14.5
+2022_benchmarked,2011,"Drugs, health aids, and beauty aids",83571,,12560,,15.0
+2022_benchmarked,2012,"Drugs, health aids, and beauty aids",94473,,16402,,17.4
+2022_benchmarked,2013,"Drugs, health aids, and beauty aids",96552,,20531,,21.3
+2022_benchmarked,2014,"Drugs, health aids, and beauty aids",101140,,23803,,23.5
+2022_benchmarked,2015,"Drugs, health aids, and beauty aids",114303,,28165,,24.6
+2022_benchmarked,2016,"Drugs, health aids, and beauty aids",126048,,32807,,26.0
+2022_benchmarked,2017,"Drugs, health aids, and beauty aids",136661,,40705,,29.8
+2022_benchmarked,2018,"Drugs, health aids, and beauty aids",142818,,44379,,31.1
+2022_benchmarked,2019,"Drugs, health aids, and beauty aids",168824,,50006,,29.6
+2022_benchmarked,2020,"Drugs, health aids, and beauty aids",202366,,72492,,35.8
+2022_benchmarked,2021,"Drugs, health aids, and beauty aids",218378,,73693,,33.7
+2022_benchmarked,2022,"Drugs, health aids, and beauty aids",261485,,80219,,30.7
+2022_benchmarked,1999,Electronics and appliances,2709,,504,,18.6
+2022_benchmarked,2000,Electronics and appliances,3599,,1121,,31.1
+2022_benchmarked,2001,Electronics and appliances,4478,,1830,,40.9
+2022_benchmarked,2002,Electronics and appliances,5453,,2677,,49.1
+2022_benchmarked,2003,Electronics and appliances,7054,,4059,,57.5
+2022_benchmarked,2004,Electronics and appliances,9147,,,S,
+2022_benchmarked,2005,Electronics and appliances,10802,,7975,,73.8
+2022_benchmarked,2006,Electronics and appliances,13741,,9811,,71.4
+2022_benchmarked,2007,Electronics and appliances,15775,,11781,,74.7
+2022_benchmarked,2008,Electronics and appliances,17222,,13496,,78.4
+2022_benchmarked,2009,Electronics and appliances,18549,,14893,,80.3
+2022_benchmarked,2010,Electronics and appliances,21453,,17631,,82.2
+2022_benchmarked,2011,Electronics and appliances,25134,,21474,,85.4
+2022_benchmarked,2012,Electronics and appliances,28149,,24150,,85.8
+2022_benchmarked,2013,Electronics and appliances,29962,,26206,,87.5
+2022_benchmarked,2014,Electronics and appliances,31537,,27721,,87.9
+2022_benchmarked,2015,Electronics and appliances,34409,,30674,,89.1
+2022_benchmarked,2016,Electronics and appliances,38331,,34756,,90.7
+2022_benchmarked,2017,Electronics and appliances,,S,,S,
+2022_benchmarked,2018,Electronics and appliances,48030,,44144,,91.9
+2022_benchmarked,2019,Electronics and appliances,52785,,49591,,93.9
+2022_benchmarked,2020,Electronics and appliances,,S,,S,
+2022_benchmarked,2021,Electronics and appliances,83256,,79197,,95.1
+2022_benchmarked,2022,Electronics and appliances,85445,,81616,,95.5
+2022_benchmarked,1999,"Food, beer, and wine",1429,,235,,16.4
+2022_benchmarked,2000,"Food, beer, and wine",1938,,587,,30.3
+2022_benchmarked,2001,"Food, beer, and wine",2012,,515,,25.6
+2022_benchmarked,2002,"Food, beer, and wine",1990,,707,,35.5
+2022_benchmarked,2003,"Food, beer, and wine",2143,,810,,37.8
+2022_benchmarked,2004,"Food, beer, and wine",2485,,1016,,40.9
+2022_benchmarked,2005,"Food, beer, and wine",3359,,1586,,47.2
+2022_benchmarked,2006,"Food, beer, and wine",4157,,2251,,54.1
+2022_benchmarked,2007,"Food, beer, and wine",5063,,2953,,58.3
+2022_benchmarked,2008,"Food, beer, and wine",4825,,2994,,62.1
+2022_benchmarked,2009,"Food, beer, and wine",4760,,2928,,61.5
+2022_benchmarked,2010,"Food, beer, and wine",5199,,3329,,64.0
+2022_benchmarked,2011,"Food, beer, and wine",5932,,4020,,67.8
+2022_benchmarked,2012,"Food, beer, and wine",7036,,5084,,72.3
+2022_benchmarked,2013,"Food, beer, and wine",7680,,5502,,71.6
+2022_benchmarked,2014,"Food, beer, and wine",8460,,6692,,79.1
+2022_benchmarked,2015,"Food, beer, and wine",9543,,8049,,84.3
+2022_benchmarked,2016,"Food, beer, and wine",11650,,10276,,88.2
+2022_benchmarked,2017,"Food, beer, and wine",14411,,12623,,87.6
+2022_benchmarked,2018,"Food, beer, and wine",16411,,14715,,89.7
+2022_benchmarked,2019,"Food, beer, and wine",17946,,16569,,92.3
+2022_benchmarked,2020,"Food, beer, and wine",27387,,25982,,94.9
+2022_benchmarked,2021,"Food, beer, and wine",37989,,36468,,96.0
+2022_benchmarked,2022,"Food, beer, and wine",38347,,36592,,95.4
+2022_benchmarked,1999,Furniture and home furnishings,5822,,350,,6.0
+2022_benchmarked,2000,Furniture and home furnishings,6481,,1000,,15.4
+2022_benchmarked,2001,Furniture and home furnishings,6612,,1641,,24.8
+2022_benchmarked,2002,Furniture and home furnishings,7201,,2387,,33.1
+2022_benchmarked,2003,Furniture and home furnishings,7948,,3243,,40.8
+2022_benchmarked,2004,Furniture and home furnishings,8395,,3967,,47.3
+2022_benchmarked,2005,Furniture and home furnishings,10430,,5544,,53.2
+2022_benchmarked,2006,Furniture and home furnishings,11869,,7757,,65.4
+2022_benchmarked,2007,Furniture and home furnishings,13262,,8929,,67.3
+2022_benchmarked,2008,Furniture and home furnishings,13124,,9419,,71.8
+2022_benchmarked,2009,Furniture and home furnishings,12590,,9143,,72.6
+2022_benchmarked,2010,Furniture and home furnishings,14331,,11006,,76.8
+2022_benchmarked,2011,Furniture and home furnishings,17136,,13644,,79.6
+2022_benchmarked,2012,Furniture and home furnishings,20250,,16419,,81.1
+2022_benchmarked,2013,Furniture and home furnishings,24151,,20359,,84.3
+2022_benchmarked,2014,Furniture and home furnishings,28537,,24460,,85.7
+2022_benchmarked,2015,Furniture and home furnishings,35091,,30493,,86.9
+2022_benchmarked,2016,Furniture and home furnishings,41416,,37273,,90.0
+2022_benchmarked,2017,Furniture and home furnishings,,S,,S,
+2022_benchmarked,2018,Furniture and home furnishings,61100,,57365,,93.9
+2022_benchmarked,2019,Furniture and home furnishings,69817,,66430,,95.1
+2022_benchmarked,2020,Furniture and home furnishings,109944,,106120,,96.5
+2022_benchmarked,2021,Furniture and home furnishings,124283,,119165,,95.9
+2022_benchmarked,2022,Furniture and home furnishings,128432,,124643,,97.0
+2022_benchmarked,1999,Jewelry,,NA,,NA,
+2022_benchmarked,2000,Jewelry,3005,,494,,16.4
+2022_benchmarked,2001,Jewelry,3391,,572,,16.9
+2022_benchmarked,2002,Jewelry,3336,,659,,19.8
+2022_benchmarked,2003,Jewelry,3924,,938,,23.9
+2022_benchmarked,2004,Jewelry,3859,,1118,,29.0
+2022_benchmarked,2005,Jewelry,4408,,1788,,40.6
+2022_benchmarked,2006,Jewelry,4634,,2105,,45.4
+2022_benchmarked,2007,Jewelry,5482,,2698,,49.2
+2022_benchmarked,2008,Jewelry,5358,,2919,,54.5
+2022_benchmarked,2009,Jewelry,4753,,2751,,57.9
+2022_benchmarked,2010,Jewelry,5087,,3272,,64.3
+2022_benchmarked,2011,Jewelry,5398,,3740,,69.3
+2022_benchmarked,2012,Jewelry,6263,,4560,,72.8
+2022_benchmarked,2013,Jewelry,6833,,4951,,72.5
+2022_benchmarked,2014,Jewelry,7226,,5262,,72.8
+2022_benchmarked,2015,Jewelry,8356,,6136,,73.4
+2022_benchmarked,2016,Jewelry,8209,,6160,,75.0
+2022_benchmarked,2017,Jewelry,8216,,6300,,76.7
+2022_benchmarked,2018,Jewelry,8920,,7149,,80.1
+2022_benchmarked,2019,Jewelry,9136,,7361,,80.6
+2022_benchmarked,2020,Jewelry,12023,,10144,,84.4
+2022_benchmarked,2021,Jewelry,13533,,11486,,84.9
+2022_benchmarked,2022,Jewelry,,S,,S,
+2022_benchmarked,1999,Nonmerchandise receipts,1126,,304,,27.0
+2022_benchmarked,2000,Nonmerchandise receipts,3151,,999,,31.7
+2022_benchmarked,2001,Nonmerchandise receipts,4217,,1749,,41.5
+2022_benchmarked,2002,Nonmerchandise receipts,5342,,2425,,45.4
+2022_benchmarked,2003,Nonmerchandise receipts,6684,,3211,,48.0
+2022_benchmarked,2004,Nonmerchandise receipts,8127,,4318,,53.1
+2022_benchmarked,2005,Nonmerchandise receipts,9198,,5209,,56.6
+2022_benchmarked,2006,Nonmerchandise receipts,11170,,6945,,62.2
+2022_benchmarked,2007,Nonmerchandise receipts,13262,,8809,,66.4
+2022_benchmarked,2008,Nonmerchandise receipts,13302,,9210,,69.2
+2022_benchmarked,2009,Nonmerchandise receipts,13286,,9248,,69.6
+2022_benchmarked,2010,Nonmerchandise receipts,15348,,11077,,72.2
+2022_benchmarked,2011,Nonmerchandise receipts,15170,,11628,,76.7
+2022_benchmarked,2012,Nonmerchandise receipts,15579,,11770,,75.6
+2022_benchmarked,2013,Nonmerchandise receipts,14049,,10518,,74.9
+2022_benchmarked,2014,Nonmerchandise receipts,14566,,11455,,78.6
+2022_benchmarked,2015,Nonmerchandise receipts,,S,,S,
+2022_benchmarked,2016,Nonmerchandise receipts,,S,,S,
+2022_benchmarked,2017,Nonmerchandise receipts,,S,,S,
+2022_benchmarked,2018,Nonmerchandise receipts,23801,,20940,,88.0
+2022_benchmarked,2019,Nonmerchandise receipts,32340,,29646,,91.7
+2022_benchmarked,2020,Nonmerchandise receipts,43410,,40755,,93.9
+2022_benchmarked,2021,Nonmerchandise receipts,,S,,S,
+2022_benchmarked,2022,Nonmerchandise receipts,68732,,65175,,94.8
+2022_benchmarked,1999,Office equipment and supplies,7284,,592,,8.1
+2022_benchmarked,2000,Office equipment and supplies,6524,,1366,,20.9
+2022_benchmarked,2001,Office equipment and supplies,5668,,1810,,31.9
+2022_benchmarked,2002,Office equipment and supplies,5037,,2262,,44.9
+2022_benchmarked,2003,Office equipment and supplies,5124,,2893,,56.5
+2022_benchmarked,2004,Office equipment and supplies,,S,,S,
+2022_benchmarked,2005,Office equipment and supplies,6028,,3800,,63.0
+2022_benchmarked,2006,Office equipment and supplies,6867,,4856,,70.7
+2022_benchmarked,2007,Office equipment and supplies,7988,,5836,,73.1
+2022_benchmarked,2008,Office equipment and supplies,8073,,6343,,78.6
+2022_benchmarked,2009,Office equipment and supplies,7627,,5898,,77.3
+2022_benchmarked,2010,Office equipment and supplies,7721,,5932,,76.8
+2022_benchmarked,2011,Office equipment and supplies,7702,,6017,,78.1
+2022_benchmarked,2012,Office equipment and supplies,7801,,6092,,78.1
+2022_benchmarked,2013,Office equipment and supplies,6850,,,S,
+2022_benchmarked,2014,Office equipment and supplies,,S,,S,
+2022_benchmarked,2015,Office equipment and supplies,8224,,6730,,81.8
+2022_benchmarked,2016,Office equipment and supplies,9079,,7598,,83.7
+2022_benchmarked,2017,Office equipment and supplies,10141,,8425,,83.1
+2022_benchmarked,2018,Office equipment and supplies,10429,,,S,
+2022_benchmarked,2019,Office equipment and supplies,,S,,S,
+2022_benchmarked,2020,Office equipment and supplies,10311,,9019,,87.5
+2022_benchmarked,2021,Office equipment and supplies,,S,,S,
+2022_benchmarked,2022,Office equipment and supplies,,S,,S,
+2022_benchmarked,1999,Other merchandise,,NA,,NA,
+2022_benchmarked,2000,Other merchandise,13058,,1360,,10.4
+2022_benchmarked,2001,Other merchandise,14064,,2402,,17.1
+2022_benchmarked,2002,Other merchandise,13990,,3362,,24.0
+2022_benchmarked,2003,Other merchandise,15171,,4542,,29.9
+2022_benchmarked,2004,Other merchandise,17469,,5934,,34.0
+2022_benchmarked,2005,Other merchandise,20414,,7918,,38.8
+2022_benchmarked,2006,Other merchandise,21433,,9721,,45.4
+2022_benchmarked,2007,Other merchandise,25242,,11827,,46.9
+2022_benchmarked,2008,Other merchandise,25535,,13225,,51.8
+2022_benchmarked,2009,Other merchandise,25732,,13648,,53.0
+2022_benchmarked,2010,Other merchandise,29682,,17310,,58.3
+2022_benchmarked,2011,Other merchandise,33760,,21225,,62.9
+2022_benchmarked,2012,Other merchandise,37118,,24647,,66.4
+2022_benchmarked,2013,Other merchandise,38728,,27865,,72.0
+2022_benchmarked,2014,Other merchandise,44074,,33499,,76.0
+2022_benchmarked,2015,Other merchandise,53968,,42228,,78.2
+2022_benchmarked,2016,Other merchandise,59468,,47980,,80.7
+2022_benchmarked,2017,Other merchandise,68032,,56006,,82.3
+2022_benchmarked,2018,Other merchandise,73880,,59716,,80.8
+2022_benchmarked,2019,Other merchandise,80293,,66045,,82.3
+2022_benchmarked,2020,Other merchandise,120026,,104040,,86.7
+2022_benchmarked,2021,Other merchandise,143196,,126795,,88.5
+2022_benchmarked,2022,Other merchandise,144139,,125457,,87.0
+2022_benchmarked,1999,Sporting goods,,NA,,NA,
+2022_benchmarked,2000,Sporting goods,1773,,406,,22.9
+2022_benchmarked,2001,Sporting goods,1882,,513,,27.3
+2022_benchmarked,2002,Sporting goods,3036,,1018,,33.5
+2022_benchmarked,2003,Sporting goods,3012,,1141,,37.9
+2022_benchmarked,2004,Sporting goods,3529,,1410,,40.0
+2022_benchmarked,2005,Sporting goods,4121,,1886,,45.8
+2022_benchmarked,2006,Sporting goods,4442,,2371,,53.4
+2022_benchmarked,2007,Sporting goods,5492,,3132,,57.0
+2022_benchmarked,2008,Sporting goods,5746,,3490,,60.7
+2022_benchmarked,2009,Sporting goods,5978,,3894,,65.1
+2022_benchmarked,2010,Sporting goods,6354,,4351,,68.5
+2022_benchmarked,2011,Sporting goods,7047,,5133,,72.8
+2022_benchmarked,2012,Sporting goods,8741,,6504,,74.4
+2022_benchmarked,2013,Sporting goods,10251,,8139,,79.4
+2022_benchmarked,2014,Sporting goods,11395,,9656,,84.7
+2022_benchmarked,2015,Sporting goods,13742,,12094,,88.0
+2022_benchmarked,2016,Sporting goods,16183,,14233,,88.0
+2022_benchmarked,2017,Sporting goods,16033,,14268,,89.0
+2022_benchmarked,2018,Sporting goods,19879,,17785,,89.5
+2022_benchmarked,2019,Sporting goods,21598,,19778,,91.6
+2022_benchmarked,2020,Sporting goods,34237,,31634,,92.4
+2022_benchmarked,2021,Sporting goods,38377,,35463,,92.4
+2022_benchmarked,2022,Sporting goods,36617,,31921,,87.2
+2022_benchmarked,1999,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),93101,,11551,,12.4
+2022_benchmarked,2000,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),112486,,21088,,18.7
+2022_benchmarked,2001,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),113313,,25693,,22.7
+2022_benchmarked,2002,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),120729,,33421,,27.7
+2022_benchmarked,2003,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),132484,,41448,,31.3
+2022_benchmarked,2004,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),151991,,52256,,34.4
+2022_benchmarked,2005,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),173476,,67194,,38.7
+2022_benchmarked,2006,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),199577,,84846,,42.5
+2022_benchmarked,2007,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),220657,,103936,,47.1
+2022_benchmarked,2008,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),226160,,113182,,50.0
+2022_benchmarked,2009,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),232499,,119613,,51.4
+2022_benchmarked,2010,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),260102,,141158,,54.3
+2022_benchmarked,2011,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),289879,,166459,,57.4
+2022_benchmarked,2012,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),322958,,192811,,59.7
+2022_benchmarked,2013,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),339975,,216300,,63.6
+2022_benchmarked,2014,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),370086,,247745,,66.9
+2022_benchmarked,2015,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),411480,,282524,,68.7
+2022_benchmarked,2016,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),459196,,324343,,70.6
+2022_benchmarked,2017,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),515727,,377266,,73.2
+2022_benchmarked,2018,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),570873,,428176,,75.0
+2022_benchmarked,2019,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),639449,,477273,,74.6
+2022_benchmarked,2020,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),853705,,677502,,79.4
+2022_benchmarked,2021,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),977456,,781970,,80.0
+2022_benchmarked,2022,Total Electronic Shopping and Mail-Order Houses (NAICS 4541),1062420,,827892,,77.9
+2022_benchmarked,1999,"Toys, hobby goods, and games",2162,,383,,17.7
+2022_benchmarked,2000,"Toys, hobby goods, and games",3138,,801,,25.5
+2022_benchmarked,2001,"Toys, hobby goods, and games",3099,,889,,28.7
+2022_benchmarked,2002,"Toys, hobby goods, and games",3729,,1246,,33.4
+2022_benchmarked,2003,"Toys, hobby goods, and games",3994,,1590,,39.8
+2022_benchmarked,2004,"Toys, hobby goods, and games",4075,,1733,,42.5
+2022_benchmarked,2005,"Toys, hobby goods, and games",4585,,2210,,48.2
+2022_benchmarked,2006,"Toys, hobby goods, and games",4577,,2504,,54.7
+2022_benchmarked,2007,"Toys, hobby goods, and games",5341,,3067,,57.4
+2022_benchmarked,2008,"Toys, hobby goods, and games",5591,,3401,,60.8
+2022_benchmarked,2009,"Toys, hobby goods, and games",5313,,3592,,67.6
+2022_benchmarked,2010,"Toys, hobby goods, and games",5945,,4412,,74.2
+2022_benchmarked,2011,"Toys, hobby goods, and games",6911,,5322,,77.0
+2022_benchmarked,2012,"Toys, hobby goods, and games",8173,,6325,,77.4
+2022_benchmarked,2013,"Toys, hobby goods, and games",9704,,,S,
+2022_benchmarked,2014,"Toys, hobby goods, and games",11487,,9542,,83.1
+2022_benchmarked,2015,"Toys, hobby goods, and games",13296,,11444,,86.1
+2022_benchmarked,2016,"Toys, hobby goods, and games",14678,,12977,,88.4
+2022_benchmarked,2017,"Toys, hobby goods, and games",14742,,13551,,91.9
+2022_benchmarked,2018,"Toys, hobby goods, and games",15546,,14509,,93.3
+2022_benchmarked,2019,"Toys, hobby goods, and games",16885,,15879,,94.0
+2022_benchmarked,2020,"Toys, hobby goods, and games",24509,,23375,,95.4
+2022_benchmarked,2021,"Toys, hobby goods, and games",28191,,26951,,95.6
+2022_benchmarked,2022,"Toys, hobby goods, and games",28686,,27342,,95.3

@@ -1,0 +1,24 @@
+table,category,measure,col1_label,col1,col2_label,col2
+Table 2,Nonstore Retailers,online % of Visa card spending in NAICS category,2007,90,2017,96
+Table 2,Air Transport,online % of Visa card spending in NAICS category,2007,87,2017,97
+Table 2,Electronics,online % of Visa card spending in NAICS category,2007,42,2017,51
+Table 2,Furniture,online % of Visa card spending in NAICS category,2007,35,2017,43
+Table 2,Clothing,online % of Visa card spending in NAICS category,2007,22,2017,37
+Table 2,General Merchandise,online % of Visa card spending in NAICS category,2007,8,2017,15
+Table 2,Food,online % of Visa card spending in NAICS category,2007,5,2017,6
+Table 3,Furniture (442),"online share (card-not-present e-commerce) within category merchants that sell both ways; transactions, spending (period 2007-2017 pooled, estimation sample)",transactions,0.168,spending,0.244
+Table 3,Electronics (443),"online share (card-not-present e-commerce) within category merchants that sell both ways; transactions, spending (period 2007-2017 pooled, estimation sample)",transactions,0.474,spending,0.295
+Table 3,Clothing (448),"online share (card-not-present e-commerce) within category merchants that sell both ways; transactions, spending (period 2007-2017 pooled, estimation sample)",transactions,0.265,spending,0.302
+Table 3,"Sporting goods, hobby, music, books (451)","online share (card-not-present e-commerce) within category merchants that sell both ways; transactions, spending (period 2007-2017 pooled, estimation sample)",transactions,0.253,spending,0.238
+Table 3,Misc. stores (453),"online share (card-not-present e-commerce) within category merchants that sell both ways; transactions, spending (period 2007-2017 pooled, estimation sample)",transactions,0.22,spending,0.393
+Table 9,"Building Material, Garden Supplies",elasticity of substitution sigma between offline and online merchants (higher = more substitutable),sigma,7.7,,
+Table 9,Motor Vehicle and Parts Dealers,elasticity of substitution sigma between offline and online merchants (higher = more substitutable),sigma,7.5,,
+Table 9,Furniture and Home Furnishings Stores,elasticity of substitution sigma between offline and online merchants (higher = more substitutable),sigma,7.4,,
+Table 9,General Merchandise Stores,elasticity of substitution sigma between offline and online merchants (higher = more substitutable),sigma,5.8,,
+Table 9,Health and Personal Care Stores,elasticity of substitution sigma between offline and online merchants (higher = more substitutable),sigma,5.5,,
+Table 9,Clothing and Clothing Accessories Stores,elasticity of substitution sigma between offline and online merchants (higher = more substitutable),sigma,5.2,,
+Table 9,Miscellaneous Store Retailers,elasticity of substitution sigma between offline and online merchants (higher = more substitutable),sigma,5.2,,
+Table 9,"Sporting Goods, Hobby, Music, Book Stores",elasticity of substitution sigma between offline and online merchants (higher = more substitutable),sigma,4.2,,
+Table 9,Food and Beverage Stores,elasticity of substitution sigma between offline and online merchants (higher = more substitutable),sigma,3.6,,
+Table 9,Electronics and Appliance Stores,elasticity of substitution sigma between offline and online merchants (higher = more substitutable),sigma,3.4,,
+Fig 2 / text p.9,All consumption,estimated online share of US consumption,2007,about 5,2017,almost 8 (retail-only about 3.5 -> 5)

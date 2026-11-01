@@ -1,0 +1,265 @@
+cal_year,entity,boundary,intensity_case,case,sqft_thousand,emissions_t_co2e,denominator,sales_usd_m,kg_co2e_per_1000_usd,grid_lb_per_mwh_year_used,grid_gas_basis,status
+2015,amazon_na,network (warehouse intensity),CBECS warehouse,low,67501,137310,NA net sales ex stores (revenue),63708,2.155,2014,CO2,ESTIMATE
+2015,amazon_na,network (warehouse intensity),CBECS warehouse,central,67501,240168,NA net sales ex stores (revenue),63708,3.77,2014,CO2,ESTIMATE
+2015,amazon_na,network (warehouse intensity),CBECS warehouse,high,67501,514860,NA net sales ex stores (revenue),63708,8.082,2014,CO2,ESTIMATE
+2015,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,67501,339513,NA net sales ex stores (revenue),63708,5.329,2014,CO2,ESTIMATE
+2015,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,67501,531010,NA net sales ex stores (revenue),63708,8.335,2014,CO2,ESTIMATE
+2015,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,67501,685190,NA net sales ex stores (revenue),63708,10.755,2014,CO2,ESTIMATE
+2015,amazon_na,network (warehouse intensity),CBECS warehouse,low,67501,137310,NA GMV proxy,117618,1.167,2014,CO2,ESTIMATE
+2015,amazon_na,network (warehouse intensity),CBECS warehouse,central,67501,240168,NA GMV proxy,117618,2.042,2014,CO2,ESTIMATE
+2015,amazon_na,network (warehouse intensity),CBECS warehouse,high,67501,514860,NA GMV proxy,117618,4.377,2014,CO2,ESTIMATE
+2015,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,67501,339513,NA GMV proxy,117618,2.887,2014,CO2,ESTIMATE
+2015,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,67501,531010,NA GMV proxy,117618,4.515,2014,CO2,ESTIMATE
+2015,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,67501,685190,NA GMV proxy,117618,5.826,2014,CO2,ESTIMATE
+2015,walmart_us,stores only,CBECS retail non-mall,low,689647,3468755,Walmart US net sales,298378,11.625,2014,CO2,ESTIMATE
+2015,walmart_us,stores only,CBECS retail non-mall,central,689647,5425244,Walmart US net sales,298378,18.182,2014,CO2,ESTIMATE
+2015,walmart_us,stores only,CBECS retail non-mall,high,689647,7000482,Walmart US net sales,298378,23.462,2014,CO2,ESTIMATE
+2015,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",low,801220,3695716,Walmart US net sales,298378,12.386,2014,CO2,ESTIMATE
+2015,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",central,838411,5954545,Walmart US net sales,298378,19.956,2014,CO2,ESTIMATE
+2015,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",high,875602,8418842,Walmart US net sales,298378,28.215,2014,CO2,ESTIMATE
+2015,target,stores only,CBECS retail non-mall,low,239539,1204822,Target total revenue,73785,16.329,2014,CO2,ESTIMATE
+2015,target,stores only,CBECS retail non-mall,central,239539,1884381,Target total revenue,73785,25.539,2014,CO2,ESTIMATE
+2015,target,stores only,CBECS retail non-mall,high,239539,2431517,Target total revenue,73785,32.954,2014,CO2,ESTIMATE
+2015,target,stores + DC,"retail stores, warehouse DCs",low,291210,1309931,Target total revenue,73785,17.753,2014,CO2,ESTIMATE
+2015,target,stores + DC,"retail stores, warehouse DCs",central,291210,2068226,Target total revenue,73785,28.03,2014,CO2,ESTIMATE
+2015,target,stores + DC,"retail stores, warehouse DCs",high,291210,2825634,Target total revenue,73785,38.296,2014,CO2,ESTIMATE
+2016,amazon_na,network (warehouse intensity),CBECS warehouse,low,94302,174561,NA net sales ex stores (revenue),79785,2.188,2016,CO2e,ESTIMATE
+2016,amazon_na,network (warehouse intensity),CBECS warehouse,central,94302,306069,NA net sales ex stores (revenue),79785,3.836,2016,CO2e,ESTIMATE
+2016,amazon_na,network (warehouse intensity),CBECS warehouse,high,94302,655290,NA net sales ex stores (revenue),79785,8.213,2016,CO2e,ESTIMATE
+2016,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,94302,428607,NA net sales ex stores (revenue),79785,5.372,2016,CO2e,ESTIMATE
+2016,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,94302,672266,NA net sales ex stores (revenue),79785,8.426,2016,CO2e,ESTIMATE
+2016,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,94302,872427,NA net sales ex stores (revenue),79785,10.935,2016,CO2e,ESTIMATE
+2016,amazon_na,network (warehouse intensity),CBECS warehouse,low,94302,174561,NA GMV proxy,140332,1.244,2016,CO2e,ESTIMATE
+2016,amazon_na,network (warehouse intensity),CBECS warehouse,central,94302,306069,NA GMV proxy,140332,2.181,2016,CO2e,ESTIMATE
+2016,amazon_na,network (warehouse intensity),CBECS warehouse,high,94302,655290,NA GMV proxy,140332,4.67,2016,CO2e,ESTIMATE
+2016,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,94302,428607,NA GMV proxy,140332,3.054,2016,CO2e,ESTIMATE
+2016,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,94302,672266,NA GMV proxy,140332,4.791,2016,CO2e,ESTIMATE
+2016,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,94302,872427,NA GMV proxy,140332,6.217,2016,CO2e,ESTIMATE
+2016,walmart_us,stores only,CBECS retail non-mall,low,699289,3178301,Walmart US net sales,307833,10.325,2016,CO2e,ESTIMATE
+2016,walmart_us,stores only,CBECS retail non-mall,central,699289,4985137,Walmart US net sales,307833,16.194,2016,CO2e,ESTIMATE
+2016,walmart_us,stores only,CBECS retail non-mall,high,699289,6469415,Walmart US net sales,307833,21.016,2016,CO2e,ESTIMATE
+2016,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",low,812790,3388400,Walmart US net sales,307833,11.007,2016,CO2e,ESTIMATE
+2016,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",central,850623,5476310,Walmart US net sales,307833,17.79,2016,CO2e,ESTIMATE
+2016,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",high,888456,7783911,Walmart US net sales,307833,25.286,2016,CO2e,ESTIMATE
+2016,target,stores only,CBECS retail non-mall,low,239502,1088548,Target total revenue,70271,15.491,2016,CO2e,ESTIMATE
+2016,target,stores only,CBECS retail non-mall,central,239502,1707377,Target total revenue,70271,24.297,2016,CO2e,ESTIMATE
+2016,target,stores only,CBECS retail non-mall,high,239502,2215733,Target total revenue,70271,31.531,2016,CO2e,ESTIMATE
+2016,target,stores + DC,"retail stores, warehouse DCs",low,291333,1184491,Target total revenue,70271,16.856,2016,CO2e,ESTIMATE
+2016,target,stores + DC,"retail stores, warehouse DCs",central,291333,1875601,Target total revenue,70271,26.691,2016,CO2e,ESTIMATE
+2016,target,stores + DC,"retail stores, warehouse DCs",high,291333,2575899,Target total revenue,70271,36.657,2016,CO2e,ESTIMATE
+2017,amazon_na,network (warehouse intensity),CBECS warehouse,low,128333,237555,NA net sales ex stores (revenue),100312,2.368,2016,CO2e,ESTIMATE
+2017,amazon_na,network (warehouse intensity),CBECS warehouse,central,128333,416520,NA net sales ex stores (revenue),100312,4.152,2016,CO2e,ESTIMATE
+2017,amazon_na,network (warehouse intensity),CBECS warehouse,high,128333,891766,NA net sales ex stores (revenue),100312,8.89,2016,CO2e,ESTIMATE
+2017,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,128333,583279,NA net sales ex stores (revenue),100312,5.815,2016,CO2e,ESTIMATE
+2017,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,128333,914869,NA net sales ex stores (revenue),100312,9.12,2016,CO2e,ESTIMATE
+2017,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,128333,1187262,NA net sales ex stores (revenue),100312,11.836,2016,CO2e,ESTIMATE
+2017,amazon_na,network (warehouse intensity),CBECS warehouse,low,128333,237555,NA GMV proxy,167384,1.419,2016,CO2e,ESTIMATE
+2017,amazon_na,network (warehouse intensity),CBECS warehouse,central,128333,416520,NA GMV proxy,167384,2.488,2016,CO2e,ESTIMATE
+2017,amazon_na,network (warehouse intensity),CBECS warehouse,high,128333,891766,NA GMV proxy,167384,5.328,2016,CO2e,ESTIMATE
+2017,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,128333,583279,NA GMV proxy,167384,3.485,2016,CO2e,ESTIMATE
+2017,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,128333,914869,NA GMV proxy,167384,5.466,2016,CO2e,ESTIMATE
+2017,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,128333,1187262,NA GMV proxy,167384,7.093,2016,CO2e,ESTIMATE
+2017,walmart_us,stores only,CBECS retail non-mall,low,705000,3204258,Walmart US net sales,318477,10.061,2016,CO2e,ESTIMATE
+2017,walmart_us,stores only,CBECS retail non-mall,central,705000,5025850,Walmart US net sales,318477,15.781,2016,CO2e,ESTIMATE
+2017,walmart_us,stores only,CBECS retail non-mall,high,705000,6522249,Walmart US net sales,318477,20.479,2016,CO2e,ESTIMATE
+2017,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",low,821084,3419139,Walmart US net sales,318477,10.736,2016,CO2e,ESTIMATE
+2017,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",central,859779,5528204,Walmart US net sales,318477,17.358,2016,CO2e,ESTIMATE
+2017,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",high,898474,7866669,Walmart US net sales,318477,24.701,2016,CO2e,ESTIMATE
+2017,target,stores only,CBECS retail non-mall,low,239355,1087880,Target total revenue,72714,14.961,2016,CO2e,ESTIMATE
+2017,target,stores only,CBECS retail non-mall,central,239355,1706330,Target total revenue,72714,23.466,2016,CO2e,ESTIMATE
+2017,target,stores only,CBECS retail non-mall,high,239355,2214373,Target total revenue,72714,30.453,2016,CO2e,ESTIMATE
+2017,target,stores + DC,"retail stores, warehouse DCs",low,291904,1185152,Target total revenue,72714,16.299,2016,CO2e,ESTIMATE
+2017,target,stores + DC,"retail stores, warehouse DCs",central,291904,1876884,Target total revenue,72714,25.812,2016,CO2e,ESTIMATE
+2017,target,stores + DC,"retail stores, warehouse DCs",high,291904,2579528,Target total revenue,72714,35.475,2016,CO2e,ESTIMATE
+2018,amazon_na,network (warehouse intensity),CBECS warehouse,low,147580,261509,NA net sales ex stores (revenue),124142,2.107,2018,CO2e,ESTIMATE
+2018,amazon_na,network (warehouse intensity),CBECS warehouse,central,147580,459075,NA net sales ex stores (revenue),124142,3.698,2018,CO2e,ESTIMATE
+2018,amazon_na,network (warehouse intensity),CBECS warehouse,high,147580,982250,NA net sales ex stores (revenue),124142,7.912,2018,CO2e,ESTIMATE
+2018,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,147580,639857,NA net sales ex stores (revenue),124142,5.154,2018,CO2e,ESTIMATE
+2018,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,147580,1005040,NA net sales ex stores (revenue),124142,8.096,2018,CO2e,ESTIMATE
+2018,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,147580,1307986,NA net sales ex stores (revenue),124142,10.536,2018,CO2e,ESTIMATE
+2018,amazon_na,network (warehouse intensity),CBECS warehouse,low,147580,261509,NA GMV proxy,191318,1.367,2018,CO2e,ESTIMATE
+2018,amazon_na,network (warehouse intensity),CBECS warehouse,central,147580,459075,NA GMV proxy,191318,2.4,2018,CO2e,ESTIMATE
+2018,amazon_na,network (warehouse intensity),CBECS warehouse,high,147580,982250,NA GMV proxy,191318,5.134,2018,CO2e,ESTIMATE
+2018,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,147580,639857,NA GMV proxy,191318,3.344,2018,CO2e,ESTIMATE
+2018,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,147580,1005040,NA GMV proxy,191318,5.253,2018,CO2e,ESTIMATE
+2018,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,147580,1307986,NA GMV proxy,191318,6.837,2018,CO2e,ESTIMATE
+2018,walmart_us,stores only,CBECS retail non-mall,low,705000,3056643,Walmart US net sales,331666,9.216,2018,CO2e,ESTIMATE
+2018,walmart_us,stores only,CBECS retail non-mall,central,705000,4801147,Walmart US net sales,331666,14.476,2018,CO2e,ESTIMATE
+2018,walmart_us,stores only,CBECS retail non-mall,high,705000,6248342,Walmart US net sales,331666,18.839,2018,CO2e,ESTIMATE
+2018,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",low,819074,3258780,Walmart US net sales,331666,9.825,2018,CO2e,ESTIMATE
+2018,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",central,857099,5274279,Walmart US net sales,331666,15.902,2018,CO2e,ESTIMATE
+2018,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",high,895124,7513751,Walmart US net sales,331666,22.655,2018,CO2e,ESTIMATE
+2018,target,stores only,CBECS retail non-mall,low,239581,1038743,Target total revenue,75356,13.784,2018,CO2e,ESTIMATE
+2018,target,stores only,CBECS retail non-mall,central,239581,1631580,Target total revenue,75356,21.652,2018,CO2e,ESTIMATE
+2018,target,stores only,CBECS retail non-mall,high,239581,2123382,Target total revenue,75356,28.178,2018,CO2e,ESTIMATE
+2018,target,stores + DC,"retail stores, warehouse DCs",low,291269,1130333,Target total revenue,75356,15.0,2018,CO2e,ESTIMATE
+2018,target,stores + DC,"retail stores, warehouse DCs",central,291269,1792365,Target total revenue,75356,23.785,2018,CO2e,ESTIMATE
+2018,target,stores + DC,"retail stores, warehouse DCs",high,291269,2467402,Target total revenue,75356,32.743,2018,CO2e,ESTIMATE
+2019,amazon_na,network (warehouse intensity),CBECS warehouse,low,180722,302493,NA net sales ex stores (revenue),153581,1.97,2019,CO2e,ESTIMATE
+2019,amazon_na,network (warehouse intensity),CBECS warehouse,central,180722,531901,NA net sales ex stores (revenue),153581,3.463,2019,CO2e,ESTIMATE
+2019,amazon_na,network (warehouse intensity),CBECS warehouse,high,180722,1137078,NA net sales ex stores (revenue),153581,7.404,2019,CO2e,ESTIMATE
+2019,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,180722,736581,NA net sales ex stores (revenue),153581,4.796,2019,CO2e,ESTIMATE
+2019,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,180722,1159245,NA net sales ex stores (revenue),153581,7.548,2019,CO2e,ESTIMATE
+2019,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,180722,1514568,NA net sales ex stores (revenue),153581,9.862,2019,CO2e,ESTIMATE
+2019,amazon_na,network (warehouse intensity),CBECS warehouse,low,180722,302493,NA GMV proxy,226232,1.337,2019,CO2e,ESTIMATE
+2019,amazon_na,network (warehouse intensity),CBECS warehouse,central,180722,531901,NA GMV proxy,226232,2.351,2019,CO2e,ESTIMATE
+2019,amazon_na,network (warehouse intensity),CBECS warehouse,high,180722,1137078,NA GMV proxy,226232,5.026,2019,CO2e,ESTIMATE
+2019,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,180722,736581,NA GMV proxy,226232,3.256,2019,CO2e,ESTIMATE
+2019,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,180722,1159245,NA GMV proxy,226232,5.124,2019,CO2e,ESTIMATE
+2019,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,180722,1514568,NA GMV proxy,226232,6.695,2019,CO2e,ESTIMATE
+2019,walmart_us,stores only,CBECS retail non-mall,low,703000,2865266,Walmart US net sales,341004,8.402,2019,CO2e,ESTIMATE
+2019,walmart_us,stores only,CBECS retail non-mall,central,703000,4509409,Walmart US net sales,341004,13.224,2019,CO2e,ESTIMATE
+2019,walmart_us,stores only,CBECS retail non-mall,high,703000,5891597,Walmart US net sales,341004,17.277,2019,CO2e,ESTIMATE
+2019,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",low,819623,3060470,Walmart US net sales,341004,8.975,2019,CO2e,ESTIMATE
+2019,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",central,858497,4967068,Walmart US net sales,341004,14.566,2019,CO2e,ESTIMATE
+2019,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",high,897371,7114553,Walmart US net sales,341004,20.864,2019,CO2e,ESTIMATE
+2019,target,stores only,CBECS retail non-mall,low,240516,980288,Target total revenue,78112,12.55,2019,CO2e,ESTIMATE
+2019,target,stores only,CBECS retail non-mall,central,240516,1542795,Target total revenue,78112,19.751,2019,CO2e,ESTIMATE
+2019,target,stores only,CBECS retail non-mall,high,240516,2015680,Target total revenue,78112,25.805,2019,CO2e,ESTIMATE
+2019,target,stores + DC,"retail stores, warehouse DCs",low,293716,1069334,Target total revenue,78112,13.69,2019,CO2e,ESTIMATE
+2019,target,stores + DC,"retail stores, warehouse DCs",central,293716,1699373,Target total revenue,78112,21.756,2019,CO2e,ESTIMATE
+2019,target,stores + DC,"retail stores, warehouse DCs",high,293716,2350407,Target total revenue,78112,30.09,2019,CO2e,ESTIMATE
+2020,amazon_na,network (warehouse intensity),CBECS warehouse,low,280873,441279,NA net sales ex stores (revenue),220055,2.005,2020,CO2e,ESTIMATE
+2020,amazon_na,network (warehouse intensity),CBECS warehouse,central,280873,777457,NA net sales ex stores (revenue),220055,3.533,2020,CO2e,ESTIMATE
+2020,amazon_na,network (warehouse intensity),CBECS warehouse,high,280873,1660314,NA net sales ex stores (revenue),220055,7.545,2020,CO2e,ESTIMATE
+2020,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,280873,1068417,NA net sales ex stores (revenue),220055,4.855,2020,CO2e,ESTIMATE
+2020,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,280873,1685434,NA net sales ex stores (revenue),220055,7.659,2020,CO2e,ESTIMATE
+2020,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,280873,2212214,NA net sales ex stores (revenue),220055,10.053,2020,CO2e,ESTIMATE
+2020,amazon_na,network (warehouse intensity),CBECS warehouse,low,280873,441279,NA GMV proxy,318669,1.385,2020,CO2e,ESTIMATE
+2020,amazon_na,network (warehouse intensity),CBECS warehouse,central,280873,777457,NA GMV proxy,318669,2.44,2020,CO2e,ESTIMATE
+2020,amazon_na,network (warehouse intensity),CBECS warehouse,high,280873,1660314,NA GMV proxy,318669,5.21,2020,CO2e,ESTIMATE
+2020,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,280873,1068417,NA GMV proxy,318669,3.353,2020,CO2e,ESTIMATE
+2020,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,280873,1685434,NA GMV proxy,318669,5.289,2020,CO2e,ESTIMATE
+2020,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,280873,2212214,NA GMV proxy,318669,6.942,2020,CO2e,ESTIMATE
+2020,walmart_us,stores only,CBECS retail non-mall,low,703000,2674153,Walmart US net sales,369963,7.228,2020,CO2e,ESTIMATE
+2020,walmart_us,stores only,CBECS retail non-mall,central,703000,4218491,Walmart US net sales,369963,11.402,2020,CO2e,ESTIMATE
+2020,walmart_us,stores only,CBECS retail non-mall,high,703000,5536974,Walmart US net sales,369963,14.966,2020,CO2e,ESTIMATE
+2020,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",low,821477,2860291,Walmart US net sales,369963,7.731,2020,CO2e,ESTIMATE
+2020,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",central,860969,4655750,Walmart US net sales,369963,12.584,2020,CO2e,ESTIMATE
+2020,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",high,900461,6704220,Walmart US net sales,369963,18.121,2020,CO2e,ESTIMATE
+2020,target,stores only,CBECS retail non-mall,low,241648,919209,Target total revenue,93561,9.825,2020,CO2e,ESTIMATE
+2020,target,stores only,CBECS retail non-mall,central,241648,1450057,Target total revenue,93561,15.499,2020,CO2e,ESTIMATE
+2020,target,stores only,CBECS retail non-mall,high,241648,1903270,Target total revenue,93561,20.343,2020,CO2e,ESTIMATE
+2020,target,stores + DC,"retail stores, warehouse DCs",low,295948,1004519,Target total revenue,93561,10.737,2020,CO2e,ESTIMATE
+2020,target,stores + DC,"retail stores, warehouse DCs",central,295948,1600360,Target total revenue,93561,17.105,2020,CO2e,ESTIMATE
+2020,target,stores + DC,"retail stores, warehouse DCs",high,295948,2224252,Target total revenue,93561,23.773,2020,CO2e,ESTIMATE
+2021,amazon_na,network (warehouse intensity),CBECS warehouse,low,370465,601690,NA net sales ex stores (revenue),262758,2.29,2021,CO2e,ESTIMATE
+2021,amazon_na,network (warehouse intensity),CBECS warehouse,central,370465,1058974,NA net sales ex stores (revenue),262758,4.03,2021,CO2e,ESTIMATE
+2021,amazon_na,network (warehouse intensity),CBECS warehouse,high,370465,2262748,NA net sales ex stores (revenue),262758,8.612,2021,CO2e,ESTIMATE
+2021,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,370465,1461240,NA net sales ex stores (revenue),262758,5.561,2021,CO2e,ESTIMATE
+2021,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,370465,2302238,NA net sales ex stores (revenue),262758,8.762,2021,CO2e,ESTIMATE
+2021,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,370465,3014389,NA net sales ex stores (revenue),262758,11.472,2021,CO2e,ESTIMATE
+2021,amazon_na,network (warehouse intensity),CBECS warehouse,low,370465,601690,NA GMV proxy,355742,1.691,2021,CO2e,ESTIMATE
+2021,amazon_na,network (warehouse intensity),CBECS warehouse,central,370465,1058974,NA GMV proxy,355742,2.977,2021,CO2e,ESTIMATE
+2021,amazon_na,network (warehouse intensity),CBECS warehouse,high,370465,2262748,NA GMV proxy,355742,6.361,2021,CO2e,ESTIMATE
+2021,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,370465,1461240,NA GMV proxy,355742,4.108,2021,CO2e,ESTIMATE
+2021,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,370465,2302238,NA GMV proxy,355742,6.472,2021,CO2e,ESTIMATE
+2021,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,370465,3014389,NA GMV proxy,355742,8.474,2021,CO2e,ESTIMATE
+2021,walmart_us,stores only,CBECS retail non-mall,low,703000,2772871,Walmart US net sales,393247,7.051,2021,CO2e,ESTIMATE
+2021,walmart_us,stores only,CBECS retail non-mall,central,703000,4368762,Walmart US net sales,393247,11.109,2021,CO2e,ESTIMATE
+2021,walmart_us,stores only,CBECS retail non-mall,high,703000,5720151,Walmart US net sales,393247,14.546,2021,CO2e,ESTIMATE
+2021,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",low,826532,2973505,Walmart US net sales,393247,7.561,2021,CO2e,ESTIMATE
+2021,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",central,867709,4839583,Walmart US net sales,393247,12.307,2021,CO2e,ESTIMATE
+2021,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",high,908886,6977675,Walmart US net sales,393247,17.744,2021,CO2e,ESTIMATE
+2021,target,stores only,CBECS retail non-mall,low,243284,959595,Target total revenue,106005,9.052,2021,CO2e,ESTIMATE
+2021,target,stores only,CBECS retail non-mall,central,243284,1511878,Target total revenue,106005,14.262,2021,CO2e,ESTIMATE
+2021,target,stores only,CBECS retail non-mall,high,243284,1979547,Target total revenue,106005,18.674,2021,CO2e,ESTIMATE
+2021,target,stores + DC,"retail stores, warehouse DCs",low,300284,1052171,Target total revenue,106005,9.926,2021,CO2e,ESTIMATE
+2021,target,stores + DC,"retail stores, warehouse DCs",central,300284,1674812,Target total revenue,106005,15.799,2021,CO2e,ESTIMATE
+2021,target,stores + DC,"retail stores, warehouse DCs",high,300284,2327694,Target total revenue,106005,21.958,2021,CO2e,ESTIMATE
+2022,amazon_na,network (warehouse intensity),CBECS warehouse,low,394036,622047,NA net sales ex stores (revenue),296917,2.095,2022,CO2e,ESTIMATE
+2022,amazon_na,network (warehouse intensity),CBECS warehouse,central,394036,1095772,NA net sales ex stores (revenue),296917,3.69,2022,CO2e,ESTIMATE
+2022,amazon_na,network (warehouse intensity),CBECS warehouse,high,394036,2340283,NA net sales ex stores (revenue),296917,7.882,2022,CO2e,ESTIMATE
+2022,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,394036,1506760,NA net sales ex stores (revenue),296917,5.075,2022,CO2e,ESTIMATE
+2022,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,394036,2376487,NA net sales ex stores (revenue),296917,8.004,2022,CO2e,ESTIMATE
+2022,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,394036,3118132,NA net sales ex stores (revenue),296917,10.502,2022,CO2e,ESTIMATE
+2022,amazon_na,network (warehouse intensity),CBECS warehouse,low,394036,622047,NA GMV proxy,374842,1.659,2022,CO2e,ESTIMATE
+2022,amazon_na,network (warehouse intensity),CBECS warehouse,central,394036,1095772,NA GMV proxy,374842,2.923,2022,CO2e,ESTIMATE
+2022,amazon_na,network (warehouse intensity),CBECS warehouse,high,394036,2340283,NA GMV proxy,374842,6.243,2022,CO2e,ESTIMATE
+2022,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,394036,1506760,NA GMV proxy,374842,4.02,2022,CO2e,ESTIMATE
+2022,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,394036,2376487,NA GMV proxy,374842,6.34,2022,CO2e,ESTIMATE
+2022,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,394036,3118132,NA GMV proxy,374842,8.319,2022,CO2e,ESTIMATE
+2022,walmart_us,stores only,CBECS retail non-mall,low,702000,2684388,Walmart US net sales,420553,6.383,2022,CO2e,ESTIMATE
+2022,walmart_us,stores only,CBECS retail non-mall,central,702000,4233862,Walmart US net sales,420553,10.067,2022,CO2e,ESTIMATE
+2022,walmart_us,stores only,CBECS retail non-mall,high,702000,5555149,Walmart US net sales,420553,13.209,2022,CO2e,ESTIMATE
+2022,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",low,829436,2885566,Walmart US net sales,420553,6.861,2022,CO2e,ESTIMATE
+2022,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",central,871915,4706377,Walmart US net sales,420553,11.191,2022,CO2e,ESTIMATE
+2022,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",high,914394,6816612,Walmart US net sales,420553,16.209,2022,CO2e,ESTIMATE
+2022,target,stores only,CBECS retail non-mall,low,244584,935268,Target total revenue,109120,8.571,2022,CO2e,ESTIMATE
+2022,target,stores only,CBECS retail non-mall,central,244584,1475121,Target total revenue,109120,13.518,2022,CO2e,ESTIMATE
+2022,target,stores only,CBECS retail non-mall,high,244584,1935471,Target total revenue,109120,17.737,2022,CO2e,ESTIMATE
+2022,target,stores + DC,"retail stores, warehouse DCs",low,303784,1028725,Target total revenue,109120,9.427,2022,CO2e,ESTIMATE
+2022,target,stores + DC,"retail stores, warehouse DCs",central,303784,1639750,Target total revenue,109120,15.027,2022,CO2e,ESTIMATE
+2022,target,stores + DC,"retail stores, warehouse DCs",high,303784,2287075,Target total revenue,109120,20.959,2022,CO2e,ESTIMATE
+2023,amazon_na,network (warehouse intensity),CBECS warehouse,low,416005,620392,NA net sales ex stores (revenue),332798,1.864,2023,CO2e,ESTIMATE
+2023,amazon_na,network (warehouse intensity),CBECS warehouse,central,416005,1094880,NA net sales ex stores (revenue),332798,3.29,2023,CO2e,ESTIMATE
+2023,amazon_na,network (warehouse intensity),CBECS warehouse,high,416005,2336107,NA net sales ex stores (revenue),332798,7.02,2023,CO2e,ESTIMATE
+2023,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,416005,1494584,NA net sales ex stores (revenue),332798,4.491,2023,CO2e,ESTIMATE
+2023,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,416005,2362573,NA net sales ex stores (revenue),332798,7.099,2023,CO2e,ESTIMATE
+2023,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,416005,3113506,NA net sales ex stores (revenue),332798,9.356,2023,CO2e,ESTIMATE
+2023,amazon_na,network (warehouse intensity),CBECS warehouse,low,416005,620392,NA GMV proxy,395971,1.567,2023,CO2e,ESTIMATE
+2023,amazon_na,network (warehouse intensity),CBECS warehouse,central,416005,1094880,NA GMV proxy,395971,2.765,2023,CO2e,ESTIMATE
+2023,amazon_na,network (warehouse intensity),CBECS warehouse,high,416005,2336107,NA GMV proxy,395971,5.9,2023,CO2e,ESTIMATE
+2023,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,416005,1494584,NA GMV proxy,395971,3.774,2023,CO2e,ESTIMATE
+2023,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,416005,2362573,NA GMV proxy,395971,5.967,2023,CO2e,ESTIMATE
+2023,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,416005,3113506,NA GMV proxy,395971,7.863,2023,CO2e,ESTIMATE
+2023,walmart_us,stores only,CBECS retail non-mall,low,699001,2511306,Walmart US net sales,441817,5.684,2023,CO2e,ESTIMATE
+2023,walmart_us,stores only,CBECS retail non-mall,central,699001,3969762,Walmart US net sales,441817,8.985,2023,CO2e,ESTIMATE
+2023,walmart_us,stores only,CBECS retail non-mall,high,699001,5231534,Walmart US net sales,441817,11.841,2023,CO2e,ESTIMATE
+2023,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",low,830096,2706810,Walmart US net sales,441817,6.127,2023,CO2e,ESTIMATE
+2023,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",central,873795,4429801,Walmart US net sales,441817,10.026,2023,CO2e,ESTIMATE
+2023,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",high,917494,6458494,Walmart US net sales,441817,14.618,2023,CO2e,ESTIMATE
+2023,target,stores only,CBECS retail non-mall,low,245939,883587,Target total revenue,107412,8.226,2023,CO2e,ESTIMATE
+2023,target,stores only,CBECS retail non-mall,central,245939,1396735,Target total revenue,107412,13.004,2023,CO2e,ESTIMATE
+2023,target,stores only,CBECS retail non-mall,high,245939,1840681,Target total revenue,107412,17.137,2023,CO2e,ESTIMATE
+2023,target,stores + DC,"retail stores, warehouse DCs",low,307439,975303,Target total revenue,107412,9.08,2023,CO2e,ESTIMATE
+2023,target,stores + DC,"retail stores, warehouse DCs",central,307439,1558597,Target total revenue,107412,14.51,2023,CO2e,ESTIMATE
+2023,target,stores + DC,"retail stores, warehouse DCs",high,307439,2186039,Target total revenue,107412,20.352,2023,CO2e,ESTIMATE
+2024,amazon_na,network (warehouse intensity),CBECS warehouse,low,453163,675807,NA net sales ex stores (revenue),366282,1.845,2023,CO2e,ESTIMATE
+2024,amazon_na,network (warehouse intensity),CBECS warehouse,central,453163,1192676,NA net sales ex stores (revenue),366282,3.256,2023,CO2e,ESTIMATE
+2024,amazon_na,network (warehouse intensity),CBECS warehouse,high,453163,2544770,NA net sales ex stores (revenue),366282,6.948,2023,CO2e,ESTIMATE
+2024,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,453163,1628082,NA net sales ex stores (revenue),366282,4.445,2023,CO2e,ESTIMATE
+2024,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,453163,2573601,NA net sales ex stores (revenue),366282,7.026,2023,CO2e,ESTIMATE
+2024,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,453163,3391608,NA net sales ex stores (revenue),366282,9.26,2023,CO2e,ESTIMATE
+2024,amazon_na,network (warehouse intensity),CBECS warehouse,low,453163,675807,NA GMV proxy,423093,1.597,2023,CO2e,ESTIMATE
+2024,amazon_na,network (warehouse intensity),CBECS warehouse,central,453163,1192676,NA GMV proxy,423093,2.819,2023,CO2e,ESTIMATE
+2024,amazon_na,network (warehouse intensity),CBECS warehouse,high,453163,2544770,NA GMV proxy,423093,6.015,2023,CO2e,ESTIMATE
+2024,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,453163,1628082,NA GMV proxy,423093,3.848,2023,CO2e,ESTIMATE
+2024,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,453163,2573601,NA GMV proxy,423093,6.083,2023,CO2e,ESTIMATE
+2024,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,453163,3391608,NA GMV proxy,423093,8.016,2023,CO2e,ESTIMATE
+2024,walmart_us,stores only,CBECS retail non-mall,low,697949,2507527,Walmart US net sales,462415,5.423,2023,CO2e,ESTIMATE
+2024,walmart_us,stores only,CBECS retail non-mall,central,697949,3963788,Walmart US net sales,462415,8.572,2023,CO2e,ESTIMATE
+2024,walmart_us,stores only,CBECS retail non-mall,high,697949,5223660,Walmart US net sales,462415,11.296,2023,CO2e,ESTIMATE
+2024,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",low,842372,2722906,Walmart US net sales,462415,5.888,2023,CO2e,ESTIMATE
+2024,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",central,890513,4470596,Walmart US net sales,462415,9.668,2023,CO2e,ESTIMATE
+2024,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",high,938654,6575357,Walmart US net sales,462415,14.22,2023,CO2e,ESTIMATE
+2024,target,stores only,CBECS retail non-mall,low,248278,891990,Target total revenue,106566,8.37,2023,CO2e,ESTIMATE
+2024,target,stores only,CBECS retail non-mall,central,248278,1410019,Target total revenue,106566,13.231,2023,CO2e,ESTIMATE
+2024,target,stores only,CBECS retail non-mall,high,248278,1858187,Target total revenue,106566,17.437,2023,CO2e,ESTIMATE
+2024,target,stores + DC,"retail stores, warehouse DCs",low,316778,994145,Target total revenue,106566,9.329,2023,CO2e,ESTIMATE
+2024,target,stores + DC,"retail stores, warehouse DCs",central,316778,1590304,Target total revenue,106566,14.923,2023,CO2e,ESTIMATE
+2024,target,stores + DC,"retail stores, warehouse DCs",high,316778,2242854,Target total revenue,106566,21.047,2023,CO2e,ESTIMATE
+2025,amazon_na,network (warehouse intensity),CBECS warehouse,low,481952,718740,NA net sales ex stores (revenue),403744,1.78,2023,CO2e,ESTIMATE
+2025,amazon_na,network (warehouse intensity),CBECS warehouse,central,481952,1268446,NA net sales ex stores (revenue),403744,3.142,2023,CO2e,ESTIMATE
+2025,amazon_na,network (warehouse intensity),CBECS warehouse,high,481952,2706437,NA net sales ex stores (revenue),403744,6.703,2023,CO2e,ESTIMATE
+2025,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,481952,1731513,NA net sales ex stores (revenue),403744,4.289,2023,CO2e,ESTIMATE
+2025,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,481952,2737099,NA net sales ex stores (revenue),403744,6.779,2023,CO2e,ESTIMATE
+2025,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,481952,3607074,NA net sales ex stores (revenue),403744,8.934,2023,CO2e,ESTIMATE
+2025,amazon_na,network (warehouse intensity),CBECS warehouse,low,481952,718740,NA GMV proxy,457650,1.571,2023,CO2e,ESTIMATE
+2025,amazon_na,network (warehouse intensity),CBECS warehouse,central,481952,1268446,NA GMV proxy,457650,2.772,2023,CO2e,ESTIMATE
+2025,amazon_na,network (warehouse intensity),CBECS warehouse,high,481952,2706437,NA GMV proxy,457650,5.914,2023,CO2e,ESTIMATE
+2025,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,low,481952,1731513,NA GMV proxy,457650,3.783,2023,CO2e,ESTIMATE
+2025,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,central,481952,2737099,NA GMV proxy,457650,5.981,2023,CO2e,ESTIMATE
+2025,amazon_na,"network (retail intensity, sensitivity)",CBECS retail non-mall,high,481952,3607074,NA GMV proxy,457650,7.882,2023,CO2e,ESTIMATE
+2025,walmart_us,stores only,CBECS retail non-mall,low,698708,2510254,Walmart US net sales,482975,5.197,2023,CO2e,ESTIMATE
+2025,walmart_us,stores only,CBECS retail non-mall,central,698708,3968098,Walmart US net sales,482975,8.216,2023,CO2e,ESTIMATE
+2025,walmart_us,stores only,CBECS retail non-mall,high,698708,5229341,Walmart US net sales,482975,10.827,2023,CO2e,ESTIMATE
+2025,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",low,851200,2737666,Walmart US net sales,482975,5.668,2023,CO2e,ESTIMATE
+2025,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",central,902030,4503220,Walmart US net sales,482975,9.324,2023,CO2e,ESTIMATE
+2025,walmart_us,stores + DC (DC sq ft PROXY),"retail stores, warehouse DCs",high,952860,6656553,Walmart US net sales,482975,13.782,2023,CO2e,ESTIMATE
+2025,target,stores only,CBECS retail non-mall,low,250518,900038,Target total revenue,104780,8.59,2023,CO2e,ESTIMATE
+2025,target,stores only,CBECS retail non-mall,central,250518,1422740,Target total revenue,104780,13.578,2023,CO2e,ESTIMATE
+2025,target,stores only,CBECS retail non-mall,high,250518,1874952,Target total revenue,104780,17.894,2023,CO2e,ESTIMATE
+2025,target,stores + DC,"retail stores, warehouse DCs",low,323418,1008755,Target total revenue,104780,9.627,2023,CO2e,ESTIMATE
+2025,target,stores + DC,"retail stores, warehouse DCs",central,323418,1614605,Target total revenue,104780,15.409,2023,CO2e,ESTIMATE
+2025,target,stores + DC,"retail stores, warehouse DCs",high,323418,2284327,Target total revenue,104780,21.801,2023,CO2e,ESTIMATE
