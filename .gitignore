@@ -61,3 +61,6 @@ assets/private_*.js
 .gitignore.pre_local
 *.pre_local.*
 scripts/check_public.pre_*
+
+# NoSQL reader documents (contain private/subscription material and extracted subscription text); rebuild with scripts/build_nosql.py
+data/nosql/

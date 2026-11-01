@@ -233,3 +233,56 @@ Method: browser searches (scripts/browser_search.py) for each site, then the art
   - Dundalk Eagle gives 850,000 sq ft (rounded).
 - JFK8 is also reported at 855,000 sq ft by Newsday and amNY, so both MWPVL values are consistent with press.
 - Result: sq ft and opening year confirmed. Only difference is the apostrophe in the city name ("Sparrow's Point" for "Sparrows Point"), recorded as a presentation correction.
+
+
+## Second local OCR model and three-way check (DeepSeek-OCR-8bit), added 2026-11-01
+This supersedes the "DeepSeek-OCR-8bit was not run" statement in "Local OCR cross-check" above. It adds a second local reader so that Claude disagreements can be filtered to cells where BOTH local models disagree with Claude. The Claude file (`mwpvl_wayback_image_facts.csv`) is not edited.
+
+### Method
+- **Server**: oMLX was already running on 127.0.0.1:8000 (`omlx-server`, pid started 2026-10-31 16:03, installed in the shared oMLX venv; other start routes in the logbooks: `/Applications/oMLX.app/Contents/MacOS/omlx-cli serve --model-dir ~/.omlx/models`). Nothing had to be started or installed; the earlier "server down" was a stale state. API key read from the OMLX_KEY environment variable (the local server key, not stored in the repo). Model served: DeepSeek-OCR-8bit, 8192 context.
+- **Run**: `<omlx venv>/bin/python -I scripts/mwpvl_local_ocr.py --model DeepSeek-OCR-8bit` (the `--model` flag is new; the default is still Unlimited-OCR-2-4bit and that path is unchanged). Prompt `<|grounding|>Convert the document to markdown.`, temperature 0, max_tokens 8192, concurrency 1. Whole image first; strips (1000 px, 80 px overlap) when the output hit the token cap, looped, was empty, or oMLX's memory guard refused the whole image. Raw output: `data/raw/mwpvl_wayback/ocr_local/DeepSeek-OCR-8bit/<image>.md` and `timing.jsonl`.
+- **Problems met and how they were handled** (all visible in timing.jsonl, which keeps every attempt, 306 lines for 172 images):
+  - oMLX returned HTTP 400 "prefill memory guard rejected this prompt" from about the 2019-07 snapshot on. The server's resident memory crept up between calls (it estimates about 11 GB of KV for any request against a 14 to 16 GB ceiling). Unloading the idle model through `POST /v1/models/DeepSeek-OCR-8bit/unload` reset it, and the script now does that and retries (the 400 calls had wrongly left empty .md files; the script no longer writes a file on error and redoes empty ones).
+  - 18 whole-image reads returned a short non-table answer (18 tokens) or dropped more than 10 percent of the rows. Those were re-read in strips; the first-pass files are kept as `<image>.md.firstpass`.
+  - 2018 map images (24) have no table; DeepSeek returns about 17 tokens, as Unlimited did.
+- **Timing**: 44.4 s per image over the 172 final records (7,639 s in total): 92 whole-image reads at 3.9 s, 80 strip-tiled reads at 91 s. That is faster than Unlimited (50.9 s per image, whole 7.9 s, tiled 142 s).
+- **Parse**: `scripts/mwpvl_local_ocr_parse.py` now also writes a `location` column (the OCR address) and reads both model folders; `mwpvl_wayback_image_facts_localocr.csv` holds both models (31,531 rows: 15,523 Unlimited plus 16,008 DeepSeek). `mwpvl_local_ocr_compare.py` now filters to Unlimited, so the single-model numbers above still reproduce (2,294 vs 2,295 cells because the model filter excludes nothing else).
+- **Three-way compare**: `scripts/mwpvl_ocr_3way.py`. The alignment of a Claude row to an OCR row is the same as before (code, else city+state+sq ft, else city+state), done separately per model. Normalisation added this time:
+  1. City: a parenthetical qualifier is stripped on both sides ("Miami (Doral)" = "Miami"); a Claude city that appears as a comma-separated part of the OCR address is counted as `format`, not a disagreement.
+  2. Year: an OCR year cell that is a number above 10,000 is a `column_shift` (square feet read into the year column), not a disagreement.
+  3. Cells are collapsed to DISTINCT (site_code, field, claude value, OCR value) combinations.
+- Outputs: `data/processed/mwpvl_ocr_3way.csv` (7,245 cells where at least one model differs from Claude, with a category), `mwpvl_ocr_3way_flags.csv` (the distinct short list, 384 rows), `mwpvl_corrections_ocr.csv`. Settling script: `scripts/mwpvl_ocr_3way_settle.py`. Evidence crops: `data/raw/mwpvl_wayback/ocr_local/evidence_crops/` (61 PNG).
+
+### Counts before and after normalisation (cells disagreeing with Claude)
+| Model | before (old rules) | after (new rules) | note |
+|---|---|---|---|
+| Unlimited | 2,294 of 80,335 | 1,692 (1,665 disagree + 27 column shift) | city 1,529 to 920 |
+| DeepSeek | 3,635 of 79,875 | 3,042 | |
+Distinct (site_code, field, claude, ocr) combinations: Unlimited 1,082 (from 1,665 cells); DeepSeek 2,175 (from 3,041 cells).
+
+### Agreement with Claude, per field (after normalisation, matched rows; Unlimited n=16,067, DeepSeek n=15,975)
+| Field | Unlimited vs Claude | DeepSeek vs Claude | Unlimited = DeepSeek | all three agree |
+|---|---|---|---|---|
+| site_code | 98.2% | 95.9% | 94.7% | 94.6% |
+| city | 94.3% | 93.9% | 96.4% | 92.4% |
+| state | 99.6% | 99.4% | 99.1% | 99.0% |
+| sq_ft | 98.8% | 96.5% | 95.5% | 95.4% |
+| year_opened | 98.7% | 95.2% | 94.6% | 94.3% |
+The last two columns use the 15,674 Claude rows matched by both models. DeepSeek is the weaker reader (it often drops the year cell or reads the next row). 571 Claude rows have no Unlimited match, 663 no DeepSeek match.
+
+### Cells where both local models agree with each other and differ from Claude
+| Field | cells | distinct cases |
+|---|---|---|
+| year_opened | 38 | 32 |
+| site_code | 20 | 17 |
+| sq_ft | 9 | 6 |
+| state | 10 | 6 |
+| city (lower priority, not settled) | 631 | 323 |
+The first four fields give 61 distinct cases (under the 120 cap), all settled. The city cases are mostly address-parsing differences and were not reviewed.
+
+### Decisions (crop of the row viewed; rows above and below shown)
+All 61 cases: 59 `claude_correct`, 2 `ocr_correct`, 0 `unreadable`.
+- The two models agree with each other for correlated reasons, not because they are right: both read the adjacent row's year (16 cases), both dropped the year cell and returned the description or another cell (16 cases, mostly the 2023-01 delivery-station list), both share the same letter/digit confusion (BFI9 as BF19, MCI8 as MC18, UWA1 as UVA1, MSP5 as MSPS, DLI4 as DIL4), both ignored that a shared code cell was split into one row per code by Claude (HLA2/HLA8, ABE1/ABE2, FTW7/FTW9, LAX6/ULA6) or invented a code for a row whose code cell is blank (Fort Worth rows read as FTW3/FTW4, Los Angeles Prime Now as UCA10). sq_ft: both read a different row (Fort Worth, DET1, ONT7) or the placeholder "TBD" (IND7, kept blank).
+- The 2 `ocr_correct` are one normalisation, not a transcription error: the 2021-07 to 2022-07 Sortation table prints the state as "Aizona" (a source typo) for AZA9 and TUS5; Claude copied it, the OCR returns AZ. The value is wrong as a state; `mwpvl_corrections_ocr.csv` lists all 6 cells with this typo (AZA9 x3, TUS5 x2, one codeless Tucson row) as Aizona to AZ. The build can apply it later; the Claude file is untouched.
+- Conclusion: no transcription error in Claude's year_opened, site_code, sq_ft or state was found among the 61 cases where both local models disagreed with it. Note that a single state value, "Aizona", is invalid and should be normalised.
+- Caveat: only the first occurrence of each distinct case was viewed; where a case spans several snapshots (n_snapshots in the flags file) the decision is applied to all of them on the assumption that the same table row repeats. Rows that only one model disagreed on (about 2,000 distinct cells) were not reviewed.

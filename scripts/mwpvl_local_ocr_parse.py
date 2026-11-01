@@ -18,7 +18,7 @@ def parse(path):
         city = ""
         for i, p in enumerate(parts):
             if p in ST and i >= 1: city = re.sub(r"\s*\(.*\)", "", parts[i-1]); break
-        out.append(dict(site_code=code, city=city, state=ST.get(state_full, state_full), sq_ft=sq, year_opened=yr, type_label=desc))
+        out.append(dict(site_code=code, city=city, state=ST.get(state_full, state_full), sq_ft=sq, year_opened=yr, type_label=desc, location=loc))
     return out
 rows = []
 for d in sorted(glob.glob(f"{ROOT}/raw/mwpvl_wayback/ocr_local/*/")):
@@ -30,5 +30,5 @@ for d in sorted(glob.glob(f"{ROOT}/raw/mwpvl_wayback/ocr_local/*/")):
             if k in seen: continue  # overlap strips duplicate rows
             seen.add(k); rows.append(dict(image=os.path.basename(f)[:-3], model=model, **r))
 with open(OUT, "w", newline="") as fh:
-    w = csv.DictWriter(fh, fieldnames="image model site_code city state sq_ft year_opened type_label".split()); w.writeheader(); w.writerows(rows)
+    w = csv.DictWriter(fh, fieldnames="image model site_code city state sq_ft year_opened type_label location".split()); w.writeheader(); w.writerows(rows)
 print(len(rows), "rows,", len({r["image"] for r in rows}), "images")

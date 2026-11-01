@@ -3,7 +3,7 @@
 import csv, re, collections, json, os
 P = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "processed")
 cl = list(csv.DictReader(open(f"{P}/mwpvl_wayback_image_facts.csv")))
-oc = list(csv.DictReader(open(f"{P}/mwpvl_wayback_image_facts_localocr.csv")))
+oc = [r for r in csv.DictReader(open(f"{P}/mwpvl_wayback_image_facts_localocr.csv")) if r["model"] == "Unlimited-OCR-2-4bit"]  # single-model compare; 3-way is mwpvl_ocr_3way.py
 def nsq(s):
     s = re.sub(r"[,\s]", "", s or ""); return s if s.isdigit() else ("" if s in ("-", "") else s)
 def nyr(s):
